@@ -1,0 +1,24 @@
+{
+  "overview": "CareerCompass India is a career guidance app for Indian engineering graduates to explore 100+ IT and tech-adjacent job roles, take a gamified work-style quiz, and discover top hiring companies and job portals.",
+  "features": [
+    "100+ curated IT and tech-adjacent roles across 10 categories",
+    "Gamified 10-question work-style quiz with role matching",
+    "Browse, filter, and search roles by category or keyword",
+    "20+ top companies directory with career page links",
+    "Pre-filled job portal links (LinkedIn, Naukri, Indeed, Internshala) per category",
+    "Design & Creative and Marketing & Growth role categories",
+    "Role detail view with skills, companies, and match reasons"
+  ],
+  "category": "productivity",
+  "tags": [
+    "career-guidance",
+    "india",
+    "engineering-graduates",
+    "it-roles",
+    "job-search",
+    "skill-assessment",
+    "digital-marketing",
+    "ui-ux-design"
+  ],
+  "last_updated": "2026-04-25T06:23:17.831Z"
+}

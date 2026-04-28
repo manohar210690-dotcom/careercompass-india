@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-display: "Plus Jakarta Sans";
+    --font-body: "Inter";
+    --font-mono: "JetBrains Mono";
+    --radius: 0.75rem;
+
+    --background: 0.98 0.005 250;
+    --foreground: 0.15 0.02 260;
+    --card: 1.0 0 0;
+    --card-foreground: 0.15 0.02 260;
+    --popover: 1.0 0 0;
+    --popover-foreground: 0.15 0.02 260;
+
+    --primary: 0.52 0.22 265;
+    --primary-foreground: 0.99 0 0;
+
+    --secondary: 0.94 0.025 260;
+    --secondary-foreground: 0.25 0.03 265;
+    --muted: 0.95 0.01 255;
+    --muted-foreground: 0.5 0.02 260;
+
+    --accent: 0.62 0.24 145;
+    --accent-foreground: 0.99 0 0;
+
+    --destructive: 0.55 0.22 25;
+    --destructive-foreground: 0.98 0 0;
+
+    --border: 0.9 0.01 255;
+    --input: 0.88 0.01 255;
+    --ring: 0.52 0.22 265;
+
+    --chart-1: 0.52 0.22 265;
+    --chart-2: 0.62 0.24 145;
+    --chart-3: 0.65 0.22 40;
+    --chart-4: 0.6 0.22 320;
+    --chart-5: 0.65 0.2 200;
+
+    --sidebar: 0.97 0.01 255;
+    --sidebar-foreground: 0.15 0.02 260;
+    --sidebar-primary: 0.52 0.22 265;
+    --sidebar-primary-foreground: 0.99 0 0;
+    --sidebar-accent: 0.94 0.025 260;
+    --sidebar-accent-foreground: 0.25 0.03 265;
+    --sidebar-border: 0.9 0.01 255;
+    --sidebar-ring: 0.52 0.22 265;
+
+    /* Category color palette */
+    --cat-dev: 0.52 0.22 265;
+    --cat-data: 0.6 0.22 200;
+    --cat-aiml: 0.62 0.24 145;
+    --cat-infra: 0.58 0.2 45;
+    --cat-support: 0.6 0.2 30;
+    --cat-sap: 0.55 0.22 320;
+    --cat-tools: 0.62 0.2 190;
+    --cat-noncoding: 0.6 0.2 160;
+    --cat-design: 0.62 0.22 340;
+    --cat-marketing: 0.6 0.22 60;
+  }
+
+  .dark {
+    --background: 0.12 0.02 265;
+    --foreground: 0.95 0.01 255;
+    --card: 0.16 0.02 265;
+    --card-foreground: 0.95 0.01 255;
+    --popover: 0.18 0.02 265;
+    --popover-foreground: 0.95 0.01 255;
+
+    --primary: 0.72 0.2 265;
+    --primary-foreground: 0.12 0.02 265;
+
+    --secondary: 0.22 0.03 265;
+    --secondary-foreground: 0.85 0.01 255;
+    --muted: 0.22 0.02 265;
+    --muted-foreground: 0.55 0.02 255;
+
+    --accent: 0.72 0.22 145;
+    --accent-foreground: 0.12 0.02 265;
+
+    --destructive: 0.65 0.19 22;
+    --destructive-foreground: 0.12 0.02 265;
+
+    --border: 0.28 0.02 265;
+    --input: 0.28 0.02 265;
+    --ring: 0.72 0.2 265;
+
+    --sidebar: 0.16 0.02 265;
+    --sidebar-foreground: 0.95 0.01 255;
+    --sidebar-primary: 0.72 0.2 265;
+    --sidebar-primary-foreground: 0.12 0.02 265;
+    --sidebar-accent: 0.22 0.03 265;
+    --sidebar-accent-foreground: 0.85 0.01 255;
+    --sidebar-border: 0.28 0.02 265;
+    --sidebar-ring: 0.72 0.2 265;
+  }
+
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+}
+
+@layer utilities {
+  .transition-smooth {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .transition-fast {
+    transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .font-display {
+    font-family: var(--font-display), sans-serif;
+  }
+  .font-body {
+    font-family: var(--font-body), sans-serif;
+  }
+  .gradient-hero {
+    background: linear-gradient(
+      135deg,
+      oklch(0.52 0.22 265 / 0.08) 0%,
+      oklch(0.62 0.24 145 / 0.06) 100%
+    );
+  }
+  .gradient-card {
+    background: linear-gradient(
+      145deg,
+      oklch(1.0 0 0) 0%,
+      oklch(0.97 0.01 255) 100%
+    );
+  }
+  .shadow-card {
+    box-shadow: 0 2px 8px oklch(0.15 0.02 265 / 0.08), 0 1px 2px
+      oklch(0.15 0.02 265 / 0.04);
+  }
+  .shadow-card-hover {
+    box-shadow: 0 8px 24px oklch(0.15 0.02 265 / 0.12), 0 2px 6px
+      oklch(0.15 0.02 265 / 0.06);
+  }
+  .animate-fade-up {
+    animation: fadeUp 0.5s ease forwards;
+  }
+  @keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .animate-fade-in {
+    animation: fadeIn 0.4s ease forwards;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}

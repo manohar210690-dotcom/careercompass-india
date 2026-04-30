@@ -11,9 +11,20 @@ import {
   Briefcase,
   CheckCircle2,
   ExternalLink,
+  IndianRupee,
+  TrendingUp,
   Wrench,
   Youtube,
 } from "lucide-react";
+
+const levelColors: Record<string, string> = {
+  Fresher: "bg-emerald-500/10 text-emerald-700 border-emerald-500/20",
+  Junior: "bg-blue-500/10 text-blue-700 border-blue-500/20",
+  "Mid-Level": "bg-violet-500/10 text-violet-700 border-violet-500/20",
+  Senior: "bg-amber-500/10 text-amber-700 border-amber-500/20",
+  Lead: "bg-orange-500/10 text-orange-700 border-orange-500/20",
+  "Architect/Expert": "bg-rose-500/10 text-rose-700 border-rose-500/20",
+};
 
 export default function RoleDetail() {
   const { roleId } = useParams({ from: "/roles/$roleId" });
@@ -69,6 +80,23 @@ export default function RoleDetail() {
               <h1 className="font-display font-bold text-3xl md:text-4xl text-foreground leading-tight">
                 {role.name}
               </h1>
+              {role.careerLevels && role.careerLevels.length > 0 && (
+                <div className="mt-3 flex items-center gap-2 flex-wrap">
+                  <IndianRupee className="w-4 h-4 text-muted-foreground" />
+                  <span className="text-sm text-muted-foreground">
+                    Salary range:{" "}
+                    <span className="font-semibold text-foreground">
+                      ₹{role.careerLevels[0].minSalaryLPA}–
+                      {
+                        role.careerLevels[role.careerLevels.length - 1]
+                          .maxSalaryLPA
+                      }{" "}
+                      LPA
+                    </span>{" "}
+                    (Fresher to Expert, India 2025–26)
+                  </span>
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -90,6 +118,72 @@ export default function RoleDetail() {
                   {role.description}
                 </p>
               </div>
+
+              {/* Career Levels & Salary */}
+              {role.careerLevels && role.careerLevels.length > 0 && (
+                <div
+                  className="bg-card rounded-xl border border-border p-6 shadow-card"
+                  data-ocid="role_detail.salary.section"
+                >
+                  <h2 className="font-display font-semibold text-foreground text-lg mb-2 flex items-center gap-2">
+                    <TrendingUp className="w-4 h-4 text-primary" />
+                    Career Levels & Salary in India (2025–26)
+                  </h2>
+                  <p className="text-sm text-muted-foreground mb-5">
+                    Indicative salary ranges in Lakhs Per Annum (LPA) for Indian
+                    IT market. Actual salaries vary by city, company, and
+                    skills.
+                  </p>
+                  <div className="space-y-3">
+                    {role.careerLevels.map((cl, i) => (
+                      <div
+                        key={cl.level}
+                        className="border border-border rounded-lg p-4 hover:border-primary/30 transition-colors"
+                        data-ocid={`role_detail.salary.item.${i + 1}`}
+                      >
+                        <div className="flex items-start justify-between gap-3 flex-wrap">
+                          <div className="flex items-center gap-2 flex-wrap">
+                            <span
+                              className={`inline-flex items-center text-xs font-semibold px-2.5 py-1 rounded-full border ${levelColors[cl.level] ?? "bg-muted text-muted-foreground border-border"}`}
+                            >
+                              {cl.level}
+                            </span>
+                            <span className="text-xs text-muted-foreground">
+                              {cl.avgYearsExperience}
+                            </span>
+                          </div>
+                          <div className="flex items-center gap-1 text-foreground font-bold text-base">
+                            <IndianRupee className="w-3.5 h-3.5 text-primary" />
+                            <span className="text-primary">
+                              {cl.minSalaryLPA}–{cl.maxSalaryLPA}
+                            </span>
+                            <span className="text-xs font-normal text-muted-foreground ml-1">
+                              LPA
+                            </span>
+                          </div>
+                        </div>
+                        <div className="mt-2">
+                          <div className="text-xs text-muted-foreground">
+                            Typical titles:{" "}
+                            <span className="text-foreground">
+                              {cl.typicalTitles.join(", ")}
+                            </span>
+                          </div>
+                        </div>
+                        {/* Salary bar */}
+                        <div className="mt-2.5 h-1.5 rounded-full bg-muted overflow-hidden">
+                          <div
+                            className="h-full rounded-full bg-primary/60 transition-all"
+                            style={{
+                              width: `${Math.min(100, (cl.maxSalaryLPA / 120) * 100)}%`,
+                            }}
+                          />
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
 
               {/* Required Skills */}
               <div className="bg-card rounded-xl border border-border p-6 shadow-card">
@@ -293,6 +387,34 @@ export default function RoleDetail() {
                   ))}
                 </ul>
               </div>
+
+              {/* Salary Quick Summary */}
+              {role.careerLevels && role.careerLevels.length > 0 && (
+                <div className="bg-primary/5 border border-primary/20 rounded-xl p-5">
+                  <h3 className="font-display font-semibold text-foreground mb-3 flex items-center gap-2">
+                    <IndianRupee className="w-4 h-4 text-primary" />
+                    Salary Overview (INR)
+                  </h3>
+                  <ul className="space-y-2">
+                    {role.careerLevels.map((cl) => (
+                      <li
+                        key={cl.level}
+                        className="flex items-center justify-between gap-2 text-xs"
+                      >
+                        <span className="text-muted-foreground truncate">
+                          {cl.level}
+                        </span>
+                        <span className="font-semibold text-foreground whitespace-nowrap">
+                          ₹{cl.minSalaryLPA}–{cl.maxSalaryLPA}L
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                  <p className="text-xs text-muted-foreground mt-3 leading-relaxed">
+                    LPA = Lakhs Per Annum. India 2025–26 estimates.
+                  </p>
+                </div>
+              )}
 
               {/* Interests */}
               <div className="bg-card rounded-xl border border-border p-5 shadow-card">

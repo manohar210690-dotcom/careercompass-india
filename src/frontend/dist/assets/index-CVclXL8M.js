@@ -26427,11 +26427,22 @@ const createLucideIcon = (iconName, iconNode) => {
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$o = [
+const __iconNode$p = [
   ["path", { d: "m12 19-7-7 7-7", key: "1l729n" }],
   ["path", { d: "M19 12H5", key: "x3x0zl" }]
 ];
-const ArrowLeft = createLucideIcon("arrow-left", __iconNode$o);
+const ArrowLeft = createLucideIcon("arrow-left", __iconNode$p);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$o = [
+  ["path", { d: "M5 12h14", key: "1ays0h" }],
+  ["path", { d: "m12 5 7 7-7 7", key: "xquz4c" }]
+];
+const ArrowRight = createLucideIcon("arrow-right", __iconNode$o);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -26439,17 +26450,6 @@ const ArrowLeft = createLucideIcon("arrow-left", __iconNode$o);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$n = [
-  ["path", { d: "M5 12h14", key: "1ays0h" }],
-  ["path", { d: "m12 5 7 7-7 7", key: "xquz4c" }]
-];
-const ArrowRight = createLucideIcon("arrow-right", __iconNode$n);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$m = [
   [
     "path",
     {
@@ -26459,14 +26459,14 @@ const __iconNode$m = [
   ],
   ["circle", { cx: "12", cy: "8", r: "6", key: "1vp47v" }]
 ];
-const Award = createLucideIcon("award", __iconNode$m);
+const Award = createLucideIcon("award", __iconNode$n);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$l = [
+const __iconNode$m = [
   ["path", { d: "M12 7v14", key: "1akyts" }],
   [
     "path",
@@ -26476,14 +26476,14 @@ const __iconNode$l = [
     }
   ]
 ];
-const BookOpen = createLucideIcon("book-open", __iconNode$l);
+const BookOpen = createLucideIcon("book-open", __iconNode$m);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$k = [
+const __iconNode$l = [
   [
     "path",
     {
@@ -26506,7 +26506,18 @@ const __iconNode$k = [
   ["path", { d: "M6 18a4 4 0 0 1-1.967-.516", key: "2e4loj" }],
   ["path", { d: "M19.967 17.484A4 4 0 0 1 18 18", key: "159ez6" }]
 ];
-const Brain = createLucideIcon("brain", __iconNode$k);
+const Brain = createLucideIcon("brain", __iconNode$l);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$k = [
+  ["path", { d: "M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16", key: "jecpp" }],
+  ["rect", { width: "20", height: "14", x: "2", y: "6", rx: "2", key: "i6l2r4" }]
+];
+const Briefcase = createLucideIcon("briefcase", __iconNode$k);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -26514,17 +26525,6 @@ const Brain = createLucideIcon("brain", __iconNode$k);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$j = [
-  ["path", { d: "M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16", key: "jecpp" }],
-  ["rect", { width: "20", height: "14", x: "2", y: "6", rx: "2", key: "i6l2r4" }]
-];
-const Briefcase = createLucideIcon("briefcase", __iconNode$j);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$i = [
   ["path", { d: "M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z", key: "1b4qmf" }],
   ["path", { d: "M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2", key: "i71pzd" }],
   ["path", { d: "M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2", key: "10jefs" }],
@@ -26533,15 +26533,26 @@ const __iconNode$i = [
   ["path", { d: "M10 14h4", key: "kelpxr" }],
   ["path", { d: "M10 18h4", key: "1ulq68" }]
 ];
-const Building2 = createLucideIcon("building-2", __iconNode$i);
+const Building2 = createLucideIcon("building-2", __iconNode$j);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$h = [["path", { d: "m9 18 6-6-6-6", key: "mthhwq" }]];
-const ChevronRight = createLucideIcon("chevron-right", __iconNode$h);
+const __iconNode$i = [["path", { d: "m9 18 6-6-6-6", key: "mthhwq" }]];
+const ChevronRight = createLucideIcon("chevron-right", __iconNode$i);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$h = [
+  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
+  ["path", { d: "m9 12 2 2 4-4", key: "dzmm74" }]
+];
+const CircleCheck = createLucideIcon("circle-check", __iconNode$h);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -26549,17 +26560,6 @@ const ChevronRight = createLucideIcon("chevron-right", __iconNode$h);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$g = [
-  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
-  ["path", { d: "m9 12 2 2 4-4", key: "dzmm74" }]
-];
-const CircleCheck = createLucideIcon("circle-check", __iconNode$g);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$f = [
   [
     "path",
     {
@@ -26569,7 +26569,19 @@ const __iconNode$f = [
   ],
   ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }]
 ];
-const Compass = createLucideIcon("compass", __iconNode$f);
+const Compass = createLucideIcon("compass", __iconNode$g);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$f = [
+  ["path", { d: "M15 3h6v6", key: "1q9fwt" }],
+  ["path", { d: "M10 14 21 3", key: "gplh6r" }],
+  ["path", { d: "M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6", key: "a6xqqp" }]
+];
+const ExternalLink = createLucideIcon("external-link", __iconNode$f);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -26577,18 +26589,6 @@ const Compass = createLucideIcon("compass", __iconNode$f);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$e = [
-  ["path", { d: "M15 3h6v6", key: "1q9fwt" }],
-  ["path", { d: "M10 14 21 3", key: "gplh6r" }],
-  ["path", { d: "M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6", key: "a6xqqp" }]
-];
-const ExternalLink = createLucideIcon("external-link", __iconNode$e);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$d = [
   [
     "path",
     {
@@ -26597,7 +26597,21 @@ const __iconNode$d = [
     }
   ]
 ];
-const Funnel = createLucideIcon("funnel", __iconNode$d);
+const Funnel = createLucideIcon("funnel", __iconNode$e);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$d = [
+  ["path", { d: "M6 3h12", key: "ggurg9" }],
+  ["path", { d: "M6 8h12", key: "6g4wlu" }],
+  ["path", { d: "m6 13 8.5 8", key: "u1kupk" }],
+  ["path", { d: "M6 13h3", key: "wdp6ag" }],
+  ["path", { d: "M9 13c6.667 0 6.667-10 0-10", key: "1nkvk2" }]
+];
+const IndianRupee = createLucideIcon("indian-rupee", __iconNode$d);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -26605,13 +26619,11 @@ const Funnel = createLucideIcon("funnel", __iconNode$d);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$c = [
-  ["path", { d: "M6 3h12", key: "ggurg9" }],
-  ["path", { d: "M6 8h12", key: "6g4wlu" }],
-  ["path", { d: "m6 13 8.5 8", key: "u1kupk" }],
-  ["path", { d: "M6 13h3", key: "wdp6ag" }],
-  ["path", { d: "M9 13c6.667 0 6.667-10 0-10", key: "1nkvk2" }]
+  ["path", { d: "M4 12h16", key: "1lakjw" }],
+  ["path", { d: "M4 18h16", key: "19g7jn" }],
+  ["path", { d: "M4 6h16", key: "1o0s65" }]
 ];
-const IndianRupee = createLucideIcon("indian-rupee", __iconNode$c);
+const Menu = createLucideIcon("menu", __iconNode$c);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -26619,11 +26631,10 @@ const IndianRupee = createLucideIcon("indian-rupee", __iconNode$c);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$b = [
-  ["path", { d: "M4 12h16", key: "1lakjw" }],
-  ["path", { d: "M4 18h16", key: "19g7jn" }],
-  ["path", { d: "M4 6h16", key: "1o0s65" }]
+  ["path", { d: "M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8", key: "1357e3" }],
+  ["path", { d: "M3 3v5h5", key: "1xhq8a" }]
 ];
-const Menu = createLucideIcon("menu", __iconNode$b);
+const RotateCcw = createLucideIcon("rotate-ccw", __iconNode$b);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -26631,10 +26642,10 @@ const Menu = createLucideIcon("menu", __iconNode$b);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$a = [
-  ["path", { d: "M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8", key: "1357e3" }],
-  ["path", { d: "M3 3v5h5", key: "1xhq8a" }]
+  ["path", { d: "m21 21-4.34-4.34", key: "14j7rj" }],
+  ["circle", { cx: "11", cy: "11", r: "8", key: "4ej97u" }]
 ];
-const RotateCcw = createLucideIcon("rotate-ccw", __iconNode$a);
+const Search = createLucideIcon("search", __iconNode$a);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -26642,10 +26653,15 @@ const RotateCcw = createLucideIcon("rotate-ccw", __iconNode$a);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$9 = [
-  ["path", { d: "m21 21-4.34-4.34", key: "14j7rj" }],
-  ["circle", { cx: "11", cy: "11", r: "8", key: "4ej97u" }]
+  [
+    "path",
+    {
+      d: "M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z",
+      key: "r04s7s"
+    }
+  ]
 ];
-const Search = createLucideIcon("search", __iconNode$9);
+const Star = createLucideIcon("star", __iconNode$9);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -26656,12 +26672,13 @@ const __iconNode$8 = [
   [
     "path",
     {
-      d: "M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z",
-      key: "r04s7s"
+      d: "M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z",
+      key: "vktsd0"
     }
-  ]
+  ],
+  ["circle", { cx: "7.5", cy: "7.5", r: ".5", fill: "currentColor", key: "kqv944" }]
 ];
-const Star = createLucideIcon("star", __iconNode$8);
+const Tag = createLucideIcon("tag", __iconNode$8);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -27171,6 +27188,68 @@ const roles = [
       "Storybook",
       "PostCSS"
     ],
+    resumeKeywords: [
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "Redux",
+      "REST APIs",
+      "Git",
+      "Responsive Design",
+      "Web Performance",
+      "Component Architecture",
+      "Webpack",
+      "Agile",
+      "Unit Testing",
+      "Cross-browser Compatibility",
+      "Figma",
+      "Node.js",
+      "CI/CD"
+    ],
+    companiesByType: {
+      product: [
+        "Google",
+        "Microsoft",
+        "Adobe",
+        "Atlassian",
+        "Razorpay",
+        "Flipkart"
+      ],
+      service: [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Cognizant",
+        "HCL Technologies",
+        "Tech Mahindra"
+      ],
+      consulting: [
+        "Deloitte Digital",
+        "Accenture Interactive",
+        "Capgemini",
+        "ThoughtWorks",
+        "KPMG Digital",
+        "Publicis Sapient"
+      ],
+      startup: [
+        "Freshworks",
+        "Meesho",
+        "CRED",
+        "Zepto",
+        "BrowserStack",
+        "Postman"
+      ],
+      industry: [
+        "HDFC Bank",
+        "Reliance Jio",
+        "Bajaj Finserv",
+        "Nykaa",
+        "Swiggy",
+        "MakeMyTrip"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -27290,6 +27369,68 @@ const roles = [
       "SQL",
       "RabbitMQ / Kafka"
     ],
+    resumeKeywords: [
+      "Java",
+      "Python",
+      "Node.js",
+      "Spring Boot",
+      "Microservices",
+      "REST APIs",
+      "SQL",
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "Docker",
+      "Kubernetes",
+      "Git",
+      "CI/CD",
+      "System Design",
+      "AWS",
+      "Authentication",
+      "Message Queues"
+    ],
+    companiesByType: {
+      product: [
+        "Google",
+        "Amazon",
+        "Microsoft",
+        "Flipkart",
+        "Uber India",
+        "Atlassian"
+      ],
+      service: [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "HCL Technologies",
+        "Tech Mahindra",
+        "Cognizant"
+      ],
+      consulting: [
+        "Accenture",
+        "Deloitte",
+        "IBM",
+        "Capgemini",
+        "ThoughtWorks",
+        "EY GDS"
+      ],
+      startup: [
+        "Razorpay",
+        "Zerodha",
+        "Freshworks",
+        "Dunzo",
+        "Urban Company",
+        "Chargebee"
+      ],
+      industry: [
+        "HDFC Bank",
+        "ICICI Bank",
+        "Reliance",
+        "Ola",
+        "Zomato",
+        "Swiggy"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -27409,6 +27550,68 @@ const roles = [
       "Nginx",
       "Prisma / Sequelize"
     ],
+    resumeKeywords: [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "MongoDB",
+      "PostgreSQL",
+      "REST APIs",
+      "GraphQL",
+      "Docker",
+      "Git",
+      "AWS",
+      "HTML5",
+      "CSS3",
+      "Redux",
+      "Express.js",
+      "CI/CD",
+      "Agile",
+      "Microservices",
+      "System Design"
+    ],
+    companiesByType: {
+      product: [
+        "Google",
+        "Microsoft",
+        "Adobe",
+        "Atlassian",
+        "Freshworks",
+        "Zoho"
+      ],
+      service: [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Cognizant",
+        "Mphasis",
+        "HCL Technologies"
+      ],
+      consulting: [
+        "Accenture",
+        "Deloitte",
+        "ThoughtWorks",
+        "Capgemini",
+        "Infosys BPM",
+        "Publicis Sapient"
+      ],
+      startup: [
+        "Razorpay",
+        "Meesho",
+        "CRED",
+        "Groww",
+        "BharatPe",
+        "Open Financial"
+      ],
+      industry: [
+        "Paytm",
+        "Ola",
+        "Zomato",
+        "MakeMyTrip",
+        "PolicyBazaar",
+        "Nykaa"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -27522,6 +27725,61 @@ const roles = [
       "WorkManager",
       "Navigation Component"
     ],
+    resumeKeywords: [
+      "Kotlin",
+      "Java",
+      "Android SDK",
+      "Jetpack Compose",
+      "MVVM",
+      "REST APIs",
+      "Retrofit",
+      "Room Database",
+      "Firebase",
+      "Git",
+      "Play Store Publishing",
+      "Material Design",
+      "Coroutines",
+      "LiveData",
+      "Unit Testing",
+      "CI/CD",
+      "Push Notifications",
+      "In-App Purchases"
+    ],
+    companiesByType: {
+      product: [
+        "Google",
+        "Samsung R&D",
+        "Flipkart",
+        "PhonePe",
+        "Swiggy",
+        "Ola"
+      ],
+      service: [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "HCL Technologies",
+        "Mphasis",
+        "Hexaware"
+      ],
+      consulting: [
+        "Accenture",
+        "Deloitte",
+        "IBM",
+        "Capgemini",
+        "Cognizant",
+        "ThoughtWorks"
+      ],
+      startup: [
+        "Zomato",
+        "Dunzo",
+        "Khatabook",
+        "OkCredit",
+        "BharatPe",
+        "Jupiter Money"
+      ],
+      industry: ["HDFC Bank", "ICICI Bank", "Paytm", "Ola", "Byju's", "Nykaa"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -27635,6 +27893,68 @@ const roles = [
       "MVVM Pattern",
       "XCTest"
     ],
+    resumeKeywords: [
+      "Swift",
+      "Objective-C",
+      "Xcode",
+      "UIKit",
+      "SwiftUI",
+      "Core Data",
+      "REST APIs",
+      "Alamofire",
+      "Firebase",
+      "App Store Publishing",
+      "MVVM",
+      "Auto Layout",
+      "Unit Testing",
+      "Push Notifications",
+      "Git",
+      "CocoaPods",
+      "In-App Purchases",
+      "Combine"
+    ],
+    companiesByType: {
+      product: [
+        "Apple",
+        "Google",
+        "Microsoft",
+        "Flipkart",
+        "PhonePe",
+        "Samsung R&D"
+      ],
+      service: [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Cognizant",
+        "HCL Technologies",
+        "Hexaware"
+      ],
+      consulting: [
+        "Accenture",
+        "Deloitte",
+        "ThoughtWorks",
+        "IBM",
+        "Capgemini",
+        "EY GDS"
+      ],
+      startup: [
+        "Swiggy",
+        "Zomato",
+        "CRED",
+        "Razorpay",
+        "Khatabook",
+        "Lenskart"
+      ],
+      industry: [
+        "HDFC Bank",
+        "ICICI Bank",
+        "Paytm",
+        "MakeMyTrip",
+        "Nykaa",
+        "PolicyBazaar"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -27745,6 +28065,68 @@ const roles = [
       "React Query",
       "NativeWind (Tailwind for RN)"
     ],
+    resumeKeywords: [
+      "React Native",
+      "JavaScript",
+      "TypeScript",
+      "Redux",
+      "REST APIs",
+      "Firebase",
+      "Expo",
+      "Native Modules",
+      "Git",
+      "App Store Publishing",
+      "Play Store Publishing",
+      "Push Notifications",
+      "Navigation",
+      "Hooks",
+      "Cross-platform Development",
+      "Performance Optimization",
+      "Async Storage",
+      "CI/CD"
+    ],
+    companiesByType: {
+      product: [
+        "Microsoft",
+        "Shopify",
+        "Facebook",
+        "Flipkart",
+        "PhonePe",
+        "Ola"
+      ],
+      service: [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "HCL Technologies",
+        "Mindtree",
+        "Mphasis"
+      ],
+      consulting: [
+        "Accenture",
+        "Deloitte",
+        "Capgemini",
+        "ThoughtWorks",
+        "Cognizant",
+        "IBM GBS"
+      ],
+      startup: [
+        "Meesho",
+        "Dunzo",
+        "Urban Company",
+        "Groww",
+        "BharatPe",
+        "Spinny"
+      ],
+      industry: [
+        "Paytm",
+        "Ola",
+        "Nykaa",
+        "PolicyBazaar",
+        "Lenskart",
+        "MakeMyTrip"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -27865,6 +28247,54 @@ const roles = [
       "Flutter Flavors",
       "Freezed (Code Gen)"
     ],
+    resumeKeywords: [
+      "Flutter/Dart",
+      "React Native",
+      "Cross-platform Mobile Development",
+      "Firebase Integration",
+      "State Management (Riverpod/BLoC)",
+      "REST API Integration",
+      "App Store/Play Store Deployment",
+      "Git/GitHub",
+      "Mobile UI/UX",
+      "Unit & Widget Testing",
+      "Performance Optimization",
+      "Push Notifications",
+      "Agile/Scrum",
+      "Deep Linking",
+      "Dependency Injection",
+      "CI/CD for Mobile",
+      "Responsive Layouts",
+      "Material Design/Cupertino"
+    ],
+    companiesByType: {
+      product: ["Google", "Microsoft", "Meta", "Swiggy", "PhonePe", "Razorpay"],
+      service: [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Mphasis",
+        "HCL Technologies",
+        "Mindtree"
+      ],
+      consulting: [
+        "Accenture",
+        "Capgemini",
+        "ThoughtWorks",
+        "Deloitte",
+        "EY GDS",
+        "Publicis Sapient"
+      ],
+      startup: ["CRED", "Zepto", "Meesho", "Jupiter Money", "Slice", "Finzly"],
+      industry: [
+        "HDFC Bank",
+        "ICICI Bank",
+        "Bajaj Finserv",
+        "MakeMyTrip",
+        "Ola",
+        "Nykaa"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -27983,6 +28413,61 @@ const roles = [
       "Swagger / OpenAPI",
       "AWS (EC2/RDS/Lambda)"
     ],
+    resumeKeywords: [
+      "Java",
+      "Spring Boot",
+      "Microservices",
+      "Hibernate",
+      "REST APIs",
+      "SQL",
+      "Maven",
+      "Git",
+      "JUnit",
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "Design Patterns",
+      "Multithreading",
+      "Spring Security",
+      "Kafka",
+      "CI/CD",
+      "SOLID Principles"
+    ],
+    companiesByType: {
+      product: ["Oracle", "SAP", "Google", "Amazon", "Flipkart", "Zoho"],
+      service: [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "HCL Technologies",
+        "Tech Mahindra",
+        "Cognizant"
+      ],
+      consulting: [
+        "Accenture",
+        "Deloitte",
+        "IBM",
+        "Capgemini",
+        "Cognizant",
+        "EY GDS"
+      ],
+      startup: [
+        "Razorpay",
+        "PhonePe",
+        "Groww",
+        "BharatPe",
+        "Chargebee",
+        "Perfios"
+      ],
+      industry: [
+        "HDFC Bank",
+        "ICICI Bank",
+        "Bajaj Finserv",
+        "Reliance",
+        "Ola",
+        "Infosys BPO"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -28108,6 +28593,61 @@ const roles = [
       "Gunicorn / Uvicorn",
       "Postman"
     ],
+    resumeKeywords: [
+      "Python",
+      "Django",
+      "Flask",
+      "FastAPI",
+      "REST APIs",
+      "SQL",
+      "PostgreSQL",
+      "MongoDB",
+      "Git",
+      "Docker",
+      "AWS",
+      "Celery",
+      "Redis",
+      "Unit Testing",
+      "Pandas",
+      "NumPy",
+      "CI/CD",
+      "OOP"
+    ],
+    companiesByType: {
+      product: [
+        "Google",
+        "Microsoft",
+        "Amazon",
+        "Freshworks",
+        "BrowserStack",
+        "Zoho"
+      ],
+      service: [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "HCL Technologies",
+        "Mphasis",
+        "Hexaware"
+      ],
+      consulting: [
+        "Accenture",
+        "Deloitte",
+        "IBM",
+        "ThoughtWorks",
+        "Capgemini",
+        "EY GDS"
+      ],
+      startup: ["Razorpay", "Zerodha", "CRED", "Setu", "Nanonets", "Finbox"],
+      industry: [
+        "HDFC Bank",
+        "Paytm",
+        "Nykaa",
+        "PolicyBazaar",
+        "Swiggy",
+        "BigBasket"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -28218,6 +28758,33 @@ const roles = [
       "Serilog / NLog",
       "Polly (Resilience)"
     ],
+    resumeKeywords: [
+      "C#",
+      ".NET Core",
+      "ASP.NET",
+      "REST APIs",
+      "SQL Server",
+      "Entity Framework",
+      "Azure",
+      "Git",
+      "LINQ",
+      "MVC",
+      "Microservices",
+      "Docker",
+      "Unit Testing",
+      "Visual Studio",
+      "WCF",
+      "Agile",
+      "CI/CD",
+      "Design Patterns"
+    ],
+    companiesByType: {
+      product: ["Microsoft", "SAP", "Siemens", "Oracle", "Epicor"],
+      service: ["TCS", "Infosys", "Wipro", "Cognizant", "Capgemini"],
+      consulting: ["Accenture", "Deloitte", "KPMG", "IBM", "Avanade"],
+      startup: ["Razorpay", "Chargebee", "Postman", "Freshworks", "Zoho"],
+      industry: ["HDFC Bank", "Bajaj", "Mahindra", "L&T", "Tata Steel"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -28328,6 +28895,33 @@ const roles = [
       "HTML/CSS",
       "JWT Auth"
     ],
+    resumeKeywords: [
+      "PHP",
+      "Laravel/CodeIgniter",
+      "MySQL/MariaDB",
+      "REST API Development",
+      "HTML5/CSS3/JavaScript",
+      "Composer Package Manager",
+      "Git/GitHub",
+      "WordPress/WooCommerce",
+      "Eloquent ORM",
+      "PHPUnit Testing",
+      "Redis/Caching",
+      "Docker",
+      "MVC Architecture",
+      "Authentication (JWT/OAuth)",
+      "API Security",
+      "CI/CD Pipelines",
+      "Linux/Apache/Nginx",
+      "Agile/Scrum"
+    ],
+    companiesByType: {
+      product: ["Automattic (WordPress)", "Magento (Adobe)", "Shopify", "Zoho"],
+      service: ["TCS", "Wipro", "HCL Technologies", "Mphasis"],
+      consulting: ["Accenture", "Capgemini", "Deloitte", "Infosys"],
+      startup: ["Meesho", "Nykaa", "MakeMyTrip", "OYO Rooms"],
+      industry: ["Reliance Retail", "BigBasket", "Myntra", "Jabong"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -28444,6 +29038,38 @@ const roles = [
       "Gravity Forms",
       "BuddyPress (Community)"
     ],
+    resumeKeywords: [
+      "WordPress",
+      "PHP",
+      "WooCommerce",
+      "Elementor/Divi Page Builder",
+      "Custom Theme Development",
+      "Plugin Development",
+      "MySQL",
+      "HTML5/CSS3/JavaScript",
+      "Responsive Design",
+      "Git/GitHub",
+      "REST API (WordPress)",
+      "SEO Optimization (Yoast)",
+      "Website Performance (WP Rocket)",
+      "Security (Wordfence)",
+      "ACF (Advanced Custom Fields)",
+      "E-commerce Development",
+      "Figma to WordPress",
+      "cPanel/Hosting Management"
+    ],
+    companiesByType: {
+      product: ["Automattic", "WP Engine", "SiteGround", "Bluehost"],
+      service: ["TCS Digital", "Infosys BPM", "Wipro", "Mphasis"],
+      consulting: [
+        "Accenture Interactive",
+        "Publicis Sapient",
+        "WundermanThompson",
+        "Dentsu"
+      ],
+      startup: ["OYO Rooms", "MakeMyTrip", "Cleartrip", "Nykaa"],
+      industry: ["Times Internet", "Jagran Prakashan", "HT Media", "NDTV"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -28569,6 +29195,61 @@ const roles = [
       "Storytelling with Data",
       "A/B Testing concepts"
     ],
+    resumeKeywords: [
+      "SQL (MySQL/PostgreSQL/BigQuery)",
+      "Python (Pandas/NumPy)",
+      "Power BI",
+      "Tableau",
+      "Microsoft Excel (Advanced)",
+      "Data Visualization",
+      "Statistical Analysis",
+      "Business Intelligence",
+      "ETL Process",
+      "Data Cleaning & Preprocessing",
+      "Pivot Tables/VLOOKUP",
+      "KPI Tracking & Dashboards",
+      "Google Analytics",
+      "A/B Testing",
+      "Data Storytelling",
+      "Hypothesis Testing",
+      "Report Automation",
+      "Stakeholder Communication"
+    ],
+    companiesByType: {
+      product: [
+        "Google",
+        "Microsoft",
+        "Amazon",
+        "Flipkart",
+        "Zomato",
+        "Swiggy"
+      ],
+      service: [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Cognizant",
+        "HCL Technologies",
+        "Hexaware"
+      ],
+      consulting: [
+        "Deloitte Analytics",
+        "Accenture Analytics",
+        "EY",
+        "KPMG",
+        "PwC Analytics",
+        "Mu Sigma"
+      ],
+      startup: ["Razorpay", "Zerodha", "Meesho", "Groww", "CRED", "PhonePe"],
+      industry: [
+        "HDFC Bank",
+        "ICICI Bank",
+        "Bajaj Finserv",
+        "Airtel",
+        "Nykaa",
+        "Reliance Retail"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -28690,6 +29371,68 @@ const roles = [
       "CI/CD for Data",
       "Great Expectations (Data Quality)"
     ],
+    resumeKeywords: [
+      "Python",
+      "SQL",
+      "Apache Spark",
+      "Hadoop",
+      "ETL",
+      "Data Pipelines",
+      "Kafka",
+      "Airflow",
+      "AWS",
+      "Azure Data Factory",
+      "Snowflake",
+      "BigQuery",
+      "Scala",
+      "Data Warehousing",
+      "Git",
+      "Docker",
+      "PySpark",
+      "dbt"
+    ],
+    companiesByType: {
+      product: [
+        "Google",
+        "Amazon (AWS)",
+        "Microsoft",
+        "Databricks",
+        "Snowflake",
+        "Flipkart"
+      ],
+      service: [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "HCL Technologies",
+        "Mphasis",
+        "Hexaware"
+      ],
+      consulting: [
+        "Accenture",
+        "Deloitte",
+        "IBM",
+        "EY",
+        "Capgemini",
+        "ThoughtWorks"
+      ],
+      startup: [
+        "Hasura",
+        "Skit.ai",
+        "Atlan",
+        "Datazip",
+        "Rudderstack",
+        "Bytebeam"
+      ],
+      industry: [
+        "HDFC Bank",
+        "Reliance Industries",
+        "Airtel",
+        "Swiggy",
+        "Zomato",
+        "PolicyBazaar"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -28810,6 +29553,61 @@ const roles = [
       "AWS RDS",
       "Data Security & Encryption"
     ],
+    resumeKeywords: [
+      "SQL Server/Oracle/PostgreSQL",
+      "Database Design",
+      "Query Optimization",
+      "Backup & Recovery",
+      "High Availability (RAC/Always On)",
+      "Performance Tuning",
+      "Index Optimization",
+      "Database Security",
+      "Stored Procedures",
+      "Data Migration",
+      "Replication",
+      "Partitioning",
+      "Linux Administration",
+      "RMAN Backup",
+      "Monitoring Tools (OEM)",
+      "Shell Scripting",
+      "Disaster Recovery",
+      "Cloud Databases (RDS/Cloud SQL)"
+    ],
+    companiesByType: {
+      product: ["Oracle", "Microsoft", "IBM", "SAP", "MongoDB", "AWS (RDS)"],
+      service: [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "HCL Technologies",
+        "Cognizant",
+        "Tech Mahindra"
+      ],
+      consulting: [
+        "Accenture",
+        "Capgemini",
+        "Deloitte",
+        "EY",
+        "IBM GBS",
+        "KPMG"
+      ],
+      startup: [
+        "Freshworks",
+        "Razorpay",
+        "Clevertap",
+        "Hasura",
+        "Supabase India",
+        "Neon Tech"
+      ],
+      industry: [
+        "HDFC Bank",
+        "ICICI Bank",
+        "Reliance Industries",
+        "Coal India",
+        "NTPC",
+        "Bajaj Finserv"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -28920,6 +29718,68 @@ const roles = [
       "SSRS (Reporting Services)",
       "Git"
     ],
+    resumeKeywords: [
+      "Power BI",
+      "Tableau",
+      "SQL",
+      "Data Warehousing",
+      "SSRS/SSIS",
+      "ETL Development",
+      "DAX (Power BI)",
+      "Dimensional Modeling (Star/Snowflake Schema)",
+      "KPI Dashboards",
+      "Business Requirements Analysis",
+      "Data Modeling",
+      "Azure Synapse/Snowflake",
+      "Looker/Qlik",
+      "Report Automation",
+      "Data Governance",
+      "Python/R Basics",
+      "Database Design",
+      "Business Acumen"
+    ],
+    companiesByType: {
+      product: [
+        "Microsoft",
+        "SAP",
+        "Oracle",
+        "Salesforce",
+        "MicroStrategy",
+        "Qlik"
+      ],
+      service: [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Cognizant",
+        "Capgemini",
+        "HCL Technologies"
+      ],
+      consulting: [
+        "Deloitte Analytics",
+        "Accenture Analytics",
+        "EY",
+        "KPMG",
+        "PwC",
+        "Mu Sigma"
+      ],
+      startup: [
+        "Chargebee",
+        "Freshworks",
+        "Zoho Analytics",
+        "CleverTap",
+        "MoEngage",
+        "Fractal Analytics"
+      ],
+      industry: [
+        "HDFC Bank",
+        "Reliance Industries",
+        "Bajaj Finserv",
+        "Airtel",
+        "Asian Paints",
+        "ITC"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -29035,6 +29895,68 @@ const roles = [
       "Business Communication",
       "Git / GitHub"
     ],
+    resumeKeywords: [
+      "SQL",
+      "Data Quality Management",
+      "Data Profiling",
+      "Data Cleansing",
+      "Informatica Data Quality",
+      "Great Expectations",
+      "Python (Pandas)",
+      "Excel",
+      "Business Rules Engine",
+      "Data Governance",
+      "Root Cause Analysis",
+      "KPI Metrics for Data Quality",
+      "Collibra/Alation",
+      "Regex (Pattern Matching)",
+      "Data Lineage",
+      "Stakeholder Communication",
+      "JIRA/Confluence",
+      "Agile/Scrum"
+    ],
+    companiesByType: {
+      product: [
+        "IBM",
+        "Informatica",
+        "Microsoft",
+        "Oracle",
+        "Talend",
+        "Collibra"
+      ],
+      service: [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Cognizant",
+        "HCL Technologies",
+        "Capgemini"
+      ],
+      consulting: [
+        "Deloitte",
+        "Accenture",
+        "EY",
+        "KPMG",
+        "PwC",
+        "IBM Consulting"
+      ],
+      startup: [
+        "Atlan",
+        "Alation",
+        "Secoda",
+        "Monte Carlo Data",
+        "Soda.io",
+        "Bigeye"
+      ],
+      industry: [
+        "HDFC Bank",
+        "ICICI Bank",
+        "Bajaj Finserv",
+        "Hindustan Unilever",
+        "Reliance Industries",
+        "Asian Paints"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -29146,6 +30068,61 @@ const roles = [
       "Linux",
       "JIRA"
     ],
+    resumeKeywords: [
+      "ETL",
+      "Informatica",
+      "Talend",
+      "SSIS",
+      "Python",
+      "SQL",
+      "Data Pipelines",
+      "Stored Procedures",
+      "Shell Scripting",
+      "Data Warehousing",
+      "Snowflake",
+      "Oracle",
+      "Scheduling",
+      "Debugging",
+      "Git",
+      "Data Mapping",
+      "Azure Data Factory",
+      "Performance Tuning"
+    ],
+    companiesByType: {
+      product: ["Informatica", "IBM", "Oracle", "SAP", "Microsoft", "Talend"],
+      service: [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "HCL Technologies",
+        "Capgemini",
+        "Cognizant"
+      ],
+      consulting: [
+        "Accenture",
+        "Deloitte",
+        "EY",
+        "IBM GBS",
+        "DXC Technology",
+        "KPMG"
+      ],
+      startup: [
+        "Fivetran India",
+        "Airbyte",
+        "Matillion",
+        "Stitch Data",
+        "Hevo Data",
+        "Dataddo"
+      ],
+      industry: [
+        "HDFC Bank",
+        "Reliance Industries",
+        "Bajaj Finserv",
+        "Airtel",
+        "ICICI Bank",
+        "L&T"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -29270,6 +30247,68 @@ const roles = [
       "Great Expectations",
       "Linux"
     ],
+    resumeKeywords: [
+      "Data Warehousing",
+      "Snowflake",
+      "Redshift",
+      "BigQuery",
+      "Dimensional Modeling",
+      "Star Schema",
+      "ETL",
+      "SQL",
+      "Architecture Design",
+      "Performance Tuning",
+      "Data Modeling",
+      "Kimball Methodology",
+      "OLAP",
+      "Cloud Data Warehouse",
+      "dbt",
+      "Governance",
+      "Security",
+      "Scalability"
+    ],
+    companiesByType: {
+      product: [
+        "Google (BigQuery)",
+        "Amazon (Redshift)",
+        "Microsoft (Synapse)",
+        "Snowflake",
+        "Teradata",
+        "Databricks"
+      ],
+      service: [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "HCL Technologies",
+        "Cognizant",
+        "Capgemini"
+      ],
+      consulting: [
+        "Deloitte",
+        "Accenture",
+        "IBM GBS",
+        "EY",
+        "Fractal Analytics",
+        "ThoughtWorks"
+      ],
+      startup: [
+        "Atlan",
+        "Fivetran India",
+        "Hevo Data",
+        "Airbyte",
+        "dbt Labs",
+        "Lightdash"
+      ],
+      industry: [
+        "HDFC Bank",
+        "Reliance Industries",
+        "Bajaj Finserv",
+        "Airtel",
+        "Asian Paints",
+        "ITC"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -29388,6 +30427,39 @@ const roles = [
       "GRC Platforms (MetricStream)",
       "Data Stewardship Processes"
     ],
+    resumeKeywords: [
+      "Data Governance",
+      "Data Quality",
+      "Metadata Management",
+      "Data Catalog",
+      "Collibra",
+      "Informatica",
+      "Data Lineage",
+      "GDPR",
+      "DPDP Act",
+      "Master Data Management",
+      "SQL",
+      "Data Policy",
+      "Compliance",
+      "Stakeholder Management",
+      "Data Dictionary",
+      "Excel",
+      "Power BI",
+      "Business Glossary"
+    ],
+    companiesByType: {
+      product: ["Microsoft", "Google", "IBM", "Salesforce", "Oracle"],
+      service: ["TCS", "Infosys", "Wipro", "Cognizant", "HCL"],
+      consulting: ["Deloitte", "EY", "KPMG", "Accenture", "PwC"],
+      startup: ["Razorpay", "Setu", "Zoho", "Freshworks", "Perfios"],
+      industry: [
+        "HDFC Bank",
+        "ICICI Bank",
+        "Bajaj Finserv",
+        "RBI Regulated Entities",
+        "Reliance"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -29501,6 +30573,39 @@ const roles = [
       "Data Stewardship",
       "Linux (basic)"
     ],
+    resumeKeywords: [
+      "MDM",
+      "Master Data Management",
+      "Informatica MDM",
+      "SAP MDG",
+      "IBM MDM",
+      "Data Quality",
+      "Data Governance",
+      "SQL",
+      "Data Integration",
+      "Business Rules",
+      "Hierarchy Management",
+      "Workflow Automation",
+      "Stakeholder Management",
+      "ERP",
+      "Data Cleansing",
+      "Metadata",
+      "Data Lineage",
+      "Excel"
+    ],
+    companiesByType: {
+      product: ["SAP", "Oracle", "IBM", "Informatica", "Stibo Systems"],
+      service: ["TCS", "Infosys", "Wipro", "HCL", "Capgemini"],
+      consulting: ["Deloitte", "Accenture", "EY", "KPMG", "IBM Consulting"],
+      startup: ["Zoho", "Freshworks", "Setu", "Perfios", "Chargebee"],
+      industry: [
+        "Hindustan Unilever",
+        "ITC",
+        "Reliance Retail",
+        "Tata Consumer",
+        "Bajaj"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -29619,6 +30724,38 @@ const roles = [
       "Automated Scheduling (Report Distribution)",
       "Azure DevOps (Boards)"
     ],
+    resumeKeywords: [
+      "SQL",
+      "Microsoft Excel (Advanced)",
+      "Power BI/Tableau",
+      "KPI Dashboard Creation",
+      "SSRS (SQL Server Reporting Services)",
+      "Data Visualization",
+      "Business Reporting",
+      "Looker Studio",
+      "DAX (Power BI)",
+      "Report Automation",
+      "Pivot Tables/VLOOKUP",
+      "Data Storytelling",
+      "Stakeholder Communication",
+      "Python (Pandas - basics)",
+      "PowerPoint Presentations",
+      "MicroStrategy",
+      "Agile/Scrum",
+      "Performance Metrics Tracking"
+    ],
+    companiesByType: {
+      product: ["Microsoft", "SAP", "Salesforce", "Oracle"],
+      service: ["TCS", "Infosys", "HCL Technologies", "Cognizant"],
+      consulting: ["Deloitte", "Accenture", "EY", "KPMG"],
+      startup: ["Zoho Analytics", "Clevertap", "Mu Sigma", "Kissflow"],
+      industry: [
+        "HDFC Bank",
+        "ICICI Bank",
+        "Bajaj Finserv",
+        "Hindustan Unilever"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -29737,6 +30874,38 @@ const roles = [
       "ETL Concepts",
       "Linux"
     ],
+    resumeKeywords: [
+      "Data Migration",
+      "ETL/ELT Development",
+      "SQL",
+      "Data Mapping/Crosswalk",
+      "AWS DMS/Azure DMS",
+      "Informatica PowerCenter",
+      "SSIS (SQL Server Integration Services)",
+      "Data Validation",
+      "Data Reconciliation",
+      "Source-to-Target Mapping",
+      "Oracle Data Pump",
+      "Python Scripting",
+      "Shell Scripting",
+      "UAT (User Acceptance Testing)",
+      "Data Profiling",
+      "Change Management",
+      "JIRA/Confluence",
+      "Agile/Scrum"
+    ],
+    companiesByType: {
+      product: ["Oracle", "IBM", "SAP", "Microsoft"],
+      service: ["TCS", "Infosys", "Wipro", "HCL Technologies"],
+      consulting: ["Accenture", "Capgemini", "Deloitte", "EY"],
+      startup: ["Fivetran India", "Airbyte", "Stitch Data", "Matillion"],
+      industry: [
+        "HDFC Bank",
+        "ICICI Bank",
+        "Reliance Industries",
+        "Coal India"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -29872,6 +31041,68 @@ const roles = [
       "Kubernetes (Deployment)",
       "CI/CD for ML"
     ],
+    resumeKeywords: [
+      "Python (TensorFlow/PyTorch/Scikit-learn)",
+      "Machine Learning Algorithms",
+      "Model Training & Evaluation",
+      "Feature Engineering",
+      "MLOps Practices",
+      "Model Deployment (Flask/FastAPI)",
+      "Docker/Kubernetes",
+      "SQL/NoSQL",
+      "Deep Learning",
+      "Cloud ML Services (SageMaker/Vertex AI/AzureML)",
+      "A/B Testing & Experimentation",
+      "Model Monitoring",
+      "Data Pipeline Development",
+      "Git/GitHub",
+      "Experiment Tracking (MLflow/Weights & Biases)",
+      "Statistical Analysis",
+      "REST API Development",
+      "Hyperparameter Optimization"
+    ],
+    companiesByType: {
+      product: [
+        "Google DeepMind",
+        "Microsoft AI",
+        "Amazon AI",
+        "NVIDIA",
+        "Flipkart",
+        "Uber AI"
+      ],
+      service: [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "HCL Technologies",
+        "Cognizant",
+        "Mphasis"
+      ],
+      consulting: [
+        "McKinsey Analytics",
+        "Deloitte AI",
+        "Accenture AI",
+        "EY AI",
+        "BCG Gamma",
+        "ThoughtWorks"
+      ],
+      startup: [
+        "Sarvam AI",
+        "Krutrim",
+        "Mad Street Den",
+        "Sigmoid",
+        "Observe.AI",
+        "Uniphore"
+      ],
+      industry: [
+        "HDFC Bank",
+        "ICICI Bank",
+        "Ola",
+        "Swiggy",
+        "Reliance Jio",
+        "Bajaj Finserv"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -30003,6 +31234,66 @@ const roles = [
       "Scientific Python Ecosystem",
       "VS Code / PyCharm"
     ],
+    resumeKeywords: [
+      "Deep Learning",
+      "Research Papers",
+      "PyTorch",
+      "TensorFlow",
+      "NLP",
+      "Computer Vision",
+      "Reinforcement Learning",
+      "Mathematics",
+      "Statistics",
+      "Transformers",
+      "Model Optimization",
+      "Experiment Design",
+      "Python",
+      "LaTeX",
+      "Benchmarking",
+      "Novel Architectures",
+      "Peer Review",
+      "GPU Programming"
+    ],
+    companiesByType: {
+      product: [
+        "Google DeepMind",
+        "Microsoft Research",
+        "Amazon Science",
+        "Meta AI",
+        "Apple ML"
+      ],
+      service: [
+        "TCS Research",
+        "Infosys Research",
+        "Wipro AI Lab",
+        "HCL",
+        "Mphasis"
+      ],
+      consulting: [
+        "IBM Research",
+        "Accenture Research",
+        "Deloitte AI Labs",
+        "EY AI",
+        "BCG Gamma",
+        "McKinsey Analytics"
+      ],
+      startup: [
+        "Sarvam AI",
+        "Krutrim",
+        "Mad Street Den",
+        "Cogniable",
+        "Niramai",
+        "SigTuple"
+      ],
+      industry: [
+        "ISRO",
+        "DRDO",
+        "IIT Research Labs",
+        "Tata Research",
+        "Reliance R&D",
+        "TIFR"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -30125,6 +31416,68 @@ const roles = [
       "SHAP (Explainability)",
       "Time Series Analysis"
     ],
+    resumeKeywords: [
+      "Python (Scikit-learn/TensorFlow)",
+      "Machine Learning Algorithms",
+      "Statistical Modeling & Inference",
+      "SQL (Advanced)",
+      "Data Visualization (Matplotlib/Seaborn/Plotly)",
+      "A/B Testing & Experimentation",
+      "Feature Engineering",
+      "Natural Language Processing (NLP)",
+      "Model Deployment & Productionization",
+      "Jupyter Notebooks",
+      "Deep Learning Fundamentals",
+      "Hypothesis Testing",
+      "Git/GitHub",
+      "PySpark / Big Data Analytics",
+      "AWS SageMaker / GCP Vertex AI",
+      "Business Acumen",
+      "Time Series Analysis",
+      "SHAP / Model Explainability"
+    ],
+    companiesByType: {
+      product: [
+        "Google",
+        "Microsoft",
+        "Amazon",
+        "Flipkart",
+        "Swiggy",
+        "PhonePe"
+      ],
+      service: [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Cognizant",
+        "HCL Technologies",
+        "Hexaware"
+      ],
+      consulting: [
+        "McKinsey Analytics",
+        "Deloitte Analytics",
+        "EY Analytics",
+        "Accenture AI",
+        "BCG Gamma",
+        "Mu Sigma"
+      ],
+      startup: [
+        "Razorpay",
+        "CRED",
+        "Lenskart",
+        "Meesho",
+        "Niramai",
+        "Observe.AI"
+      ],
+      industry: [
+        "HDFC Bank",
+        "ICICI Bank",
+        "Bajaj Finserv",
+        "MakeMyTrip",
+        "Ola",
+        "Swiggy"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -30241,6 +31594,68 @@ const roles = [
       "Tokenization Techniques (BPE, WordPiece)",
       "AWS / GCP (ML Infra)"
     ],
+    resumeKeywords: [
+      "NLP",
+      "Python",
+      "BERT",
+      "Transformers",
+      "Hugging Face",
+      "spaCy",
+      "NLTK",
+      "Text Classification",
+      "Named Entity Recognition",
+      "Sentiment Analysis",
+      "LLMs",
+      "PyTorch",
+      "TensorFlow",
+      "Word Embeddings",
+      "Sequence Models",
+      "Git",
+      "FastAPI",
+      "Model Fine-tuning"
+    ],
+    companiesByType: {
+      product: [
+        "Google",
+        "Microsoft",
+        "Amazon",
+        "Meta AI",
+        "OpenAI",
+        "Anthropic"
+      ],
+      service: [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Cognizant",
+        "HCL Technologies",
+        "Mphasis"
+      ],
+      consulting: [
+        "Accenture AI",
+        "Deloitte AI",
+        "IBM Watson",
+        "EY",
+        "ThoughtWorks",
+        "BCG Gamma"
+      ],
+      startup: [
+        "Sarvam AI",
+        "Krutrim",
+        "Vernacular.ai",
+        "Haptik (Jio)",
+        "Observe.AI",
+        "Uniphore"
+      ],
+      industry: [
+        "HDFC Bank",
+        "Reliance Jio",
+        "Paytm",
+        "Ola",
+        "Swiggy",
+        "ICICI Bank"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -30357,6 +31772,68 @@ const roles = [
       "OpenPose / MediaPipe",
       "3D Vision Concepts"
     ],
+    resumeKeywords: [
+      "OpenCV",
+      "PyTorch/TensorFlow",
+      "Object Detection (YOLO/RCNN)",
+      "Image Segmentation",
+      "Image Classification",
+      "Convolutional Neural Networks (CNN)",
+      "Transfer Learning",
+      "Data Augmentation",
+      "Video Analytics",
+      "Edge AI Deployment",
+      "Python",
+      "CUDA/GPU Programming",
+      "3D Vision (LiDAR/Point Cloud)",
+      "OCR Systems",
+      "Face Recognition",
+      "Anomaly Detection",
+      "Model Optimization",
+      "Real-time Processing"
+    ],
+    companiesByType: {
+      product: [
+        "Google",
+        "Microsoft",
+        "Amazon",
+        "NVIDIA",
+        "Samsung R&D",
+        "Intel"
+      ],
+      service: [
+        "TCS",
+        "Wipro",
+        "HCL Technologies",
+        "Infosys",
+        "Tata Elxsi",
+        "Cognizant"
+      ],
+      consulting: [
+        "Accenture",
+        "Deloitte",
+        "IBM",
+        "EY",
+        "ThoughtWorks",
+        "Capgemini"
+      ],
+      startup: [
+        "SigTuple",
+        "Niramai",
+        "Mad Street Den",
+        "Detect Technologies",
+        "Staqu",
+        "Uncanny Vision"
+      ],
+      industry: [
+        "Bosch India",
+        "Tata Motors",
+        "DRDO",
+        "ISRO",
+        "Apollo Hospitals",
+        "L&T"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -30481,6 +31958,68 @@ const roles = [
       "AWS / GCP AI Services",
       "DeepSpeed (LLM Training)"
     ],
+    resumeKeywords: [
+      "PyTorch",
+      "TensorFlow",
+      "Neural Networks",
+      "CNN/RNN/LSTM/Transformer",
+      "GPU Programming (CUDA)",
+      "Transfer Learning",
+      "Model Optimization",
+      "Computer Vision",
+      "NLP Models",
+      "BERT/GPT Fine-tuning",
+      "Hugging Face",
+      "Python",
+      "Model Pruning/Quantization",
+      "Distributed Training",
+      "Mixed Precision Training",
+      "Research Paper Implementation",
+      "Experiment Tracking",
+      "MLOps"
+    ],
+    companiesByType: {
+      product: [
+        "Google DeepMind",
+        "OpenAI",
+        "NVIDIA",
+        "Microsoft",
+        "Meta AI",
+        "Anthropic"
+      ],
+      service: [
+        "TCS AI",
+        "Infosys AI",
+        "HCL Technologies",
+        "Wipro AI",
+        "Mphasis",
+        "Cognizant"
+      ],
+      consulting: [
+        "Accenture AI",
+        "Deloitte AI",
+        "McKinsey Analytics",
+        "EY AI Labs",
+        "BCG Gamma",
+        "IBM Research"
+      ],
+      startup: [
+        "Sarvam AI",
+        "Krutrim",
+        "Mad Street Den",
+        "Sigmoid",
+        "Ola Krutrim",
+        "Artpark"
+      ],
+      industry: [
+        "ISRO",
+        "DRDO",
+        "Reliance Industries",
+        "Tata Advanced Systems",
+        "L&T",
+        "Bajaj Auto"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -30597,6 +32136,68 @@ const roles = [
       "Feature Store (Feast)",
       "Model Registry"
     ],
+    resumeKeywords: [
+      "MLOps",
+      "Python",
+      "Docker",
+      "Kubernetes",
+      "MLflow",
+      "Kubeflow",
+      "CI/CD",
+      "AWS SageMaker",
+      "Model Monitoring",
+      "Feature Stores",
+      "Git",
+      "Airflow",
+      "Model Registry",
+      "A/B Testing",
+      "Infrastructure as Code",
+      "Terraform",
+      "Linux",
+      "Data Pipelines"
+    ],
+    companiesByType: {
+      product: [
+        "Google (Vertex AI)",
+        "Amazon (SageMaker)",
+        "Microsoft (Azure ML)",
+        "Databricks",
+        "NVIDIA",
+        "Dataiku"
+      ],
+      service: [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "HCL Technologies",
+        "Cognizant",
+        "Mphasis"
+      ],
+      consulting: [
+        "Accenture AI",
+        "Deloitte AI",
+        "IBM",
+        "EY AI",
+        "ThoughtWorks",
+        "Capgemini"
+      ],
+      startup: [
+        "Hopsworks",
+        "Weights & Biases India",
+        "Sarvam AI",
+        "Sigmoid",
+        "Observe.AI",
+        "Picsellia"
+      ],
+      industry: [
+        "HDFC Bank",
+        "Swiggy",
+        "Ola",
+        "Reliance Industries",
+        "Flipkart",
+        "Bajaj Finserv"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -30713,6 +32314,39 @@ const roles = [
       "Market Research Tools",
       "Excel / Google Sheets"
     ],
+    resumeKeywords: [
+      "Product Management",
+      "AI/ML Knowledge",
+      "Product Roadmap",
+      "User Research",
+      "Data Analysis",
+      "A/B Testing",
+      "Agile",
+      "JIRA",
+      "Stakeholder Management",
+      "Business Metrics",
+      "Go-to-Market",
+      "SQL",
+      "PRD Writing",
+      "Customer Empathy",
+      "Competitive Analysis",
+      "OKRs",
+      "NLP",
+      "Model Evaluation"
+    ],
+    companiesByType: {
+      product: ["Google", "Microsoft", "Amazon", "Flipkart", "Freshworks"],
+      service: ["TCS", "Infosys", "Wipro", "HCL", "Cognizant"],
+      consulting: ["McKinsey Digital", "Accenture", "Deloitte", "BCG", "EY"],
+      startup: [
+        "Sarvam AI",
+        "Haptik",
+        "Observe.AI",
+        "Mad Street Den",
+        "Krutrim"
+      ],
+      industry: ["HDFC Bank", "Ola", "Swiggy", "Reliance Jio", "Paytm"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -30824,6 +32458,38 @@ const roles = [
       "Text-to-Speech / ASR",
       "Analytics (Botium / Rasa X)"
     ],
+    resumeKeywords: [
+      "Conversational AI Development",
+      "Dialogflow CX/Rasa",
+      "Chatbot Development",
+      "Natural Language Understanding (NLU)",
+      "Intent & Entity Design",
+      "Python",
+      "REST API/Webhook Integration",
+      "LangChain/OpenAI API",
+      "Conversation Flow Design",
+      "Amazon Lex/IBM Watson",
+      "Voice Bot Development",
+      "Context Management",
+      "Multi-turn Dialog Systems",
+      "Text-to-Speech/Speech-to-Text",
+      "Docker",
+      "Git/GitHub",
+      "Agile/Scrum",
+      "Testing & QA for Bots"
+    ],
+    companiesByType: {
+      product: [
+        "Google (Dialogflow)",
+        "Amazon (Lex)",
+        "IBM (Watson)",
+        "Microsoft (Bot Framework)"
+      ],
+      service: ["TCS", "Infosys", "Wipro", "Cognizant"],
+      consulting: ["Accenture", "Deloitte Digital", "Capgemini", "EY"],
+      startup: ["Yellow.ai", "Uniphore", "Vernacular.ai", "Haptik (Jio)"],
+      industry: ["HDFC Bank", "ICICI Bank", "Bajaj Finserv", "Vodafone Idea"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -30935,6 +32601,38 @@ const roles = [
       "Kafka (Real-time Pipelines)",
       "Docker"
     ],
+    resumeKeywords: [
+      "Recommendation Systems",
+      "Collaborative Filtering",
+      "Matrix Factorization (ALS/SVD)",
+      "Content-based Filtering",
+      "Python (Scikit-learn/PyTorch)",
+      "A/B Testing",
+      "Feature Engineering",
+      "Vector Search (Faiss/Elasticsearch)",
+      "Apache Spark (ALS)",
+      "Real-time Recommendation",
+      "User Behavior Analytics",
+      "Deep Learning for RecSys",
+      "MLflow Experiment Tracking",
+      "SQL/NoSQL",
+      "Data Pipeline Development",
+      "Personalization at Scale",
+      "Git/GitHub",
+      "Agile/Scrum"
+    ],
+    companiesByType: {
+      product: ["Amazon", "Netflix", "Flipkart", "Google"],
+      service: ["TCS", "Infosys", "Wipro", "Cognizant"],
+      consulting: [
+        "Accenture",
+        "McKinsey Analytics",
+        "Deloitte AI",
+        "ThoughtWorks"
+      ],
+      startup: ["Swiggy", "Meesho", "Nykaa", "CRED"],
+      industry: ["HDFC Bank", "Bajaj Finserv", "Times Internet", "Hotstar"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -31063,6 +32761,33 @@ const roles = [
       "Model Cards (Documentation)",
       "Differential Privacy Concepts"
     ],
+    resumeKeywords: [
+      "AI Ethics Research",
+      "Responsible AI",
+      "Algorithmic Fairness",
+      "Bias Detection & Mitigation",
+      "Model Explainability (SHAP/LIME)",
+      "GDPR/AI Act Compliance",
+      "Privacy by Design",
+      "Python (Fairlearn/IBM AIF360)",
+      "Statistical Analysis",
+      "Policy Research",
+      "Risk Assessment",
+      "Stakeholder Communication",
+      "Ethics Framework Development",
+      "Impact Assessment",
+      "Transparency & Accountability",
+      "Academic Writing",
+      "Cross-functional Collaboration",
+      "AI Governance"
+    ],
+    companiesByType: {
+      product: ["Google", "Microsoft", "OpenAI", "IBM"],
+      service: ["TCS", "Infosys", "Wipro", "HCL Technologies"],
+      consulting: ["Deloitte", "EY", "Accenture", "McKinsey"],
+      startup: ["Sarvam AI", "Krutrim", "Cogniable", "Niramai"],
+      industry: ["HDFC Bank", "Reliance Industries", "ISRO", "TIFR"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -31192,6 +32917,43 @@ const roles = [
       "Packer (Image Building)",
       "AWS CLI / Azure CLI"
     ],
+    resumeKeywords: [
+      "Cloud Infrastructure (AWS/Azure/GCP)",
+      "Infrastructure as Code (Terraform/CloudFormation)",
+      "Cloud Migration",
+      "Linux Administration",
+      "Docker & Kubernetes",
+      "CI/CD Pipelines",
+      "Cloud Cost Optimization",
+      "VPC Networking",
+      "IAM & Security Groups",
+      "CloudWatch / Azure Monitor",
+      "Serverless Architecture (Lambda)",
+      "Auto Scaling",
+      "High Availability & Disaster Recovery",
+      "Python/Bash Scripting",
+      "AWS Certified Cloud Practitioner",
+      "DevOps Practices",
+      "Monitoring & Alerting",
+      "Cloud Security Best Practices"
+    ],
+    companiesByType: {
+      product: [
+        "Amazon (AWS)",
+        "Microsoft Azure",
+        "Google Cloud",
+        "Oracle Cloud"
+      ],
+      service: ["TCS", "Infosys", "HCL Technologies", "Wipro"],
+      consulting: [
+        "Accenture Cloud",
+        "Deloitte Cloud",
+        "Capgemini Cloud",
+        "IBM GBS"
+      ],
+      startup: ["Druva", "Razorpay", "Freshworks", "Zerodha"],
+      industry: ["HDFC Bank", "Reliance Industries", "Bajaj Finserv", "Airtel"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -31314,6 +33076,38 @@ const roles = [
       "YAML / JSON",
       "Vagrant"
     ],
+    resumeKeywords: [
+      "Jenkins CI/CD",
+      "Docker & Kubernetes",
+      "Infrastructure as Code (Terraform/Ansible)",
+      "GitLab CI / GitHub Actions",
+      "CI/CD Pipeline Automation",
+      "Linux Administration",
+      "Python/Shell Scripting",
+      "Monitoring (Prometheus/Grafana)",
+      "Containerization",
+      "DevOps Culture & Practices",
+      "Site Reliability Engineering (SRE)",
+      "ELK Stack (Logging)",
+      "ArgoCD / GitOps",
+      "Build Automation",
+      "Deployment Automation",
+      "Cloud Platforms (AWS/Azure/GCP)",
+      "Configuration Management (Ansible)",
+      "DevSecOps"
+    ],
+    companiesByType: {
+      product: [
+        "Amazon India",
+        "Google India",
+        "GitHub (Microsoft)",
+        "HashiCorp"
+      ],
+      service: ["TCS", "Infosys", "Wipro", "HCL Technologies"],
+      consulting: ["ThoughtWorks", "Accenture", "Deloitte DevOps", "Capgemini"],
+      startup: ["Razorpay", "Zerodha", "Freshworks", "Hasura"],
+      industry: ["Flipkart", "Swiggy", "Reliance Jio", "Bajaj Finserv"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -31430,6 +33224,33 @@ const roles = [
       "Capacity Planning",
       "On-Call Management"
     ],
+    resumeKeywords: [
+      "Site Reliability Engineering (SRE)",
+      "Incident Management",
+      "SLOs/SLAs/Error Budgets",
+      "Monitoring & Alerting (Prometheus/Grafana)",
+      "On-call Rotation",
+      "Chaos Engineering",
+      "Distributed Systems",
+      "Python/Go Scripting",
+      "Kubernetes/Docker",
+      "CI/CD Pipelines",
+      "Postmortem Culture",
+      "Capacity Planning",
+      "Log Management (ELK Stack)",
+      "Cloud Platforms",
+      "Performance Engineering",
+      "Toil Reduction",
+      "Linux Administration",
+      "High Availability Architecture"
+    ],
+    companiesByType: {
+      product: ["Google India", "Amazon India", "Microsoft India", "Netflix"],
+      service: ["TCS", "Infosys", "HCL Technologies", "Wipro"],
+      consulting: ["Accenture", "ThoughtWorks", "Deloitte", "Capgemini"],
+      startup: ["Razorpay", "Zerodha", "Freshworks", "CRED"],
+      industry: ["HDFC Bank", "Reliance Jio", "Airtel", "Bajaj Finserv"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -31549,6 +33370,53 @@ const roles = [
       "Juniper Junos",
       "Network Security (ACLs, NAT)"
     ],
+    resumeKeywords: [
+      "Cisco",
+      "CCNA/CCNP",
+      "BGP/OSPF",
+      "Network Design",
+      "TCP/IP",
+      "LAN/WAN",
+      "Firewall Configuration",
+      "VPN",
+      "Switching/Routing",
+      "VLAN",
+      "Network Monitoring",
+      "Wireshark",
+      "MPLS",
+      "SD-WAN",
+      "Load Balancing",
+      "Network Security",
+      "Juniper",
+      "Palo Alto",
+      "Network Troubleshooting",
+      "IPv6"
+    ],
+    companiesByType: {
+      product: [
+        "Cisco",
+        "Juniper Networks",
+        "Palo Alto Networks",
+        "Aruba Networks",
+        "Fortinet"
+      ],
+      service: ["TCS", "Infosys", "Wipro", "HCL", "Tech Mahindra"],
+      consulting: [
+        "Accenture",
+        "Deloitte",
+        "IBM",
+        "NTT Data",
+        "Dimension Data"
+      ],
+      startup: [
+        "Tata Communications",
+        "Sterlite Technologies",
+        "TEJAS Networks",
+        "Ciena India",
+        "Netcracker"
+      ],
+      industry: ["BSNL", "Airtel", "Reliance Jio", "Tata Telecom", "VSNL"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -31667,6 +33535,38 @@ const roles = [
       "SSL Certificates",
       "Exchange / M365 Admin"
     ],
+    resumeKeywords: [
+      "Linux/Windows Server Administration",
+      "Active Directory",
+      "LDAP/DNS/DHCP",
+      "Virtualization (VMware/Hyper-V)",
+      "Backup & Recovery",
+      "Patch Management",
+      "System Monitoring",
+      "Shell/PowerShell Scripting",
+      "ITIL Framework",
+      "Incident Management",
+      "User Access Management",
+      "Hardware Troubleshooting",
+      "Storage Administration",
+      "Group Policy Management",
+      "Security Hardening",
+      "Performance Tuning",
+      "Cloud Basics (AWS/Azure)",
+      "Ticketing Systems (ServiceNow/Jira)"
+    ],
+    companiesByType: {
+      product: ["Microsoft", "Oracle", "VMware (Broadcom)", "IBM"],
+      service: ["TCS", "Infosys", "Wipro", "HCL Technologies"],
+      consulting: ["Accenture", "Capgemini", "Deloitte", "DXC Technology"],
+      startup: ["Freshservice", "Razorpay", "Zerodha", "Druva India"],
+      industry: [
+        "HDFC Bank",
+        "ICICI Bank",
+        "Reliance Industries",
+        "Coal India"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -31791,6 +33691,48 @@ const roles = [
       "Threat Hunting Tools",
       "MITRE ATT&CK Framework"
     ],
+    resumeKeywords: [
+      "Cybersecurity",
+      "VAPT (Vulnerability Assessment & Penetration Testing)",
+      "SIEM (Splunk/QRadar)",
+      "Network Security",
+      "Application Security",
+      "Cloud Security",
+      "CEH/CISSP/CompTIA Security+",
+      "Incident Response",
+      "Threat Intelligence",
+      "Identity & Access Management",
+      "Firewall/IDS/IPS",
+      "Security Auditing",
+      "Compliance (ISO 27001/SOC 2)",
+      "Python/Bash Scripting",
+      "Ethical Hacking",
+      "Zero Trust Architecture",
+      "DevSecOps",
+      "OWASP Top 10"
+    ],
+    companiesByType: {
+      product: [
+        "Microsoft Security",
+        "Palo Alto Networks",
+        "CrowdStrike",
+        "Qualys"
+      ],
+      service: ["TCS", "Infosys", "Wipro", "HCL Security"],
+      consulting: [
+        "Deloitte Cyber",
+        "EY Cybersecurity",
+        "KPMG Cyber",
+        "PwC Cyber"
+      ],
+      startup: [
+        "InstaSafe",
+        "TAC Security",
+        "Sequretek",
+        "Lucideus (SAFE Security)"
+      ],
+      industry: ["HDFC Bank", "ICICI Bank", "Reliance Industries", "ISRO"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -31916,6 +33858,48 @@ const roles = [
       "Compliance Frameworks (HIPAA, PCI-DSS)",
       "FinOps Tools (Apptio)"
     ],
+    resumeKeywords: [
+      "Cloud Architecture",
+      "AWS/Azure/GCP Solutions Architect",
+      "Well-Architected Framework",
+      "Infrastructure as Code (Terraform/CloudFormation)",
+      "Microservices Design",
+      "High Availability & Disaster Recovery",
+      "Cloud Security Architecture",
+      "Kubernetes/Docker",
+      "Cost Optimization",
+      "Cloud Migration Strategy",
+      "Serverless Architecture",
+      "API Gateway Design",
+      "Identity & Access Management",
+      "Multi-cloud Strategy",
+      "Cloud Compliance",
+      "DevOps Practices",
+      "Stakeholder Management",
+      "Technical Documentation"
+    ],
+    companiesByType: {
+      product: [
+        "Amazon (AWS)",
+        "Microsoft Azure",
+        "Google Cloud",
+        "Oracle Cloud"
+      ],
+      service: ["TCS", "Infosys", "HCL Technologies", "Wipro"],
+      consulting: [
+        "Accenture Cloud",
+        "Deloitte Cloud",
+        "Capgemini Cloud",
+        "EY"
+      ],
+      startup: ["Druva", "Razorpay", "Freshworks", "Zerodha"],
+      industry: [
+        "HDFC Bank",
+        "Reliance Industries",
+        "Bajaj Finserv",
+        "Mahindra"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -32037,6 +34021,38 @@ const roles = [
       "Python / Go (Operator Development)",
       "OPA / Kyverno (Policy)"
     ],
+    resumeKeywords: [
+      "Kubernetes Administration (CKA/CKAD)",
+      "Container Orchestration",
+      "kubectl & Helm",
+      "Docker",
+      "Service Mesh (Istio)",
+      "RBAC & Network Policies",
+      "Kubernetes Security (Falco/OPA)",
+      "GitOps (ArgoCD/Flux)",
+      "AWS EKS / Azure AKS / GCP GKE",
+      "Cluster Autoscaler",
+      "Prometheus/Grafana Monitoring",
+      "Linux Administration",
+      "Terraform (Cluster Provisioning)",
+      "CI/CD Integration",
+      "High Availability Kubernetes",
+      "Disaster Recovery",
+      "Storage Management (PV/PVC)",
+      "Multi-cluster Management"
+    ],
+    companiesByType: {
+      product: [
+        "Red Hat India",
+        "Amazon India",
+        "Microsoft India",
+        "SUSE India"
+      ],
+      service: ["TCS", "Infosys", "Wipro", "HCL Technologies"],
+      consulting: ["Accenture", "ThoughtWorks", "Deloitte", "Capgemini"],
+      startup: ["Razorpay", "Zerodha", "Freshworks", "CRED"],
+      industry: ["Flipkart", "Swiggy", "Reliance Jio", "HDFC Bank"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -32150,6 +34166,45 @@ const roles = [
       "Networking (Transit Gateway, Direct Connect)",
       "Draw.io (Architecture)"
     ],
+    resumeKeywords: [
+      "AWS Solutions Architect",
+      "AWS SAA-C03 Certification",
+      "Cloud Architecture (AWS)",
+      "Infrastructure as Code (Terraform/CDK)",
+      "AWS EC2/S3/RDS/VPC/IAM",
+      "Serverless (Lambda/API Gateway)",
+      "Cost Optimization",
+      "High Availability & Disaster Recovery",
+      "Security (WAF/GuardDuty/IAM)",
+      "Multi-Cloud Strategy",
+      "AWS Well-Architected Framework",
+      "Python/Boto3",
+      "Container Orchestration (EKS/ECS)",
+      "Migration (Lift & Shift/Re-architecting)",
+      "Monitoring (CloudWatch/X-Ray)",
+      "DevOps Practices",
+      "CI/CD Pipelines",
+      "Networking (VPC/Transit Gateway)"
+    ],
+    companiesByType: {
+      product: [
+        "Amazon (AWS)",
+        "Microsoft Azure",
+        "Google Cloud",
+        "Oracle Cloud",
+        "Cloudflare"
+      ],
+      service: ["TCS", "Infosys", "Wipro", "HCL", "Cognizant"],
+      consulting: ["Accenture", "Deloitte", "IBM", "Capgemini", "KPMG"],
+      startup: ["Druva", "Postman", "Freshworks", "Razorpay", "Setu"],
+      industry: [
+        "HDFC Bank",
+        "Reliance Jio",
+        "Airtel",
+        "Bajaj Finserv",
+        "Swiggy"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -32263,6 +34318,48 @@ const roles = [
       "AZ-104 / AZ-305 Certifications",
       "Windows Server Administration"
     ],
+    resumeKeywords: [
+      "Microsoft Azure",
+      "Azure Administrator (AZ-104)",
+      "Azure Solutions Architect (AZ-305)",
+      "Azure DevOps",
+      "Azure Kubernetes Service (AKS)",
+      "Azure Active Directory / Entra ID",
+      "Infrastructure as Code (Bicep/ARM/Terraform)",
+      "Azure Monitor & Log Analytics",
+      "PowerShell / Azure CLI",
+      "Azure Functions (Serverless)",
+      "Azure Security (Microsoft Defender)",
+      "Azure Policy & Governance",
+      "Cost Management (Azure)",
+      "Azure Networking (VNet/ExpressRoute)",
+      "Azure SQL & Cosmos DB",
+      "Microsoft 365 Integration",
+      "Azure DevOps Pipelines",
+      "Hybrid Cloud (Azure Arc)"
+    ],
+    companiesByType: {
+      product: [
+        "Microsoft India",
+        "HP Enterprise",
+        "Citrix India",
+        "VMware India"
+      ],
+      service: ["TCS", "Infosys", "Wipro", "HCL Technologies"],
+      consulting: [
+        "Accenture Azure",
+        "Capgemini",
+        "Deloitte Cloud",
+        "DXC Technology"
+      ],
+      startup: ["Razorpay", "Freshworks", "Zerodha", "Druva India"],
+      industry: [
+        "HDFC Bank",
+        "ICICI Bank",
+        "Reliance Industries",
+        "Tata Steel"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -32373,6 +34470,38 @@ const roles = [
       "Git / GitHub",
       "GCP Professional Certifications"
     ],
+    resumeKeywords: [
+      "Google Cloud Platform (GCP)",
+      "GCP Professional Certifications",
+      "BigQuery (Data Warehouse)",
+      "Google Kubernetes Engine (GKE)",
+      "Cloud Run (Serverless)",
+      "Terraform (GCP)",
+      "gcloud CLI",
+      "Cloud Build / Cloud Deploy (CI/CD)",
+      "VPC Networking (GCP)",
+      "IAM & Security (GCP)",
+      "Pub/Sub (Messaging)",
+      "Dataflow / Apache Beam",
+      "Vertex AI (ML Platform)",
+      "Cloud Storage (GCS)",
+      "Cloud SQL / Spanner",
+      "Python/Bash Scripting",
+      "Cloud Monitoring & Logging",
+      "Cloud Armor / Security Command Center"
+    ],
+    companiesByType: {
+      product: [
+        "Google India",
+        "Spotify India",
+        "Airbnb India",
+        "Twilio India"
+      ],
+      service: ["TCS", "Infosys", "Wipro", "Capgemini"],
+      consulting: ["Accenture GCP", "Deloitte Cloud", "ThoughtWorks", "EY"],
+      startup: ["Freshworks", "Zerodha", "Razorpay", "PhonePe"],
+      industry: ["HDFC Bank", "Airtel", "Reliance Jio", "Bajaj Finserv"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -32489,6 +34618,43 @@ const roles = [
       "SLA Management",
       "Customer Communication Tools (Zendesk)"
     ],
+    resumeKeywords: [
+      "Technical Support",
+      "Troubleshooting",
+      "ITIL Framework",
+      "Ticketing Systems (ServiceNow/Jira)",
+      "Windows/Mac/Linux",
+      "Active Directory",
+      "Networking Basics",
+      "Hardware Support",
+      "Remote Desktop Support",
+      "SLA Compliance",
+      "Customer Service",
+      "Incident Management",
+      "Escalation Handling",
+      "Patch Management",
+      "VPN Configuration",
+      "Microsoft 365 Administration",
+      "Asset Management",
+      "Documentation"
+    ],
+    companiesByType: {
+      product: ["Microsoft", "Apple India", "Google India", "IBM India"],
+      service: ["TCS", "Infosys", "Wipro", "Cognizant"],
+      consulting: ["Accenture", "Capgemini", "Deloitte", "DXC Technology"],
+      startup: [
+        "Freshdesk (Freshworks)",
+        "Zoho Desk",
+        "ManageEngine",
+        "HappyFox"
+      ],
+      industry: [
+        "HDFC Bank",
+        "ICICI Bank",
+        "Reliance Industries",
+        "Bajaj Auto"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -32604,6 +34770,43 @@ const roles = [
       "Linux (basic)",
       "CompTIA A+ Concepts"
     ],
+    resumeKeywords: [
+      "Helpdesk Support",
+      "ITIL Basics",
+      "Windows OS Troubleshooting",
+      "Microsoft 365/Office 365",
+      "Active Directory",
+      "Password Reset/User Management",
+      "Remote Desktop Support",
+      "Ticketing Systems (ServiceNow/Freshdesk)",
+      "Hardware Troubleshooting",
+      "Network Troubleshooting",
+      "Customer Service",
+      "SLA Compliance",
+      "Escalation Procedures",
+      "Asset Management",
+      "Documentation",
+      "VPN Support",
+      "Phone/Chat Support",
+      "First Call Resolution (FCR)"
+    ],
+    companiesByType: {
+      product: ["Microsoft", "IBM India", "HP India", "Dell India"],
+      service: ["TCS BPS", "Infosys BPO", "Wipro", "Cognizant"],
+      consulting: [
+        "Accenture",
+        "Capgemini",
+        "DXC Technology",
+        "HCL Technologies"
+      ],
+      startup: [
+        "Freshdesk (Freshworks)",
+        "Zoho Desk",
+        "HappyFox",
+        "Kayako India"
+      ],
+      industry: ["HDFC Bank", "ICICI Bank", "Reliance", "Bajaj Auto"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -32725,6 +34928,68 @@ const roles = [
       "Test Environments Management",
       "Python (basic scripting)"
     ],
+    resumeKeywords: [
+      "Application Support (L1/L2/L3)",
+      "ITIL Framework",
+      "Incident Management",
+      "Root Cause Analysis (RCA)",
+      "SQL",
+      "Log Analysis",
+      "ServiceNow/JIRA",
+      "Windows/Linux Administration",
+      "Shell Scripting",
+      "Monitoring Tools (AppDynamics/Dynatrace)",
+      "SLA Compliance",
+      "Change Management",
+      "Performance Troubleshooting",
+      "Documentation",
+      "Customer Communication",
+      "Release Management",
+      "Stakeholder Management",
+      "On-call Support"
+    ],
+    companiesByType: {
+      product: [
+        "Microsoft",
+        "SAP",
+        "Oracle",
+        "Zendesk",
+        "ServiceNow",
+        "VMware"
+      ],
+      service: [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Cognizant",
+        "HCL Technologies",
+        "Mphasis"
+      ],
+      consulting: [
+        "Accenture",
+        "Capgemini",
+        "Deloitte",
+        "EY",
+        "IBM GBS",
+        "Atos"
+      ],
+      startup: [
+        "Freshworks",
+        "Razorpay",
+        "Zoho",
+        "Chargebee",
+        "Setu",
+        "Leadsquared"
+      ],
+      industry: [
+        "HDFC Bank",
+        "ICICI Bank",
+        "Bajaj Finserv",
+        "LIC India",
+        "SBI Cards",
+        "NTPC"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -32846,6 +35111,33 @@ const roles = [
       "Incident War Room Facilitation",
       "Database Queries (PostgreSQL, Oracle)"
     ],
+    resumeKeywords: [
+      "Production Support (L1/L2/L3)",
+      "Incident Management",
+      "Root Cause Analysis (RCA)",
+      "SQL (Production Queries)",
+      "Linux/Bash Scripting",
+      "Monitoring Tools (Splunk/ELK)",
+      "SLA Management",
+      "On-call Rotation",
+      "PagerDuty/OpsGenie",
+      "ITIL Framework",
+      "Shell Scripting",
+      "Log Analysis",
+      "Performance Monitoring (Dynatrace/AppDynamics)",
+      "Change Management",
+      "Stakeholder Communication",
+      "Runbook Execution",
+      "Cloud Monitoring (AWS CloudWatch)",
+      "24x7 Operations"
+    ],
+    companiesByType: {
+      product: ["Microsoft", "Oracle", "SAP", "Salesforce"],
+      service: ["TCS", "Infosys", "Wipro", "HCL Technologies"],
+      consulting: ["Accenture", "Capgemini", "Deloitte", "DXC Technology"],
+      startup: ["Freshworks", "Razorpay", "PhonePe", "Zerodha"],
+      industry: ["HDFC Bank", "ICICI Bank", "Airtel", "Reliance Industries"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -32973,6 +35265,38 @@ const roles = [
       "ITIL Change Management",
       "OnBoarding / OffBoarding"
     ],
+    resumeKeywords: [
+      "Service Desk Operations",
+      "ITIL Foundation",
+      "Incident Management",
+      "Request Fulfillment",
+      "First Call Resolution (FCR)",
+      "SLA/OLA Compliance",
+      "Ticketing Systems (ServiceNow)",
+      "Windows/Mac Support",
+      "Microsoft 365",
+      "Active Directory",
+      "Customer Experience",
+      "Escalation Management",
+      "CMDB Management",
+      "Knowledge Management",
+      "Shift Handover",
+      "Reporting & Metrics",
+      "Multi-channel Support",
+      "CSAT Improvement"
+    ],
+    companiesByType: {
+      product: ["Microsoft", "ServiceNow", "IBM India", "HP India"],
+      service: ["TCS", "Infosys", "Wipro BPS", "HCL Technologies"],
+      consulting: ["Accenture Ops", "Capgemini", "DXC Technology", "IBM GBS"],
+      startup: [
+        "Freshservice",
+        "Zoho Desk",
+        "ManageEngine ServiceDesk",
+        "HappyFox"
+      ],
+      industry: ["HDFC Bank", "ICICI Bank", "Reliance Industries", "Airtel"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -33086,6 +35410,38 @@ const roles = [
       "On-call Escalation Matrix",
       "Auto Remediation Tools"
     ],
+    resumeKeywords: [
+      "ITIL v4 Certification",
+      "ITSM Process Design",
+      "Incident Management",
+      "Problem Management",
+      "Change Management",
+      "SLA/OLA Management",
+      "ServiceNow Process Configuration",
+      "KPI/Metrics Reporting",
+      "Process Improvement (LEAN/Six Sigma)",
+      "CMDB Management",
+      "Knowledge Management",
+      "Stakeholder Management",
+      "IT Service Governance",
+      "Release Management",
+      "Service Catalog Design",
+      "Root Cause Analysis (RCA)",
+      "Compliance Management",
+      "Process Automation"
+    ],
+    companiesByType: {
+      product: [
+        "ServiceNow",
+        "BMC Software",
+        "Freshservice (Freshworks)",
+        "IBM"
+      ],
+      service: ["TCS", "Infosys", "Wipro", "HCL Technologies"],
+      consulting: ["Accenture", "Capgemini", "Deloitte", "DXC Technology"],
+      startup: ["Freshservice", "Zoho", "ManageEngine", "HappyFox"],
+      industry: ["HDFC Bank", "Airtel", "Reliance Industries", "ICICI Bank"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -33204,6 +35560,38 @@ const roles = [
       "Firewall Log Analysis",
       "Shift Management Tools"
     ],
+    resumeKeywords: [
+      "Network Operations Center (NOC)",
+      "24x7 Monitoring",
+      "Network Monitoring Tools (Nagios/Zabbix/SolarWinds)",
+      "Incident Detection & Response",
+      "ITIL Framework",
+      "SLA Management",
+      "Escalation Procedures",
+      "Root Cause Analysis",
+      "Change Management",
+      "TCP/IP",
+      "SNMP Monitoring",
+      "Ticketing Systems",
+      "Shift Operations",
+      "Documentation",
+      "Network Troubleshooting",
+      "Alert Management",
+      "Reporting",
+      "Stakeholder Communication"
+    ],
+    companiesByType: {
+      product: ["Cisco", "IBM Netcool", "SolarWinds", "PRTG"],
+      service: ["TCS", "Infosys", "Wipro", "HCL Technologies"],
+      consulting: ["Accenture", "Capgemini", "DXC Technology", "Atos India"],
+      startup: [
+        "Sify Technologies",
+        "Netmagic (NTT)",
+        "Netsol Technologies",
+        "Tata Play Fiber"
+      ],
+      industry: ["Airtel", "Reliance Jio", "BSNL", "Tata Communications"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -33322,6 +35710,38 @@ const roles = [
       "Antivirus / Security Tools (basic)",
       "ITIL Foundation Concepts"
     ],
+    resumeKeywords: [
+      "L1 Technical Support",
+      "ITIL Framework",
+      "Ticketing Systems (ServiceNow/Jira/Zendesk)",
+      "Windows OS Troubleshooting",
+      "Microsoft 365",
+      "Active Directory (Password Resets/Lockouts)",
+      "Remote Desktop Support",
+      "Basic Network Troubleshooting",
+      "Printer/Hardware Support",
+      "SOP/Runbook Execution",
+      "Phone/Chat Support",
+      "Knowledge Base Management",
+      "VPN Client Support",
+      "SLA Tracking",
+      "Customer Communication",
+      "CompTIA A+ Fundamentals",
+      "Escalation Handling",
+      "Shift Handover"
+    ],
+    companiesByType: {
+      product: ["Microsoft", "IBM India", "Dell India", "HP India"],
+      service: ["TCS", "Infosys", "Wipro", "Cognizant"],
+      consulting: ["Accenture", "Capgemini", "DXC Technology", "Atos India"],
+      startup: [
+        "Freshdesk (Freshworks)",
+        "Zoho Desk",
+        "ManageEngine",
+        "HappyFox"
+      ],
+      industry: ["HDFC Bank", "ICICI Bank", "Airtel", "Reliance"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -33437,6 +35857,33 @@ const roles = [
       "ITIL Incident Management",
       "Customer Communication"
     ],
+    resumeKeywords: [
+      "L2 Technical Support",
+      "Root Cause Analysis (RCA)",
+      "SQL Queries",
+      "Linux/Windows Administration",
+      "Log Analysis (Splunk/ELK)",
+      "ITIL Framework",
+      "Incident Management",
+      "Application Server Knowledge",
+      "Escalation Management",
+      "ServiceNow/JIRA",
+      "Shell/Python Scripting",
+      "Network Troubleshooting",
+      "Active Directory",
+      "Confluence Documentation",
+      "API Testing (Postman)",
+      "Bug Tracking",
+      "SLA Compliance",
+      "On-call Support"
+    ],
+    companiesByType: {
+      product: ["Microsoft", "Oracle", "SAP India", "Salesforce India"],
+      service: ["TCS", "Infosys", "Wipro", "HCL Technologies"],
+      consulting: ["Accenture", "Capgemini", "Deloitte", "DXC Technology"],
+      startup: ["Freshworks", "Zoho", "Razorpay", "PhonePe"],
+      industry: ["HDFC Bank", "ICICI Bank", "Airtel", "Reliance Industries"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -33564,6 +36011,39 @@ const roles = [
       "Competitive Analysis",
       "Executive Presentation Skills"
     ],
+    resumeKeywords: [
+      "Technical Account Management",
+      "Customer Success",
+      "Salesforce CRM",
+      "Stakeholder Management",
+      "Issue Escalation",
+      "SLA/OLA Management",
+      "NPS/CSAT",
+      "Gainsight",
+      "Executive Presentations",
+      "Product Knowledge",
+      "Customer Onboarding",
+      "Upsell/Cross-sell",
+      "Contract Management",
+      "Renewal Management",
+      "Client Relationship Management",
+      "Technical Communication",
+      "Voice of Customer",
+      "ROI Analysis"
+    ],
+    companiesByType: {
+      product: [
+        "Microsoft India",
+        "AWS India",
+        "Salesforce India",
+        "ServiceNow India",
+        "Google India"
+      ],
+      service: ["TCS", "Infosys", "Wipro", "Cognizant"],
+      consulting: ["Accenture", "Deloitte", "Capgemini", "IBM GBS"],
+      startup: ["Freshworks", "Zoho", "Razorpay", "CleverTap"],
+      industry: ["HDFC Bank", "ICICI Bank", "Reliance Industries", "Airtel"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -33681,6 +36161,41 @@ const roles = [
       "SAP Basis Concepts (Transport, Roles)",
       "Debugging (ABAP Debugger)"
     ],
+    resumeKeywords: [
+      "SAP ABAP",
+      "SAP Development",
+      "ABAP OOP",
+      "BAPI",
+      "BADI",
+      "IDOC",
+      "RFC",
+      "SAP Smartforms/Adobe Forms",
+      "ABAP Dictionary",
+      "User Exits",
+      "Enhancement Framework",
+      "ABAP Workbench",
+      "Function Modules",
+      "Reports (ALV)",
+      "SAP Workflow",
+      "SAP Fiori",
+      "SAPUI5",
+      "Performance Optimization",
+      "SAP S/4HANA",
+      "CDS Views"
+    ],
+    companiesByType: {
+      product: ["SAP", "Oracle", "Infor", "Epicor", "IFS"],
+      service: ["TCS", "Infosys", "Wipro", "HCL", "Capgemini"],
+      consulting: ["Deloitte", "Accenture", "EY", "PwC", "IBM GBS"],
+      startup: [
+        "Agiliad",
+        "Vyoma Systems",
+        "Birlasoft",
+        "Nihilent",
+        "Microland"
+      ],
+      industry: ["Reliance", "Tata", "Mahindra", "Bajaj", "ONGC"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -33799,6 +36314,40 @@ const roles = [
       "SAP Installation / Upgrade (SUM Tool)",
       "SAP BTP (basic)"
     ],
+    resumeKeywords: [
+      "SAP Basis",
+      "SAP System Administration",
+      "SAP Landscape",
+      "Transport Management System (TMS)",
+      "Background Jobs",
+      "System Performance Tuning",
+      "SAP HANA Administration",
+      "Kernel Upgrades",
+      "System Copy",
+      "Client Administration",
+      "SAP S/4HANA",
+      "SAP Solution Manager",
+      "High Availability",
+      "Backup & Recovery",
+      "User Administration",
+      "Security (Roles/Authorizations)",
+      "SAP on Cloud",
+      "Monitoring (CCMS)",
+      "SAP Patches"
+    ],
+    companiesByType: {
+      product: ["SAP", "IBM", "Oracle", "HP Enterprise", "Dell"],
+      service: ["TCS", "Infosys", "Wipro", "HCL", "Capgemini"],
+      consulting: ["Deloitte", "Accenture", "EY", "PwC", "IBM GBS"],
+      startup: [
+        "Birlasoft",
+        "Microland",
+        "Kellton Tech",
+        "Nihilent",
+        "Mastech"
+      ],
+      industry: ["Reliance", "ONGC", "Tata Steel", "Bajaj", "L&T"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -33909,6 +36458,45 @@ const roles = [
       "SAP Rollout Methodology",
       "FI-CA (Contract Accounts Receivable)"
     ],
+    resumeKeywords: [
+      "SAP FICO",
+      "SAP FI (Financial Accounting)",
+      "SAP CO (Controlling)",
+      "SAP S/4HANA Finance",
+      "General Ledger (New GL)",
+      "Accounts Payable/Receivable",
+      "Cost Center Accounting",
+      "Profit Center Accounting",
+      "Asset Accounting",
+      "SAP Configuration (SPRO)",
+      "FI-MM/SD Integration",
+      "SAP Activate Methodology",
+      "UAT",
+      "Business Process Analysis",
+      "SAP Fiori Finance Apps",
+      "Go-live Support",
+      "COPA",
+      "End-user Training"
+    ],
+    companiesByType: {
+      product: ["SAP SE", "Oracle", "Infor", "Workday", "Unit4"],
+      service: ["TCS", "Infosys BPM", "Wipro", "HCL Technologies", "Cognizant"],
+      consulting: [
+        "Deloitte SAP",
+        "Accenture SAP",
+        "KPMG",
+        "EY SAP",
+        "IBM Consulting"
+      ],
+      startup: [
+        "Birlasoft",
+        "Nihilent",
+        "NIIT Technologies",
+        "Mastech Digital",
+        "Hexaware"
+      ],
+      industry: ["Tata Steel", "Mahindra", "L&T", "Bajaj Auto", "Asian Paints"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -34025,6 +36613,45 @@ const roles = [
       "Scheduling Agreements",
       "Excel (Data Management)"
     ],
+    resumeKeywords: [
+      "SAP MM (Materials Management)",
+      "Purchase-to-Pay Process",
+      "Purchase Orders/Requisitions",
+      "Goods Receipt / Invoice Verification",
+      "Material Master",
+      "Vendor Master",
+      "Inventory Management",
+      "MRP (Material Requirements Planning)",
+      "SAP S/4HANA MM",
+      "SAP Configuration (SPRO)",
+      "MM-FI/PP Integration",
+      "SAP Ariba",
+      "SAP Activate Methodology",
+      "UAT",
+      "Business Process Analysis",
+      "Data Migration (LTMC)",
+      "Go-live Support",
+      "End-user Training"
+    ],
+    companiesByType: {
+      product: ["SAP SE", "Oracle", "Infor", "JDA Software", "Kinaxis"],
+      service: ["TCS", "Infosys", "Wipro", "HCL Technologies", "Cognizant"],
+      consulting: [
+        "Deloitte SAP",
+        "Accenture SAP",
+        "Capgemini",
+        "EY SAP",
+        "IBM Consulting"
+      ],
+      startup: [
+        "Birlasoft",
+        "Kellton Tech",
+        "Mastech Digital",
+        "Nihilent",
+        "Microland"
+      ],
+      industry: ["Tata Steel", "Maruti Suzuki", "L&T", "ONGC", "BHEL"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -34149,6 +36776,57 @@ const roles = [
       "SAP LTMC (Data Migration)",
       "Excel (Data Analysis)"
     ],
+    resumeKeywords: [
+      "SAP SD (Sales & Distribution)",
+      "Order-to-Cash Process",
+      "Sales Order Management",
+      "Pricing Procedures",
+      "Customer Master Data",
+      "Delivery & Billing",
+      "Credit Management",
+      "SAP S/4HANA SD",
+      "SAP Configuration (SPRO)",
+      "SD-MM/FI Integration",
+      "SAP Fiori Sales Apps",
+      "SAP Activate Methodology",
+      "UAT",
+      "Business Process Analysis",
+      "ATP (Availability Check)",
+      "Go-live Support",
+      "End-user Training",
+      "Consignment Sales"
+    ],
+    companiesByType: {
+      product: [
+        "SAP SE",
+        "Oracle",
+        "Salesforce",
+        "Microsoft Dynamics",
+        "Infor"
+      ],
+      service: ["TCS", "Infosys", "Wipro", "HCL Technologies", "Capgemini"],
+      consulting: [
+        "Deloitte SAP",
+        "Accenture SAP",
+        "EY SAP",
+        "KPMG",
+        "IBM Consulting"
+      ],
+      startup: [
+        "Birlasoft",
+        "Nihilent",
+        "Mastech Digital",
+        "Kellton Tech",
+        "Hexaware"
+      ],
+      industry: [
+        "Tata Motors",
+        "Bajaj Auto",
+        "L&T",
+        "Mahindra",
+        "Asian Paints"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -34267,6 +36945,34 @@ const roles = [
       "SAP LT Replication Server",
       "Performance Optimization (Aggregates)"
     ],
+    resumeKeywords: [
+      "SAP BW/4HANA",
+      "SAP Analytics Cloud (SAC)",
+      "SAP Business Objects (BOBJ)",
+      "BEx Query Designer",
+      "Advanced DSO (ADSO)",
+      "InfoObjects/InfoProviders",
+      "Transformations/DTP",
+      "CDS Views for BW",
+      "SQLScript",
+      "Process Chains",
+      "Data Modeling",
+      "BI Reporting",
+      "Dashboard Design",
+      "SAP S/4HANA Embedded Analytics",
+      "Performance Optimization",
+      "ETL/Data Integration",
+      "SAP HANA Studio",
+      "Crystal Reports",
+      "Stakeholder Communication"
+    ],
+    companiesByType: {
+      product: ["SAP", "Oracle", "IBM", "HP Enterprise", "Lenovo"],
+      service: ["TCS", "Infosys", "Wipro", "HCL", "Cognizant"],
+      consulting: ["Deloitte", "Accenture", "EY", "PwC", "IBM GBS"],
+      startup: ["Birlasoft", "Agiliad", "Kellton Tech", "Mastech", "Nihilent"],
+      industry: ["Reliance", "Tata", "Bajaj", "ONGC", "Mahindra"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -34386,6 +37092,35 @@ const roles = [
       "Scripted REST APIs",
       "ServiceNow CSA / CAD Certifications"
     ],
+    resumeKeywords: [
+      "ServiceNow",
+      "ITSM",
+      "ServiceNow Administration",
+      "Scripting (JavaScript)",
+      "Business Rules",
+      "Client Scripts",
+      "UI Policies",
+      "Flow Designer",
+      "Integration Hub",
+      "REST/SOAP APIs",
+      "ServiceNow Catalog",
+      "CMDB",
+      "Incident/Problem/Change Management",
+      "ServiceNow HRSD",
+      "Customer Service Management",
+      "Performance Analytics",
+      "Glide APIs",
+      "ServiceNow Upgrades",
+      "ACL Security",
+      "Import Sets"
+    ],
+    companiesByType: {
+      product: ["ServiceNow", "Microsoft", "IBM", "Oracle", "Salesforce"],
+      service: ["TCS", "Infosys", "Wipro", "Cognizant", "HCL"],
+      consulting: ["Deloitte", "Accenture", "EY", "KPMG", "Capgemini"],
+      startup: ["Freshworks", "Zoho", "Postman", "Kissflow", "Cflow"],
+      industry: ["HDFC Bank", "Airtel", "Reliance", "Bajaj", "Tata Group"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -34510,6 +37245,33 @@ const roles = [
       "Excel (Data Imports)",
       "JIRA (Integration)"
     ],
+    resumeKeywords: [
+      "ServiceNow Administration",
+      "ServiceNow CSA Certification",
+      "User/Group/Role Management",
+      "CMDB Configuration",
+      "Import Sets/Transform Maps",
+      "Update Sets",
+      "SLA Definitions",
+      "Service Catalog Management",
+      "Knowledge Base Administration",
+      "Business Rules/UI Policies",
+      "ITIL Processes (Incident/Problem/Change)",
+      "Discovery & Orchestration",
+      "Performance Analytics",
+      "ServiceNow Reports & Dashboards",
+      "Change Management CAB",
+      "ITSM Platform Management",
+      "Upgrade Management",
+      "JIRA Integration"
+    ],
+    companiesByType: {
+      product: ["ServiceNow", "Microsoft", "IBM", "Oracle", "Atlassian"],
+      service: ["TCS", "Wipro", "Infosys", "HCL", "IBM India"],
+      consulting: ["Accenture", "Deloitte", "IBM", "Capgemini", "EY"],
+      startup: ["Freshworks", "Zoho", "Postman", "Kissflow", "Druva"],
+      industry: ["HDFC Bank", "Airtel", "Reliance", "Tata Group", "Bajaj"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -34646,6 +37408,33 @@ const roles = [
       "Change Sets / SFDX Deployment",
       "Salesforce Platform Developer I/II Certification"
     ],
+    resumeKeywords: [
+      "Salesforce Platform",
+      "Apex Development",
+      "Lightning Web Components (LWC)",
+      "SOQL/SOSL",
+      "Sales Cloud/Service Cloud",
+      "Visualforce Pages",
+      "Salesforce Flow (Automation)",
+      "REST/SOAP Integration APIs",
+      "Salesforce DX (SFDX CLI)",
+      "Custom Objects/Fields/Relationships",
+      "Apex Triggers",
+      "Platform Events",
+      "Einstein Analytics (CRM Analytics)",
+      "Salesforce Sandbox Management",
+      "Security (Profiles/Permission Sets)",
+      "Salesforce Platform Developer I",
+      "Trailhead Certifications",
+      "Governor Limits"
+    ],
+    companiesByType: {
+      product: ["Salesforce", "HubSpot", "Microsoft", "Oracle", "Zoho"],
+      service: ["TCS", "Infosys", "Wipro", "Cognizant", "HCL"],
+      consulting: ["Accenture", "Deloitte", "Capgemini", "IBM", "EY"],
+      startup: ["Freshworks", "Zoho", "Razorpay", "Chargebee", "CleverTap"],
+      industry: ["HDFC Bank", "Bajaj", "Reliance", "Airtel", "MakeMyTrip"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -34765,6 +37554,38 @@ const roles = [
       "Oracle Cloud Certifications",
       "Oracle Fusion Middleware (basic)"
     ],
+    resumeKeywords: [
+      "Oracle ERP Implementation",
+      "Oracle ERP Cloud (Fusion)",
+      "Oracle E-Business Suite (EBS)",
+      "Business Process Analysis",
+      "Requirement Gathering",
+      "Gap-Fit Analysis",
+      "SQL / PL-SQL (Oracle)",
+      "Data Migration (FBDI/ADFDI)",
+      "System Configuration",
+      "Testing (SIT/UAT)",
+      "Change Management",
+      "Training Delivery",
+      "Go-live Support",
+      "Oracle Financials (GL/AP/AR)",
+      "Oracle SCM (Procurement/Inventory)",
+      "Integration (Oracle Integration Cloud)",
+      "Stakeholder Management",
+      "Oracle Cloud Certifications"
+    ],
+    companiesByType: {
+      product: ["Oracle India", "SAP SE", "Microsoft Dynamics", "Infor"],
+      service: ["TCS", "Infosys", "Wipro", "HCL Technologies"],
+      consulting: ["Accenture", "Deloitte", "Capgemini", "EY"],
+      startup: [
+        "Yash Technologies",
+        "Birlasoft",
+        "Kellton Tech",
+        "Jade Global"
+      ],
+      industry: ["Reliance Industries", "Tata Steel", "ONGC", "Bajaj Auto"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -34888,6 +37709,45 @@ const roles = [
       "Jira Align (SAFe)",
       "Git"
     ],
+    resumeKeywords: [
+      "Jira Administration",
+      "Atlassian Jira Cloud/Data Center",
+      "Jira Service Management",
+      "ScriptRunner (Groovy)",
+      "Jira Automation",
+      "JQL (Jira Query Language)",
+      "Workflows & Permission Schemes",
+      "Agile/Scrum/Kanban",
+      "Sprint Reporting",
+      "Atlassian Marketplace Apps",
+      "Bitbucket Integration",
+      "GitHub Integration",
+      "Jira REST API",
+      "SAFe / Jira Align",
+      "SAML SSO",
+      "User & Group Management",
+      "Custom Fields",
+      "EazyBI Reporting"
+    ],
+    companiesByType: {
+      product: [
+        "Atlassian",
+        "Microsoft (Azure DevOps)",
+        "GitLab",
+        "Asana",
+        "Monday.com"
+      ],
+      service: ["TCS", "Infosys", "Wipro", "HCL Technologies", "Cognizant"],
+      consulting: [
+        "Accenture",
+        "Deloitte",
+        "ThoughtWorks",
+        "Capgemini",
+        "Atos India"
+      ],
+      startup: ["Freshworks", "Zoho Projects", "Razorpay", "CRED", "Meesho"],
+      industry: ["HDFC Bank", "Flipkart", "Swiggy", "Reliance Jio", "Airtel"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -35003,6 +37863,38 @@ const roles = [
       "Excel (Content Auditing)",
       "HTML Macros (basic)"
     ],
+    resumeKeywords: [
+      "Confluence Administration",
+      "Atlassian Confluence Cloud/Data Center",
+      "Knowledge Management",
+      "Information Architecture",
+      "Confluence Permissions",
+      "Templates & Blueprints",
+      "Jira Integration",
+      "ScriptRunner for Confluence",
+      "Confluence Automation",
+      "Content Governance",
+      "SAML SSO (Atlassian Access)",
+      "REST API",
+      "Space Management",
+      "Analytics for Confluence",
+      "SharePoint Migration",
+      "User Adoption",
+      "Team Collaboration",
+      "Documentation Standards"
+    ],
+    companiesByType: {
+      product: [
+        "Atlassian",
+        "Microsoft (SharePoint)",
+        "Notion India",
+        "Confluence Cloud"
+      ],
+      service: ["TCS", "Infosys", "Wipro", "HCL Technologies"],
+      consulting: ["Accenture", "Deloitte", "Capgemini", "ThoughtWorks"],
+      startup: ["Freshworks", "Zoho Wiki", "Razorpay", "CRED"],
+      industry: ["HDFC Bank", "Reliance Industries", "Flipkart", "Airtel"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -35125,6 +38017,39 @@ const roles = [
       "UiPath Academy Certifications",
       "Process Design Documents (PDD / SDD)"
     ],
+    resumeKeywords: [
+      "UiPath Studio",
+      "UiPath Orchestrator",
+      "RPA Development",
+      "Process Automation Design",
+      "VB.NET (UiPath Scripting)",
+      "Selector Technology",
+      "Document Understanding (AI OCR)",
+      "RE Framework (Robotic Enterprise)",
+      "Excel/Email Automation",
+      "API Activities (HTTP Requests)",
+      "SAP Automation",
+      "Error Handling & Retry Logic",
+      "Git/GitHub",
+      "UiPath Certified RPA Developer",
+      "Process Design Document (PDD)",
+      "Solution Design Document (SDD)",
+      "Citrix/Virtual Environments",
+      "Bot Lifecycle Management"
+    ],
+    companiesByType: {
+      product: [
+        "UiPath",
+        "Automation Anywhere",
+        "Blue Prism",
+        "Microsoft",
+        "SAP"
+      ],
+      service: ["TCS", "Infosys", "Wipro", "Cognizant", "HCL"],
+      consulting: ["Accenture", "Deloitte", "EY", "KPMG", "Capgemini"],
+      startup: ["Kissflow", "Cflow", "Darwinbox", "Leena AI", "Whatfix"],
+      industry: ["HDFC Bank", "ICICI Bank", "Bajaj", "Reliance", "Airtel"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -35238,6 +38163,39 @@ const roles = [
       "Process Design (PDD/SDD)",
       "Test Bot / Automation Testing"
     ],
+    resumeKeywords: [
+      "Automation Anywhere A360",
+      "AA Control Room",
+      "IQ Bot (Intelligent OCR)",
+      "Bot Runner/Creator",
+      "RPA Development",
+      "Python/VB Script (AA Scripting)",
+      "API Integration (REST/SOAP)",
+      "MetaBot Development",
+      "Excel/Email Automation",
+      "SAP Automation (AA)",
+      "Citrix/Virtual Environments",
+      "Database Tasks (SQL in AA)",
+      "Document Automation",
+      "Error Handling & Logging",
+      "AA University Certifications",
+      "Process Discovery",
+      "Process Design Document (PDD)",
+      "Intelligent Automation"
+    ],
+    companiesByType: {
+      product: [
+        "Automation Anywhere",
+        "UiPath",
+        "Blue Prism",
+        "Microsoft",
+        "SAP"
+      ],
+      service: ["TCS", "Infosys", "Wipro", "Cognizant", "Capgemini"],
+      consulting: ["Accenture", "Deloitte", "EY", "KPMG", "IBM"],
+      startup: ["Kissflow", "Cflow", "Darwinbox", "Leena AI", "Whatfix"],
+      industry: ["HDFC Bank", "ICICI Bank", "Bajaj", "Reliance", "Airtel"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -35354,6 +38312,57 @@ const roles = [
       "Published Data Sources",
       "Row-Level Security (RLS)"
     ],
+    resumeKeywords: [
+      "Tableau Desktop",
+      "Tableau Server/Tableau Cloud",
+      "Tableau Prep",
+      "SQL",
+      "DAX / Calculated Fields",
+      "LOD Expressions",
+      "Dashboard Design",
+      "Data Visualization",
+      "KPI Dashboards",
+      "Data Blending",
+      "Row-Level Security (RLS)",
+      "Tableau REST API",
+      "ETL Concepts",
+      "Business Intelligence",
+      "Data Storytelling",
+      "Snowflake/BigQuery Connectors",
+      "Agile/Scrum",
+      "Stakeholder Communication"
+    ],
+    companiesByType: {
+      product: [
+        "Salesforce (Tableau)",
+        "Google",
+        "Microsoft",
+        "Amazon",
+        "Databricks"
+      ],
+      service: ["TCS", "Infosys", "Wipro", "Cognizant", "HCL Technologies"],
+      consulting: [
+        "Accenture",
+        "Deloitte Analytics",
+        "Capgemini",
+        "EY",
+        "KPMG Data & Analytics"
+      ],
+      startup: [
+        "Mu Sigma",
+        "Fractal Analytics",
+        "Absolutdata",
+        "ThoughtSpot India",
+        "Sigmoid"
+      ],
+      industry: [
+        "HDFC Bank",
+        "ICICI Bank",
+        "Reliance Industries",
+        "Bajaj Finserv",
+        "ITC"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -35467,6 +38476,51 @@ const roles = [
       "Microsoft Fabric (new)",
       "PL-300 Certification"
     ],
+    resumeKeywords: [
+      "Power BI Desktop",
+      "Power BI Service",
+      "DAX (Data Analysis Expressions)",
+      "Power Query (M Language)",
+      "SQL",
+      "Data Modeling",
+      "Row-Level Security (RLS)",
+      "Azure Synapse Analytics",
+      "Microsoft Fabric",
+      "KPI Dashboards",
+      "DirectQuery",
+      "Paginated Reports (SSRS)",
+      "Business Intelligence",
+      "Data Storytelling",
+      "Excel / Power Pivot",
+      "PL-300 Certification",
+      "Stakeholder Communication",
+      "Report Automation"
+    ],
+    companiesByType: {
+      product: ["Microsoft", "SAP", "Oracle", "Salesforce", "Adobe"],
+      service: ["TCS", "Infosys", "Wipro", "Cognizant", "HCL Technologies"],
+      consulting: [
+        "Accenture",
+        "Deloitte Analytics",
+        "Capgemini",
+        "EY",
+        "KPMG"
+      ],
+      startup: [
+        "Zoho Analytics",
+        "Mu Sigma",
+        "Fractal Analytics",
+        "Sigmoid",
+        "Absolutdata"
+      ],
+      industry: [
+        "HDFC Bank",
+        "ICICI Bank",
+        "Bajaj Finserv",
+        "Reliance Industries",
+        "L&T"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -35580,6 +38634,45 @@ const roles = [
       "Cypress (JS)",
       "ISTQB Foundation"
     ],
+    resumeKeywords: [
+      "Selenium WebDriver",
+      "Test Automation",
+      "Java/Python (Test Scripting)",
+      "TestNG/JUnit",
+      "Page Object Model (POM)",
+      "BDD/Cucumber Framework",
+      "REST Assured (API Testing)",
+      "Jenkins/GitHub Actions (CI/CD)",
+      "Selenium Grid (Parallel Testing)",
+      "Appium (Mobile Testing)",
+      "Maven/Gradle",
+      "ExtentReports/Allure Reports",
+      "Docker (Grid)",
+      "Chrome DevTools Protocol (CDP)",
+      "JIRA (Bug Tracking)",
+      "ISTQB Foundation Certification",
+      "Playwright/Cypress",
+      "Performance Testing"
+    ],
+    companiesByType: {
+      product: ["Google", "Microsoft", "Amazon", "Flipkart", "Atlassian"],
+      service: ["TCS", "Infosys", "Wipro", "Cognizant", "HCL"],
+      consulting: [
+        "Accenture",
+        "Deloitte",
+        "Capgemini",
+        "ThoughtWorks",
+        "Qualitest"
+      ],
+      startup: [
+        "BrowserStack",
+        "Applitools",
+        "Sauce Labs India",
+        "Razorpay",
+        "Freshworks"
+      ],
+      industry: ["HDFC Bank", "ICICI", "Paytm", "Ola", "Nykaa"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -35690,6 +38783,33 @@ const roles = [
       "Multibranch Pipelines",
       "GitHub Actions (Complementary)"
     ],
+    resumeKeywords: [
+      "Jenkins CI/CD",
+      "Jenkinsfile (Declarative/Scripted Pipeline)",
+      "Groovy Scripting",
+      "Jenkins Shared Libraries",
+      "Docker (Build Agents)",
+      "Kubernetes (Jenkins on K8s)",
+      "Maven/Gradle (Build Tools)",
+      "Git/GitHub/Bitbucket",
+      "SonarQube (Quality Gate)",
+      "Nexus/Artifactory",
+      "Ansible (Deployment)",
+      "Pipeline as Code",
+      "Blue Ocean (Jenkins UI)",
+      "Plugin Management",
+      "Credentials Management (Vault)",
+      "Multibranch Pipelines",
+      "Linux/Bash",
+      "DevOps Practices"
+    ],
+    companiesByType: {
+      product: ["Amazon", "Microsoft", "Google", "Atlassian", "HashiCorp"],
+      service: ["TCS", "Infosys", "Wipro", "HCL", "Capgemini"],
+      consulting: ["Accenture", "Deloitte", "ThoughtWorks", "IBM", "Capgemini"],
+      startup: ["Freshworks", "Razorpay", "Postman", "BrowserStack", "Setu"],
+      industry: ["HDFC Bank", "Reliance Jio", "Airtel", "Swiggy", "Paytm"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -35803,6 +38923,33 @@ const roles = [
       "AWS / Azure (Deploy)",
       "GitLab Ultimate (Compliance Frameworks)"
     ],
+    resumeKeywords: [
+      "GitLab CI/CD",
+      "GitLab (.gitlab-ci.yml)",
+      "GitLab Runners (Shell/Docker/K8s)",
+      "Docker (Container Builds)",
+      "Kubernetes (Deployment Target)",
+      "YAML Pipeline Authoring",
+      "GitLab Container Registry",
+      "GitLab Security Scanning (SAST/DAST)",
+      "Terraform (GitLab Managed TF State)",
+      "ArgoCD/Flux (GitOps)",
+      "Linux/Bash Scripting",
+      "Git (Advanced Branching)",
+      "Nexus/JFrog Artifactory",
+      "GitLab API (Automation)",
+      "Prometheus/Grafana (Monitoring)",
+      "DevSecOps",
+      "CI/CD Pipeline Optimization",
+      "Compliance Frameworks"
+    ],
+    companiesByType: {
+      product: ["GitLab", "Amazon", "Microsoft", "Google", "HashiCorp"],
+      service: ["Infosys", "Wipro", "Capgemini", "Accenture", "TCS"],
+      consulting: ["Accenture", "Deloitte", "ThoughtWorks", "IBM", "Capgemini"],
+      startup: ["Postman", "Razorpay", "Freshworks", "BrowserStack", "Setu"],
+      industry: ["Reliance Jio", "HDFC Bank", "Airtel", "Swiggy", "Paytm"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -35918,6 +39065,37 @@ const roles = [
       "Content Types / Managed Metadata",
       "Dataverse Integration"
     ],
+    resumeKeywords: [
+      "SharePoint Online / Microsoft 365",
+      "SharePoint Framework (SPFx)",
+      "React.js (SPFx)",
+      "TypeScript / JavaScript",
+      "Power Automate",
+      "Power Apps",
+      "Microsoft Graph API",
+      "SharePoint REST API / CSOM",
+      "Azure Active Directory",
+      "Teams Integration",
+      "PnP Library",
+      "Site Collections",
+      "Content Types",
+      "Power BI Integration",
+      "Managed Metadata",
+      "SharePoint Migration",
+      "Information Architecture"
+    ],
+    companiesByType: {
+      product: ["Microsoft India", "Hitachi Solutions", "Avanade India"],
+      service: ["TCS", "Infosys", "Wipro", "Cognizant"],
+      consulting: ["Deloitte", "Capgemini", "EY", "DXC Technology"],
+      startup: ["Synoptek India", "Mindtree", "Persistent Systems", "Mphasis"],
+      industry: [
+        "HDFC Bank",
+        "ICICI Bank",
+        "Reliance Industries",
+        "Tata Group"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -36041,6 +39219,33 @@ const roles = [
       "Miro / Mural (Workshops)",
       "JIRA Portfolio / Advanced Roadmaps"
     ],
+    resumeKeywords: [
+      "Project Management",
+      "PMP/Prince2 Certification",
+      "Project Planning",
+      "Risk Management",
+      "Budget Management",
+      "Stakeholder Management",
+      "MS Project/Primavera",
+      "Agile/Waterfall",
+      "Resource Allocation",
+      "Issue Tracking",
+      "Status Reporting",
+      "Change Management",
+      "Vendor Management",
+      "Scope Management",
+      "Communication Plan",
+      "Earned Value Management",
+      "Quality Management",
+      "Closure & Lessons Learned"
+    ],
+    companiesByType: {
+      product: ["Microsoft", "Oracle", "IBM", "SAP"],
+      service: ["TCS", "Infosys", "Wipro", "HCL Technologies"],
+      consulting: ["Accenture", "Deloitte", "EY", "Capgemini"],
+      startup: ["Freshworks", "Zoho", "Razorpay", "CRED"],
+      industry: ["HDFC Bank", "Reliance Industries", "Bajaj Auto", "Mahindra"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -36159,6 +39364,38 @@ const roles = [
       "IIBA CBAP Concepts",
       "Data Flow Diagrams (DFD)"
     ],
+    resumeKeywords: [
+      "Business Requirements Analysis",
+      "Process Mapping (BPMN)",
+      "Use Case Documentation",
+      "User Stories",
+      "Stakeholder Management",
+      "SQL",
+      "Requirement Traceability Matrix (RTM)",
+      "UAT Coordination",
+      "JIRA/Confluence",
+      "Agile/Scrum",
+      "Wireframing",
+      "Gap Analysis",
+      "Functional Specification Writing",
+      "Data Analysis",
+      "As-Is/To-Be Mapping",
+      "Feasibility Analysis",
+      "Change Management",
+      "BABOK Framework"
+    ],
+    companiesByType: {
+      product: ["Microsoft", "Oracle", "SAP", "Salesforce"],
+      service: ["TCS", "Infosys", "Wipro", "Cognizant"],
+      consulting: ["Accenture", "Deloitte", "EY", "KPMG"],
+      startup: ["Razorpay", "Freshworks", "Swiggy", "CRED"],
+      industry: [
+        "HDFC Bank",
+        "ICICI Bank",
+        "Bajaj Finserv",
+        "Reliance Industries"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -36272,6 +39509,38 @@ const roles = [
       "Looker (Data Dashboards)",
       "Competitive Research (SimilarWeb, G2)"
     ],
+    resumeKeywords: [
+      "Product Management",
+      "Product Roadmap",
+      "Agile/Scrum",
+      "User Stories",
+      "OKRs/KPIs",
+      "Stakeholder Management",
+      "Market Research",
+      "Competitive Analysis",
+      "Go-to-Market Strategy",
+      "A/B Testing",
+      "Product Analytics (Mixpanel/Amplitude)",
+      "JIRA/Confluence",
+      "Wireframing (Figma/Balsamiq)",
+      "Business Case Development",
+      "Feature Prioritization (MoSCoW)",
+      "Cross-functional Team Leadership",
+      "Customer Discovery",
+      "Sprint Planning"
+    ],
+    companiesByType: {
+      product: ["Google", "Microsoft", "Amazon", "Flipkart"],
+      service: ["TCS", "Infosys", "HCL Technologies", "Wipro"],
+      consulting: [
+        "McKinsey Digital",
+        "BCG Digital Ventures",
+        "Accenture",
+        "Deloitte Digital"
+      ],
+      startup: ["Razorpay", "CRED", "Swiggy", "Zerodha"],
+      industry: ["HDFC Bank", "ICICI Bank", "Reliance Jio", "Bajaj Finserv"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -36388,6 +39657,33 @@ const roles = [
       "Accessibility (WCAG basics)",
       "Style Guides (Microsoft, Google)"
     ],
+    resumeKeywords: [
+      "Technical Documentation",
+      "API Documentation",
+      "User Manuals",
+      "Developer Guides",
+      "Docs-as-Code (Git/Markdown)",
+      "Swagger/OpenAPI Documentation",
+      "Content Management Systems",
+      "DITA/XML Authoring",
+      "MadCap Flare/Confluence",
+      "Simplified Technical English",
+      "Information Architecture",
+      "Editing & Proofreading",
+      "Screenshot/Diagram Tools (Snagit/Lucidchart)",
+      "Audience Analysis",
+      "Style Guides (Google/Microsoft)",
+      "Release Notes",
+      "Onboarding Content",
+      "JIRA Integration"
+    ],
+    companiesByType: {
+      product: ["Google", "Microsoft", "Atlassian", "Amazon"],
+      service: ["TCS", "Infosys", "Wipro", "HCL Technologies"],
+      consulting: ["Accenture", "Deloitte", "Capgemini", "IBM GBS"],
+      startup: ["Freshworks", "Razorpay", "HasuraDB", "Postman"],
+      industry: ["HDFC Bank", "Bajaj Finserv", "Airtel", "Reliance Jio"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -36506,6 +39802,33 @@ const roles = [
       "Retrospective Formats (4Ls, DAKI, Sailboat)",
       "PI Planning (SAFe)"
     ],
+    resumeKeywords: [
+      "Scrum Master",
+      "Agile Methodology",
+      "CSM/PSM Certification",
+      "Sprint Planning",
+      "Daily Standup Facilitation",
+      "Retrospectives",
+      "Backlog Grooming",
+      "Velocity Tracking",
+      "Impediment Removal",
+      "Stakeholder Communication",
+      "JIRA Administration",
+      "Kanban",
+      "SAFe (Scaled Agile Framework)",
+      "Team Coaching",
+      "Agile Transformation",
+      "Release Planning",
+      "Risk Management",
+      "Servant Leadership"
+    ],
+    companiesByType: {
+      product: ["Atlassian", "Microsoft", "Google", "Amazon"],
+      service: ["TCS", "Infosys", "Wipro", "Cognizant"],
+      consulting: ["Accenture", "Deloitte", "Capgemini", "ThoughtWorks"],
+      startup: ["Razorpay", "Freshworks", "CRED", "Swiggy"],
+      industry: ["HDFC Bank", "ICICI Bank", "Reliance Jio", "Bajaj Finserv"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -36624,6 +39947,33 @@ const roles = [
       "Psychological Safety Frameworks",
       "PI Planning Facilitation (SAFe RTE)"
     ],
+    resumeKeywords: [
+      "Agile Coaching",
+      "SAFe/Scrum@Scale",
+      "Organizational Agility",
+      "Enterprise Agile Transformation",
+      "Coaching Stances",
+      "Systems Thinking",
+      "Lean Portfolio Management",
+      "OKR/KPI Alignment",
+      "ICP-ACC/ICP-ATF Certification",
+      "Team Dynamics Facilitation",
+      "Value Stream Mapping",
+      "Executive Stakeholder Engagement",
+      "PI Planning",
+      "Change Management",
+      "Liberating Structures",
+      "Psychological Safety",
+      "DORA Metrics",
+      "Agile Metrics & Flow"
+    ],
+    companiesByType: {
+      product: ["Atlassian", "Microsoft", "Google", "IBM"],
+      service: ["TCS", "Infosys", "Wipro", "HCL Technologies"],
+      consulting: ["Accenture", "ThoughtWorks", "Deloitte", "Capgemini"],
+      startup: ["Razorpay", "Freshworks", "CRED", "Swiggy"],
+      industry: ["HDFC Bank", "Reliance Industries", "Bajaj Auto", "Mahindra"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -36737,6 +40087,38 @@ const roles = [
       "e-Auction Platforms",
       "CIPS Concepts"
     ],
+    resumeKeywords: [
+      "IT Procurement",
+      "Vendor Negotiation",
+      "Contract Management",
+      "RFP/RFQ Process",
+      "SAP Ariba/Coupa",
+      "ERP Procurement Modules",
+      "Supplier Evaluation",
+      "Purchase Order Lifecycle",
+      "Spend Analysis",
+      "Total Cost of Ownership (TCO)",
+      "Supplier Relationship Management",
+      "SLA/OLA Management",
+      "Budget Management",
+      "Compliance & Regulatory Knowledge",
+      "Procurement Policy",
+      "Cost Optimization",
+      "Sourcing Strategy",
+      "Third-party Risk Assessment"
+    ],
+    companiesByType: {
+      product: ["Microsoft", "Oracle", "SAP", "IBM"],
+      service: ["TCS", "Infosys", "Wipro", "HCL Technologies"],
+      consulting: ["Accenture", "Deloitte", "EY", "Capgemini"],
+      startup: [
+        "Razorpay B2B",
+        "Zoho Invoice",
+        "Kissflow Procurement",
+        "Cleartax GST"
+      ],
+      industry: ["HDFC Bank", "Reliance Industries", "Bajaj Auto", "ONGC"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -36853,6 +40235,38 @@ const roles = [
       "Benchmarking Platforms (Gartner, Forrester)",
       "ServiceNow (Vendor Tickets)"
     ],
+    resumeKeywords: [
+      "Vendor Management",
+      "Contract Negotiation",
+      "SLA/OLA Management",
+      "RFP/RFQ Process",
+      "Supplier Evaluation",
+      "Procurement",
+      "Cost Optimization",
+      "Vendor Onboarding",
+      "Performance Monitoring",
+      "Risk Management",
+      "Stakeholder Management",
+      "ERP/Procurement Tools (SAP Ariba)",
+      "Third-party Risk Assessment",
+      "Legal Compliance",
+      "SLA Reporting",
+      "Budget Management",
+      "Relationship Management",
+      "IT Outsourcing"
+    ],
+    companiesByType: {
+      product: ["Microsoft", "Oracle", "SAP", "IBM"],
+      service: ["TCS", "Infosys", "Wipro", "HCL Technologies"],
+      consulting: ["Accenture", "Deloitte", "EY", "Capgemini"],
+      startup: [
+        "Razorpay B2B",
+        "Zoho Invoice",
+        "Kissflow Procurement",
+        "Cleartax GST"
+      ],
+      industry: ["HDFC Bank", "Reliance Industries", "Bajaj Auto", "ONGC"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -36972,6 +40386,33 @@ const roles = [
       "Proposal Management Tools",
       "Stakeholder Communication"
     ],
+    resumeKeywords: [
+      "Solutions Architecture",
+      "Pre-Sales",
+      "IT Strategy",
+      "Cloud Architecture (AWS/Azure/GCP)",
+      "Enterprise Architecture (TOGAF)",
+      "RFP/RFI Response",
+      "Technical Presentations",
+      "Business Case Development",
+      "Microservices/API Architecture",
+      "Well-Architected Framework",
+      "Cost Estimation",
+      "Proposal Management",
+      "Solution Design",
+      "Competitive Analysis",
+      "Stakeholder Management",
+      "Digital Transformation",
+      "Security Architecture",
+      "Pre-sales Methodology (MEDDIC)"
+    ],
+    companiesByType: {
+      product: ["Microsoft", "Oracle", "AWS", "SAP"],
+      service: ["TCS", "Infosys", "Wipro", "HCL Technologies"],
+      consulting: ["Accenture", "Deloitte", "IBM GBS", "Capgemini"],
+      startup: ["Freshworks", "Zoho", "Razorpay", "CRED"],
+      industry: ["HDFC Bank", "Reliance Industries", "Bajaj Auto", "Mahindra"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -37096,6 +40537,38 @@ const roles = [
       "ServiceNow (Risk Mgmt Module)",
       "Presentation (Executive Reports)"
     ],
+    resumeKeywords: [
+      "IT Governance",
+      "COBIT Framework",
+      "ISO 27001",
+      "IT Risk Management",
+      "Policy Documentation",
+      "Compliance Management",
+      "IT Audit Support",
+      "ITIL Framework",
+      "Third-party Risk Management",
+      "Data Governance",
+      "Control Testing",
+      "GRC Tools (ServiceNow GRC)",
+      "Risk Assessment",
+      "Regulatory Compliance (RBI/SEBI guidelines)",
+      "IT Strategy Alignment",
+      "Stakeholder Reporting",
+      "Process Improvement",
+      "Business Continuity"
+    ],
+    companiesByType: {
+      product: ["Microsoft", "IBM", "Oracle", "SAP"],
+      service: ["TCS", "Infosys", "Wipro", "HCL Technologies"],
+      consulting: ["Deloitte GRC", "EY", "KPMG", "PwC"],
+      startup: ["Freshworks", "Razorpay", "Zerodha", "CRED"],
+      industry: [
+        "HDFC Bank",
+        "ICICI Bank",
+        "Bajaj Finserv",
+        "RBI regulated entities"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -37218,6 +40691,38 @@ const roles = [
       "Executive Briefing Templates",
       "Workforce Analytics (Workday basic)"
     ],
+    resumeKeywords: [
+      "Change Management",
+      "PROSCI/ADKAR Methodology",
+      "Stakeholder Analysis",
+      "Communication Planning",
+      "Training Needs Assessment",
+      "Change Impact Assessment",
+      "Resistance Management",
+      "Organizational Change",
+      "Project Management Basics",
+      "Survey Design",
+      "Business Process Analysis",
+      "Gap Analysis",
+      "Workshop Facilitation",
+      "Sponsorship Roadmap",
+      "Go-live Support",
+      "Post-implementation Review",
+      "Change Readiness Assessment",
+      "JIRA/Confluence"
+    ],
+    companiesByType: {
+      product: ["Microsoft", "SAP", "Oracle", "IBM"],
+      service: ["TCS", "Infosys", "Wipro", "Cognizant"],
+      consulting: [
+        "Accenture Change",
+        "Deloitte Change",
+        "Prosci India",
+        "EY Change"
+      ],
+      startup: ["Freshworks", "Zoho", "Razorpay", "CRED"],
+      industry: ["HDFC Bank", "Bajaj Auto", "Reliance Industries", "Mahindra"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -37331,6 +40836,38 @@ const roles = [
       "Data Analysis for Risk",
       "Cyber Risk Frameworks (CIS Controls)"
     ],
+    resumeKeywords: [
+      "IT Risk Management",
+      "NIST Risk Management Framework",
+      "COBIT/ISO 31000",
+      "Risk Assessment & Register",
+      "Business Impact Analysis",
+      "Business Continuity Planning",
+      "Threat Modelling (STRIDE)",
+      "GRC Platforms (RSA Archer/MetricStream)",
+      "Third-Party Risk Management",
+      "ISACA CRISC Concepts",
+      "Regulatory Compliance",
+      "Vulnerability Assessment",
+      "Risk Heat Maps",
+      "Incident Probability & Impact Matrix",
+      "Stakeholder Reporting",
+      "Data Analysis for Risk",
+      "ServiceNow Risk Module",
+      "Cybersecurity Risk Frameworks"
+    ],
+    companiesByType: {
+      product: ["Microsoft", "IBM", "Oracle", "SAP"],
+      service: ["TCS", "Infosys", "Wipro", "HCL Technologies"],
+      consulting: [
+        "Deloitte Risk",
+        "EY Risk Advisory",
+        "KPMG Risk",
+        "PwC Risk"
+      ],
+      startup: ["Freshworks", "Razorpay", "Zerodha", "CRED"],
+      industry: ["HDFC Bank", "ICICI Bank", "Bajaj Finserv", "Axis Bank"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -37455,6 +40992,38 @@ const roles = [
       "JIRA (Design Sprints)",
       "Principle (Interaction Prototyping)"
     ],
+    resumeKeywords: [
+      "UI/UX Design",
+      "Figma",
+      "User Research",
+      "Wireframing & Prototyping",
+      "Design Systems",
+      "Usability Testing",
+      "User Journey Mapping",
+      "Responsive Design",
+      "Interaction Design",
+      "Adobe XD/Sketch",
+      "Design Thinking",
+      "Information Architecture",
+      "Accessibility (WCAG)",
+      "A/B Testing",
+      "Heuristic Evaluation",
+      "Handoff to Developers",
+      "Mobile-first Design",
+      "Stakeholder Presentations"
+    ],
+    companiesByType: {
+      product: ["Google", "Microsoft", "Adobe", "Flipkart"],
+      service: ["TCS", "Infosys", "Wipro", "HCL Technologies"],
+      consulting: [
+        "Accenture Interactive",
+        "Deloitte Digital",
+        "ThoughtWorks",
+        "IDEO India"
+      ],
+      startup: ["Razorpay", "CRED", "Groww", "Zerodha"],
+      industry: ["HDFC Bank", "ICICI Bank", "Nykaa", "MakeMyTrip"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -37571,6 +41140,38 @@ const roles = [
       "Packaging Design Concepts",
       "Print Preparation (Bleeds, CMYK)"
     ],
+    resumeKeywords: [
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Adobe InDesign",
+      "Brand Identity Design",
+      "Logo Design",
+      "Typography",
+      "Color Theory",
+      "Print Design",
+      "Digital Design",
+      "Social Media Creatives",
+      "Infographic Design",
+      "Packaging Design",
+      "Visual Communication",
+      "Creative Briefs",
+      "Mockup Design",
+      "Canva Pro",
+      "Motion Design Basics",
+      "File Preparation for Print/Web"
+    ],
+    companiesByType: {
+      product: ["Adobe", "Canva", "Google", "Microsoft"],
+      service: ["TCS Interactive", "Infosys BPO", "Wipro", "Cognizant BPS"],
+      consulting: [
+        "Accenture Interactive",
+        "Deloitte Digital",
+        "WPP India",
+        "Publicis India"
+      ],
+      startup: ["Razorpay (Design Team)", "CRED", "Swiggy", "Nykaa"],
+      industry: ["HUL", "ITC", "Bajaj Consumer", "Reliance Retail"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -37687,6 +41288,38 @@ const roles = [
       "Accessibility Guidelines (WCAG basic)",
       "Behance / Dribbble (Portfolio)"
     ],
+    resumeKeywords: [
+      "HTML/CSS",
+      "Responsive Web Design",
+      "Figma/Adobe XD",
+      "UI Design",
+      "WordPress/Webflow",
+      "JavaScript Basics",
+      "Bootstrap/Tailwind CSS",
+      "SEO Basics",
+      "Cross-browser Compatibility",
+      "Page Speed Optimization",
+      "Web Accessibility (WCAG)",
+      "Landing Page Design",
+      "E-commerce Design",
+      "CMS Management",
+      "Design Systems",
+      "Prototyping",
+      "Mobile-first Design",
+      "Client Communication"
+    ],
+    companiesByType: {
+      product: ["Google", "Adobe", "Squarespace", "Wix"],
+      service: ["TCS", "Infosys BPO", "Wipro Digital", "Cognizant"],
+      consulting: [
+        "Accenture Interactive",
+        "Deloitte Digital",
+        "WPP India",
+        "Dentsu India"
+      ],
+      startup: ["Razorpay", "Cleartax", "Nykaa", "MakeMyTrip"],
+      industry: ["HDFC Bank", "ICICI Bank", "Reliance Retail", "Tata Consumer"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -37794,6 +41427,43 @@ const roles = [
       "A/B Test Design",
       "Design System Governance"
     ],
+    resumeKeywords: [
+      "Product Design",
+      "Figma",
+      "End-to-end Product Design",
+      "User Research",
+      "Prototyping",
+      "Design Systems",
+      "Cross-functional Collaboration",
+      "Design Critique",
+      "Visual Design",
+      "Interaction Design",
+      "Data-Informed Design",
+      "Stakeholder Management",
+      "Design Documentation",
+      "Accessibility",
+      "Mobile App Design",
+      "Web App Design",
+      "Usability Testing",
+      "OKR-linked Design Thinking"
+    ],
+    companiesByType: {
+      product: ["Google", "Microsoft", "Amazon", "Flipkart"],
+      service: [
+        "TCS Digital",
+        "Infosys Digital",
+        "Wipro Digital",
+        "HCL Technologies"
+      ],
+      consulting: [
+        "McKinsey Design",
+        "Accenture Interactive",
+        "Deloitte Digital",
+        "BCG Gamma"
+      ],
+      startup: ["Razorpay", "CRED", "Zerodha", "Groww"],
+      industry: ["HDFC Bank", "Nykaa", "MakeMyTrip", "Swiggy"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -37907,6 +41577,44 @@ const roles = [
       "Information Architecture (IA)",
       "Dark / Light Mode Design"
     ],
+    resumeKeywords: [
+      "Interaction Design",
+      "Figma Advanced Prototyping",
+      "ProtoPie / Principle",
+      "Micro-interactions",
+      "UX Writing",
+      "Accessibility (WCAG 2.1)",
+      "User Flow Design",
+      "Component State Design",
+      "Motion Design Basics",
+      "Gesture-Based Interaction",
+      "Design Tokens",
+      "Usability Testing",
+      "Information Architecture",
+      "Design-Dev Handoff (Zeplin/Storybook)",
+      "Dark/Light Mode Design",
+      "Mobile App Interaction",
+      "ARIA Accessibility"
+    ],
+    companiesByType: {
+      product: ["Google", "Microsoft", "Apple", "Figma", "Adobe"],
+      service: ["TCS", "Infosys", "Wipro", "HCL Technologies", "Cognizant"],
+      consulting: [
+        "IDEO",
+        "McKinsey Design",
+        "Accenture Interactive",
+        "Deloitte Digital",
+        "ThoughtWorks"
+      ],
+      startup: ["Razorpay", "CRED", "Swiggy", "Meesho", "Zerodha"],
+      industry: [
+        "HDFC Bank",
+        "ICICI Bank",
+        "MakeMyTrip",
+        "Paytm",
+        "Reliance Jio"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -38023,6 +41731,45 @@ const roles = [
       "Color Grading Basics",
       "Delivery Formats (MP4, GIF, WebM, Lottie JSON)"
     ],
+    resumeKeywords: [
+      "Motion Design",
+      "Adobe After Effects",
+      "Cinema 4D",
+      "Lottie / Rive Animations",
+      "2D Animation",
+      "3D Animation",
+      "Motion Graphics",
+      "Video Editing (Premiere Pro)",
+      "Storyboarding",
+      "Character Animation",
+      "Visual Effects (VFX)",
+      "Kinetic Typography",
+      "Brand Motion",
+      "UI Animations",
+      "Explainer Videos",
+      "GSAP",
+      "Principles of Animation",
+      "Compositing"
+    ],
+    companiesByType: {
+      product: ["Adobe", "Google", "Microsoft", "Hotstar", "Netflix India"],
+      service: ["TCS", "Infosys", "Wipro", "Cognizant", "HCL"],
+      consulting: [
+        "Wunderman Thompson",
+        "Dentsu",
+        "Grey Advertising",
+        "Ogilvy",
+        "FCB India"
+      ],
+      startup: ["Swiggy", "Zomato", "CRED", "ShareChat", "Moj"],
+      industry: [
+        "Tata Digital",
+        "Reliance Jio",
+        "Zee Entertainment",
+        "Sony India",
+        "Star India"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -38130,6 +41877,45 @@ const roles = [
       "Changelog Management",
       "Component Tagging & Discovery"
     ],
+    resumeKeywords: [
+      "Design Systems",
+      "Figma Libraries & Variants",
+      "Design Tokens",
+      "Storybook",
+      "Component Architecture",
+      "Style Dictionary",
+      "CSS-in-JS",
+      "Tailwind CSS",
+      "Accessibility Audit",
+      "Design-Dev Collaboration",
+      "Semantic Versioning",
+      "Visual Regression Testing (Chromatic)",
+      "Token Studio",
+      "TypeScript Design Tokens",
+      "Contribution Guidelines",
+      "Zeplin / Supernova",
+      "Figma REST API",
+      "Changelog Management"
+    ],
+    companiesByType: {
+      product: ["Google", "Microsoft", "Amazon", "Atlassian", "Figma"],
+      service: ["TCS", "Infosys", "Wipro", "HCL Technologies", "Cognizant"],
+      consulting: [
+        "Accenture Interactive",
+        "Deloitte Digital",
+        "ThoughtWorks",
+        "McKinsey Design",
+        "IDEO"
+      ],
+      startup: ["Razorpay", "CRED", "Swiggy", "Nykaa", "ShareChat"],
+      industry: [
+        "HDFC Bank",
+        "ICICI Bank",
+        "Paytm",
+        "Reliance Jio",
+        "MakeMyTrip"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -38249,6 +42035,39 @@ const roles = [
       "Photography Direction (basic)",
       "Print Preparation (CMYK, Bleed)"
     ],
+    resumeKeywords: [
+      "Brand Identity Design",
+      "Logo Design",
+      "Brand Strategy",
+      "Adobe Illustrator",
+      "Brand Guidelines",
+      "Typography",
+      "Color Theory",
+      "Brand Architecture",
+      "Marketing Collateral",
+      "Packaging Design",
+      "Visual Identity",
+      "Brand Storytelling",
+      "Figma",
+      "Pitch Deck Design",
+      "Brand Audits",
+      "Style Guide Creation",
+      "Social Media Branding",
+      "Brand Consistency"
+    ],
+    companiesByType: {
+      product: ["Adobe", "Canva", "Google", "Microsoft", "Freshworks"],
+      service: ["TCS", "Infosys", "Wipro", "Cognizant", "HCL"],
+      consulting: [
+        "Ogilvy",
+        "Wunderman Thompson",
+        "Dentsu",
+        "Interbrand",
+        "Landor"
+      ],
+      startup: ["Razorpay", "CRED", "Swiggy", "Nykaa", "Zerodha"],
+      industry: ["Tata", "Reliance", "Mahindra", "Asian Paints", "Bajaj Auto"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -38365,6 +42184,38 @@ const roles = [
       "Character Design Principles",
       "Texture & Brush Library Management"
     ],
+    resumeKeywords: [
+      "Adobe Illustrator",
+      "Digital Illustration",
+      "Vector Graphics",
+      "Character Design",
+      "Concept Art",
+      "Storyboarding",
+      "Adobe Photoshop",
+      "Procreate (iPad)",
+      "Print Illustration",
+      "Editorial Illustration",
+      "Style Consistency",
+      "Art Direction",
+      "Client Briefs",
+      "Portfolio Development",
+      "Cultural Visual Storytelling",
+      "Typography",
+      "Color Theory",
+      "Clip Studio Paint"
+    ],
+    companiesByType: {
+      product: ["Adobe", "Canva", "Google Arts", "Meta"],
+      service: ["TCS Creative", "Infosys BPO", "Wipro", "Cognizant BPS"],
+      consulting: ["WPP India", "Dentsu India", "Ogilvy", "McCann India"],
+      startup: ["BYJU's", "Unacademy", "Vedantu", "Pratham Books"],
+      industry: [
+        "Penguin India",
+        "HarperCollins India",
+        "Amar Chitra Katha",
+        "Navneet Publications"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -38484,6 +42335,51 @@ const roles = [
       "Aspect Ratio Optimization",
       "Multicam Editing Techniques"
     ],
+    resumeKeywords: [
+      "Video Editing",
+      "Adobe Premiere Pro",
+      "Final Cut Pro",
+      "DaVinci Resolve",
+      "Color Grading",
+      "Audio Editing",
+      "Motion Graphics",
+      "YouTube Content",
+      "Social Media Videos",
+      "Storytelling",
+      "Adobe After Effects",
+      "Caption/Subtitle Tools",
+      "Thumbnail Design",
+      "Brand Videos",
+      "Short-form Content (Reels/Shorts)",
+      "Storyboarding",
+      "Documentary Editing",
+      "Export Formats"
+    ],
+    companiesByType: {
+      product: [
+        "Adobe",
+        "Google/YouTube",
+        "Netflix India",
+        "Hotstar",
+        "Amazon Prime Video"
+      ],
+      service: ["TCS", "Infosys", "Wipro", "Cognizant", "HCL"],
+      consulting: [
+        "Ogilvy",
+        "Dentsu",
+        "Grey Advertising",
+        "Publicis",
+        "Leo Burnett"
+      ],
+      startup: ["ShareChat", "Moj", "Josh", "Unacademy", "MX TakaTak"],
+      industry: [
+        "Zee Entertainment",
+        "Sony India",
+        "Star Network",
+        "Reliance Jio Cinema",
+        "Sun TV"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -38600,6 +42496,46 @@ const roles = [
       "GPU Rendering (CUDA, OptiX, Metal)",
       "File Formats (FBX, OBJ, GLTF)"
     ],
+    resumeKeywords: [
+      "3D Modeling",
+      "Blender",
+      "Maya",
+      "3ds Max",
+      "Cinema 4D",
+      "Rendering (V-Ray/Arnold)",
+      "Texturing",
+      "Rigging",
+      "Animation",
+      "Product Visualization",
+      "Architectural Visualization",
+      "Game Asset Creation",
+      "PBR Workflow",
+      "UV Mapping",
+      "Sculpting (ZBrush)",
+      "VFX",
+      "AR/VR Assets",
+      "Substance Painter",
+      "Fusion 360"
+    ],
+    companiesByType: {
+      product: ["Autodesk", "Adobe", "Unity", "Unreal Engine", "NVIDIA"],
+      service: ["TCS", "Infosys", "Wipro", "Cognizant", "HCL"],
+      consulting: [
+        "Tata Elxsi",
+        "L&T Technology Services",
+        "Accenture Interactive",
+        "Technicolor India",
+        "Prime Focus"
+      ],
+      startup: [
+        "Nazara Games",
+        "99Games",
+        "SuperGaming",
+        "JetSynthesys",
+        "Moonshine Tech"
+      ],
+      industry: ["Tata Elxsi", "Mahindra", "Bajaj Auto", "L&T", "ISRO"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -38710,6 +42646,43 @@ const roles = [
       "Script-to-Animation Pipeline",
       "Delivery Formats (MP4, GIF, APNG)"
     ],
+    resumeKeywords: [
+      "2D/3D Animation",
+      "Adobe Animate/Toon Boom Harmony",
+      "Adobe After Effects",
+      "12 Principles of Animation",
+      "Character Rigging",
+      "Storyboarding",
+      "Voice Sync & Lip Sync",
+      "Blender 3D Animation",
+      "Lottie/Rive Web Animations",
+      "Animation Pipeline",
+      "Walk Cycle/Run Cycle",
+      "Explainer Video Production",
+      "ArtStation Portfolio",
+      "FPS & Timing Principles",
+      "Background Art",
+      "OpenToonz",
+      "Rendering & Compositing",
+      "Client Brief Animation"
+    ],
+    companiesByType: {
+      product: ["Adobe", "Apple (Swift/Lottie)", "Google", "Meta"],
+      service: ["TCS", "Infosys BPO", "Wipro", "L&T Technology Services"],
+      consulting: [
+        "Accenture Interactive",
+        "WPP India",
+        "Dentsu India",
+        "Publicis India"
+      ],
+      startup: ["BYJU's", "Unacademy", "Nazara Technologies", "Dream11"],
+      industry: [
+        "Zee Entertainment",
+        "Star India",
+        "Sony LIV",
+        "Reliance Entertainment"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -38821,6 +42794,56 @@ const roles = [
       "Adobe Express / Photoshop (basic)",
       "Excel / Google Sheets (Reporting)"
     ],
+    resumeKeywords: [
+      "Digital Marketing",
+      "Google Analytics 4 (GA4)",
+      "SEO/SEM",
+      "Social Media Marketing",
+      "Content Marketing",
+      "Google Ads",
+      "Meta Ads Manager",
+      "Email Marketing (Mailchimp/HubSpot)",
+      "Campaign Management",
+      "Lead Generation",
+      "Brand Awareness",
+      "Paid Media",
+      "A/B Testing",
+      "Conversion Rate Optimization",
+      "Marketing Funnels",
+      "Audience Targeting",
+      "Performance Reporting"
+    ],
+    companiesByType: {
+      product: [
+        "Google India",
+        "Meta India",
+        "Amazon India",
+        "Flipkart",
+        "Adobe India"
+      ],
+      service: [
+        "TCS Digital",
+        "Infosys BPM",
+        "Wipro Digital",
+        "Cognizant",
+        "HCL Technologies"
+      ],
+      consulting: [
+        "Accenture Interactive",
+        "Deloitte Digital",
+        "WPP India",
+        "Dentsu India",
+        "Publicis India"
+      ],
+      startup: ["Zomato", "Swiggy", "CRED", "Nykaa", "Meesho"],
+      industry: [
+        "HUL India",
+        "Nestle India",
+        "ITC",
+        "Bajaj Consumer Care",
+        "Asian Paints"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -38937,6 +42960,40 @@ const roles = [
       "Local SEO (Google Business Profile)",
       "Excel / Google Sheets (SEO Reporting)"
     ],
+    resumeKeywords: [
+      "SEO",
+      "On-Page Optimization",
+      "Technical SEO",
+      "Link Building",
+      "Keyword Research",
+      "Google Search Console",
+      "Ahrefs/SEMrush",
+      "Content Optimization",
+      "Site Audits",
+      "Page Speed Optimization",
+      "Schema Markup",
+      "Local SEO",
+      "Core Web Vitals",
+      "Backlink Analysis",
+      "Competitor Analysis",
+      "Google Analytics 4",
+      "WordPress SEO",
+      "Content Strategy",
+      "Algorithm Updates"
+    ],
+    companiesByType: {
+      product: ["Google", "HubSpot", "Moz", "Ahrefs", "Freshworks"],
+      service: ["TCS", "Infosys", "Wipro", "Cognizant", "HCL"],
+      consulting: ["Dentsu", "Ogilvy", "WPP", "IPG Mediabrands", "Performics"],
+      startup: ["Swiggy", "Nykaa", "MakeMyTrip", "Sharechat", "Meesho"],
+      industry: [
+        "HDFC Bank",
+        "Bajaj Finserv",
+        "PolicyBazaar",
+        "Reliance Jio",
+        "Times Internet"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -39052,6 +43109,46 @@ const roles = [
       "Instagram Reels / TikTok Trends",
       "Copywriting & Caption Writing"
     ],
+    resumeKeywords: [
+      "Social Media Management",
+      "Content Creation",
+      "Community Management",
+      "Instagram/LinkedIn/Twitter",
+      "Social Media Analytics",
+      "Scheduling Tools (Hootsuite/Buffer)",
+      "Campaign Management",
+      "Influencer Marketing",
+      "Crisis Management",
+      "Hashtag Strategy",
+      "Brand Voice",
+      "Video Content (Reels/Shorts)",
+      "Paid Social",
+      "Engagement Rate",
+      "Social Listening",
+      "Content Calendar",
+      "Copywriting",
+      "Competitor Analysis",
+      "Growth Hacking"
+    ],
+    companiesByType: {
+      product: ["Meta", "LinkedIn", "Twitter/X", "Freshworks", "HubSpot"],
+      service: ["TCS", "Infosys", "Wipro", "Cognizant", "HCL"],
+      consulting: [
+        "Ogilvy",
+        "Wunderman Thompson",
+        "Dentsu",
+        "Grey",
+        "Publicis"
+      ],
+      startup: ["Swiggy", "Zomato", "Nykaa", "ShareChat", "CRED"],
+      industry: [
+        "HDFC Bank",
+        "Bajaj Finserv",
+        "Reliance Jio",
+        "MakeMyTrip",
+        "Tata Motors"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -39165,6 +43262,38 @@ const roles = [
       "Readability Tools (Readable.com)",
       "Buzzsumo (Content Research)"
     ],
+    resumeKeywords: [
+      "Content Writing",
+      "SEO Writing",
+      "Blogging",
+      "Copywriting",
+      "Content Strategy",
+      "Keyword Integration",
+      "Long-form Content",
+      "Technical Writing Basics",
+      "CMS (WordPress)",
+      "Research & Fact-checking",
+      "Editing & Proofreading",
+      "Brand Voice Alignment",
+      "Social Media Copy",
+      "Email Copy",
+      "White Papers/Case Studies",
+      "Style Guide Adherence",
+      "Content Calendar Management",
+      "Plagiarism-free Writing"
+    ],
+    companiesByType: {
+      product: ["Google", "HubSpot", "Adobe", "Amazon (Publishing)"],
+      service: ["WPP India", "Dentsu India", "Publicis India", "Ogilvy India"],
+      consulting: [
+        "Accenture",
+        "Deloitte",
+        "McKinsey Publications",
+        "BCG Insights"
+      ],
+      startup: ["Razorpay Blog", "Freshworks Blog", "CRED", "upGrad"],
+      industry: ["HUL", "ITC", "Times Group", "Hindustan Media Ventures"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -39281,6 +43410,52 @@ const roles = [
       "ROAS / CPA Optimization",
       "Call Tracking (CallRail)"
     ],
+    resumeKeywords: [
+      "Performance Marketing",
+      "Google Ads",
+      "Facebook/Meta Ads",
+      "Programmatic Advertising",
+      "ROI Analysis",
+      "ROAS Optimization",
+      "Conversion Tracking",
+      "Google Analytics 4",
+      "Attribution Modeling",
+      "A/B Testing",
+      "Campaign Optimization",
+      "Budget Management",
+      "Keyword Bidding",
+      "Audience Segmentation",
+      "Landing Page Optimization",
+      "Customer Acquisition Cost",
+      "Media Buying",
+      "Remarketing",
+      "Lookalike Audiences"
+    ],
+    companiesByType: {
+      product: [
+        "Google",
+        "Meta",
+        "Amazon Advertising",
+        "LinkedIn Marketing",
+        "Freshworks"
+      ],
+      service: ["TCS", "Infosys", "Wipro", "Cognizant", "HCL"],
+      consulting: [
+        "Performics",
+        "Dentsu",
+        "IPG Mediabrands",
+        "Publicis Media",
+        "WPP"
+      ],
+      startup: ["Swiggy", "Zomato", "Nykaa", "CRED", "MakeMyTrip"],
+      industry: [
+        "HDFC Bank",
+        "Bajaj Finserv",
+        "PolicyBazaar",
+        "Paytm",
+        "Reliance Jio"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -39397,6 +43572,48 @@ const roles = [
       "Transactional Email Design",
       "Customer Lifecycle Mapping"
     ],
+    resumeKeywords: [
+      "Email Marketing",
+      "Marketing Automation",
+      "HubSpot/Mailchimp/Klaviyo",
+      "Drip Campaigns",
+      "Segmentation & Targeting",
+      "A/B Testing (Subject Lines)",
+      "Open Rate/CTR Optimization",
+      "List Management & Hygiene",
+      "CAN-SPAM/GDPR Compliance",
+      "HTML Email Design",
+      "ESP Management",
+      "Lifecycle Email Campaigns",
+      "Trigger-based Emails",
+      "Lead Nurturing",
+      "Campaign Performance Reporting",
+      "Transactional Emails",
+      "Salesforce Marketing Cloud",
+      "Personalization Tokens"
+    ],
+    companiesByType: {
+      product: [
+        "HubSpot",
+        "Mailchimp (Intuit)",
+        "Salesforce Marketing Cloud",
+        "Adobe Campaign"
+      ],
+      service: [
+        "WPP India",
+        "Dentsu India",
+        "Publicis India",
+        "Accenture Interactive"
+      ],
+      consulting: [
+        "Deloitte Digital",
+        "EY",
+        "Accenture Marketing",
+        "BCG Digital"
+      ],
+      startup: ["Freshmarketer", "Clevertap", "MoEngage", "WebEngage"],
+      industry: ["HDFC Bank", "ICICI Bank", "Bajaj Finserv", "Reliance Retail"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -39515,6 +43732,46 @@ const roles = [
       "Data Studio Connectors",
       "Marketing Attribution Modeling (Last Touch, MTA)"
     ],
+    resumeKeywords: [
+      "Marketing Analytics",
+      "Google Analytics 4",
+      "SQL",
+      "Python",
+      "Excel/Google Sheets",
+      "Attribution Modeling",
+      "Marketing Mix Modeling",
+      "A/B Testing",
+      "Funnel Analysis",
+      "Customer Segmentation",
+      "Cohort Analysis",
+      "LTV Analysis",
+      "Power BI/Tableau",
+      "Campaign Measurement",
+      "Data Visualization",
+      "ROI Analysis",
+      "Statistical Analysis",
+      "Dashboard Creation",
+      "Business Intelligence"
+    ],
+    companiesByType: {
+      product: ["Google", "Meta", "Adobe", "Salesforce", "Freshworks"],
+      service: ["TCS", "Infosys", "Wipro", "Cognizant", "HCL"],
+      consulting: [
+        "McKinsey Analytics",
+        "BCG Gamma",
+        "Deloitte",
+        "Accenture Analytics",
+        "PwC"
+      ],
+      startup: ["Swiggy", "Zomato", "Nykaa", "CRED", "MoEngage"],
+      industry: [
+        "HDFC Bank",
+        "Bajaj Finserv",
+        "PolicyBazaar",
+        "Reliance Retail",
+        "MakeMyTrip"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -39646,6 +43903,43 @@ const roles = [
       "Customer Feedback Analysis",
       "Brand Activation Planning"
     ],
+    resumeKeywords: [
+      "Brand Management",
+      "Brand Strategy",
+      "Market Research",
+      "Consumer Insights",
+      "P&L Responsibility",
+      "New Product Launch",
+      "Campaign Management",
+      "Agency Management",
+      "Media Planning Basics",
+      "Pricing Strategy",
+      "Competitive Benchmarking",
+      "Brand Equity Tracking",
+      "ATL/BTL Activities",
+      "Integrated Marketing Communications (IMC)",
+      "Content Strategy",
+      "Digital Marketing Basics",
+      "Cross-functional Team Management",
+      "Brand Storytelling"
+    ],
+    companiesByType: {
+      product: ["Google", "Microsoft", "Amazon Brand Studio", "Flipkart"],
+      service: [
+        "WPP India (Ogilvy)",
+        "Dentsu India",
+        "Publicis India",
+        "JWT India"
+      ],
+      consulting: [
+        "McKinsey Marketing",
+        "BCG Brand Strategy",
+        "Deloitte Digital",
+        "EY"
+      ],
+      startup: ["CRED", "Razorpay Brand", "Swiggy", "Nykaa"],
+      industry: ["HUL", "ITC", "Procter & Gamble India", "Bajaj Consumer Care"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -39756,6 +44050,45 @@ const roles = [
       "Customer Interview Tools (Typeform, Calendly)",
       "Excel (Growth Modelling)"
     ],
+    resumeKeywords: [
+      "Growth Hacking",
+      "A/B Testing",
+      "Product Analytics (Mixpanel/Amplitude)",
+      "User Acquisition",
+      "Retention Optimization",
+      "Funnel Analysis",
+      "Product-Led Growth (PLG)",
+      "Referral Programs",
+      "Viral Loops",
+      "Google Analytics 4",
+      "SQL",
+      "Python (Data Analysis)",
+      "Cohort Analysis",
+      "Feature Flags",
+      "Conversion Rate Optimization",
+      "Growth Experiments",
+      "Startup Metrics (DAU/MAU/LTV/CAC)",
+      "Landing Page Optimization"
+    ],
+    companiesByType: {
+      product: ["Razorpay", "Freshworks", "Zerodha", "CRED", "Groww"],
+      service: [
+        "TCS Digital",
+        "Infosys",
+        "Wipro",
+        "HCL Technologies",
+        "Cognizant"
+      ],
+      consulting: [
+        "McKinsey Digital",
+        "BCG Digital",
+        "Accenture Interactive",
+        "Bain",
+        "Deloitte Digital"
+      ],
+      startup: ["Meesho", "Zepto", "PhonePe", "Slice", "Jar"],
+      industry: ["Nykaa", "MakeMyTrip", "Swiggy", "Zomato", "BigBasket"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -39872,6 +44205,38 @@ const roles = [
       "Analyst Relations (Gartner, Forrester)",
       "Win/Loss Analysis"
     ],
+    resumeKeywords: [
+      "Product Marketing",
+      "Go-to-Market Strategy",
+      "Product Positioning",
+      "Competitive Intelligence",
+      "Sales Enablement",
+      "Market Research",
+      "Launch Playbooks",
+      "Customer Segmentation",
+      "Messaging & Narrative",
+      "HubSpot/Salesforce CRM",
+      "A/B Testing (Messaging)",
+      "Win/Loss Analysis",
+      "Analyst Relations",
+      "Case Study Writing",
+      "Product Demo Platforms",
+      "Webinar Marketing",
+      "Thought Leadership",
+      "Revenue Marketing"
+    ],
+    companiesByType: {
+      product: ["Google", "Microsoft", "Salesforce", "Adobe"],
+      service: ["TCS", "Infosys", "Wipro", "HCL Technologies"],
+      consulting: [
+        "McKinsey Marketing",
+        "BCG Digital",
+        "Accenture Interactive",
+        "Deloitte Digital"
+      ],
+      startup: ["Razorpay", "Freshworks", "CRED", "Zoho"],
+      industry: ["HDFC Bank", "Reliance Jio", "Bajaj Finserv", "Flipkart"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -39985,6 +44350,38 @@ const roles = [
       "Content ROI Measurement",
       "AI Writing Tools (for research augmentation)"
     ],
+    resumeKeywords: [
+      "Content Strategy",
+      "SEO Content Planning",
+      "Editorial Calendar Management",
+      "Topic Cluster Modelling",
+      "Pillar Page Strategy",
+      "Content Audit",
+      "SurferSEO/SEMrush",
+      "Google Analytics 4",
+      "WordPress/HubSpot CMS",
+      "BuzzSumo Content Research",
+      "Content Brief Writing",
+      "Long-form Content Creation",
+      "Grammarly/Hemingway Editor",
+      "Content Distribution",
+      "Content Performance Measurement",
+      "Brand Voice Documentation",
+      "A/B Testing Content",
+      "Editorial Judgment"
+    ],
+    companiesByType: {
+      product: ["HubSpot", "Google", "Adobe", "Salesforce"],
+      service: ["WPP India", "Dentsu India", "Publicis India", "Ogilvy India"],
+      consulting: [
+        "McKinsey Insights",
+        "BCG Digital",
+        "Deloitte Digital",
+        "EY"
+      ],
+      startup: ["Razorpay Blog", "Freshworks", "CRED", "upGrad"],
+      industry: ["HUL", "ITC", "Times Group", "Nykaa"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -40104,6 +44501,39 @@ const roles = [
       "Gamification Platforms (Badgr)",
       "Community Health Metrics (DAU, Churn)"
     ],
+    resumeKeywords: [
+      "Community Management",
+      "Community Building",
+      "Discord/Slack Communities",
+      "Developer Relations (DevRel)",
+      "Event Organization",
+      "Content Creation",
+      "Community Analytics",
+      "Social Media Management",
+      "Engagement Programs",
+      "Moderation",
+      "Beehiiv / Substack Newsletters",
+      "User Advocacy",
+      "Community Growth",
+      "Copywriting",
+      "HubSpot CRM",
+      "Gamification",
+      "Community Health Metrics",
+      "Influencer Partnerships"
+    ],
+    companiesByType: {
+      product: ["GitHub", "Atlassian", "Freshworks", "Notion", "Figma"],
+      service: ["TCS", "Infosys", "Wipro", "HCL", "Cognizant"],
+      consulting: ["Ogilvy", "Dentsu", "Wunderman Thompson", "Publicis", "WPP"],
+      startup: ["Razorpay", "CRED", "Swiggy", "Hashnode", "BrowserStack"],
+      industry: [
+        "HDFC Bank",
+        "Reliance Jio",
+        "Times Internet",
+        "MakeMyTrip",
+        "Tata"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -40223,6 +44653,43 @@ const roles = [
       "Creative Brief Writing",
       "Canva / Figma (Ad Creative Review)"
     ],
+    resumeKeywords: [
+      "Paid Advertising",
+      "Google Ads (Search/Display/Shopping/YouTube)",
+      "Meta Ads Manager",
+      "Programmatic Advertising (DV360)",
+      "PPC Campaign Management",
+      "ROAS Optimization",
+      "Budget Management",
+      "A/B Testing (Ad Creative)",
+      "Google Analytics 4",
+      "Audience Targeting",
+      "Attribution Modeling",
+      "UTM Parameters",
+      "LinkedIn Ads",
+      "Amazon Advertising",
+      "Google Tag Manager",
+      "Retargeting/Remarketing",
+      "Bid Strategy Optimization",
+      "Performance Reporting"
+    ],
+    companiesByType: {
+      product: ["Google", "Meta", "Amazon Advertising", "Flipkart Ads"],
+      service: [
+        "iProspect India",
+        "Dentsu India",
+        "WPP India (GroupM)",
+        "Publicis Media India"
+      ],
+      consulting: [
+        "Accenture Interactive",
+        "McKinsey Digital",
+        "BCG Digital",
+        "Deloitte Digital"
+      ],
+      startup: ["Meesho", "Swiggy", "CRED", "Policy Bazaar"],
+      industry: ["HUL", "ITC", "Nykaa", "MakeMyTrip"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -40339,6 +44806,39 @@ const roles = [
       "Lifecycle Email Automation",
       "A/B Testing Frameworks"
     ],
+    resumeKeywords: [
+      "Marketing Operations",
+      "HubSpot/Marketo",
+      "CRM Administration (Salesforce)",
+      "Marketing Automation",
+      "Marketing Analytics",
+      "Data Management",
+      "Process Optimization",
+      "SQL",
+      "Google Tag Manager",
+      "Lead Scoring",
+      "Revenue Operations (RevOps)",
+      "Attribution Modeling",
+      "Marketing Technology Stack",
+      "GDPR Compliance",
+      "Customer Data Platform (Segment)",
+      "Dashboard Reporting",
+      "Campaign Operations",
+      "ABM Platforms"
+    ],
+    companiesByType: {
+      product: ["HubSpot", "Salesforce", "Freshworks", "Zoho", "Marketo"],
+      service: ["TCS", "Infosys", "Wipro", "Cognizant", "HCL"],
+      consulting: ["Deloitte Digital", "Accenture", "McKinsey", "EY", "PwC"],
+      startup: ["Razorpay", "CRED", "Swiggy", "Meesho", "BharatPe"],
+      industry: [
+        "HDFC Bank",
+        "Bajaj Finserv",
+        "Reliance Jio",
+        "PolicyBazaar",
+        "MakeMyTrip"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -40460,6 +44960,33 @@ const roles = [
       "Cold Email Copywriting",
       "Negotiation Frameworks (SPIN, MEDDIC)"
     ],
+    resumeKeywords: [
+      "Business Development",
+      "Sales Prospecting",
+      "CRM Tools (Salesforce/HubSpot)",
+      "Lead Generation",
+      "Client Acquisition",
+      "Presentation Skills",
+      "Negotiation",
+      "Pipeline Management",
+      "LinkedIn Sales Navigator",
+      "Cold Email Outreach",
+      "Demo/Pitch Delivery",
+      "Market Research",
+      "Proposal Management",
+      "Contract Management",
+      "Revenue Growth",
+      "B2B Sales",
+      "Customer Relationship Management",
+      "Sales Forecasting"
+    ],
+    companiesByType: {
+      product: ["Freshworks", "Zoho", "Salesforce", "SAP", "Oracle"],
+      service: ["TCS", "Infosys", "Wipro", "Cognizant", "HCL"],
+      consulting: ["Accenture", "Deloitte", "KPMG", "EY", "PwC"],
+      startup: ["Razorpay", "CRED", "Swiggy", "BharatPe", "Meesho"],
+      industry: ["HDFC Bank", "Reliance", "Tata", "L&T", "Bajaj"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -40605,6 +45132,39 @@ const roles = [
       "RapidMiner",
       "DataRobot"
     ],
+    resumeKeywords: [
+      "Fraud Detection",
+      "Risk Assessment",
+      "AML (Anti-Money Laundering)",
+      "KYC (Know Your Customer)",
+      "Transaction Monitoring",
+      "SQL",
+      "Python",
+      "SAS",
+      "Machine Learning",
+      "Behavioral Analytics",
+      "Case Management",
+      "Regulatory Compliance",
+      "FICO Falcon",
+      "NICE Actimize",
+      "Payment Systems",
+      "Chargeback Management",
+      "RBI Guidelines",
+      "Identity Verification"
+    ],
+    companiesByType: {
+      product: ["Razorpay", "PayU", "PhonePe", "Stripe India", "PayPal India"],
+      service: ["TCS BFSI", "Infosys BPM", "Wipro BPS", "HCL", "Mphasis"],
+      consulting: [
+        "Deloitte Risk",
+        "KPMG Forensics",
+        "EY Fraud",
+        "PwC Risk",
+        "Accenture Risk"
+      ],
+      startup: ["Signzy", "IDfy", "Bureau.id", "Finbox", "Perfios"],
+      industry: ["HDFC Bank", "ICICI Bank", "SBI", "Axis Bank", "Paytm"]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -40735,6 +45295,56 @@ const roles = [
       "Oracle Financial Services",
       "SAP Risk Management"
     ],
+    resumeKeywords: [
+      "Risk Analytics",
+      "Statistical Modeling",
+      "Credit Risk",
+      "Market Risk",
+      "Operational Risk",
+      "Basel III/IV",
+      "Python / R",
+      "SQL",
+      "SAS",
+      "Monte Carlo Simulations",
+      "Stress Testing",
+      "Scenario Analysis",
+      "Regulatory Reporting",
+      "VaR (Value at Risk)",
+      "Machine Learning for Risk",
+      "IFRS 9",
+      "Quantitative Analysis"
+    ],
+    companiesByType: {
+      product: [
+        "Moody's Analytics India",
+        "S&P Global India",
+        "Bloomberg India",
+        "MSCI",
+        "FactSet"
+      ],
+      service: [
+        "TCS BFSI",
+        "Infosys BPM",
+        "Wipro",
+        "HCL Technologies",
+        "Mphasis"
+      ],
+      consulting: [
+        "Deloitte Risk",
+        "KPMG Risk",
+        "EY Risk Advisory",
+        "PwC Risk",
+        "Accenture Risk"
+      ],
+      startup: ["Perfios", "Finbox", "CreditMantri", "Indifi", "KredX"],
+      industry: [
+        "HDFC Bank",
+        "ICICI Bank",
+        "SBI",
+        "Bajaj Finserv",
+        "Kotak Mahindra Bank"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -40870,6 +45480,39 @@ const roles = [
       "Terraform",
       "GitHub"
     ],
+    resumeKeywords: [
+      "Technology Consulting",
+      "IT Strategy",
+      "Digital Transformation",
+      "Enterprise Architecture",
+      "Business Analysis",
+      "Stakeholder Management",
+      "Cloud Computing (AWS/Azure/GCP)",
+      "ERP Implementation",
+      "Change Management",
+      "Project Management",
+      "Solution Design",
+      "Requirements Gathering",
+      "Process Improvement",
+      "IT Roadmap",
+      "Agile / Scrum",
+      "Cost-Benefit Analysis",
+      "Vendor Management",
+      "RFP/RFI Management"
+    ],
+    companiesByType: {
+      product: ["Microsoft", "Oracle", "SAP", "Salesforce", "IBM"],
+      service: ["TCS", "Infosys", "Wipro", "HCL Technologies", "Cognizant"],
+      consulting: ["Accenture", "Deloitte", "McKinsey Digital", "KPMG", "EY"],
+      startup: ["Freshworks", "Zoho", "Razorpay", "CRED", "Swiggy"],
+      industry: [
+        "HDFC Bank",
+        "Reliance Industries",
+        "Bajaj Finserv",
+        "Mahindra",
+        "Tata Group"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -41005,6 +45648,38 @@ const roles = [
       "Apptio",
       "AWS Cost Explorer"
     ],
+    resumeKeywords: [
+      "IT Financial Management",
+      "IT Budgeting",
+      "Cost-Benefit Analysis",
+      "Financial Modeling",
+      "SQL",
+      "Excel Advanced (Pivot, VLOOKUP)",
+      "Power BI / Tableau",
+      "SAP Finance",
+      "Oracle Financials",
+      "TCO Analysis",
+      "IT Cost Optimization",
+      "Forecasting & Planning",
+      "ERP Systems",
+      "Python (Financial Analysis)",
+      "ITFM (Apptio/ServiceNow)",
+      "Capex/Opex Management",
+      "Variance Analysis"
+    ],
+    companiesByType: {
+      product: ["Microsoft", "IBM", "Oracle", "SAP", "Salesforce"],
+      service: ["TCS", "Infosys", "Wipro", "HCL Technologies", "Cognizant"],
+      consulting: ["Accenture", "Deloitte", "EY", "KPMG", "PwC"],
+      startup: ["Freshworks", "Razorpay", "Zerodha", "Groww", "CRED"],
+      industry: [
+        "HDFC Bank",
+        "ICICI Bank",
+        "Bajaj Finserv",
+        "Reliance Industries",
+        "Tata Group"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -41142,6 +45817,38 @@ const roles = [
       "DocuWare",
       "SharePoint"
     ],
+    resumeKeywords: [
+      "IT Compliance",
+      "GRC (Governance, Risk, Compliance)",
+      "ISO 27001",
+      "SOC 2",
+      "GDPR",
+      "HIPAA",
+      "PCI-DSS",
+      "IT Audit",
+      "Risk Assessment",
+      "Control Testing",
+      "Policy Documentation",
+      "GRC Tools (RSA Archer/MetricStream)",
+      "ServiceNow GRC",
+      "Data Privacy",
+      "NIST Cybersecurity Framework",
+      "COBIT Framework",
+      "Regulatory Compliance"
+    ],
+    companiesByType: {
+      product: ["Microsoft", "IBM", "Oracle", "SAP", "Salesforce"],
+      service: ["TCS", "Wipro", "Infosys", "HCL Technologies", "Cognizant"],
+      consulting: ["Deloitte GRC", "EY", "KPMG", "PwC", "Accenture Security"],
+      startup: ["Freshworks", "Razorpay", "Zerodha", "CRED", "Groww"],
+      industry: [
+        "HDFC Bank",
+        "ICICI Bank",
+        "Bajaj Finserv",
+        "Axis Bank",
+        "SBI"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -41280,6 +45987,39 @@ const roles = [
       "Salesforce",
       "Trello / Asana"
     ],
+    resumeKeywords: [
+      "Business Process Analysis",
+      "Process Mapping (BPMN)",
+      "Requirements Gathering",
+      "Process Improvement",
+      "Lean / Six Sigma",
+      "ERP Systems (SAP/Oracle)",
+      "SQL",
+      "Stakeholder Management",
+      "Change Management",
+      "Process Automation (RPA)",
+      "Data Analysis",
+      "Gap Analysis",
+      "As-Is/To-Be Mapping",
+      "UiPath / Power Automate",
+      "Business Case Development",
+      "Workflow Design",
+      "KPIs & Metrics",
+      "Workshop Facilitation"
+    ],
+    companiesByType: {
+      product: ["SAP", "Oracle", "Microsoft", "Salesforce", "ServiceNow"],
+      service: ["TCS", "Infosys", "Accenture", "Capgemini", "Wipro"],
+      consulting: ["Deloitte", "EY", "McKinsey", "BCG", "KPMG"],
+      startup: ["Freshworks", "Zoho", "Razorpay", "CRED", "Meesho"],
+      industry: [
+        "HDFC Bank",
+        "Bajaj Auto",
+        "Reliance Industries",
+        "Tata Motors",
+        "ITC"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -41414,6 +46154,45 @@ const roles = [
       "Tableau",
       "Python basics"
     ],
+    resumeKeywords: [
+      "IT Audit",
+      "CISA Certification",
+      "IT General Controls (ITGC)",
+      "ERP Audit (SAP/Oracle)",
+      "Risk Assessment",
+      "Control Testing",
+      "COBIT Framework",
+      "ISO 27001",
+      "SOX IT Compliance",
+      "Cybersecurity Audit",
+      "SQL",
+      "ACL / IDEA Audit Software",
+      "Network Security Basics",
+      "Audit Methodology",
+      "Fraud Detection",
+      "AuditBoard / TeamMate+",
+      "Regulatory Compliance",
+      "Internal Audit"
+    ],
+    companiesByType: {
+      product: ["Microsoft", "IBM", "Oracle", "SAP", "Salesforce"],
+      service: ["TCS", "Infosys", "Wipro", "HCL Technologies", "Cognizant"],
+      consulting: [
+        "Deloitte IT Audit",
+        "EY",
+        "KPMG IT Advisory",
+        "PwC",
+        "Grant Thornton"
+      ],
+      startup: ["Freshworks", "Razorpay", "CRED", "Zerodha", "Groww"],
+      industry: [
+        "HDFC Bank",
+        "ICICI Bank",
+        "SBI",
+        "Bajaj Finserv",
+        "Reliance Industries"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -41540,6 +46319,39 @@ const roles = [
       "Workfront",
       "Power Apps"
     ],
+    resumeKeywords: [
+      "IT Portfolio Management",
+      "Program Management",
+      "Project Governance",
+      "Benefits Realization",
+      "Business Case Development",
+      "Resource Planning",
+      "OKRs / KPIs",
+      "Agile / Waterfall",
+      "Risk Management",
+      "IT Strategy",
+      "Clarity PPM / Planview",
+      "ServiceNow SPM",
+      "Jira Portfolio / Advanced Roadmaps",
+      "Financial Analysis (IT Budgets)",
+      "Executive Reporting",
+      "Change Management",
+      "IT Investment Optimization",
+      "Portfolio Prioritization"
+    ],
+    companiesByType: {
+      product: ["Microsoft", "Oracle", "IBM", "SAP", "Salesforce"],
+      service: ["TCS", "Infosys", "Accenture", "Capgemini", "Wipro"],
+      consulting: ["Deloitte", "EY", "McKinsey Digital", "KPMG", "BCG"],
+      startup: ["Freshworks", "Razorpay", "CRED", "Zerodha", "Swiggy"],
+      industry: [
+        "HDFC Bank",
+        "Reliance Industries",
+        "Tata Group",
+        "Mahindra",
+        "Bajaj Auto"
+      ]
+    },
     careerLevels: [
       {
         level: "Fresher",
@@ -43437,6 +48249,697 @@ const jobPortals = {
     internshala: "https://internshala.com/jobs/digital-marketing-jobs"
   }
 };
+const roleJobPortals = {
+  // ── DEVELOPMENT ──────────────────────────────────────────────────────────
+  "frontend-developer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Frontend+Developer&location=India",
+    naukri: "https://www.naukri.com/frontend-developer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=frontend+developer&l=India",
+    internshala: "https://internshala.com/internships/web-development-internship/"
+  },
+  "backend-developer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Backend+Developer&location=India",
+    naukri: "https://www.naukri.com/backend-developer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=backend+developer&l=India",
+    internshala: "https://internshala.com/internships/backend-development-internship/"
+  },
+  "full-stack-developer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Full+Stack+Developer&location=India",
+    naukri: "https://www.naukri.com/full-stack-developer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=full+stack+developer&l=India",
+    internshala: "https://internshala.com/internships/full-stack-development-internship/"
+  },
+  "mobile-developer-android": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Android+Developer&location=India",
+    naukri: "https://www.naukri.com/android-developer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=android+developer&l=India",
+    internshala: "https://internshala.com/internships/android-app-development-internship/"
+  },
+  "mobile-developer-ios": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=iOS+Developer&location=India",
+    naukri: "https://www.naukri.com/ios-developer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=ios+developer&l=India",
+    internshala: "https://internshala.com/internships/ios-app-development-internship/"
+  },
+  "react-native-developer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=React+Native+Developer&location=India",
+    naukri: "https://www.naukri.com/react-native-developer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=react+native+developer&l=India",
+    internshala: "https://internshala.com/internships/react-native-internship/"
+  },
+  "flutter-developer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Flutter+Developer&location=India",
+    naukri: "https://www.naukri.com/flutter-developer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=flutter+developer&l=India",
+    internshala: "https://internshala.com/internships/flutter-development-internship/"
+  },
+  "devops-engineer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=DevOps+Engineer&location=India",
+    naukri: "https://www.naukri.com/devops-engineer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=devops+engineer&l=India",
+    internshala: "https://internshala.com/internships/devops-internship/"
+  },
+  "software-engineer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Software+Engineer&location=India",
+    naukri: "https://www.naukri.com/software-engineer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=software+engineer&l=India",
+    internshala: "https://internshala.com/internships/software-development-internship/"
+  },
+  "java-developer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Java+Developer&location=India",
+    naukri: "https://www.naukri.com/java-developer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=java+developer&l=India",
+    internshala: "https://internshala.com/internships/java-internship/"
+  },
+  "python-developer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Python+Developer&location=India",
+    naukri: "https://www.naukri.com/python-developer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=python+developer&l=India",
+    internshala: "https://internshala.com/internships/python-internship/"
+  },
+  "dotnet-developer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=.NET+Developer&location=India",
+    naukri: "https://www.naukri.com/dot-net-developer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=.net+developer&l=India",
+    internshala: "https://internshala.com/internships/dot-net-internship/"
+  },
+  "node-developer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Node.js+Developer&location=India",
+    naukri: "https://www.naukri.com/nodejs-developer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=node.js+developer&l=India",
+    internshala: "https://internshala.com/internships/nodejs-internship/"
+  },
+  // ── DATA ─────────────────────────────────────────────────────────────────
+  "data-analyst": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Data+Analyst&location=India",
+    naukri: "https://www.naukri.com/data-analyst-jobs",
+    indeed: "https://in.indeed.com/jobs?q=data+analyst&l=India",
+    internshala: "https://internshala.com/internships/data-analytics-internship/"
+  },
+  "data-engineer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Data+Engineer&location=India",
+    naukri: "https://www.naukri.com/data-engineer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=data+engineer&l=India",
+    internshala: "https://internshala.com/internships/data-engineering-internship/"
+  },
+  "data-scientist": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Data+Scientist&location=India",
+    naukri: "https://www.naukri.com/data-scientist-jobs",
+    indeed: "https://in.indeed.com/jobs?q=data+scientist&l=India",
+    internshala: "https://internshala.com/internships/data-science-internship/"
+  },
+  "database-administrator": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Database+Administrator&location=India",
+    naukri: "https://www.naukri.com/database-administrator-jobs",
+    indeed: "https://in.indeed.com/jobs?q=database+administrator&l=India",
+    internshala: "https://internshala.com/internships/database-management-internship/"
+  },
+  "bi-developer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=BI+Developer&location=India",
+    naukri: "https://www.naukri.com/bi-developer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=bi+developer+business+intelligence&l=India",
+    internshala: "https://internshala.com/internships/business-intelligence-internship/"
+  },
+  "etl-developer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=ETL+Developer&location=India",
+    naukri: "https://www.naukri.com/etl-developer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=etl+developer&l=India",
+    internshala: "https://internshala.com/internships/data-engineering-internship/"
+  },
+  "data-architect": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Data+Architect&location=India",
+    naukri: "https://www.naukri.com/data-architect-jobs",
+    indeed: "https://in.indeed.com/jobs?q=data+architect&l=India",
+    internshala: "https://internshala.com/internships/data-science-internship/"
+  },
+  "data-warehouse-engineer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Data+Warehouse+Engineer&location=India",
+    naukri: "https://www.naukri.com/data-warehouse-engineer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=data+warehouse+engineer&l=India",
+    internshala: "https://internshala.com/internships/data-engineering-internship/"
+  },
+  "sql-developer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=SQL+Developer&location=India",
+    naukri: "https://www.naukri.com/sql-developer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=sql+developer&l=India",
+    internshala: "https://internshala.com/internships/database-management-internship/"
+  },
+  "power-bi-developer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Power+BI+Developer&location=India",
+    naukri: "https://www.naukri.com/power-bi-developer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=power+bi+developer&l=India",
+    internshala: "https://internshala.com/internships/business-intelligence-internship/"
+  },
+  "tableau-developer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Tableau+Developer&location=India",
+    naukri: "https://www.naukri.com/tableau-developer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=tableau+developer&l=India",
+    internshala: "https://internshala.com/internships/data-analytics-internship/"
+  },
+  "data-quality-engineer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Data+Quality+Engineer&location=India",
+    naukri: "https://www.naukri.com/data-quality-engineer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=data+quality+engineer&l=India",
+    internshala: "https://internshala.com/internships/data-analytics-internship/"
+  },
+  // ── AI/ML ─────────────────────────────────────────────────────────────────
+  "machine-learning-engineer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Machine+Learning+Engineer&location=India",
+    naukri: "https://www.naukri.com/machine-learning-jobs",
+    indeed: "https://in.indeed.com/jobs?q=machine+learning+engineer&l=India",
+    internshala: "https://internshala.com/internships/machine-learning-internship/"
+  },
+  "ai-engineer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=AI+Engineer&location=India",
+    naukri: "https://www.naukri.com/artificial-intelligence-jobs",
+    indeed: "https://in.indeed.com/jobs?q=ai+engineer&l=India",
+    internshala: "https://internshala.com/internships/artificial-intelligence-internship/"
+  },
+  "nlp-engineer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=NLP+Engineer&location=India",
+    naukri: "https://www.naukri.com/nlp-engineer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=nlp+engineer+natural+language+processing&l=India",
+    internshala: "https://internshala.com/internships/machine-learning-internship/"
+  },
+  "computer-vision-engineer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Computer+Vision+Engineer&location=India",
+    naukri: "https://www.naukri.com/computer-vision-engineer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=computer+vision+engineer&l=India",
+    internshala: "https://internshala.com/internships/artificial-intelligence-internship/"
+  },
+  "data-science-lead": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Data+Science+Lead&location=India",
+    naukri: "https://www.naukri.com/data-science-lead-jobs",
+    indeed: "https://in.indeed.com/jobs?q=data+science+lead&l=India",
+    internshala: "https://internshala.com/internships/data-science-internship/"
+  },
+  "ml-ops-engineer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=MLOps+Engineer&location=India",
+    naukri: "https://www.naukri.com/mlops-engineer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=mlops+engineer&l=India",
+    internshala: "https://internshala.com/internships/machine-learning-internship/"
+  },
+  "deep-learning-engineer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Deep+Learning+Engineer&location=India",
+    naukri: "https://www.naukri.com/deep-learning-engineer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=deep+learning+engineer&l=India",
+    internshala: "https://internshala.com/internships/machine-learning-internship/"
+  },
+  "ai-researcher": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=AI+Researcher&location=India",
+    naukri: "https://www.naukri.com/ai-researcher-jobs",
+    indeed: "https://in.indeed.com/jobs?q=ai+researcher&l=India",
+    internshala: "https://internshala.com/internships/artificial-intelligence-internship/"
+  },
+  // ── INFRASTRUCTURE ────────────────────────────────────────────────────────
+  "cloud-architect": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Cloud+Architect&location=India",
+    naukri: "https://www.naukri.com/cloud-architect-jobs",
+    indeed: "https://in.indeed.com/jobs?q=cloud+architect&l=India",
+    internshala: "https://internshala.com/internships/cloud-computing-internship/"
+  },
+  "aws-engineer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=AWS+Engineer&location=India",
+    naukri: "https://www.naukri.com/aws-engineer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=aws+engineer&l=India",
+    internshala: "https://internshala.com/internships/cloud-computing-internship/"
+  },
+  "azure-engineer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Azure+Engineer&location=India",
+    naukri: "https://www.naukri.com/azure-engineer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=azure+engineer&l=India",
+    internshala: "https://internshala.com/internships/cloud-computing-internship/"
+  },
+  "gcp-engineer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=GCP+Engineer&location=India",
+    naukri: "https://www.naukri.com/gcp-engineer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=gcp+engineer+google+cloud&l=India",
+    internshala: "https://internshala.com/internships/cloud-computing-internship/"
+  },
+  "linux-admin": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Linux+Administrator&location=India",
+    naukri: "https://www.naukri.com/linux-administrator-jobs",
+    indeed: "https://in.indeed.com/jobs?q=linux+administrator&l=India",
+    internshala: "https://internshala.com/internships/linux-internship/"
+  },
+  "network-engineer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Network+Engineer&location=India",
+    naukri: "https://www.naukri.com/network-engineer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=network+engineer&l=India",
+    internshala: "https://internshala.com/internships/network-engineering-internship/"
+  },
+  "site-reliability-engineer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Site+Reliability+Engineer&location=India",
+    naukri: "https://www.naukri.com/site-reliability-engineer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=site+reliability+engineer+sre&l=India",
+    internshala: "https://internshala.com/internships/devops-internship/"
+  },
+  "devops-architect": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=DevOps+Architect&location=India",
+    naukri: "https://www.naukri.com/devops-architect-jobs",
+    indeed: "https://in.indeed.com/jobs?q=devops+architect&l=India",
+    internshala: "https://internshala.com/internships/devops-internship/"
+  },
+  "kubernetes-engineer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Kubernetes+Engineer&location=India",
+    naukri: "https://www.naukri.com/kubernetes-engineer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=kubernetes+engineer&l=India",
+    internshala: "https://internshala.com/internships/devops-internship/"
+  },
+  // ── SUPPORT ───────────────────────────────────────────────────────────────
+  "it-support-engineer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=IT+Support+Engineer&location=India",
+    naukri: "https://www.naukri.com/it-support-engineer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=it+support+engineer&l=India",
+    internshala: "https://internshala.com/internships/technical-support-internship/"
+  },
+  "system-administrator": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=System+Administrator&location=India",
+    naukri: "https://www.naukri.com/system-administrator-jobs",
+    indeed: "https://in.indeed.com/jobs?q=system+administrator&l=India",
+    internshala: "https://internshala.com/internships/technical-support-internship/"
+  },
+  "help-desk-analyst": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Help+Desk+Analyst&location=India",
+    naukri: "https://www.naukri.com/help-desk-analyst-jobs",
+    indeed: "https://in.indeed.com/jobs?q=help+desk+analyst&l=India",
+    internshala: "https://internshala.com/internships/technical-support-internship/"
+  },
+  "it-operations-analyst": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=IT+Operations+Analyst&location=India",
+    naukri: "https://www.naukri.com/it-operations-analyst-jobs",
+    indeed: "https://in.indeed.com/jobs?q=it+operations+analyst&l=India",
+    internshala: "https://internshala.com/internships/technical-support-internship/"
+  },
+  "network-support-engineer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Network+Support+Engineer&location=India",
+    naukri: "https://www.naukri.com/network-support-engineer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=network+support+engineer&l=India",
+    internshala: "https://internshala.com/internships/network-engineering-internship/"
+  },
+  "server-administrator": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Server+Administrator&location=India",
+    naukri: "https://www.naukri.com/server-administrator-jobs",
+    indeed: "https://in.indeed.com/jobs?q=server+administrator&l=India",
+    internshala: "https://internshala.com/internships/technical-support-internship/"
+  },
+  "desktop-support": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Desktop+Support+Engineer&location=India",
+    naukri: "https://www.naukri.com/desktop-support-jobs",
+    indeed: "https://in.indeed.com/jobs?q=desktop+support+engineer&l=India",
+    internshala: "https://internshala.com/internships/technical-support-internship/"
+  },
+  "it-coordinator": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=IT+Coordinator&location=India",
+    naukri: "https://www.naukri.com/it-coordinator-jobs",
+    indeed: "https://in.indeed.com/jobs?q=it+coordinator&l=India",
+    internshala: "https://internshala.com/internships/technical-support-internship/"
+  },
+  "field-service-engineer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Field+Service+Engineer&location=India",
+    naukri: "https://www.naukri.com/field-service-engineer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=field+service+engineer&l=India",
+    internshala: "https://internshala.com/internships/technical-support-internship/"
+  },
+  "it-asset-manager": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=IT+Asset+Manager&location=India",
+    naukri: "https://www.naukri.com/it-asset-manager-jobs",
+    indeed: "https://in.indeed.com/jobs?q=it+asset+manager&l=India",
+    internshala: "https://internshala.com/internships/technical-support-internship/"
+  },
+  // ── SAP/ERP ───────────────────────────────────────────────────────────────
+  "sap-consultant": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=SAP+Consultant&location=India",
+    naukri: "https://www.naukri.com/sap-consultant-jobs",
+    indeed: "https://in.indeed.com/jobs?q=sap+consultant&l=India",
+    internshala: "https://internshala.com/internships/sap-internship/"
+  },
+  "sap-abap-developer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=SAP+ABAP+Developer&location=India",
+    naukri: "https://www.naukri.com/sap-abap-developer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=sap+abap+developer&l=India",
+    internshala: "https://internshala.com/internships/sap-internship/"
+  },
+  "sap-basis-admin": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=SAP+Basis+Administrator&location=India",
+    naukri: "https://www.naukri.com/sap-basis-administrator-jobs",
+    indeed: "https://in.indeed.com/jobs?q=sap+basis+administrator&l=India",
+    internshala: "https://internshala.com/internships/sap-internship/"
+  },
+  "sap-fico-consultant": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=SAP+FICO+Consultant&location=India",
+    naukri: "https://www.naukri.com/sap-fico-consultant-jobs",
+    indeed: "https://in.indeed.com/jobs?q=sap+fico+consultant&l=India",
+    internshala: "https://internshala.com/internships/sap-internship/"
+  },
+  "sap-mm-consultant": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=SAP+MM+Consultant&location=India",
+    naukri: "https://www.naukri.com/sap-mm-consultant-jobs",
+    indeed: "https://in.indeed.com/jobs?q=sap+mm+consultant+materials+management&l=India",
+    internshala: "https://internshala.com/internships/sap-internship/"
+  },
+  "sap-sd-consultant": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=SAP+SD+Consultant&location=India",
+    naukri: "https://www.naukri.com/sap-sd-consultant-jobs",
+    indeed: "https://in.indeed.com/jobs?q=sap+sd+consultant+sales+distribution&l=India",
+    internshala: "https://internshala.com/internships/sap-internship/"
+  },
+  "sap-hana-consultant": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=SAP+HANA+Consultant&location=India",
+    naukri: "https://www.naukri.com/sap-hana-consultant-jobs",
+    indeed: "https://in.indeed.com/jobs?q=sap+hana+consultant&l=India",
+    internshala: "https://internshala.com/internships/sap-internship/"
+  },
+  "sap-s4hana-consultant": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=SAP+S4HANA+Consultant&location=India",
+    naukri: "https://www.naukri.com/sap-s4hana-consultant-jobs",
+    indeed: "https://in.indeed.com/jobs?q=sap+s4hana+consultant&l=India",
+    internshala: "https://internshala.com/internships/sap-internship/"
+  },
+  // ── TOOLS/PLATFORMS ───────────────────────────────────────────────────────
+  "salesforce-developer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Salesforce+Developer&location=India",
+    naukri: "https://www.naukri.com/salesforce-developer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=salesforce+developer&l=India",
+    internshala: "https://internshala.com/internships/salesforce-internship/"
+  },
+  "servicenow-developer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=ServiceNow+Developer&location=India",
+    naukri: "https://www.naukri.com/servicenow-developer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=servicenow+developer&l=India",
+    internshala: "https://internshala.com/internships/it-support-internship/"
+  },
+  "jira-admin": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Jira+Administrator&location=India",
+    naukri: "https://www.naukri.com/jira-administrator-jobs",
+    indeed: "https://in.indeed.com/jobs?q=jira+administrator&l=India",
+    internshala: "https://internshala.com/internships/project-management-internship/"
+  },
+  "confluence-admin": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Confluence+Administrator&location=India",
+    naukri: "https://www.naukri.com/confluence-administrator-jobs",
+    indeed: "https://in.indeed.com/jobs?q=confluence+administrator&l=India",
+    internshala: "https://internshala.com/internships/project-management-internship/"
+  },
+  "power-platform-developer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Power+Platform+Developer&location=India",
+    naukri: "https://www.naukri.com/power-platform-developer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=power+platform+developer+microsoft&l=India",
+    internshala: "https://internshala.com/internships/software-development-internship/"
+  },
+  "sharepoint-developer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=SharePoint+Developer&location=India",
+    naukri: "https://www.naukri.com/sharepoint-developer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=sharepoint+developer&l=India",
+    internshala: "https://internshala.com/internships/software-development-internship/"
+  },
+  "ms-dynamics-developer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Microsoft+Dynamics+Developer&location=India",
+    naukri: "https://www.naukri.com/ms-dynamics-developer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=microsoft+dynamics+developer&l=India",
+    internshala: "https://internshala.com/internships/software-development-internship/"
+  },
+  "workday-consultant": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Workday+Consultant&location=India",
+    naukri: "https://www.naukri.com/workday-consultant-jobs",
+    indeed: "https://in.indeed.com/jobs?q=workday+consultant&l=India",
+    internshala: "https://internshala.com/internships/hr-management-internship/"
+  },
+  "mulesoft-developer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=MuleSoft+Developer&location=India",
+    naukri: "https://www.naukri.com/mulesoft-developer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=mulesoft+developer&l=India",
+    internshala: "https://internshala.com/internships/software-development-internship/"
+  },
+  // ── NON-CODING IT ─────────────────────────────────────────────────────────
+  "product-manager": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Product+Manager&location=India",
+    naukri: "https://www.naukri.com/product-manager-jobs",
+    indeed: "https://in.indeed.com/jobs?q=product+manager&l=India",
+    internshala: "https://internshala.com/internships/product-management-internship/"
+  },
+  "business-analyst": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Business+Analyst&location=India",
+    naukri: "https://www.naukri.com/business-analyst-jobs",
+    indeed: "https://in.indeed.com/jobs?q=business+analyst&l=India",
+    internshala: "https://internshala.com/internships/business-analysis-internship/"
+  },
+  "project-manager": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Project+Manager&location=India",
+    naukri: "https://www.naukri.com/project-manager-jobs",
+    indeed: "https://in.indeed.com/jobs?q=project+manager&l=India",
+    internshala: "https://internshala.com/internships/project-management-internship/"
+  },
+  "scrum-master": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Scrum+Master&location=India",
+    naukri: "https://www.naukri.com/scrum-master-jobs",
+    indeed: "https://in.indeed.com/jobs?q=scrum+master&l=India",
+    internshala: "https://internshala.com/internships/scrum-master-internship/"
+  },
+  "technical-writer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Technical+Writer&location=India",
+    naukri: "https://www.naukri.com/technical-writer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=technical+writer&l=India",
+    internshala: "https://internshala.com/internships/technical-writing-internship/"
+  },
+  "it-recruiter": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=IT+Recruiter&location=India",
+    naukri: "https://www.naukri.com/it-recruiter-jobs",
+    indeed: "https://in.indeed.com/jobs?q=it+recruiter&l=India",
+    internshala: "https://internshala.com/internships/hr-management-internship/"
+  },
+  "pre-sales-consultant": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Pre+Sales+Consultant&location=India",
+    naukri: "https://www.naukri.com/pre-sales-consultant-jobs",
+    indeed: "https://in.indeed.com/jobs?q=pre+sales+consultant&l=India",
+    internshala: "https://internshala.com/internships/sales-internship/"
+  },
+  "solutions-architect": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Solutions+Architect&location=India",
+    naukri: "https://www.naukri.com/solutions-architect-jobs",
+    indeed: "https://in.indeed.com/jobs?q=solutions+architect&l=India",
+    internshala: "https://internshala.com/internships/software-development-internship/"
+  },
+  "it-consultant": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=IT+Consultant&location=India",
+    naukri: "https://www.naukri.com/it-consultant-jobs",
+    indeed: "https://in.indeed.com/jobs?q=it+consultant&l=India",
+    internshala: "https://internshala.com/internships/it-support-internship/"
+  },
+  "change-management-consultant": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Change+Management+Consultant&location=India",
+    naukri: "https://www.naukri.com/change-management-consultant-jobs",
+    indeed: "https://in.indeed.com/jobs?q=change+management+consultant&l=India",
+    internshala: "https://internshala.com/internships/management-consulting-internship/"
+  },
+  "program-manager": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Program+Manager&location=India",
+    naukri: "https://www.naukri.com/program-manager-jobs",
+    indeed: "https://in.indeed.com/jobs?q=program+manager&l=India",
+    internshala: "https://internshala.com/internships/project-management-internship/"
+  },
+  "agile-coach": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Agile+Coach&location=India",
+    naukri: "https://www.naukri.com/agile-coach-jobs",
+    indeed: "https://in.indeed.com/jobs?q=agile+coach&l=India",
+    internshala: "https://internshala.com/internships/project-management-internship/"
+  },
+  "release-manager": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Release+Manager&location=India",
+    naukri: "https://www.naukri.com/release-manager-jobs",
+    indeed: "https://in.indeed.com/jobs?q=release+manager&l=India",
+    internshala: "https://internshala.com/internships/devops-internship/"
+  },
+  "it-vendor-manager": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=IT+Vendor+Manager&location=India",
+    naukri: "https://www.naukri.com/it-vendor-manager-jobs",
+    indeed: "https://in.indeed.com/jobs?q=it+vendor+manager&l=India",
+    internshala: "https://internshala.com/internships/management-consulting-internship/"
+  },
+  "it-procurement-specialist": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=IT+Procurement+Specialist&location=India",
+    naukri: "https://www.naukri.com/it-procurement-specialist-jobs",
+    indeed: "https://in.indeed.com/jobs?q=it+procurement+specialist&l=India",
+    internshala: "https://internshala.com/internships/management-consulting-internship/"
+  },
+  // ── DESIGN & CREATIVE ─────────────────────────────────────────────────────
+  "ui-ux-designer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=UI+UX+Designer&location=India",
+    naukri: "https://www.naukri.com/ui-ux-designer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=ui+ux+designer&l=India",
+    internshala: "https://internshala.com/internships/ui-ux-design-internship/"
+  },
+  "graphic-designer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Graphic+Designer&location=India",
+    naukri: "https://www.naukri.com/graphic-designer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=graphic+designer&l=India",
+    internshala: "https://internshala.com/internships/graphic-design-internship/"
+  },
+  "product-designer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Product+Designer&location=India",
+    naukri: "https://www.naukri.com/product-designer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=product+designer&l=India",
+    internshala: "https://internshala.com/internships/ui-ux-design-internship/"
+  },
+  "motion-designer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Motion+Designer&location=India",
+    naukri: "https://www.naukri.com/motion-designer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=motion+designer+motion+graphics&l=India",
+    internshala: "https://internshala.com/internships/graphic-design-internship/"
+  },
+  "video-editor": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Video+Editor&location=India",
+    naukri: "https://www.naukri.com/video-editor-jobs",
+    indeed: "https://in.indeed.com/jobs?q=video+editor&l=India",
+    internshala: "https://internshala.com/internships/video-editing-internship/"
+  },
+  "ux-researcher": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=UX+Researcher&location=India",
+    naukri: "https://www.naukri.com/ux-researcher-jobs",
+    indeed: "https://in.indeed.com/jobs?q=ux+researcher&l=India",
+    internshala: "https://internshala.com/internships/ui-ux-design-internship/"
+  },
+  "brand-designer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Brand+Designer&location=India",
+    naukri: "https://www.naukri.com/brand-designer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=brand+designer&l=India",
+    internshala: "https://internshala.com/internships/graphic-design-internship/"
+  },
+  "visual-designer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Visual+Designer&location=India",
+    naukri: "https://www.naukri.com/visual-designer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=visual+designer&l=India",
+    internshala: "https://internshala.com/internships/graphic-design-internship/"
+  },
+  "web-designer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Web+Designer&location=India",
+    naukri: "https://www.naukri.com/web-designer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=web+designer&l=India",
+    internshala: "https://internshala.com/internships/web-design-internship/"
+  },
+  "interaction-designer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Interaction+Designer&location=India",
+    naukri: "https://www.naukri.com/interaction-designer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=interaction+designer&l=India",
+    internshala: "https://internshala.com/internships/ui-ux-design-internship/"
+  },
+  "content-designer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Content+Designer&location=India",
+    naukri: "https://www.naukri.com/content-designer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=content+designer&l=India",
+    internshala: "https://internshala.com/internships/content-writing-internship/"
+  },
+  "design-system-lead": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Design+System+Lead&location=India",
+    naukri: "https://www.naukri.com/design-system-lead-jobs",
+    indeed: "https://in.indeed.com/jobs?q=design+system+lead&l=India",
+    internshala: "https://internshala.com/internships/ui-ux-design-internship/"
+  },
+  // ── MARKETING & GROWTH ────────────────────────────────────────────────────
+  "digital-marketing-manager": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Digital+Marketing+Manager&location=India",
+    naukri: "https://www.naukri.com/digital-marketing-manager-jobs",
+    indeed: "https://in.indeed.com/jobs?q=digital+marketing+manager&l=India",
+    internshala: "https://internshala.com/internships/digital-marketing-internship/"
+  },
+  "seo-specialist": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=SEO+Specialist&location=India",
+    naukri: "https://www.naukri.com/seo-specialist-jobs",
+    indeed: "https://in.indeed.com/jobs?q=seo+specialist&l=India",
+    internshala: "https://internshala.com/internships/seo-internship/"
+  },
+  "social-media-manager": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Social+Media+Manager&location=India",
+    naukri: "https://www.naukri.com/social-media-manager-jobs",
+    indeed: "https://in.indeed.com/jobs?q=social+media+manager&l=India",
+    internshala: "https://internshala.com/internships/social-media-marketing-internship/"
+  },
+  "content-writer": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Content+Writer&location=India",
+    naukri: "https://www.naukri.com/content-writer-jobs",
+    indeed: "https://in.indeed.com/jobs?q=content+writer&l=India",
+    internshala: "https://internshala.com/internships/content-writing-internship/"
+  },
+  "growth-hacker": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Growth+Hacker&location=India",
+    naukri: "https://www.naukri.com/growth-hacker-jobs",
+    indeed: "https://in.indeed.com/jobs?q=growth+hacker+growth+marketing&l=India",
+    internshala: "https://internshala.com/internships/digital-marketing-internship/"
+  },
+  "performance-marketing-manager": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Performance+Marketing+Manager&location=India",
+    naukri: "https://www.naukri.com/performance-marketing-manager-jobs",
+    indeed: "https://in.indeed.com/jobs?q=performance+marketing+manager&l=India",
+    internshala: "https://internshala.com/internships/digital-marketing-internship/"
+  },
+  "email-marketing-specialist": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Email+Marketing+Specialist&location=India",
+    naukri: "https://www.naukri.com/email-marketing-specialist-jobs",
+    indeed: "https://in.indeed.com/jobs?q=email+marketing+specialist&l=India",
+    internshala: "https://internshala.com/internships/digital-marketing-internship/"
+  },
+  "brand-marketing-manager": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Brand+Marketing+Manager&location=India",
+    naukri: "https://www.naukri.com/brand-marketing-manager-jobs",
+    indeed: "https://in.indeed.com/jobs?q=brand+marketing+manager&l=India",
+    internshala: "https://internshala.com/internships/digital-marketing-internship/"
+  },
+  "product-marketing-manager": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Product+Marketing+Manager&location=India",
+    naukri: "https://www.naukri.com/product-marketing-manager-jobs",
+    indeed: "https://in.indeed.com/jobs?q=product+marketing+manager&l=India",
+    internshala: "https://internshala.com/internships/digital-marketing-internship/"
+  },
+  // ── NICHE ROLES ───────────────────────────────────────────────────────────
+  "fraud-analyst": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Fraud+Analyst&location=India",
+    naukri: "https://www.naukri.com/fraud-analyst-jobs",
+    indeed: "https://in.indeed.com/jobs?q=fraud+analyst&l=India",
+    internshala: "https://internshala.com/internships/banking-finance-internship/"
+  },
+  "risk-analytics-specialist": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Risk+Analytics+Specialist&location=India",
+    naukri: "https://www.naukri.com/risk-analyst-jobs",
+    indeed: "https://in.indeed.com/jobs?q=risk+analytics+specialist&l=India",
+    internshala: "https://internshala.com/internships/banking-finance-internship/"
+  },
+  "technology-consultant": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Technology+Consultant&location=India",
+    naukri: "https://www.naukri.com/technology-consultant-jobs",
+    indeed: "https://in.indeed.com/jobs?q=technology+consultant&l=India",
+    internshala: "https://internshala.com/internships/management-consulting-internship/"
+  },
+  "finance-analyst": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Finance+Analyst&location=India",
+    naukri: "https://www.naukri.com/finance-analyst-jobs",
+    indeed: "https://in.indeed.com/jobs?q=finance+analyst&l=India",
+    internshala: "https://internshala.com/internships/banking-finance-internship/"
+  },
+  "compliance-analyst": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Compliance+Analyst&location=India",
+    naukri: "https://www.naukri.com/compliance-analyst-jobs",
+    indeed: "https://in.indeed.com/jobs?q=compliance+analyst&l=India",
+    internshala: "https://internshala.com/internships/banking-finance-internship/"
+  },
+  "business-process-analyst": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=Business+Process+Analyst&location=India",
+    naukri: "https://www.naukri.com/business-process-analyst-jobs",
+    indeed: "https://in.indeed.com/jobs?q=business+process+analyst&l=India",
+    internshala: "https://internshala.com/internships/business-analysis-internship/"
+  },
+  "it-audit-specialist": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=IT+Audit+Specialist&location=India",
+    naukri: "https://www.naukri.com/it-audit-specialist-jobs",
+    indeed: "https://in.indeed.com/jobs?q=it+audit+specialist&l=India",
+    internshala: "https://internshala.com/internships/banking-finance-internship/"
+  },
+  "it-portfolio-manager": {
+    linkedin: "https://www.linkedin.com/jobs/search/?keywords=IT+Portfolio+Manager&location=India",
+    naukri: "https://www.naukri.com/it-portfolio-manager-jobs",
+    indeed: "https://in.indeed.com/jobs?q=it+portfolio+manager&l=India",
+    internshala: "https://internshala.com/internships/project-management-internship/"
+  }
+};
 const portalInfo = [
   {
     key: "linkedin",
@@ -43497,7 +49000,15 @@ function RoleDetail() {
       }
     ) });
   }
-  const portals = jobPortals[role.category];
+  const portals = roleJobPortals[role.id] ?? (() => {
+    const roleKeyword = encodeURIComponent(role.name);
+    return {
+      linkedin: `https://www.linkedin.com/jobs/search/?keywords=${roleKeyword}&location=India`,
+      naukri: `https://www.naukri.com/${role.name.toLowerCase().replace(/[^a-z0-9]+/g, "-")}-jobs`,
+      indeed: `https://in.indeed.com/jobs?q=${roleKeyword}&l=India`,
+      internshala: jobPortals[role.category].internshala
+    };
+  })();
   return /* @__PURE__ */ jsxRuntimeExports.jsxs(Layout, { children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "bg-card border-b border-border py-8 md:py-10", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container max-w-4xl mx-auto px-4", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs(
@@ -43641,6 +49152,33 @@ function RoleDetail() {
             ]
           }
         ),
+        role.resumeKeywords && role.resumeKeywords.length > 0 && /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          "div",
+          {
+            className: "bg-amber-50 rounded-xl border border-amber-200 p-6 shadow-card",
+            "data-ocid": "role_detail.resume_keywords.section",
+            children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { className: "font-display font-semibold text-amber-900 text-lg mb-2 flex items-center gap-2", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx(Tag, { className: "w-4 h-4 text-amber-600" }),
+                "Resume Keywords / Key Skills"
+              ] }),
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-sm text-amber-700 mb-4", children: [
+                "Include these keywords in your resume to get shortlisted by ATS and recruiters for ",
+                role.name,
+                " roles:"
+              ] }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-wrap gap-2", children: role.resumeKeywords.map((kw) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+                "span",
+                {
+                  className: "inline-flex items-center bg-amber-100 text-amber-800 border border-amber-300 text-xs font-semibold px-3 py-1.5 rounded-full hover:bg-amber-200 transition-colors cursor-default",
+                  "data-ocid": "role_detail.resume_keyword.badge",
+                  children: kw
+                },
+                kw
+              )) })
+            ]
+          }
+        ),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-card rounded-xl border border-border p-6 shadow-card", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display font-semibold text-foreground text-lg mb-4", children: "🎯 Work-Style Match" }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-muted-foreground mb-3", children: "This role is a great fit if you are:" }),
@@ -43656,6 +49194,61 @@ function RoleDetail() {
             reason
           )) })
         ] }),
+        role.companiesByType && /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          "div",
+          {
+            className: "bg-card rounded-xl border border-border p-6 shadow-card",
+            "data-ocid": "role_detail.companies_by_type.section",
+            children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { className: "font-display font-semibold text-foreground text-lg mb-2 flex items-center gap-2", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx(Building2, { className: "w-4 h-4 text-primary" }),
+                "Companies Hiring Across Sectors"
+              ] }),
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-sm text-muted-foreground mb-5", children: [
+                "Top companies hiring for ",
+                role.name,
+                " roles across different company types in India:"
+              ] }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "space-y-4", children: [
+                {
+                  key: "product",
+                  label: "🚀 Product Companies",
+                  color: "bg-blue-500/8 text-blue-700 border-blue-500/20"
+                },
+                {
+                  key: "service",
+                  label: "🏭 IT Service Companies",
+                  color: "bg-violet-500/8 text-violet-700 border-violet-500/20"
+                },
+                {
+                  key: "consulting",
+                  label: "💼 Consulting Firms",
+                  color: "bg-amber-500/8 text-amber-700 border-amber-500/20"
+                },
+                {
+                  key: "startup",
+                  label: "⚡ Startups",
+                  color: "bg-rose-500/8 text-rose-700 border-rose-500/20"
+                },
+                {
+                  key: "industry",
+                  label: "🏦 Industry/Domain Companies",
+                  color: "bg-teal-500/8 text-teal-700 border-teal-500/20"
+                }
+              ].map(({ key, label, color }) => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { "data-ocid": `role_detail.companies.${key}`, children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-2", children: label }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-wrap gap-2", children: role.companiesByType[key].map((company) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+                  "span",
+                  {
+                    className: `inline-flex items-center border text-xs font-medium px-3 py-1.5 rounded-full ${color}`,
+                    children: company
+                  },
+                  company
+                )) })
+              ] }, key)) })
+            ]
+          }
+        ),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-card rounded-xl border border-border p-6 shadow-card", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display font-semibold text-foreground text-lg mb-4", children: "🔗 Apply on Job Portals" }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-sm text-muted-foreground mb-4", children: [
@@ -43682,6 +49275,74 @@ function RoleDetail() {
             portal.key
           )) })
         ] }),
+        role.companiesHiring && /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          "div",
+          {
+            className: "bg-card rounded-xl border border-border p-6 shadow-card",
+            "data-ocid": "role_detail.companies_hiring.section",
+            children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { className: "font-display font-semibold text-foreground text-lg mb-2 flex items-center gap-2", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx(Building2, { className: "w-4 h-4 text-primary" }),
+                "Companies Hiring for This Role"
+              ] }),
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-sm text-muted-foreground mb-5", children: [
+                "Companies across different sectors that actively hire for",
+                " ",
+                role.name,
+                " roles in India:"
+              ] }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "space-y-4", children: [
+                {
+                  key: "productCompanies",
+                  label: "🚀 Product Companies",
+                  color: "bg-blue-500/8 text-blue-700 border-blue-500/20 hover:bg-blue-500/15",
+                  ocid: "product"
+                },
+                {
+                  key: "serviceCompanies",
+                  label: "🏭 Service Companies",
+                  color: "bg-emerald-500/8 text-emerald-700 border-emerald-500/20 hover:bg-emerald-500/15",
+                  ocid: "service"
+                },
+                {
+                  key: "consultingFirms",
+                  label: "💼 Consulting Firms",
+                  color: "bg-violet-500/8 text-violet-700 border-violet-500/20 hover:bg-violet-500/15",
+                  ocid: "consulting"
+                },
+                {
+                  key: "startups",
+                  label: "⚡ Startups",
+                  color: "bg-orange-500/8 text-orange-700 border-orange-500/20 hover:bg-orange-500/15",
+                  ocid: "startup"
+                },
+                {
+                  key: "industryCompanies",
+                  label: "🏦 Industry / Domain",
+                  color: "bg-teal-500/8 text-teal-700 border-teal-500/20 hover:bg-teal-500/15",
+                  ocid: "industry"
+                }
+              ].filter((s) => role.companiesHiring[s.key].length > 0).map(({ key, label, color, ocid }) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
+                "div",
+                {
+                  "data-ocid": `role_detail.companies_hiring.${ocid}`,
+                  children: [
+                    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-2", children: label }),
+                    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-wrap gap-2", children: role.companiesHiring[key].map((company) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+                      "span",
+                      {
+                        className: `inline-flex items-center border text-xs font-medium px-3 py-1.5 rounded-full transition-colors cursor-default ${color}`,
+                        children: company
+                      },
+                      company
+                    )) })
+                  ]
+                },
+                key
+              )) })
+            ]
+          }
+        ),
         role.freeCertifications && role.freeCertifications.length > 0 && /* @__PURE__ */ jsxRuntimeExports.jsxs(
           "div",
           {

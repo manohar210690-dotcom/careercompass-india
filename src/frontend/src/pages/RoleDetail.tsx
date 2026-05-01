@@ -2,16 +2,18 @@ import { CategoryBadge } from "@/components/CategoryBadge";
 import { Layout } from "@/components/Layout";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { jobPortals, portalInfo } from "@/data/jobPortals";
+import { jobPortals, portalInfo, roleJobPortals } from "@/data/jobPortals";
 import { roles } from "@/data/roles";
 import { Link, useParams } from "@tanstack/react-router";
 import {
   ArrowLeft,
   Award,
   Briefcase,
+  Building2,
   CheckCircle2,
   ExternalLink,
   IndianRupee,
+  Tag,
   TrendingUp,
   Wrench,
   Youtube,
@@ -56,7 +58,18 @@ export default function RoleDetail() {
     );
   }
 
-  const portals = jobPortals[role.category];
+  // Use explicit role-specific portal links; fall back to dynamically generated URLs
+  const portals =
+    roleJobPortals[role.id] ??
+    (() => {
+      const roleKeyword = encodeURIComponent(role.name);
+      return {
+        linkedin: `https://www.linkedin.com/jobs/search/?keywords=${roleKeyword}&location=India`,
+        naukri: `https://www.naukri.com/${role.name.toLowerCase().replace(/[^a-z0-9]+/g, "-")}-jobs`,
+        indeed: `https://in.indeed.com/jobs?q=${roleKeyword}&l=India`,
+        internshala: jobPortals[role.category].internshala,
+      };
+    })();
 
   return (
     <Layout>
@@ -233,6 +246,34 @@ export default function RoleDetail() {
                   </div>
                 )}
 
+              {/* Resume Keywords / Key Skills */}
+              {role.resumeKeywords && role.resumeKeywords.length > 0 && (
+                <div
+                  className="bg-amber-50 rounded-xl border border-amber-200 p-6 shadow-card"
+                  data-ocid="role_detail.resume_keywords.section"
+                >
+                  <h2 className="font-display font-semibold text-amber-900 text-lg mb-2 flex items-center gap-2">
+                    <Tag className="w-4 h-4 text-amber-600" />
+                    Resume Keywords / Key Skills
+                  </h2>
+                  <p className="text-sm text-amber-700 mb-4">
+                    Include these keywords in your resume to get shortlisted by
+                    ATS and recruiters for {role.name} roles:
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {role.resumeKeywords.map((kw) => (
+                      <span
+                        key={kw}
+                        className="inline-flex items-center bg-amber-100 text-amber-800 border border-amber-300 text-xs font-semibold px-3 py-1.5 rounded-full hover:bg-amber-200 transition-colors cursor-default"
+                        data-ocid="role_detail.resume_keyword.badge"
+                      >
+                        {kw}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+
               {/* Work Style Match */}
               <div className="bg-card rounded-xl border border-border p-6 shadow-card">
                 <h2 className="font-display font-semibold text-foreground text-lg mb-4">
@@ -253,7 +294,78 @@ export default function RoleDetail() {
                 </div>
               </div>
 
-              {/* Apply on Job Portals */}
+              {/* Companies by Type (legacy field) */}
+              {role.companiesByType && (
+                <div
+                  className="bg-card rounded-xl border border-border p-6 shadow-card"
+                  data-ocid="role_detail.companies_by_type.section"
+                >
+                  <h2 className="font-display font-semibold text-foreground text-lg mb-2 flex items-center gap-2">
+                    <Building2 className="w-4 h-4 text-primary" />
+                    Companies Hiring Across Sectors
+                  </h2>
+                  <p className="text-sm text-muted-foreground mb-5">
+                    Top companies hiring for {role.name} roles across different
+                    company types in India:
+                  </p>
+                  <div className="space-y-4">
+                    {(
+                      [
+                        {
+                          key: "product" as const,
+                          label: "🚀 Product Companies",
+                          color:
+                            "bg-blue-500/8 text-blue-700 border-blue-500/20",
+                        },
+                        {
+                          key: "service" as const,
+                          label: "🏭 IT Service Companies",
+                          color:
+                            "bg-violet-500/8 text-violet-700 border-violet-500/20",
+                        },
+                        {
+                          key: "consulting" as const,
+                          label: "💼 Consulting Firms",
+                          color:
+                            "bg-amber-500/8 text-amber-700 border-amber-500/20",
+                        },
+                        {
+                          key: "startup" as const,
+                          label: "⚡ Startups",
+                          color:
+                            "bg-rose-500/8 text-rose-700 border-rose-500/20",
+                        },
+                        {
+                          key: "industry" as const,
+                          label: "🏦 Industry/Domain Companies",
+                          color:
+                            "bg-teal-500/8 text-teal-700 border-teal-500/20",
+                        },
+                      ] as {
+                        key: keyof typeof role.companiesByType;
+                        label: string;
+                        color: string;
+                      }[]
+                    ).map(({ key, label, color }) => (
+                      <div key={key} data-ocid={`role_detail.companies.${key}`}>
+                        <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-2">
+                          {label}
+                        </p>
+                        <div className="flex flex-wrap gap-2">
+                          {role.companiesByType![key].map((company) => (
+                            <span
+                              key={company}
+                              className={`inline-flex items-center border text-xs font-medium px-3 py-1.5 rounded-full ${color}`}
+                            >
+                              {company}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
               <div className="bg-card rounded-xl border border-border p-6 shadow-card">
                 <h2 className="font-display font-semibold text-foreground text-lg mb-4">
                   🔗 Apply on Job Portals
@@ -282,6 +394,90 @@ export default function RoleDetail() {
                   ))}
                 </div>
               </div>
+
+              {/* Companies Hiring (new structured field) */}
+              {role.companiesHiring && (
+                <div
+                  className="bg-card rounded-xl border border-border p-6 shadow-card"
+                  data-ocid="role_detail.companies_hiring.section"
+                >
+                  <h2 className="font-display font-semibold text-foreground text-lg mb-2 flex items-center gap-2">
+                    <Building2 className="w-4 h-4 text-primary" />
+                    Companies Hiring for This Role
+                  </h2>
+                  <p className="text-sm text-muted-foreground mb-5">
+                    Companies across different sectors that actively hire for{" "}
+                    {role.name} roles in India:
+                  </p>
+                  <div className="space-y-4">
+                    {(
+                      [
+                        {
+                          key: "productCompanies" as const,
+                          label: "🚀 Product Companies",
+                          color:
+                            "bg-blue-500/8 text-blue-700 border-blue-500/20 hover:bg-blue-500/15",
+                          ocid: "product",
+                        },
+                        {
+                          key: "serviceCompanies" as const,
+                          label: "🏭 Service Companies",
+                          color:
+                            "bg-emerald-500/8 text-emerald-700 border-emerald-500/20 hover:bg-emerald-500/15",
+                          ocid: "service",
+                        },
+                        {
+                          key: "consultingFirms" as const,
+                          label: "💼 Consulting Firms",
+                          color:
+                            "bg-violet-500/8 text-violet-700 border-violet-500/20 hover:bg-violet-500/15",
+                          ocid: "consulting",
+                        },
+                        {
+                          key: "startups" as const,
+                          label: "⚡ Startups",
+                          color:
+                            "bg-orange-500/8 text-orange-700 border-orange-500/20 hover:bg-orange-500/15",
+                          ocid: "startup",
+                        },
+                        {
+                          key: "industryCompanies" as const,
+                          label: "🏦 Industry / Domain",
+                          color:
+                            "bg-teal-500/8 text-teal-700 border-teal-500/20 hover:bg-teal-500/15",
+                          ocid: "industry",
+                        },
+                      ] as {
+                        key: keyof NonNullable<typeof role.companiesHiring>;
+                        label: string;
+                        color: string;
+                        ocid: string;
+                      }[]
+                    )
+                      .filter((s) => role.companiesHiring![s.key].length > 0)
+                      .map(({ key, label, color, ocid }) => (
+                        <div
+                          key={key}
+                          data-ocid={`role_detail.companies_hiring.${ocid}`}
+                        >
+                          <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-2">
+                            {label}
+                          </p>
+                          <div className="flex flex-wrap gap-2">
+                            {role.companiesHiring![key].map((company) => (
+                              <span
+                                key={company}
+                                className={`inline-flex items-center border text-xs font-medium px-3 py-1.5 rounded-full transition-colors cursor-default ${color}`}
+                              >
+                                {company}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                      ))}
+                  </div>
+                </div>
+              )}
 
               {/* Free Certifications */}
               {role.freeCertifications &&

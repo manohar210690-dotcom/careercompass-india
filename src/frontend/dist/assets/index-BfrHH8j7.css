@@ -1759,6 +1759,11 @@ body{
   border-color: rgb(253 230 138 / var(--tw-border-opacity, 1));
 }
 
+.border-amber-300{
+  --tw-border-opacity: 1;
+  border-color: rgb(252 211 77 / var(--tw-border-opacity, 1));
+}
+
 .border-amber-500\/20{
   border-color: rgb(245 158 11 / 0.2);
 }
@@ -1841,6 +1846,10 @@ body{
 .border-teal-200{
   --tw-border-opacity: 1;
   border-color: rgb(153 246 228 / var(--tw-border-opacity, 1));
+}
+
+.border-teal-500\/20{
+  border-color: rgb(20 184 166 / 0.2);
 }
 
 .border-transparent{
@@ -2554,6 +2563,10 @@ body{
   font-weight: 600;
 }
 
+.uppercase{
+  text-transform: uppercase;
+}
+
 .tabular-nums{
   --tw-numeric-spacing: tabular-nums;
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
@@ -2579,6 +2592,10 @@ body{
   letter-spacing: -0.025em;
 }
 
+.tracking-wide{
+  letter-spacing: 0.025em;
+}
+
 .tracking-widest{
   letter-spacing: 0.1em;
 }
@@ -2587,9 +2604,24 @@ body{
   color: oklch(var(--accent-foreground));
 }
 
+.text-amber-600{
+  --tw-text-opacity: 1;
+  color: rgb(217 119 6 / var(--tw-text-opacity, 1));
+}
+
 .text-amber-700{
   --tw-text-opacity: 1;
   color: rgb(180 83 9 / var(--tw-text-opacity, 1));
+}
+
+.text-amber-800{
+  --tw-text-opacity: 1;
+  color: rgb(146 64 14 / var(--tw-text-opacity, 1));
+}
+
+.text-amber-900{
+  --tw-text-opacity: 1;
+  color: rgb(120 53 15 / var(--tw-text-opacity, 1));
 }
 
 .text-blue-700{
@@ -3214,8 +3246,21 @@ body{
   background-color: oklch(var(--accent) / var(--tw-bg-opacity, 1));
 }
 
+.hover\:bg-amber-200:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 230 138 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:bg-blue-500\/15:hover{
+  background-color: rgb(59 130 246 / 0.15);
+}
+
 .hover\:bg-destructive\/90:hover{
   background-color: oklch(var(--destructive) / 0.9);
+}
+
+.hover\:bg-emerald-500\/15:hover{
+  background-color: rgb(16 185 129 / 0.15);
 }
 
 .hover\:bg-muted:hover{
@@ -3225,6 +3270,10 @@ body{
 
 .hover\:bg-muted\/50:hover{
   background-color: oklch(var(--muted) / 0.5);
+}
+
+.hover\:bg-orange-500\/15:hover{
+  background-color: rgb(249 115 22 / 0.15);
 }
 
 .hover\:bg-primary\/15:hover{
@@ -3249,6 +3298,14 @@ body{
 
 .hover\:bg-sidebar-accent:hover{
   background-color: oklch(var(--sidebar-accent));
+}
+
+.hover\:bg-teal-500\/15:hover{
+  background-color: rgb(20 184 166 / 0.15);
+}
+
+.hover\:bg-violet-500\/15:hover{
+  background-color: rgb(139 92 246 / 0.15);
 }
 
 .hover\:text-accent-foreground:hover{

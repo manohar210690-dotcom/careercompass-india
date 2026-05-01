@@ -46553,6 +46553,20 @@ function BrowseRoles() {
     ] }) })
   ] });
 }
+const typeLabels = {
+  product: "Product",
+  service: "Service",
+  consulting: "Consulting",
+  startup: "Startup",
+  industry: "Industry"
+};
+const typeColors = {
+  product: "bg-blue-100 text-blue-800 dark:bg-blue-900/40 dark:text-blue-300",
+  service: "bg-purple-100 text-purple-800 dark:bg-purple-900/40 dark:text-purple-300",
+  consulting: "bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-300",
+  startup: "bg-green-100 text-green-800 dark:bg-green-900/40 dark:text-green-300",
+  industry: "bg-rose-100 text-rose-800 dark:bg-rose-900/40 dark:text-rose-300"
+};
 function CompanyCard({ company, index: index2 }) {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs(
     "div",
@@ -46560,7 +46574,7 @@ function CompanyCard({ company, index: index2 }) {
       "data-ocid": `companies.item.${index2 ?? 1}`,
       className: "rounded-xl border border-border bg-card shadow-card hover:shadow-card-hover transition-smooth hover:-translate-y-0.5 p-5 flex flex-col gap-4",
       children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-3", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-start gap-3", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx(
             "div",
             {
@@ -46568,7 +46582,19 @@ function CompanyCard({ company, index: index2 }) {
               children: /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-white font-display font-bold text-xs tracking-tight", children: company.initials })
             }
           ),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "min-w-0", children: /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display font-semibold text-foreground text-base truncate", children: company.name }) })
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "min-w-0 flex-1", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display font-semibold text-foreground text-base truncate", children: company.name }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-1.5 mt-1 flex-wrap", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx(
+                "span",
+                {
+                  className: `text-xs px-2 py-0.5 rounded-full font-medium ${typeColors[company.companyType]}`,
+                  children: typeLabels[company.companyType]
+                }
+              ),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-xs px-2 py-0.5 rounded-full font-medium bg-muted text-muted-foreground border border-border", children: company.industrySector })
+            ] })
+          ] })
         ] }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-muted-foreground leading-relaxed line-clamp-2 flex-1", children: company.description }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-wrap gap-1.5", children: [
@@ -46603,6 +46629,7 @@ function CompanyCard({ company, index: index2 }) {
   );
 }
 const companies = [
+  // ── SERVICE ──────────────────────────────────────────────────────────
   {
     id: "tcs",
     name: "TCS",
@@ -46617,7 +46644,9 @@ const companies = [
     ],
     careerUrl: "https://www.tcs.com/careers",
     initials: "TCS",
-    colorClass: "bg-blue-600"
+    colorClass: "bg-blue-600",
+    companyType: "service",
+    industrySector: "IT"
   },
   {
     id: "infosys",
@@ -46633,7 +46662,9 @@ const companies = [
     ],
     careerUrl: "https://www.infosys.com/careers",
     initials: "INF",
-    colorClass: "bg-indigo-600"
+    colorClass: "bg-indigo-600",
+    companyType: "service",
+    industrySector: "IT"
   },
   {
     id: "wipro",
@@ -46649,7 +46680,9 @@ const companies = [
     ],
     careerUrl: "https://careers.wipro.com",
     initials: "WIP",
-    colorClass: "bg-violet-600"
+    colorClass: "bg-violet-600",
+    companyType: "service",
+    industrySector: "IT"
   },
   {
     id: "hcl",
@@ -46664,7 +46697,9 @@ const companies = [
     ],
     careerUrl: "https://www.hcltech.com/careers",
     initials: "HCL",
-    colorClass: "bg-green-700"
+    colorClass: "bg-green-700",
+    companyType: "service",
+    industrySector: "IT"
   },
   {
     id: "tech-mahindra",
@@ -46679,7 +46714,9 @@ const companies = [
     ],
     careerUrl: "https://careers.techmahindra.com",
     initials: "TM",
-    colorClass: "bg-red-700"
+    colorClass: "bg-red-700",
+    companyType: "service",
+    industrySector: "IT"
   },
   {
     id: "cognizant",
@@ -46688,8 +46725,11 @@ const companies = [
     rolesHiring: ["Development", "Data", "Support", "SAP/ERP", "Non-Coding IT"],
     careerUrl: "https://careers.cognizant.com",
     initials: "COG",
-    colorClass: "bg-sky-700"
+    colorClass: "bg-sky-700",
+    companyType: "service",
+    industrySector: "IT"
   },
+  // ── PRODUCT ──────────────────────────────────────────────────────────
   {
     id: "google-india",
     name: "Google India",
@@ -46703,7 +46743,9 @@ const companies = [
     ],
     careerUrl: "https://careers.google.com",
     initials: "GGL",
-    colorClass: "bg-amber-500"
+    colorClass: "bg-amber-500",
+    companyType: "product",
+    industrySector: "IT"
   },
   {
     id: "amazon-india",
@@ -46718,7 +46760,9 @@ const companies = [
     ],
     careerUrl: "https://www.amazon.jobs/en/locations/india",
     initials: "AMZ",
-    colorClass: "bg-orange-500"
+    colorClass: "bg-orange-500",
+    companyType: "product",
+    industrySector: "IT"
   },
   {
     id: "microsoft-india",
@@ -46733,7 +46777,9 @@ const companies = [
     ],
     careerUrl: "https://careers.microsoft.com",
     initials: "MSF",
-    colorClass: "bg-cyan-600"
+    colorClass: "bg-cyan-600",
+    companyType: "product",
+    industrySector: "IT"
   },
   {
     id: "ibm-india",
@@ -46742,7 +46788,9 @@ const companies = [
     rolesHiring: ["Development", "Data", "AI/ML", "Infrastructure", "SAP/ERP"],
     careerUrl: "https://www.ibm.com/in-en/employment",
     initials: "IBM",
-    colorClass: "bg-blue-800"
+    colorClass: "bg-blue-800",
+    companyType: "product",
+    industrySector: "IT"
   },
   {
     id: "sap-india",
@@ -46751,7 +46799,9 @@ const companies = [
     rolesHiring: ["SAP/ERP", "Development", "Data", "Non-Coding IT"],
     careerUrl: "https://jobs.sap.com",
     initials: "SAP",
-    colorClass: "bg-teal-600"
+    colorClass: "bg-teal-600",
+    companyType: "product",
+    industrySector: "IT"
   },
   {
     id: "servicenow-india",
@@ -46760,7 +46810,9 @@ const companies = [
     rolesHiring: ["SAP/ERP", "Development", "Support", "Non-Coding IT"],
     careerUrl: "https://careers.servicenow.com",
     initials: "SNW",
-    colorClass: "bg-green-600"
+    colorClass: "bg-green-600",
+    companyType: "product",
+    industrySector: "IT"
   },
   {
     id: "salesforce-india",
@@ -46774,7 +46826,9 @@ const companies = [
     ],
     careerUrl: "https://salesforce.com/company/careers",
     initials: "SFR",
-    colorClass: "bg-sky-500"
+    colorClass: "bg-sky-500",
+    companyType: "product",
+    industrySector: "IT"
   },
   {
     id: "oracle-india",
@@ -46783,8 +46837,11 @@ const companies = [
     rolesHiring: ["SAP/ERP", "Development", "Data", "Infrastructure"],
     careerUrl: "https://oracle.com/corporate/careers",
     initials: "ORC",
-    colorClass: "bg-red-600"
+    colorClass: "bg-red-600",
+    companyType: "product",
+    industrySector: "IT"
   },
+  // ── CONSULTING ───────────────────────────────────────────────────────
   {
     id: "accenture",
     name: "Accenture India",
@@ -46798,7 +46855,9 @@ const companies = [
     ],
     careerUrl: "https://www.accenture.com/in-en/careers",
     initials: "ACC",
-    colorClass: "bg-purple-700"
+    colorClass: "bg-purple-700",
+    companyType: "consulting",
+    industrySector: "IT"
   },
   {
     id: "capgemini",
@@ -46813,8 +46872,27 @@ const companies = [
     ],
     careerUrl: "https://www.capgemini.com/in-en/careers",
     initials: "CAP",
-    colorClass: "bg-blue-700"
+    colorClass: "bg-blue-700",
+    companyType: "service",
+    industrySector: "IT"
   },
+  {
+    id: "publicis-sapient",
+    name: "Publicis Sapient",
+    description: "Digital transformation consultancy hiring for design, marketing, engineering, and strategy across India offices.",
+    rolesHiring: [
+      "Design & Creative",
+      "Marketing & Growth",
+      "Development",
+      "Non-Coding IT"
+    ],
+    careerUrl: "https://www.publicissapient.com/careers",
+    initials: "PS",
+    colorClass: "bg-emerald-600",
+    companyType: "consulting",
+    industrySector: "IT"
+  },
+  // ── STARTUP ──────────────────────────────────────────────────────────
   {
     id: "flipkart",
     name: "Flipkart",
@@ -46828,7 +46906,9 @@ const companies = [
     ],
     careerUrl: "https://www.flipkartcareers.com",
     initials: "FLK",
-    colorClass: "bg-yellow-500"
+    colorClass: "bg-yellow-500",
+    companyType: "startup",
+    industrySector: "E-commerce"
   },
   {
     id: "swiggy",
@@ -46843,7 +46923,9 @@ const companies = [
     ],
     careerUrl: "https://careers.swiggy.com",
     initials: "SWG",
-    colorClass: "bg-orange-600"
+    colorClass: "bg-orange-600",
+    companyType: "startup",
+    industrySector: "E-commerce"
   },
   {
     id: "zomato",
@@ -46857,7 +46939,9 @@ const companies = [
     ],
     careerUrl: "https://www.zomato.com/careers",
     initials: "ZOM",
-    colorClass: "bg-red-500"
+    colorClass: "bg-red-500",
+    companyType: "startup",
+    industrySector: "E-commerce"
   },
   {
     id: "paytm",
@@ -46872,7 +46956,9 @@ const companies = [
     ],
     careerUrl: "https://jobs.paytm.com",
     initials: "PAY",
-    colorClass: "bg-blue-500"
+    colorClass: "bg-blue-500",
+    companyType: "startup",
+    industrySector: "E-commerce"
   },
   {
     id: "myntra",
@@ -46886,7 +46972,9 @@ const companies = [
     ],
     careerUrl: "https://careers.myntra.com",
     initials: "MYN",
-    colorClass: "bg-pink-600"
+    colorClass: "bg-pink-600",
+    companyType: "startup",
+    industrySector: "E-commerce"
   },
   {
     id: "razorpay",
@@ -46900,58 +46988,1453 @@ const companies = [
     ],
     careerUrl: "https://razorpay.com/jobs",
     initials: "RZP",
-    colorClass: "bg-indigo-500"
+    colorClass: "bg-indigo-500",
+    companyType: "startup",
+    industrySector: "BFSI"
+  },
+  // ════════════════════════════════════════════════════════════
+  // NEW COMPANIES
+  // ════════════════════════════════════════════════════════════
+  // ── CONSULTING (new) ─────────────────────────────────────────────────
+  {
+    id: "deloitte-india",
+    name: "Deloitte India",
+    description: "Big Four consulting powerhouse hiring for technology consulting, audit, risk advisory, and digital transformation roles.",
+    rolesHiring: ["Non-Coding IT", "Data", "Development", "SAP/ERP", "AI/ML"],
+    careerUrl: "https://apply.deloitte.com/careers/",
+    initials: "DEL",
+    colorClass: "bg-green-800",
+    companyType: "consulting",
+    industrySector: "IT"
   },
   {
-    id: "publicis-sapient",
-    name: "Publicis Sapient",
-    description: "Digital transformation consultancy hiring for design, marketing, engineering, and strategy across India offices.",
+    id: "mckinsey-india",
+    name: "McKinsey & Company India",
+    description: "World's top management consulting firm with India offices in Mumbai, Delhi, and Bengaluru hiring analysts and associates.",
+    rolesHiring: ["Non-Coding IT", "Data", "AI/ML", "Marketing & Growth"],
+    careerUrl: "https://www.mckinsey.com/careers/",
+    initials: "MCK",
+    colorClass: "bg-slate-700",
+    companyType: "consulting",
+    industrySector: "IT"
+  },
+  {
+    id: "bcg-india",
+    name: "BCG India",
+    description: "Boston Consulting Group hires top engineering talent for management consulting, digital ventures, and data analytics.",
+    rolesHiring: ["Non-Coding IT", "Data", "AI/ML", "Development"],
+    careerUrl: "https://careers.bcg.com/",
+    initials: "BCG",
+    colorClass: "bg-emerald-700",
+    companyType: "consulting",
+    industrySector: "IT"
+  },
+  {
+    id: "ey-india",
+    name: "EY India",
+    description: "Ernst & Young India hires for technology consulting, cybersecurity, risk advisory, and digital transformation roles.",
     rolesHiring: [
-      "Design & Creative",
-      "Marketing & Growth",
+      "Non-Coding IT",
+      "Data",
       "Development",
+      "SAP/ERP",
+      "Infrastructure"
+    ],
+    careerUrl: "https://www.ey.com/en_in/careers",
+    initials: "EY",
+    colorClass: "bg-yellow-600",
+    companyType: "consulting",
+    industrySector: "IT"
+  },
+  {
+    id: "kpmg-india",
+    name: "KPMG India",
+    description: "KPMG India's advisory and technology practices hire for IT consulting, audit technology, and risk management.",
+    rolesHiring: [
+      "Non-Coding IT",
+      "Data",
+      "SAP/ERP",
+      "Development",
+      "Infrastructure"
+    ],
+    careerUrl: "https://kpmg.com/in/en/home/careers.html",
+    initials: "KPM",
+    colorClass: "bg-blue-900",
+    companyType: "consulting",
+    industrySector: "IT"
+  },
+  {
+    id: "pwc-india",
+    name: "PwC India",
+    description: "PricewaterhouseCoopers India hires for technology consulting, digital transformation, risk advisory, and data analytics.",
+    rolesHiring: ["Non-Coding IT", "Data", "SAP/ERP", "Development", "AI/ML"],
+    careerUrl: "https://www.pwc.in/careers.html",
+    initials: "PWC",
+    colorClass: "bg-red-800",
+    companyType: "consulting",
+    industrySector: "IT"
+  },
+  {
+    id: "bain-india",
+    name: "Bain & Company India",
+    description: "Top-tier management consulting firm recruiting engineering graduates for analytics, strategy, and technology consulting.",
+    rolesHiring: ["Non-Coding IT", "Data", "AI/ML", "Marketing & Growth"],
+    careerUrl: "https://www.bain.com/careers/",
+    initials: "BAI",
+    colorClass: "bg-rose-700",
+    companyType: "consulting",
+    industrySector: "IT"
+  },
+  {
+    id: "mphasis",
+    name: "Mphasis",
+    description: "IT services company specializing in cloud, cognitive services, and digital transformation for banking and financial clients.",
+    rolesHiring: [
+      "Development",
+      "Data",
+      "Infrastructure",
+      "AI/ML",
       "Non-Coding IT"
     ],
-    careerUrl: "https://www.publicissapient.com/careers",
-    initials: "PS",
-    colorClass: "bg-emerald-600"
+    careerUrl: "https://www.mphasis.com/careers.html",
+    initials: "MPH",
+    colorClass: "bg-orange-700",
+    companyType: "consulting",
+    industrySector: "IT"
+  },
+  {
+    id: "ltimindtree",
+    name: "LTIMindtree",
+    description: "Larsen & Toubro group's IT arm hiring freshers for digital, cloud, data engineering, and enterprise application roles.",
+    rolesHiring: ["Development", "Data", "SAP/ERP", "Infrastructure", "AI/ML"],
+    careerUrl: "https://www.ltimindtree.com/careers/",
+    initials: "LTM",
+    colorClass: "bg-teal-700",
+    companyType: "consulting",
+    industrySector: "IT"
+  },
+  {
+    id: "hexaware",
+    name: "Hexaware Technologies",
+    description: "IT services company with strong practices in automation, cloud, and digital transformation across BFSI and healthcare.",
+    rolesHiring: ["Development", "Data", "Infrastructure", "AI/ML", "Support"],
+    careerUrl: "https://www.hexaware.com/careers/",
+    initials: "HEX",
+    colorClass: "bg-violet-700",
+    companyType: "consulting",
+    industrySector: "IT"
+  },
+  {
+    id: "niit-tech",
+    name: "NIIT Technologies",
+    description: "IT solutions company focused on travel, BFSI, and insurance verticals with strong hiring for freshers.",
+    rolesHiring: ["Development", "Data", "SAP/ERP", "Support", "Non-Coding IT"],
+    careerUrl: "https://www.niit-tech.com/careers",
+    initials: "NIT",
+    colorClass: "bg-sky-800",
+    companyType: "consulting",
+    industrySector: "IT"
+  },
+  {
+    id: "sonata-software",
+    name: "Sonata Software",
+    description: "IT services and solutions company specializing in cloud, data platforms, and enterprise modernization across industries.",
+    rolesHiring: [
+      "Development",
+      "Data",
+      "SAP/ERP",
+      "Infrastructure",
+      "Non-Coding IT"
+    ],
+    careerUrl: "https://www.sonata-software.com/careers",
+    initials: "SON",
+    colorClass: "bg-indigo-800",
+    companyType: "consulting",
+    industrySector: "IT"
+  },
+  // ── PRODUCT (new) ─────────────────────────────────────────────────────
+  {
+    id: "adobe-india",
+    name: "Adobe India",
+    description: "Adobe's India R&D centers in Noida and Bengaluru hire for creative tools, document cloud, and experience cloud engineering.",
+    rolesHiring: [
+      "Development",
+      "Design & Creative",
+      "Data",
+      "AI/ML",
+      "Marketing & Growth"
+    ],
+    careerUrl: "https://www.adobe.com/careers.html",
+    initials: "ADB",
+    colorClass: "bg-red-700",
+    companyType: "product",
+    industrySector: "IT"
+  },
+  {
+    id: "atlassian",
+    name: "Atlassian",
+    description: "Makers of Jira, Confluence, and Trello — hiring for software engineering, design, and product management in India.",
+    rolesHiring: [
+      "Development",
+      "Design & Creative",
+      "Tools & Platforms",
+      "Non-Coding IT"
+    ],
+    careerUrl: "https://www.atlassian.com/company/careers",
+    initials: "ATL",
+    colorClass: "bg-blue-600",
+    companyType: "product",
+    industrySector: "IT"
+  },
+  {
+    id: "freshworks",
+    name: "Freshworks",
+    description: "Chennai-born SaaS unicorn building CRM and customer service products, with strong engineering and product roles.",
+    rolesHiring: [
+      "Development",
+      "Data",
+      "Design & Creative",
+      "Marketing & Growth",
+      "Non-Coding IT"
+    ],
+    careerUrl: "https://www.freshworks.com/company/careers/",
+    initials: "FRW",
+    colorClass: "bg-green-600",
+    companyType: "product",
+    industrySector: "IT"
+  },
+  {
+    id: "zoho",
+    name: "Zoho Corporation",
+    description: "India's product company giant with 50+ cloud applications, known for hiring freshers directly from campuses across Tamil Nadu.",
+    rolesHiring: [
+      "Development",
+      "Data",
+      "Design & Creative",
+      "Marketing & Growth",
+      "Support"
+    ],
+    careerUrl: "https://www.zoho.com/careers.html",
+    initials: "ZHO",
+    colorClass: "bg-orange-600",
+    companyType: "product",
+    industrySector: "IT"
+  },
+  {
+    id: "zendesk-india",
+    name: "Zendesk India",
+    description: "Customer service SaaS platform hiring for engineering, data science, and product roles at their Bengaluru and Hyderabad centers.",
+    rolesHiring: ["Development", "Data", "AI/ML", "Support", "Non-Coding IT"],
+    careerUrl: "https://www.zendesk.com/jobs/",
+    initials: "ZND",
+    colorClass: "bg-green-500",
+    companyType: "product",
+    industrySector: "IT"
+  },
+  {
+    id: "twilio",
+    name: "Twilio",
+    description: "Cloud communications platform with India hiring for software engineering, developer advocacy, and customer success roles.",
+    rolesHiring: [
+      "Development",
+      "Infrastructure",
+      "Marketing & Growth",
+      "Non-Coding IT"
+    ],
+    careerUrl: "https://www.twilio.com/company/jobs",
+    initials: "TWL",
+    colorClass: "bg-red-600",
+    companyType: "product",
+    industrySector: "IT"
+  },
+  {
+    id: "sprinklr-india",
+    name: "Sprinklr India",
+    description: "Unified customer experience platform with a large Bengaluru engineering team building AI-powered social media solutions.",
+    rolesHiring: [
+      "Development",
+      "AI/ML",
+      "Data",
+      "Design & Creative",
+      "Marketing & Growth"
+    ],
+    careerUrl: "https://www.sprinklr.com/careers/",
+    initials: "SPR",
+    colorClass: "bg-purple-600",
+    companyType: "product",
+    industrySector: "IT"
+  },
+  {
+    id: "druva",
+    name: "Druva",
+    description: "Cloud data protection and management company hiring for engineering, product, and customer success roles in Pune.",
+    rolesHiring: ["Development", "Infrastructure", "Data", "Support"],
+    careerUrl: "https://www.druva.com/careers/",
+    initials: "DRV",
+    colorClass: "bg-teal-600",
+    companyType: "product",
+    industrySector: "IT"
+  },
+  {
+    id: "postman",
+    name: "Postman",
+    description: "API collaboration platform built out of Bengaluru, hiring software engineers, developer relations, and product managers.",
+    rolesHiring: [
+      "Development",
+      "Tools & Platforms",
+      "Design & Creative",
+      "Non-Coding IT"
+    ],
+    careerUrl: "https://www.postman.com/company/careers/",
+    initials: "PST",
+    colorClass: "bg-orange-500",
+    companyType: "product",
+    industrySector: "IT"
+  },
+  {
+    id: "browserstack",
+    name: "BrowserStack",
+    description: "Web and mobile testing platform headquartered in Mumbai with a fast-growing engineering and product team.",
+    rolesHiring: [
+      "Development",
+      "Tools & Platforms",
+      "Data",
+      "Design & Creative"
+    ],
+    careerUrl: "https://www.browserstack.com/careers",
+    initials: "BST",
+    colorClass: "bg-amber-600",
+    companyType: "product",
+    industrySector: "IT"
+  },
+  {
+    id: "chargebee",
+    name: "Chargebee",
+    description: "Subscription management SaaS platform hiring for engineering, product, data, and customer success roles in Chennai.",
+    rolesHiring: ["Development", "Data", "Marketing & Growth", "Non-Coding IT"],
+    careerUrl: "https://www.chargebee.com/careers/",
+    initials: "CHB",
+    colorClass: "bg-violet-600",
+    companyType: "product",
+    industrySector: "IT"
+  },
+  {
+    id: "clevertap",
+    name: "CleverTap",
+    description: "Mobile marketing and customer engagement platform with strong data and engineering roles based in Mumbai.",
+    rolesHiring: ["Development", "Data", "AI/ML", "Marketing & Growth"],
+    careerUrl: "https://clevertap.com/careers/",
+    initials: "CLT",
+    colorClass: "bg-blue-500",
+    companyType: "product",
+    industrySector: "IT"
+  },
+  {
+    id: "moengage",
+    name: "MoEngage",
+    description: "Customer engagement platform hiring for product, data engineering, and marketing roles out of Bengaluru.",
+    rolesHiring: [
+      "Development",
+      "Data",
+      "AI/ML",
+      "Marketing & Growth",
+      "Design & Creative"
+    ],
+    careerUrl: "https://www.moengage.com/careers/",
+    initials: "MOE",
+    colorClass: "bg-green-600",
+    companyType: "product",
+    industrySector: "IT"
+  },
+  {
+    id: "hasura",
+    name: "Hasura",
+    description: "GraphQL platform and data API company based in Bengaluru, hiring for engineering and developer experience roles.",
+    rolesHiring: [
+      "Development",
+      "Tools & Platforms",
+      "Data",
+      "Design & Creative"
+    ],
+    careerUrl: "https://hasura.io/careers/",
+    initials: "HAS",
+    colorClass: "bg-indigo-600",
+    companyType: "product",
+    industrySector: "IT"
+  },
+  {
+    id: "nutanix-india",
+    name: "Nutanix India",
+    description: "Hyper-converged infrastructure and cloud platform with a large engineering center in Bengaluru and Pune.",
+    rolesHiring: ["Development", "Infrastructure", "Data", "Support"],
+    careerUrl: "https://www.nutanix.com/company/careers",
+    initials: "NUT",
+    colorClass: "bg-sky-600",
+    companyType: "product",
+    industrySector: "IT"
+  },
+  {
+    id: "citrix-india",
+    name: "Citrix India",
+    description: "Enterprise software company with major India engineering offices in Bengaluru and Pune for virtualization and networking products.",
+    rolesHiring: [
+      "Development",
+      "Infrastructure",
+      "Tools & Platforms",
+      "Support"
+    ],
+    careerUrl: "https://jobs.citrix.com/",
+    initials: "CTX",
+    colorClass: "bg-cyan-700",
+    companyType: "product",
+    industrySector: "IT"
+  },
+  // ── STARTUP (new) ──────────────────────────────────────────────────────
+  {
+    id: "cred",
+    name: "CRED",
+    description: "Premium fintech platform for credit card users with cutting-edge engineering, design, and data roles in Bengaluru.",
+    rolesHiring: [
+      "Development",
+      "Design & Creative",
+      "Data",
+      "AI/ML",
+      "Marketing & Growth"
+    ],
+    careerUrl: "https://careers.cred.club/",
+    initials: "CRD",
+    colorClass: "bg-gray-900",
+    companyType: "startup",
+    industrySector: "BFSI"
+  },
+  {
+    id: "meesho",
+    name: "Meesho",
+    description: "Social commerce platform empowering small businesses online with strong engineering, data, and growth roles.",
+    rolesHiring: [
+      "Development",
+      "Data",
+      "AI/ML",
+      "Marketing & Growth",
+      "Design & Creative"
+    ],
+    careerUrl: "https://meesho.io/careers",
+    initials: "MSH",
+    colorClass: "bg-pink-700",
+    companyType: "startup",
+    industrySector: "E-commerce"
+  },
+  {
+    id: "zerodha",
+    name: "Zerodha",
+    description: "India's largest discount broker and fintech pioneer known for engineering excellence and a minimalist product philosophy.",
+    rolesHiring: ["Development", "Data", "Design & Creative", "Non-Coding IT"],
+    careerUrl: "https://zerodha.com/careers/",
+    initials: "ZRD",
+    colorClass: "bg-teal-700",
+    companyType: "startup",
+    industrySector: "BFSI"
+  },
+  {
+    id: "unacademy",
+    name: "Unacademy",
+    description: "India's largest online learning platform with roles in engineering, data, product, and content across Bengaluru.",
+    rolesHiring: [
+      "Development",
+      "Data",
+      "Design & Creative",
+      "Marketing & Growth",
+      "Non-Coding IT"
+    ],
+    careerUrl: "https://unacademy.com/careers",
+    initials: "UNA",
+    colorClass: "bg-blue-600",
+    companyType: "startup",
+    industrySector: "EdTech"
+  },
+  {
+    id: "dream11",
+    name: "Dream11",
+    description: "India's largest fantasy sports platform with high-scale engineering, data science, and product roles in Mumbai.",
+    rolesHiring: [
+      "Development",
+      "Data",
+      "AI/ML",
+      "Design & Creative",
+      "Non-Coding IT"
+    ],
+    careerUrl: "https://careers.dream11.com/",
+    initials: "D11",
+    colorClass: "bg-blue-700",
+    companyType: "startup",
+    industrySector: "Gaming"
+  },
+  {
+    id: "rapido",
+    name: "Rapido",
+    description: "Bike taxi super-app with fast-growing engineering and data roles in Bengaluru focusing on mobility solutions.",
+    rolesHiring: ["Development", "Data", "AI/ML", "Non-Coding IT"],
+    careerUrl: "https://rapido.bike/careers/",
+    initials: "RPD",
+    colorClass: "bg-yellow-600",
+    companyType: "startup",
+    industrySector: "Mobility"
+  },
+  {
+    id: "sharechat",
+    name: "ShareChat",
+    description: "India's largest vernacular social media platform with strong AI/ML, engineering, and content roles in Bengaluru.",
+    rolesHiring: [
+      "Development",
+      "AI/ML",
+      "Data",
+      "Design & Creative",
+      "Marketing & Growth"
+    ],
+    careerUrl: "https://sharechat.com/careers",
+    initials: "SCH",
+    colorClass: "bg-purple-600",
+    companyType: "startup",
+    industrySector: "Social Media"
+  },
+  {
+    id: "lenskart",
+    name: "Lenskart",
+    description: "Eyewear retail tech company merging offline and online with engineering, data, and product roles in Gurugram.",
+    rolesHiring: [
+      "Development",
+      "Data",
+      "Design & Creative",
+      "Marketing & Growth",
+      "Non-Coding IT"
+    ],
+    careerUrl: "https://lenskart.com/careers",
+    initials: "LNK",
+    colorClass: "bg-cyan-600",
+    companyType: "startup",
+    industrySector: "Retail"
+  },
+  {
+    id: "phonepe",
+    name: "PhonePe",
+    description: "India's #1 digital payments platform with large-scale engineering, data, and product teams based in Bengaluru.",
+    rolesHiring: [
+      "Development",
+      "Data",
+      "AI/ML",
+      "Design & Creative",
+      "Non-Coding IT"
+    ],
+    careerUrl: "https://www.phonepe.com/careers/",
+    initials: "PPE",
+    colorClass: "bg-violet-700",
+    companyType: "startup",
+    industrySector: "BFSI"
+  },
+  {
+    id: "policybazaar",
+    name: "PolicyBazaar",
+    description: "India's largest insurance aggregator and fintech company with engineering, data, and marketing roles in Gurugram.",
+    rolesHiring: [
+      "Development",
+      "Data",
+      "Marketing & Growth",
+      "Non-Coding IT",
+      "AI/ML"
+    ],
+    careerUrl: "https://www.policybazaar.com/careers/",
+    initials: "PLB",
+    colorClass: "bg-green-700",
+    companyType: "startup",
+    industrySector: "Insurance"
+  },
+  {
+    id: "groww",
+    name: "Groww",
+    description: "Investment and stock trading platform with fast-growing engineering, product, and data teams in Bengaluru.",
+    rolesHiring: [
+      "Development",
+      "Data",
+      "Design & Creative",
+      "AI/ML",
+      "Non-Coding IT"
+    ],
+    careerUrl: "https://groww.in/careers",
+    initials: "GRW",
+    colorClass: "bg-lime-700",
+    companyType: "startup",
+    industrySector: "BFSI"
+  },
+  {
+    id: "upgrad",
+    name: "upGrad",
+    description: "Online higher education platform with engineering, product, data, and marketing roles primarily in Mumbai.",
+    rolesHiring: [
+      "Development",
+      "Data",
+      "Marketing & Growth",
+      "Design & Creative",
+      "Non-Coding IT"
+    ],
+    careerUrl: "https://careers.upgrad.com/",
+    initials: "UPG",
+    colorClass: "bg-blue-800",
+    companyType: "startup",
+    industrySector: "EdTech"
+  },
+  {
+    id: "cars24",
+    name: "Cars24",
+    description: "Automotive e-commerce platform with engineering, data science, and product roles transforming the used-car market.",
+    rolesHiring: [
+      "Development",
+      "Data",
+      "AI/ML",
+      "Non-Coding IT",
+      "Design & Creative"
+    ],
+    careerUrl: "https://www.cars24.com/careers/",
+    initials: "C24",
+    colorClass: "bg-red-600",
+    companyType: "startup",
+    industrySector: "Auto"
+  },
+  {
+    id: "urban-company",
+    name: "Urban Company",
+    description: "Home services marketplace with engineering, operations tech, data, and product roles at their Gurugram HQ.",
+    rolesHiring: [
+      "Development",
+      "Data",
+      "Design & Creative",
+      "Marketing & Growth",
+      "AI/ML"
+    ],
+    careerUrl: "https://urbancompany.com/careers",
+    initials: "UC",
+    colorClass: "bg-amber-700",
+    companyType: "startup",
+    industrySector: "Marketplace"
+  },
+  {
+    id: "nykaa",
+    name: "Nykaa",
+    description: "Beauty and lifestyle e-commerce company with engineering, data, design, and marketing roles in Mumbai and Bengaluru.",
+    rolesHiring: [
+      "Development",
+      "Data",
+      "Design & Creative",
+      "Marketing & Growth"
+    ],
+    careerUrl: "https://careers.nykaa.com/",
+    initials: "NYK",
+    colorClass: "bg-pink-700",
+    companyType: "startup",
+    industrySector: "E-commerce"
+  },
+  {
+    id: "ola-electric",
+    name: "Ola Electric",
+    description: "EV manufacturer and mobility startup with rapidly growing embedded systems, software, and data roles in Bengaluru.",
+    rolesHiring: [
+      "Development",
+      "Data",
+      "AI/ML",
+      "Infrastructure",
+      "Design & Creative"
+    ],
+    careerUrl: "https://olaelectric.com/careers",
+    initials: "OLE",
+    colorClass: "bg-yellow-700",
+    companyType: "startup",
+    industrySector: "EV/Auto"
+  },
+  // ── CPG / FMCG ────────────────────────────────────────────────────────
+  {
+    id: "hul",
+    name: "Hindustan Unilever (HUL)",
+    description: "India's largest FMCG company with strong IT hiring for digital transformation, SAP, analytics, and e-commerce roles.",
+    rolesHiring: [
+      "SAP/ERP",
+      "Data",
+      "Non-Coding IT",
+      "Marketing & Growth",
+      "AI/ML"
+    ],
+    careerUrl: "https://careers.unilever.com/",
+    initials: "HUL",
+    colorClass: "bg-blue-700",
+    companyType: "industry",
+    industrySector: "CPG"
+  },
+  {
+    id: "pg-india",
+    name: "Procter & Gamble India",
+    description: "P&G India hires IT graduates for digital supply chain, data analytics, and IT service management across FMCG operations.",
+    rolesHiring: [
+      "SAP/ERP",
+      "Data",
+      "Non-Coding IT",
+      "Infrastructure",
+      "AI/ML"
+    ],
+    careerUrl: "https://www.pgcareers.com/",
+    initials: "P&G",
+    colorClass: "bg-indigo-700",
+    companyType: "industry",
+    industrySector: "CPG"
+  },
+  {
+    id: "itc-limited",
+    name: "ITC Limited",
+    description: "Diversified FMCG conglomerate leveraging IT for ERP, digital agri-tech, cloud, and analytics across all business units.",
+    rolesHiring: ["SAP/ERP", "Data", "Development", "Non-Coding IT"],
+    careerUrl: "https://www.itcportal.com/careers/",
+    initials: "ITC",
+    colorClass: "bg-green-800",
+    companyType: "industry",
+    industrySector: "CPG"
+  },
+  {
+    id: "nestle-india",
+    name: "Nestlé India",
+    description: "Global food and beverages leader using IT extensively for supply chain automation, SAP, data analytics, and digital marketing.",
+    rolesHiring: ["SAP/ERP", "Data", "Non-Coding IT", "Marketing & Growth"],
+    careerUrl: "https://www.nestle.in/careers",
+    initials: "NES",
+    colorClass: "bg-red-700",
+    companyType: "industry",
+    industrySector: "CPG"
+  },
+  {
+    id: "colgate-india",
+    name: "Colgate-Palmolive India",
+    description: "Oral care FMCG leader with IT roles in digital supply chain management, SAP implementation, and data analytics.",
+    rolesHiring: ["SAP/ERP", "Data", "Non-Coding IT", "Infrastructure"],
+    careerUrl: "https://www.colgate.com/en-in/careers",
+    initials: "COL",
+    colorClass: "bg-red-600",
+    companyType: "industry",
+    industrySector: "CPG"
+  },
+  {
+    id: "marico-india",
+    name: "Marico India",
+    description: "FMCG company behind Parachute and Saffola brands with digital transformation, analytics, and SAP roles.",
+    rolesHiring: ["SAP/ERP", "Data", "Non-Coding IT", "Marketing & Growth"],
+    careerUrl: "https://www.marico.com/india/home/careers",
+    initials: "MAR",
+    colorClass: "bg-orange-700",
+    companyType: "industry",
+    industrySector: "CPG"
+  },
+  {
+    id: "britannia",
+    name: "Britannia Industries",
+    description: "Leading biscuits and dairy FMCG brand with IT roles covering SAP, supply chain automation, and data analytics.",
+    rolesHiring: ["SAP/ERP", "Data", "Non-Coding IT"],
+    careerUrl: "https://www.britannia.co.in/careers/",
+    initials: "BRT",
+    colorClass: "bg-amber-700",
+    companyType: "industry",
+    industrySector: "CPG"
+  },
+  {
+    id: "godrej-consumer",
+    name: "Godrej Consumer Products",
+    description: "Godrej Group's FMCG arm with technology roles in digital operations, analytics, supply chain, and SAP management.",
+    rolesHiring: ["SAP/ERP", "Data", "Non-Coding IT", "Marketing & Growth"],
+    careerUrl: "https://careers.godrej.com/",
+    initials: "GCP",
+    colorClass: "bg-green-700",
+    companyType: "industry",
+    industrySector: "CPG"
+  },
+  {
+    id: "dabur-india",
+    name: "Dabur India",
+    description: "Ayurvedic FMCG leader with digital transformation initiatives covering SAP, e-commerce analytics, and CRM technology.",
+    rolesHiring: ["SAP/ERP", "Data", "Non-Coding IT", "Marketing & Growth"],
+    careerUrl: "https://www.dabur.com/en/careers",
+    initials: "DAB",
+    colorClass: "bg-lime-700",
+    companyType: "industry",
+    industrySector: "CPG"
+  },
+  {
+    id: "emami",
+    name: "Emami Limited",
+    description: "FMCG personal care company with IT roles in business analytics, SAP implementation, and digital commerce.",
+    rolesHiring: ["SAP/ERP", "Data", "Non-Coding IT"],
+    careerUrl: "https://www.emamiltd.in/career.aspx",
+    initials: "EMA",
+    colorClass: "bg-yellow-600",
+    companyType: "industry",
+    industrySector: "CPG"
+  },
+  {
+    id: "amul",
+    name: "Amul (GCMMF)",
+    description: "India's iconic dairy cooperative with IT roles covering supply chain systems, data analytics, and digital transformation.",
+    rolesHiring: ["SAP/ERP", "Data", "Non-Coding IT", "Infrastructure"],
+    careerUrl: "https://www.amul.com/m/career.php",
+    initials: "AMU",
+    colorClass: "bg-red-500",
+    companyType: "industry",
+    industrySector: "CPG"
+  },
+  // ── MANUFACTURING ─────────────────────────────────────────────────────
+  {
+    id: "tata-motors",
+    name: "Tata Motors",
+    description: "India's largest automobile manufacturer with IT roles in connected vehicles, SAP, embedded systems, and digital operations.",
+    rolesHiring: [
+      "Development",
+      "SAP/ERP",
+      "Data",
+      "Infrastructure",
+      "Non-Coding IT"
+    ],
+    careerUrl: "https://www.tatamotors.com/careers/",
+    initials: "TML",
+    colorClass: "bg-blue-800",
+    companyType: "industry",
+    industrySector: "Manufacturing"
+  },
+  {
+    id: "lt-india",
+    name: "Larsen & Toubro (L&T)",
+    description: "Engineering and technology conglomerate with IT roles spanning smart infrastructure, SAP, and digital project management.",
+    rolesHiring: [
+      "Development",
+      "SAP/ERP",
+      "Infrastructure",
+      "Data",
+      "Non-Coding IT"
+    ],
+    careerUrl: "https://www.larsentoubro.com/careers/",
+    initials: "L&T",
+    colorClass: "bg-orange-800",
+    companyType: "industry",
+    industrySector: "Manufacturing"
+  },
+  {
+    id: "siemens-india",
+    name: "Siemens India",
+    description: "Global industrial giant with India engineering centers hiring for automation, IoT, software, and digital industries.",
+    rolesHiring: ["Development", "Data", "Infrastructure", "AI/ML", "SAP/ERP"],
+    careerUrl: "https://new.siemens.com/in/en/company/jobs.html",
+    initials: "SIE",
+    colorClass: "bg-teal-800",
+    companyType: "industry",
+    industrySector: "Manufacturing"
+  },
+  {
+    id: "bosch-india",
+    name: "Bosch India",
+    description: "German engineering leader with large India R&D centers hiring for automotive software, IoT, and data analytics.",
+    rolesHiring: ["Development", "Data", "AI/ML", "Infrastructure", "SAP/ERP"],
+    careerUrl: "https://www.bosch.in/careers/",
+    initials: "BSH",
+    colorClass: "bg-red-800",
+    companyType: "industry",
+    industrySector: "Manufacturing"
+  },
+  {
+    id: "mahindra",
+    name: "Mahindra & Mahindra",
+    description: "Diversified conglomerate with IT roles in connected mobility, digital farm tech, SAP, and enterprise applications.",
+    rolesHiring: ["Development", "SAP/ERP", "Data", "AI/ML", "Non-Coding IT"],
+    careerUrl: "https://careers.mahindra.com/",
+    initials: "M&M",
+    colorClass: "bg-red-900",
+    companyType: "industry",
+    industrySector: "Manufacturing"
+  },
+  {
+    id: "abb-india",
+    name: "ABB India",
+    description: "Electrification and automation technology leader hiring for software engineering, IoT, and industrial automation roles.",
+    rolesHiring: ["Development", "Infrastructure", "Data", "Non-Coding IT"],
+    careerUrl: "https://careers.abb/global/en",
+    initials: "ABB",
+    colorClass: "bg-red-700",
+    companyType: "industry",
+    industrySector: "Manufacturing"
+  },
+  {
+    id: "schneider-electric",
+    name: "Schneider Electric India",
+    description: "Energy management and automation leader with India tech centers hiring for IoT, data, and software engineering.",
+    rolesHiring: ["Development", "Data", "Infrastructure", "AI/ML", "SAP/ERP"],
+    careerUrl: "https://careers.se.com/global/en",
+    initials: "SCH",
+    colorClass: "bg-green-800",
+    companyType: "industry",
+    industrySector: "Manufacturing"
+  },
+  {
+    id: "honeywell-india",
+    name: "Honeywell India",
+    description: "Industrial technology company with large India engineering centers for aerospace software, building tech, and automation.",
+    rolesHiring: [
+      "Development",
+      "Data",
+      "Infrastructure",
+      "AI/ML",
+      "Non-Coding IT"
+    ],
+    careerUrl: "https://careers.honeywell.com/us/en",
+    initials: "HON",
+    colorClass: "bg-red-700",
+    companyType: "industry",
+    industrySector: "Manufacturing"
+  },
+  {
+    id: "tata-steel",
+    name: "Tata Steel",
+    description: "Tata Group's steel manufacturing arm with digital transformation roles in operations tech, AI, and predictive maintenance.",
+    rolesHiring: ["Development", "Data", "AI/ML", "SAP/ERP", "Non-Coding IT"],
+    careerUrl: "https://www.tatasteel.com/careers/",
+    initials: "TST",
+    colorClass: "bg-slate-700",
+    companyType: "industry",
+    industrySector: "Manufacturing"
+  },
+  {
+    id: "bajaj-auto",
+    name: "Bajaj Auto",
+    description: "Two-wheeler and three-wheeler manufacturer with IT roles in connected vehicles, plant automation, and ERP systems.",
+    rolesHiring: ["Development", "SAP/ERP", "Data", "Infrastructure"],
+    careerUrl: "https://careers.bajajauto.com/",
+    initials: "BAJ",
+    colorClass: "bg-blue-900",
+    companyType: "industry",
+    industrySector: "Manufacturing"
+  },
+  {
+    id: "bel-india",
+    name: "Bharat Electronics Ltd (BEL)",
+    description: "Defence electronics PSU with IT roles in embedded systems, networking, software engineering, and defence electronics.",
+    rolesHiring: ["Development", "Infrastructure", "Data", "Non-Coding IT"],
+    careerUrl: "https://bel-india.in/Careers",
+    initials: "BEL",
+    colorClass: "bg-green-900",
+    companyType: "industry",
+    industrySector: "Manufacturing"
+  },
+  {
+    id: "ge-india",
+    name: "GE India",
+    description: "General Electric's India technology centers hire for industrial AI, cloud engineering, and digital healthcare solutions.",
+    rolesHiring: ["Development", "Data", "AI/ML", "Infrastructure"],
+    careerUrl: "https://jobs.gecareers.com/global/en",
+    initials: "GEI",
+    colorClass: "bg-sky-800",
+    companyType: "industry",
+    industrySector: "Manufacturing"
+  },
+  // ── PHARMA ─────────────────────────────────────────────────────────────
+  {
+    id: "sun-pharma",
+    name: "Sun Pharmaceutical Industries",
+    description: "India's largest pharma company with IT roles in regulatory informatics, SAP, data analytics, and digital health.",
+    rolesHiring: ["SAP/ERP", "Data", "Development", "Non-Coding IT", "AI/ML"],
+    careerUrl: "https://www.sunpharma.com/careers",
+    initials: "SUN",
+    colorClass: "bg-orange-700",
+    companyType: "industry",
+    industrySector: "Pharma"
+  },
+  {
+    id: "dr-reddys",
+    name: "Dr. Reddy's Laboratories",
+    description: "Leading pharma company with IT roles covering clinical data management, regulatory informatics, and SAP implementation.",
+    rolesHiring: [
+      "SAP/ERP",
+      "Data",
+      "Development",
+      "Non-Coding IT",
+      "Infrastructure"
+    ],
+    careerUrl: "https://www.drreddys.com/careers/",
+    initials: "DRL",
+    colorClass: "bg-red-700",
+    companyType: "industry",
+    industrySector: "Pharma"
+  },
+  {
+    id: "cipla",
+    name: "Cipla Limited",
+    description: "Major Indian pharma company investing in digital health, data analytics, regulatory IT, and clinical informatics roles.",
+    rolesHiring: ["Data", "SAP/ERP", "Development", "Non-Coding IT"],
+    careerUrl: "https://www.cipla.com/careers",
+    initials: "CIP",
+    colorClass: "bg-blue-700",
+    companyType: "industry",
+    industrySector: "Pharma"
+  },
+  {
+    id: "abbott-india",
+    name: "Abbott India",
+    description: "Global healthcare company with India IT roles in diagnostics informatics, data management, and regulatory compliance tech.",
+    rolesHiring: ["Data", "SAP/ERP", "Non-Coding IT", "Development"],
+    careerUrl: "https://www.abbottindia.com/careers.html",
+    initials: "ABT",
+    colorClass: "bg-red-800",
+    companyType: "industry",
+    industrySector: "Pharma"
+  },
+  {
+    id: "lupin",
+    name: "Lupin Limited",
+    description: "Fast-growing pharmaceutical company with IT roles in clinical data, regulatory submissions, and enterprise digital tools.",
+    rolesHiring: ["SAP/ERP", "Data", "Development", "Non-Coding IT"],
+    careerUrl: "https://careers.lupin.com/",
+    initials: "LUP",
+    colorClass: "bg-teal-800",
+    companyType: "industry",
+    industrySector: "Pharma"
+  },
+  {
+    id: "aurobindo-pharma",
+    name: "Aurobindo Pharma",
+    description: "Top generic pharma exporter with IT roles supporting manufacturing systems, SAP, and regulatory compliance technology.",
+    rolesHiring: ["SAP/ERP", "Data", "Non-Coding IT", "Infrastructure"],
+    careerUrl: "https://www.aurobindo.com/careers.htm",
+    initials: "AUR",
+    colorClass: "bg-indigo-800",
+    companyType: "industry",
+    industrySector: "Pharma"
+  },
+  {
+    id: "biocon",
+    name: "Biocon Limited",
+    description: "India's largest biopharma company with IT roles in bioinformatics, clinical data management, and digital health analytics.",
+    rolesHiring: ["Data", "AI/ML", "Development", "Non-Coding IT", "SAP/ERP"],
+    careerUrl: "https://www.biocon.com/careers/",
+    initials: "BIO",
+    colorClass: "bg-green-700",
+    companyType: "industry",
+    industrySector: "Pharma"
+  },
+  {
+    id: "torrent-pharma",
+    name: "Torrent Pharmaceuticals",
+    description: "Major pharma group with IT roles in clinical systems, SAP implementation, and digital operations across India offices.",
+    rolesHiring: ["SAP/ERP", "Data", "Non-Coding IT", "Development"],
+    careerUrl: "https://www.torrentpharma.com/careers",
+    initials: "TRP",
+    colorClass: "bg-purple-800",
+    companyType: "industry",
+    industrySector: "Pharma"
+  },
+  {
+    id: "pfizer-india",
+    name: "Pfizer India",
+    description: "Global pharma giant with India IT roles covering regulatory informatics, clinical data science, and digital health.",
+    rolesHiring: ["Data", "AI/ML", "Non-Coding IT", "SAP/ERP"],
+    careerUrl: "https://www.pfizer.co.in/careers",
+    initials: "PFZ",
+    colorClass: "bg-blue-900",
+    companyType: "industry",
+    industrySector: "Pharma"
+  },
+  {
+    id: "novartis-india",
+    name: "Novartis India",
+    description: "Swiss pharma leader with India data science, clinical informatics, and digital health technology centers.",
+    rolesHiring: ["Data", "AI/ML", "Development", "Non-Coding IT"],
+    careerUrl: "https://www.novartis.com/careers",
+    initials: "NOV",
+    colorClass: "bg-red-600",
+    companyType: "industry",
+    industrySector: "Pharma"
+  },
+  {
+    id: "gsk-india",
+    name: "GlaxoSmithKline India (GSK)",
+    description: "British pharma leader with India IT hiring for clinical data management, regulatory informatics, and enterprise digital tools.",
+    rolesHiring: ["Data", "SAP/ERP", "Non-Coding IT", "Development"],
+    careerUrl: "https://www.gsk.com/en-gb/careers/",
+    initials: "GSK",
+    colorClass: "bg-orange-800",
+    companyType: "industry",
+    industrySector: "Pharma"
+  },
+  {
+    id: "divis-labs",
+    name: "Divi's Laboratories",
+    description: "API pharma manufacturer with IT roles supporting manufacturing execution systems, SAP, and quality management software.",
+    rolesHiring: ["SAP/ERP", "Data", "Non-Coding IT", "Infrastructure"],
+    careerUrl: "https://www.divislabs.com/career.aspx",
+    initials: "DIV",
+    colorClass: "bg-sky-800",
+    companyType: "industry",
+    industrySector: "Pharma"
+  },
+  // ── INSURANCE / BFSI ──────────────────────────────────────────────────
+  {
+    id: "lic-india",
+    name: "Life Insurance Corporation (LIC)",
+    description: "India's largest insurer with IT roles in digital transformation, core insurance systems, data analytics, and mobile platforms.",
+    rolesHiring: [
+      "Development",
+      "Data",
+      "Non-Coding IT",
+      "Infrastructure",
+      "SAP/ERP"
+    ],
+    careerUrl: "https://licindia.in/careers",
+    initials: "LIC",
+    colorClass: "bg-blue-900",
+    companyType: "industry",
+    industrySector: "Insurance"
+  },
+  {
+    id: "hdfc-life",
+    name: "HDFC Life Insurance",
+    description: "Private life insurer with strong IT hiring for digital insurance platforms, data analytics, and customer experience tech.",
+    rolesHiring: [
+      "Development",
+      "Data",
+      "AI/ML",
+      "Non-Coding IT",
+      "Marketing & Growth"
+    ],
+    careerUrl: "https://www.hdfclife.com/careers",
+    initials: "HDL",
+    colorClass: "bg-indigo-800",
+    companyType: "industry",
+    industrySector: "Insurance"
+  },
+  {
+    id: "icici-prudential",
+    name: "ICICI Prudential Life Insurance",
+    description: "Leading private life insurer with IT roles in policy management systems, data analytics, and digital transformation.",
+    rolesHiring: ["Development", "Data", "Non-Coding IT", "AI/ML"],
+    careerUrl: "https://www.iciciprulife.com/careers.html",
+    initials: "IPL",
+    colorClass: "bg-orange-700",
+    companyType: "industry",
+    industrySector: "Insurance"
+  },
+  {
+    id: "bajaj-allianz",
+    name: "Bajaj Allianz General Insurance",
+    description: "Private general insurer with technology roles in claims processing automation, telematics, and digital underwriting.",
+    rolesHiring: ["Development", "Data", "AI/ML", "Non-Coding IT"],
+    careerUrl: "https://www.bajajallianz.com/careers.html",
+    initials: "BAL",
+    colorClass: "bg-blue-700",
+    companyType: "industry",
+    industrySector: "Insurance"
+  },
+  {
+    id: "sbi-life",
+    name: "SBI Life Insurance",
+    description: "Leading life insurer backed by State Bank of India with IT roles in digital insurance, analytics, and mobile banking.",
+    rolesHiring: ["Development", "Data", "Non-Coding IT", "Infrastructure"],
+    careerUrl: "https://www.sbilife.co.in/en/careers",
+    initials: "SBL",
+    colorClass: "bg-blue-800",
+    companyType: "industry",
+    industrySector: "Insurance"
+  },
+  {
+    id: "kotak-life",
+    name: "Kotak Mahindra Life Insurance",
+    description: "Private insurer part of Kotak Group with IT roles in digital platforms, data analytics, and claims technology.",
+    rolesHiring: ["Development", "Data", "Non-Coding IT", "AI/ML"],
+    careerUrl: "https://www.kotak.com/en/careers.html",
+    initials: "KTK",
+    colorClass: "bg-red-800",
+    companyType: "industry",
+    industrySector: "Insurance"
+  },
+  {
+    id: "max-life",
+    name: "Max Life Insurance",
+    description: "Leading private life insurance company with IT roles in digital distribution, analytics, and customer experience platforms.",
+    rolesHiring: ["Development", "Data", "Marketing & Growth", "Non-Coding IT"],
+    careerUrl: "https://www.maxlifeinsurance.com/careers",
+    initials: "MAX",
+    colorClass: "bg-teal-800",
+    companyType: "industry",
+    industrySector: "Insurance"
+  },
+  {
+    id: "hdfc-bank",
+    name: "HDFC Bank",
+    description: "India's largest private bank with massive technology hiring for digital banking, fintech, data science, and cybersecurity.",
+    rolesHiring: [
+      "Development",
+      "Data",
+      "AI/ML",
+      "Infrastructure",
+      "Non-Coding IT"
+    ],
+    careerUrl: "https://careers.hdfcbank.com/",
+    initials: "HDB",
+    colorClass: "bg-blue-800",
+    companyType: "industry",
+    industrySector: "BFSI"
+  },
+  {
+    id: "icici-bank",
+    name: "ICICI Bank",
+    description: "Private sector bank with extensive technology roles in digital banking, AI, core banking systems, and data analytics.",
+    rolesHiring: [
+      "Development",
+      "Data",
+      "AI/ML",
+      "Infrastructure",
+      "Non-Coding IT"
+    ],
+    careerUrl: "https://www.icicibank.com/about-us/careers.page",
+    initials: "ICB",
+    colorClass: "bg-orange-700",
+    companyType: "industry",
+    industrySector: "BFSI"
+  },
+  {
+    id: "axis-bank",
+    name: "Axis Bank",
+    description: "Private sector bank with strong tech hiring in digital banking products, analytics, cloud, and cybersecurity roles.",
+    rolesHiring: [
+      "Development",
+      "Data",
+      "Infrastructure",
+      "AI/ML",
+      "Non-Coding IT"
+    ],
+    careerUrl: "https://www.axisbank.com/careers",
+    initials: "AXB",
+    colorClass: "bg-maroon-800",
+    companyType: "industry",
+    industrySector: "BFSI"
+  },
+  {
+    id: "reliance",
+    name: "Reliance Industries",
+    description: "India's largest conglomerate with extensive IT hiring across Jio, retail, petrochemicals, and green energy divisions.",
+    rolesHiring: [
+      "Development",
+      "Data",
+      "AI/ML",
+      "Infrastructure",
+      "Non-Coding IT"
+    ],
+    careerUrl: "https://careers.ril.com/",
+    initials: "RIL",
+    colorClass: "bg-blue-700",
+    companyType: "industry",
+    industrySector: "Manufacturing"
   }
 ];
+const COMPANY_TYPES = [
+  { value: "all", label: "All Types" },
+  { value: "product", label: "Product" },
+  { value: "service", label: "Service" },
+  { value: "consulting", label: "Consulting" },
+  { value: "startup", label: "Startup" },
+  { value: "industry", label: "Industry" }
+];
+const ALL_SECTORS = [
+  "all",
+  "IT",
+  "BFSI",
+  "CPG",
+  "Manufacturing",
+  "Pharma",
+  "Insurance",
+  "E-commerce",
+  "EdTech",
+  "Gaming",
+  "Mobility",
+  "Social Media",
+  "Retail",
+  "Marketplace",
+  "EV/Auto",
+  "Auto"
+];
 function Companies() {
+  var _a2;
   const [query, setQuery] = reactExports.useState("");
-  const filtered = companies.filter((c) => {
+  const [activeType, setActiveType] = reactExports.useState(
+    "all"
+  );
+  const [activeSector, setActiveSector] = reactExports.useState("all");
+  const filtered = reactExports.useMemo(() => {
     const q = query.toLowerCase();
-    if (!q) return true;
-    return c.name.toLowerCase().includes(q) || c.description.toLowerCase().includes(q) || c.rolesHiring.some((r2) => r2.toLowerCase().includes(q));
-  });
+    return companies.filter((c) => {
+      const matchesType = activeType === "all" || c.companyType === activeType;
+      const matchesSector = activeSector === "all" || c.industrySector === activeSector;
+      const matchesQuery = !q || c.name.toLowerCase().includes(q) || c.description.toLowerCase().includes(q) || c.rolesHiring.some((r2) => r2.toLowerCase().includes(q)) || c.industrySector.toLowerCase().includes(q);
+      return matchesType && matchesSector && matchesQuery;
+    });
+  }, [query, activeType, activeSector]);
+  const hasActiveFilters = activeType !== "all" || activeSector !== "all" || query !== "";
+  function clearFilters() {
+    setQuery("");
+    setActiveType("all");
+    setActiveSector("all");
+  }
+  const countLabel = (() => {
+    var _a3;
+    if (activeSector !== "all" && activeType === "all" && !query) {
+      return `${filtered.length} ${activeSector} companies`;
+    }
+    if (activeType !== "all" && activeSector === "all" && !query) {
+      return `${filtered.length} ${((_a3 = COMPANY_TYPES.find((t) => t.value === activeType)) == null ? void 0 : _a3.label) ?? ""} companies`;
+    }
+    return `${filtered.length} ${filtered.length === 1 ? "company" : "companies"}`;
+  })();
   return /* @__PURE__ */ jsxRuntimeExports.jsxs(Layout, { children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "bg-card border-b border-border py-10 md:py-12", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container max-w-7xl mx-auto px-4", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "font-display font-bold text-3xl md:text-4xl text-foreground mb-2", children: "Top Companies Hiring Freshers" }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-muted-foreground", children: [
         companies.length,
-        "+ companies actively recruiting engineering graduates across India. Click any company to visit their careers page directly."
+        "+ companies across IT, BFSI, CPG, Manufacturing, Pharma, Insurance & more — actively recruiting engineering graduates. Click any company to visit their careers page directly."
       ] })
     ] }) }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "bg-background py-8", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container max-w-7xl mx-auto px-4", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative max-w-md mb-6", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Search, { className: "absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-4 mb-6", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative max-w-md", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(Search, { className: "absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            Input,
+            {
+              placeholder: "Search companies, sectors or roles...",
+              className: "pl-9 h-10",
+              value: query,
+              onChange: (e) => setQuery(e.target.value),
+              "data-ocid": "companies.search_input"
+            }
+          )
+        ] }),
         /* @__PURE__ */ jsxRuntimeExports.jsx(
-          Input,
+          "div",
           {
-            placeholder: "Search companies or domains...",
-            className: "pl-9 h-10",
-            value: query,
-            onChange: (e) => setQuery(e.target.value),
-            "data-ocid": "companies.search_input"
+            className: "flex flex-wrap gap-2",
+            "data-ocid": "companies.type_filter",
+            "aria-label": "Filter by company type",
+            children: COMPANY_TYPES.map((t) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "button",
+              {
+                type: "button",
+                onClick: () => setActiveType(t.value),
+                "data-ocid": `companies.type.${t.value}.tab`,
+                className: `px-3.5 py-1.5 rounded-full text-sm font-medium transition-fast border ${activeType === t.value ? "bg-primary text-primary-foreground border-primary shadow-sm" : "bg-card text-muted-foreground border-border hover:border-foreground/30 hover:text-foreground"}`,
+                children: t.label
+              },
+              t.value
+            ))
+          }
+        ),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          "div",
+          {
+            className: "flex flex-wrap gap-2",
+            "data-ocid": "companies.sector_filter",
+            "aria-label": "Filter by industry sector",
+            children: ALL_SECTORS.map((s) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "button",
+              {
+                type: "button",
+                onClick: () => setActiveSector(s),
+                "data-ocid": `companies.sector.${s.toLowerCase().replace(/\//g, "_")}.tab`,
+                className: `px-3.5 py-1.5 rounded-full text-xs font-medium transition-fast border ${activeSector === s ? "bg-secondary text-secondary-foreground border-secondary shadow-sm" : "bg-muted/40 text-muted-foreground border-border hover:border-foreground/30 hover:text-foreground"}`,
+                children: s === "all" ? "All Sectors" : s
+              },
+              s
+            ))
           }
         )
       ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-sm text-muted-foreground mb-6", children: [
-        "Showing",
-        " ",
-        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-semibold text-foreground", children: filtered.length }),
-        " ",
-        "companies"
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between mb-6", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-sm text-muted-foreground", children: [
+          "Showing",
+          " ",
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-semibold text-foreground", children: countLabel })
+        ] }),
+        hasActiveFilters && /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          "button",
+          {
+            type: "button",
+            onClick: clearFilters,
+            "data-ocid": "companies.clear_filters_button",
+            className: "flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-fast",
+            children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx(X, { className: "w-3.5 h-3.5" }),
+              "Clear filters"
+            ]
+          }
+        )
+      ] }),
+      hasActiveFilters && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-wrap gap-2 mb-4", children: [
+        activeType !== "all" && /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          Badge,
+          {
+            variant: "secondary",
+            className: "gap-1.5 pl-2 pr-1 py-1 text-xs",
+            children: [
+              (_a2 = COMPANY_TYPES.find((t) => t.value === activeType)) == null ? void 0 : _a2.label,
+              /* @__PURE__ */ jsxRuntimeExports.jsx(
+                "button",
+                {
+                  type: "button",
+                  onClick: () => setActiveType("all"),
+                  className: "ml-0.5 hover:text-foreground transition-fast",
+                  "aria-label": "Remove type filter",
+                  children: /* @__PURE__ */ jsxRuntimeExports.jsx(X, { className: "w-3 h-3" })
+                }
+              )
+            ]
+          }
+        ),
+        activeSector !== "all" && /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          Badge,
+          {
+            variant: "secondary",
+            className: "gap-1.5 pl-2 pr-1 py-1 text-xs",
+            children: [
+              activeSector,
+              /* @__PURE__ */ jsxRuntimeExports.jsx(
+                "button",
+                {
+                  type: "button",
+                  onClick: () => setActiveSector("all"),
+                  className: "ml-0.5 hover:text-foreground transition-fast",
+                  "aria-label": "Remove sector filter",
+                  children: /* @__PURE__ */ jsxRuntimeExports.jsx(X, { className: "w-3 h-3" })
+                }
+              )
+            ]
+          }
+        ),
+        query && /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          Badge,
+          {
+            variant: "secondary",
+            className: "gap-1.5 pl-2 pr-1 py-1 text-xs",
+            children: [
+              '"',
+              query,
+              '"',
+              /* @__PURE__ */ jsxRuntimeExports.jsx(
+                "button",
+                {
+                  type: "button",
+                  onClick: () => setQuery(""),
+                  className: "ml-0.5 hover:text-foreground transition-fast",
+                  "aria-label": "Clear search",
+                  children: /* @__PURE__ */ jsxRuntimeExports.jsx(X, { className: "w-3 h-3" })
+                }
+              )
+            ]
+          }
+        )
       ] }),
       filtered.length === 0 ? /* @__PURE__ */ jsxRuntimeExports.jsxs(
         "div",
@@ -46959,9 +48442,19 @@ function Companies() {
           className: "text-center py-16",
           "data-ocid": "companies.empty_state",
           children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-4xl mb-4", children: "🏢" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "inline-flex items-center justify-center w-16 h-16 rounded-full bg-muted mb-4", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Building2, { className: "w-7 h-7 text-muted-foreground" }) }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display font-semibold text-foreground text-lg mb-2", children: "No companies found" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-muted-foreground", children: "Try a different search term" })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-muted-foreground mb-4", children: "Try a different search term or filter combination" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "button",
+              {
+                type: "button",
+                onClick: clearFilters,
+                className: "text-sm text-primary hover:underline",
+                "data-ocid": "companies.empty_state.clear_button",
+                children: "Clear all filters"
+              }
+            )
           ]
         }
       ) : /* @__PURE__ */ jsxRuntimeExports.jsx(
@@ -46972,7 +48465,62 @@ function Companies() {
           children: filtered.map((company, i) => /* @__PURE__ */ jsxRuntimeExports.jsx(CompanyCard, { company, index: i + 1 }, company.id))
         }
       ),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-12 bg-muted/30 rounded-2xl border border-border p-6 md:p-8 text-center", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-12 mb-8", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display font-bold text-xl text-foreground mb-4", children: "Browse by Sector" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3", children: [
+          { sector: "IT", emoji: "💻", desc: "Tech companies" },
+          { sector: "BFSI", emoji: "🏦", desc: "Banking & fintech" },
+          { sector: "CPG", emoji: "🛒", desc: "Consumer goods" },
+          { sector: "Manufacturing", emoji: "🏭", desc: "Industrial" },
+          { sector: "Pharma", emoji: "💊", desc: "Healthcare & pharma" },
+          {
+            sector: "Insurance",
+            emoji: "🛡️",
+            desc: "Life & general insurance"
+          },
+          {
+            sector: "E-commerce",
+            emoji: "📦",
+            desc: "Online retail & commerce"
+          },
+          { sector: "EdTech", emoji: "🎓", desc: "Education technology" },
+          { sector: "EV/Auto", emoji: "⚡", desc: "Electric vehicles" },
+          {
+            sector: "Gaming",
+            emoji: "🎮",
+            desc: "Gaming & entertainment"
+          }
+        ].map(({ sector, emoji, desc }) => {
+          const count = companies.filter(
+            (c) => c.industrySector === sector
+          ).length;
+          return /* @__PURE__ */ jsxRuntimeExports.jsxs(
+            "button",
+            {
+              type: "button",
+              onClick: () => {
+                setActiveSector(sector);
+                setActiveType("all");
+                setQuery("");
+                window.scrollTo({ top: 0, behavior: "smooth" });
+              },
+              "data-ocid": `companies.sector_card.${sector.toLowerCase().replace(/\//g, "_")}.button`,
+              className: "text-left p-4 rounded-xl border border-border bg-card hover:bg-muted/40 hover:border-foreground/20 transition-smooth",
+              children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-2xl mb-2", children: emoji }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-display font-semibold text-foreground text-sm", children: sector }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-xs text-muted-foreground mt-0.5", children: desc }),
+                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-xs font-medium text-primary mt-2", children: [
+                  count,
+                  " companies"
+                ] })
+              ]
+            },
+            sector
+          );
+        }) })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-4 bg-muted/30 rounded-2xl border border-border p-6 md:p-8 text-center", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display font-bold text-xl text-foreground mb-2", children: "Looking for more opportunities?" }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-muted-foreground text-sm mb-5", children: "Browse pre-filled job search links on top portals for every IT category. Visit a role's detail page to get direct search links." }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-wrap items-center justify-center gap-3", children: [

@@ -40,27 +40,27 @@ const SECTION_META: Record<
 > = {
   interests: {
     icon: <Sparkles className="w-5 h-5" />,
-    label: "What You Enjoy",
+    label: "Your Happy Place (Work Edition)",
     description:
-      "Understanding what energises you helps us find roles where you'll thrive.",
+      "What genuinely excites you at work? Let's find roles where Mondays don't hurt.",
   },
   drains: {
     icon: <Zap className="w-5 h-5" />,
-    label: "What Drains You",
+    label: "The Joy Killers",
     description:
-      "Knowing what drains you helps us avoid poor-fit roles and dead ends.",
+      "Knowing your kryptonite helps us steer you away from roles that'll slowly drain you.",
   },
   thinking: {
     icon: <Brain className="w-5 h-5" />,
-    label: "How You Think",
+    label: "Inside Your Brain",
     description:
-      "Your thinking style shapes which roles suit your natural decision-making.",
+      "How you think, decide, and work reveals which roles fit your natural wiring.",
   },
   scenarios: {
     icon: <Trophy className="w-5 h-5" />,
-    label: "Real-World Scenarios",
+    label: "It's 3 PM on a Monday...",
     description:
-      "How you respond to real situations reveals your true instincts.",
+      "Real work situations, real instincts — this is where your true fit shows up.",
   },
 };
 

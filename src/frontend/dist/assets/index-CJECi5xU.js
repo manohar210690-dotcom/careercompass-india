@@ -26427,11 +26427,22 @@ const createLucideIcon = (iconName, iconNode) => {
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$p = [
+const __iconNode$q = [
   ["path", { d: "m12 19-7-7 7-7", key: "1l729n" }],
   ["path", { d: "M19 12H5", key: "x3x0zl" }]
 ];
-const ArrowLeft = createLucideIcon("arrow-left", __iconNode$p);
+const ArrowLeft = createLucideIcon("arrow-left", __iconNode$q);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$p = [
+  ["path", { d: "M5 12h14", key: "1ays0h" }],
+  ["path", { d: "m12 5 7 7-7 7", key: "xquz4c" }]
+];
+const ArrowRight = createLucideIcon("arrow-right", __iconNode$p);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -26439,17 +26450,6 @@ const ArrowLeft = createLucideIcon("arrow-left", __iconNode$p);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$o = [
-  ["path", { d: "M5 12h14", key: "1ays0h" }],
-  ["path", { d: "m12 5 7 7-7 7", key: "xquz4c" }]
-];
-const ArrowRight = createLucideIcon("arrow-right", __iconNode$o);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$n = [
   [
     "path",
     {
@@ -26459,14 +26459,14 @@ const __iconNode$n = [
   ],
   ["circle", { cx: "12", cy: "8", r: "6", key: "1vp47v" }]
 ];
-const Award = createLucideIcon("award", __iconNode$n);
+const Award = createLucideIcon("award", __iconNode$o);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$m = [
+const __iconNode$n = [
   ["path", { d: "M12 7v14", key: "1akyts" }],
   [
     "path",
@@ -26476,14 +26476,14 @@ const __iconNode$m = [
     }
   ]
 ];
-const BookOpen = createLucideIcon("book-open", __iconNode$m);
+const BookOpen = createLucideIcon("book-open", __iconNode$n);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$l = [
+const __iconNode$m = [
   [
     "path",
     {
@@ -26506,7 +26506,18 @@ const __iconNode$l = [
   ["path", { d: "M6 18a4 4 0 0 1-1.967-.516", key: "2e4loj" }],
   ["path", { d: "M19.967 17.484A4 4 0 0 1 18 18", key: "159ez6" }]
 ];
-const Brain = createLucideIcon("brain", __iconNode$l);
+const Brain = createLucideIcon("brain", __iconNode$m);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$l = [
+  ["path", { d: "M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16", key: "jecpp" }],
+  ["rect", { width: "20", height: "14", x: "2", y: "6", rx: "2", key: "i6l2r4" }]
+];
+const Briefcase = createLucideIcon("briefcase", __iconNode$l);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -26514,17 +26525,6 @@ const Brain = createLucideIcon("brain", __iconNode$l);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$k = [
-  ["path", { d: "M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16", key: "jecpp" }],
-  ["rect", { width: "20", height: "14", x: "2", y: "6", rx: "2", key: "i6l2r4" }]
-];
-const Briefcase = createLucideIcon("briefcase", __iconNode$k);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$j = [
   ["path", { d: "M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z", key: "1b4qmf" }],
   ["path", { d: "M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2", key: "i71pzd" }],
   ["path", { d: "M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2", key: "10jefs" }],
@@ -26533,15 +26533,26 @@ const __iconNode$j = [
   ["path", { d: "M10 14h4", key: "kelpxr" }],
   ["path", { d: "M10 18h4", key: "1ulq68" }]
 ];
-const Building2 = createLucideIcon("building-2", __iconNode$j);
+const Building2 = createLucideIcon("building-2", __iconNode$k);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$i = [["path", { d: "m9 18 6-6-6-6", key: "mthhwq" }]];
-const ChevronRight = createLucideIcon("chevron-right", __iconNode$i);
+const __iconNode$j = [["path", { d: "m9 18 6-6-6-6", key: "mthhwq" }]];
+const ChevronRight = createLucideIcon("chevron-right", __iconNode$j);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$i = [
+  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
+  ["path", { d: "m9 12 2 2 4-4", key: "dzmm74" }]
+];
+const CircleCheck = createLucideIcon("circle-check", __iconNode$i);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -26549,17 +26560,6 @@ const ChevronRight = createLucideIcon("chevron-right", __iconNode$i);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$h = [
-  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
-  ["path", { d: "m9 12 2 2 4-4", key: "dzmm74" }]
-];
-const CircleCheck = createLucideIcon("circle-check", __iconNode$h);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$g = [
   [
     "path",
     {
@@ -26569,7 +26569,19 @@ const __iconNode$g = [
   ],
   ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }]
 ];
-const Compass = createLucideIcon("compass", __iconNode$g);
+const Compass = createLucideIcon("compass", __iconNode$h);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$g = [
+  ["path", { d: "M15 3h6v6", key: "1q9fwt" }],
+  ["path", { d: "M10 14 21 3", key: "gplh6r" }],
+  ["path", { d: "M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6", key: "a6xqqp" }]
+];
+const ExternalLink = createLucideIcon("external-link", __iconNode$g);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -26577,18 +26589,6 @@ const Compass = createLucideIcon("compass", __iconNode$g);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$f = [
-  ["path", { d: "M15 3h6v6", key: "1q9fwt" }],
-  ["path", { d: "M10 14 21 3", key: "gplh6r" }],
-  ["path", { d: "M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6", key: "a6xqqp" }]
-];
-const ExternalLink = createLucideIcon("external-link", __iconNode$f);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$e = [
   [
     "path",
     {
@@ -26597,7 +26597,21 @@ const __iconNode$e = [
     }
   ]
 ];
-const Funnel = createLucideIcon("funnel", __iconNode$e);
+const Funnel = createLucideIcon("funnel", __iconNode$f);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$e = [
+  ["path", { d: "M6 3h12", key: "ggurg9" }],
+  ["path", { d: "M6 8h12", key: "6g4wlu" }],
+  ["path", { d: "m6 13 8.5 8", key: "u1kupk" }],
+  ["path", { d: "M6 13h3", key: "wdp6ag" }],
+  ["path", { d: "M9 13c6.667 0 6.667-10 0-10", key: "1nkvk2" }]
+];
+const IndianRupee = createLucideIcon("indian-rupee", __iconNode$e);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -26605,13 +26619,11 @@ const Funnel = createLucideIcon("funnel", __iconNode$e);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$d = [
-  ["path", { d: "M6 3h12", key: "ggurg9" }],
-  ["path", { d: "M6 8h12", key: "6g4wlu" }],
-  ["path", { d: "m6 13 8.5 8", key: "u1kupk" }],
-  ["path", { d: "M6 13h3", key: "wdp6ag" }],
-  ["path", { d: "M9 13c6.667 0 6.667-10 0-10", key: "1nkvk2" }]
+  ["path", { d: "M4 12h16", key: "1lakjw" }],
+  ["path", { d: "M4 18h16", key: "19g7jn" }],
+  ["path", { d: "M4 6h16", key: "1o0s65" }]
 ];
-const IndianRupee = createLucideIcon("indian-rupee", __iconNode$d);
+const Menu = createLucideIcon("menu", __iconNode$d);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -26619,11 +26631,10 @@ const IndianRupee = createLucideIcon("indian-rupee", __iconNode$d);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$c = [
-  ["path", { d: "M4 12h16", key: "1lakjw" }],
-  ["path", { d: "M4 18h16", key: "19g7jn" }],
-  ["path", { d: "M4 6h16", key: "1o0s65" }]
+  ["path", { d: "M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8", key: "1357e3" }],
+  ["path", { d: "M3 3v5h5", key: "1xhq8a" }]
 ];
-const Menu = createLucideIcon("menu", __iconNode$c);
+const RotateCcw = createLucideIcon("rotate-ccw", __iconNode$c);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -26631,10 +26642,10 @@ const Menu = createLucideIcon("menu", __iconNode$c);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$b = [
-  ["path", { d: "M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8", key: "1357e3" }],
-  ["path", { d: "M3 3v5h5", key: "1xhq8a" }]
+  ["path", { d: "m21 21-4.34-4.34", key: "14j7rj" }],
+  ["circle", { cx: "11", cy: "11", r: "8", key: "4ej97u" }]
 ];
-const RotateCcw = createLucideIcon("rotate-ccw", __iconNode$b);
+const Search = createLucideIcon("search", __iconNode$b);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -26642,10 +26653,19 @@ const RotateCcw = createLucideIcon("rotate-ccw", __iconNode$b);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$a = [
-  ["path", { d: "m21 21-4.34-4.34", key: "14j7rj" }],
-  ["circle", { cx: "11", cy: "11", r: "8", key: "4ej97u" }]
+  [
+    "path",
+    {
+      d: "M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z",
+      key: "4pj2yx"
+    }
+  ],
+  ["path", { d: "M20 3v4", key: "1olli1" }],
+  ["path", { d: "M22 5h-4", key: "1gvqau" }],
+  ["path", { d: "M4 17v2", key: "vumght" }],
+  ["path", { d: "M5 18H3", key: "zchphs" }]
 ];
-const Search = createLucideIcon("search", __iconNode$a);
+const Sparkles = createLucideIcon("sparkles", __iconNode$a);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -47192,881 +47212,2572 @@ function Home() {
     ] }) }) })
   ] });
 }
+const SECTION_COLORS = {
+  interests: {
+    bg: "bg-primary/10",
+    text: "text-primary",
+    border: "border-primary/30",
+    badge: "bg-primary/15 text-primary border-primary/30"
+  },
+  drains: {
+    bg: "bg-destructive/10",
+    text: "text-destructive",
+    border: "border-destructive/30",
+    badge: "bg-destructive/15 text-destructive border-destructive/30"
+  },
+  thinking: {
+    bg: "bg-accent/10",
+    text: "text-accent-foreground",
+    border: "border-accent/30",
+    badge: "bg-accent/15 text-accent-foreground border-accent/30"
+  },
+  scenarios: {
+    bg: "bg-secondary",
+    text: "text-secondary-foreground",
+    border: "border-border",
+    badge: "bg-secondary text-secondary-foreground border-border"
+  }
+};
 const quizQuestions = [
+  // ════════════════════════════════════════════════════════════════
+  // SECTION 1 — WHAT YOU ENJOY (Q1–Q6)
+  // ════════════════════════════════════════════════════════════════
   {
     id: "q1",
-    question: "How do you prefer to spend most of your time at work?",
+    section: "interests",
+    sectionLabel: "What You Enjoy",
+    question: "Which of these activities sounds most energising to you on a typical workday?",
+    description: "Pick the one that genuinely excites you, not what you think you should enjoy.",
     options: [
       {
         id: "q1a",
-        label: "Writing code and building software",
+        text: "Building or coding systems — writing logic, APIs, or features",
+        riasecScores: { R: 2, I: 2, A: 0, S: 0, E: 0, C: 0 },
+        mbtiAxes: [{ dimension: "SN", pole: "left", weight: 1 }],
         roleIds: [
           "frontend-developer",
           "backend-developer",
           "fullstack-developer",
-          "mobile-android-developer",
-          "flutter-developer",
+          "java-developer",
           "python-developer",
-          "ml-engineer",
-          "devops-engineer"
+          "react-native-developer",
+          "flutter-developer",
+          "dotnet-developer"
         ]
       },
       {
         id: "q1b",
-        label: "Analyzing data and finding insights",
+        text: "Designing visual experiences — UIs, layouts, brand identities",
+        riasecScores: { R: 0, I: 1, A: 2, S: 0, E: 1, C: 0 },
+        mbtiAxes: [{ dimension: "SN", pole: "right", weight: 1 }],
         roleIds: [
-          "data-analyst",
-          "data-scientist",
-          "bi-developer",
-          "reporting-analyst",
-          "marketing-analyst",
-          "data-quality-analyst",
-          "data-governance-analyst"
+          "uiux-designer",
+          "frontend-developer",
+          "graphic-designer",
+          "product-designer",
+          "interaction-designer",
+          "web-designer",
+          "brand-designer",
+          "motion-designer"
         ]
       },
       {
         id: "q1c",
-        label: "Designing visuals and creative experiences",
+        text: "Analysing data — finding patterns, drawing insights from numbers",
+        riasecScores: { R: 0, I: 2, A: 0, S: 0, E: 0, C: 2 },
+        mbtiAxes: [{ dimension: "TF", pole: "left", weight: 2 }],
         roleIds: [
-          "uiux-designer",
-          "graphic-designer",
-          "product-designer",
-          "motion-designer",
-          "brand-designer",
-          "web-designer",
-          "video-editor",
-          "illustrator"
+          "data-analyst",
+          "business-analyst",
+          "data-scientist",
+          "bi-developer",
+          "reporting-analyst",
+          "data-quality-analyst",
+          "marketing-analyst",
+          "data-governance-analyst"
         ]
       },
       {
         id: "q1d",
-        label: "Helping people and solving problems",
+        text: "Helping users solve problems — support, training, or success roles",
+        riasecScores: { R: 0, I: 0, A: 0, S: 2, E: 1, C: 0 },
+        mbtiAxes: [{ dimension: "TF", pole: "right", weight: 2 }],
         roleIds: [
           "it-support-engineer",
           "helpdesk-analyst",
-          "application-support-engineer",
           "service-desk-analyst",
           "technical-account-manager",
+          "application-support-engineer",
           "l1-support-engineer",
           "l2-support-engineer"
         ]
       },
       {
         id: "q1e",
-        label: "Managing projects and leading teams",
+        text: "Planning and organising projects — timelines, milestones, coordination",
+        riasecScores: { R: 0, I: 0, A: 0, S: 0, E: 2, C: 2 },
+        mbtiAxes: [{ dimension: "JP", pole: "left", weight: 2 }],
         roleIds: [
           "it-project-manager",
           "scrum-master",
-          "agile-coach",
           "product-manager",
+          "agile-coach",
           "business-analyst",
-          "it-vendor-manager",
-          "change-management-analyst"
+          "change-management-analyst",
+          "it-vendor-manager"
         ]
       }
     ]
   },
   {
     id: "q2",
-    question: "Which work environment suits you best?",
+    section: "interests",
+    sectionLabel: "What You Enjoy",
+    question: "You have a free afternoon at work. You'd spend it…",
     options: [
       {
         id: "q2a",
-        label: "Deep focus work alone, solving complex technical problems",
+        text: "Experimenting with a new tool, framework, or technology",
+        riasecScores: { R: 1, I: 2, A: 0, S: 0, E: 0, C: 0 },
+        mbtiAxes: [
+          { dimension: "SN", pole: "right", weight: 1 },
+          { dimension: "JP", pole: "right", weight: 1 }
+        ],
         roleIds: [
-          "backend-developer",
-          "java-developer",
-          "dotnet-developer",
-          "database-administrator",
-          "deep-learning-engineer",
-          "ai-research-scientist",
-          "security-engineer",
-          "kubernetes-admin"
+          "devops-engineer",
+          "cloud-engineer",
+          "mlops-engineer",
+          "kubernetes-admin",
+          "aws-solutions-architect",
+          "gcp-engineer",
+          "azure-cloud-engineer"
         ]
       },
       {
         id: "q2b",
-        label: "Collaborating with cross-functional teams daily",
+        text: "Sketching a better interface or redesigning an existing product",
+        riasecScores: { R: 0, I: 1, A: 2, S: 1, E: 0, C: 0 },
+        mbtiAxes: [{ dimension: "SN", pole: "right", weight: 2 }],
         roleIds: [
-          "fullstack-developer",
-          "business-analyst",
-          "scrum-master",
-          "product-manager",
           "uiux-designer",
           "product-designer",
-          "agile-coach",
-          "technical-writer"
+          "product-manager",
+          "interaction-designer",
+          "web-designer",
+          "design-systems-manager"
         ]
       },
       {
         id: "q2c",
-        label: "Presenting to clients and stakeholders",
+        text: "Finding patterns in a messy dataset or writing queries",
+        riasecScores: { R: 0, I: 2, A: 0, S: 0, E: 0, C: 1 },
+        mbtiAxes: [{ dimension: "TF", pole: "left", weight: 2 }],
         roleIds: [
-          "sap-fico-consultant",
-          "sap-sd-consultant",
-          "oracle-erp-consultant",
-          "business-analyst",
-          "solutions-architect-associate",
-          "technical-account-manager",
-          "brand-manager",
-          "business-development-executive"
+          "data-engineer",
+          "data-analyst",
+          "etl-developer",
+          "data-warehouse-engineer",
+          "database-administrator",
+          "data-migration-specialist"
         ]
       },
       {
         id: "q2d",
-        label: "A creative studio mixing logic and artistry",
+        text: "Writing documentation that finally explains something clearly",
+        riasecScores: { R: 0, I: 1, A: 1, S: 1, E: 0, C: 2 },
+        mbtiAxes: [{ dimension: "JP", pole: "left", weight: 1 }],
         roleIds: [
-          "uiux-designer",
-          "motion-designer",
-          "brand-designer",
-          "interaction-designer",
-          "animation-designer",
-          "3d-designer",
-          "video-editor",
-          "illustrator"
+          "technical-writer",
+          "business-analyst",
+          "confluence-administrator",
+          "it-compliance-analyst",
+          "change-management-analyst"
         ]
       },
       {
         id: "q2e",
-        label: "High-paced environment with quick decisions",
+        text: "Chatting with users to understand their frustrations and needs",
+        riasecScores: { R: 0, I: 1, A: 0, S: 2, E: 1, C: 0 },
+        mbtiAxes: [{ dimension: "EI", pole: "left", weight: 2 }],
         roleIds: [
-          "devops-engineer",
-          "sre",
-          "production-support-engineer",
-          "noc-engineer",
-          "growth-hacker",
-          "performance-marketing-manager",
-          "mlops-engineer"
+          "product-manager",
+          "ux-researcher",
+          "technical-account-manager",
+          "it-support-engineer",
+          "customer-success-manager",
+          "business-analyst"
         ]
       }
     ]
   },
   {
     id: "q3",
-    question: "What kind of problems excite you most?",
+    section: "interests",
+    sectionLabel: "What You Enjoy",
+    question: "What kind of problems excite you most at a deep level?",
     options: [
       {
         id: "q3a",
-        label: "Building new features and products from scratch",
+        text: "Algorithmic puzzles and logical system design",
+        riasecScores: { R: 1, I: 2, A: 0, S: 0, E: 0, C: 1 },
+        mbtiAxes: [{ dimension: "TF", pole: "left", weight: 2 }],
         roleIds: [
-          "frontend-developer",
           "backend-developer",
-          "flutter-developer",
-          "react-native-developer",
-          "sap-abap-developer",
-          "salesforce-developer",
-          "servicenow-developer",
-          "sharepoint-developer"
+          "data-scientist",
+          "ml-engineer",
+          "solutions-architect-associate",
+          "cloud-architect",
+          "fullstack-developer",
+          "java-developer"
         ]
       },
       {
         id: "q3b",
-        label: "Finding patterns and insights in complex data",
+        text: "Visual and design challenges — making something feel right",
+        riasecScores: { R: 0, I: 0, A: 2, S: 1, E: 0, C: 0 },
+        mbtiAxes: [{ dimension: "SN", pole: "right", weight: 2 }],
         roleIds: [
-          "data-analyst",
-          "data-scientist",
-          "ml-engineer",
-          "nlp-engineer",
-          "recommendation-engineer",
-          "bi-developer",
-          "data-engineer",
-          "data-warehouse-engineer"
+          "uiux-designer",
+          "graphic-designer",
+          "motion-designer",
+          "product-designer",
+          "illustrator",
+          "brand-designer"
         ]
       },
       {
         id: "q3c",
-        label: "Making things look beautiful and feel intuitive",
+        text: "People and process problems — why teams fail or succeed",
+        riasecScores: { R: 0, I: 0, A: 0, S: 2, E: 2, C: 0 },
+        mbtiAxes: [
+          { dimension: "EI", pole: "left", weight: 1 },
+          { dimension: "TF", pole: "right", weight: 1 }
+        ],
         roleIds: [
-          "uiux-designer",
-          "graphic-designer",
-          "web-designer",
-          "product-designer",
-          "brand-designer",
-          "motion-designer",
-          "design-systems-manager",
-          "interaction-designer"
+          "scrum-master",
+          "it-project-manager",
+          "agile-coach",
+          "change-management-analyst",
+          "business-analyst",
+          "product-manager"
         ]
       },
       {
         id: "q3d",
-        label: "Solving customer issues quickly and effectively",
+        text: "Infrastructure and reliability — keeping systems running at scale",
+        riasecScores: { R: 2, I: 1, A: 0, S: 0, E: 0, C: 1 },
+        mbtiAxes: [{ dimension: "JP", pole: "left", weight: 2 }],
         roleIds: [
-          "it-support-engineer",
-          "helpdesk-analyst",
-          "service-desk-analyst",
-          "application-support-engineer",
-          "production-support-engineer",
-          "l2-support-engineer",
-          "noc-engineer"
+          "devops-engineer",
+          "network-engineer",
+          "cloud-engineer",
+          "sre",
+          "system-administrator",
+          "kubernetes-admin"
         ]
       },
       {
         id: "q3e",
-        label: "Automating and optimizing complex systems",
+        text: "Business and analytical challenges — strategy meets data",
+        riasecScores: { R: 0, I: 1, A: 0, S: 0, E: 2, C: 2 },
+        mbtiAxes: [{ dimension: "TF", pole: "left", weight: 1 }],
         roleIds: [
-          "devops-engineer",
-          "rpa-developer-uipath",
-          "rpa-developer-aa",
-          "mlops-engineer",
-          "sre",
-          "etl-developer",
-          "selenium-automation-engineer",
-          "jenkins-administrator"
+          "business-analyst",
+          "sap-fico-consultant",
+          "oracle-erp-consultant",
+          "it-compliance-analyst",
+          "solutions-architect-associate",
+          "it-risk-analyst"
         ]
       }
     ]
   },
   {
     id: "q4",
-    question: "How do you approach a new task?",
+    section: "interests",
+    sectionLabel: "What You Enjoy",
+    question: "Which of these most resembles what you'd enjoy doing every day?",
     options: [
       {
         id: "q4a",
-        label: "Plan every step methodically before starting",
+        text: "Writing code, reviewing PRs, and shipping features to users",
+        riasecScores: { R: 2, I: 2, A: 0, S: 0, E: 0, C: 0 },
+        mbtiAxes: [{ dimension: "EI", pole: "right", weight: 1 }],
         roleIds: [
-          "it-project-manager",
-          "sap-basis-admin",
-          "database-administrator",
-          "data-governance-analyst",
-          "it-compliance-analyst",
-          "itil-process-manager",
-          "it-risk-analyst",
-          "system-administrator"
+          "frontend-developer",
+          "backend-developer",
+          "fullstack-developer",
+          "mobile-android-developer",
+          "flutter-developer",
+          "react-native-developer",
+          "python-developer"
         ]
       },
       {
         id: "q4b",
-        label: "Jump in and experiment, iterate quickly",
+        text: "Running training sessions, workshops, or coaching individuals",
+        riasecScores: { R: 0, I: 0, A: 1, S: 2, E: 2, C: 0 },
+        mbtiAxes: [
+          { dimension: "EI", pole: "left", weight: 2 },
+          { dimension: "TF", pole: "right", weight: 1 }
+        ],
         roleIds: [
-          "growth-hacker",
-          "fullstack-developer",
-          "flutter-developer",
-          "react-native-developer",
-          "seo-executive",
-          "performance-marketing-manager",
-          "frontend-developer"
+          "agile-coach",
+          "scrum-master",
+          "change-management-analyst",
+          "it-project-manager",
+          "technical-account-manager"
         ]
       },
       {
         id: "q4c",
-        label: "Research extensively and read everything first",
+        text: "Monitoring systems, ensuring uptime, and responding to incidents",
+        riasecScores: { R: 2, I: 1, A: 0, S: 0, E: 0, C: 2 },
+        mbtiAxes: [{ dimension: "JP", pole: "left", weight: 2 }],
         roleIds: [
-          "ai-research-scientist",
-          "data-scientist",
-          "technical-writer",
-          "ai-ethics-researcher",
-          "content-strategist",
-          "market-analyst",
-          "business-analyst"
+          "sre",
+          "system-administrator",
+          "network-engineer",
+          "noc-engineer",
+          "production-support-engineer",
+          "devops-engineer"
         ]
       },
       {
         id: "q4d",
-        label: "Discuss and collaborate with the team first",
+        text: "Creating marketing content, campaigns, and growth experiments",
+        riasecScores: { R: 0, I: 0, A: 2, S: 1, E: 2, C: 0 },
+        mbtiAxes: [{ dimension: "EI", pole: "left", weight: 1 }],
         roleIds: [
-          "scrum-master",
-          "agile-coach",
-          "product-manager",
-          "uiux-designer",
-          "change-management-analyst",
-          "community-manager",
-          "social-media-manager"
+          "digital-marketing-executive",
+          "content-writer",
+          "social-media-manager",
+          "seo-executive",
+          "performance-marketing-manager",
+          "brand-manager"
         ]
       },
       {
         id: "q4e",
-        label: "Follow established processes and runbooks",
+        text: "Auditing processes, improving compliance, and managing risk",
+        riasecScores: { R: 0, I: 1, A: 0, S: 0, E: 1, C: 2 },
+        mbtiAxes: [
+          { dimension: "JP", pole: "left", weight: 2 },
+          { dimension: "TF", pole: "left", weight: 1 }
+        ],
         roleIds: [
-          "l1-support-engineer",
-          "service-desk-analyst",
-          "sap-mm-consultant",
-          "sap-sd-consultant",
-          "etl-developer",
-          "itil-process-manager",
-          "confluence-administrator"
+          "it-audit-specialist",
+          "it-compliance-analyst",
+          "it-risk-analyst",
+          "risk-analytics-specialist",
+          "it-procurement-specialist",
+          "itil-process-manager"
         ]
       }
     ]
   },
   {
     id: "q5",
-    question: "What motivates you most at work?",
+    section: "interests",
+    sectionLabel: "What You Enjoy",
+    question: "Which subject area naturally pulls your attention outside of work too?",
     options: [
       {
         id: "q5a",
-        label: "Seeing a product launch and users love it",
+        text: "AI, machine learning, and smart systems",
+        riasecScores: { R: 1, I: 2, A: 0, S: 0, E: 0, C: 0 },
+        mbtiAxes: [{ dimension: "SN", pole: "right", weight: 2 }],
         roleIds: [
-          "product-manager",
-          "frontend-developer",
-          "fullstack-developer",
-          "flutter-developer",
-          "mobile-android-developer",
-          "uiux-designer",
-          "product-designer",
-          "ai-product-manager"
+          "ml-engineer",
+          "ai-research-scientist",
+          "data-scientist",
+          "nlp-engineer",
+          "computer-vision-engineer",
+          "deep-learning-engineer",
+          "recommendation-engineer"
         ]
       },
       {
         id: "q5b",
-        label: "Making data-driven decisions that impact strategy",
+        text: "Cloud, DevOps, automation, and infrastructure",
+        riasecScores: { R: 2, I: 1, A: 0, S: 0, E: 0, C: 1 },
+        mbtiAxes: [{ dimension: "JP", pole: "left", weight: 1 }],
         roleIds: [
-          "data-analyst",
-          "data-scientist",
-          "marketing-analyst",
-          "bi-developer",
-          "reporting-analyst",
-          "data-engineer",
-          "ml-engineer"
+          "cloud-engineer",
+          "devops-engineer",
+          "mlops-engineer",
+          "platform-engineer",
+          "kubernetes-admin",
+          "aws-solutions-architect",
+          "gcp-engineer",
+          "azure-cloud-engineer"
         ]
       },
       {
         id: "q5c",
-        label: "Receiving appreciation for creative work",
+        text: "Design, creativity, user experience, and aesthetics",
+        riasecScores: { R: 0, I: 0, A: 2, S: 1, E: 0, C: 0 },
+        mbtiAxes: [{ dimension: "SN", pole: "right", weight: 2 }],
         roleIds: [
-          "graphic-designer",
+          "uiux-designer",
+          "product-designer",
           "motion-designer",
           "brand-designer",
-          "illustrator",
+          "graphic-designer",
           "video-editor",
-          "animation-designer",
-          "content-writer",
-          "3d-designer"
+          "design-systems-manager"
         ]
       },
       {
         id: "q5d",
-        label: "Helping users or customers solve their problems",
+        text: "Finance, risk, business intelligence, and market analysis",
+        riasecScores: { R: 0, I: 1, A: 0, S: 0, E: 2, C: 2 },
+        mbtiAxes: [{ dimension: "TF", pole: "left", weight: 2 }],
         roleIds: [
-          "it-support-engineer",
-          "helpdesk-analyst",
-          "technical-account-manager",
-          "service-desk-analyst",
-          "application-support-engineer",
-          "community-manager",
-          "scrum-master"
+          "finance-analyst-it",
+          "fraud-analyst",
+          "risk-analytics-specialist",
+          "bi-developer",
+          "reporting-analyst",
+          "data-governance-analyst",
+          "data-quality-analyst"
         ]
       },
       {
         id: "q5e",
-        label: "Automating tedious processes and improving efficiency",
+        text: "Enterprise systems, integrations, and business workflows (SAP, ERP)",
+        riasecScores: { R: 1, I: 1, A: 0, S: 0, E: 1, C: 2 },
+        mbtiAxes: [{ dimension: "JP", pole: "left", weight: 2 }],
         roleIds: [
-          "rpa-developer-uipath",
-          "rpa-developer-aa",
-          "devops-engineer",
-          "mlops-engineer",
-          "selenium-automation-engineer",
-          "jenkins-administrator",
-          "marketing-operations-manager"
+          "sap-fico-consultant",
+          "sap-sd-consultant",
+          "sap-mm-consultant",
+          "oracle-erp-consultant",
+          "salesforce-developer",
+          "servicenow-developer",
+          "sap-abap-developer"
         ]
       }
     ]
   },
   {
     id: "q6",
-    question: "Which tools or activities do you enjoy most?",
+    section: "interests",
+    sectionLabel: "What You Enjoy",
+    question: "What gives you the most satisfaction at work?",
     options: [
       {
         id: "q6a",
-        label: "Spreadsheets, SQL queries, and reports",
+        text: "Seeing real users enjoy something you personally built",
+        riasecScores: { R: 1, I: 1, A: 1, S: 1, E: 0, C: 0 },
+        mbtiAxes: [{ dimension: "TF", pole: "right", weight: 1 }],
         roleIds: [
-          "data-analyst",
-          "reporting-analyst",
-          "bi-developer",
-          "data-quality-analyst",
-          "marketing-analyst",
-          "etl-developer",
-          "data-warehouse-engineer"
+          "frontend-developer",
+          "fullstack-developer",
+          "mobile-android-developer",
+          "uiux-designer",
+          "product-manager",
+          "flutter-developer"
         ]
       },
       {
         id: "q6b",
-        label: "Design tools like Figma, Canva, or Adobe",
+        text: "Finding the root cause of a difficult bug or system failure",
+        riasecScores: { R: 2, I: 2, A: 0, S: 0, E: 0, C: 1 },
+        mbtiAxes: [{ dimension: "TF", pole: "left", weight: 2 }],
         roleIds: [
-          "uiux-designer",
-          "graphic-designer",
-          "web-designer",
-          "product-designer",
-          "brand-designer",
-          "motion-designer",
-          "interaction-designer",
-          "design-systems-manager"
-        ]
-      },
-      {
-        id: "q6c",
-        label: "Writing, blogging, and storytelling",
-        roleIds: [
-          "content-writer",
-          "technical-writer",
-          "content-strategist",
-          "social-media-manager",
-          "community-manager",
-          "brand-manager",
-          "seo-executive"
-        ]
-      },
-      {
-        id: "q6d",
-        label: "Debugging, log analysis, and troubleshooting",
-        roleIds: [
-          "l2-support-engineer",
-          "production-support-engineer",
-          "application-support-engineer",
+          "sre",
           "backend-developer",
           "devops-engineer",
+          "l2-support-engineer",
+          "production-support-engineer",
           "security-engineer",
           "noc-engineer"
         ]
       },
       {
-        id: "q6e",
-        label: "Scripting, automation, and coding integrations",
+        id: "q6c",
+        text: "Successfully launching a campaign that drives measurable results",
+        riasecScores: { R: 0, I: 0, A: 1, S: 0, E: 2, C: 1 },
+        mbtiAxes: [{ dimension: "EI", pole: "left", weight: 1 }],
         roleIds: [
-          "python-developer",
-          "rpa-developer-uipath",
-          "devops-engineer",
-          "gitlab-cicd-engineer",
-          "sap-abap-developer",
-          "servicenow-developer",
-          "sharepoint-developer"
+          "digital-marketing-executive",
+          "performance-marketing-manager",
+          "seo-executive",
+          "growth-hacker",
+          "content-strategist",
+          "paid-ads-manager"
+        ]
+      },
+      {
+        id: "q6d",
+        text: "Closing a support ticket that genuinely helped someone",
+        riasecScores: { R: 0, I: 0, A: 0, S: 2, E: 1, C: 0 },
+        mbtiAxes: [{ dimension: "TF", pole: "right", weight: 2 }],
+        roleIds: [
+          "it-support-engineer",
+          "helpdesk-analyst",
+          "service-desk-analyst",
+          "technical-account-manager",
+          "application-support-engineer"
+        ]
+      },
+      {
+        id: "q6e",
+        text: "Delivering a project on time, on budget, with happy stakeholders",
+        riasecScores: { R: 0, I: 0, A: 0, S: 1, E: 2, C: 2 },
+        mbtiAxes: [{ dimension: "JP", pole: "left", weight: 2 }],
+        roleIds: [
+          "it-project-manager",
+          "scrum-master",
+          "program-manager",
+          "pmo-analyst",
+          "it-vendor-manager",
+          "agile-coach"
         ]
       }
     ]
   },
+  // ════════════════════════════════════════════════════════════════
+  // SECTION 2 — WHAT DRAINS YOU (Q7–Q12)
+  // ════════════════════════════════════════════════════════════════
   {
     id: "q7",
-    question: "How do you prefer to communicate at work?",
+    section: "drains",
+    sectionLabel: "What Drains You",
+    question: "Which of these work scenarios would drain your energy fastest?",
+    description: "Knowing what drains you is just as important as knowing what energises you.",
     options: [
       {
         id: "q7a",
-        label: "Through detailed documentation and written specs",
+        text: "Doing repetitive data entry or copy-paste work all day",
+        riasecScores: { R: 0, I: 2, A: 1, S: 0, E: 1, C: 0 },
+        mbtiAxes: [{ dimension: "JP", pole: "right", weight: 2 }],
         roleIds: [
-          "technical-writer",
-          "business-analyst",
-          "data-governance-analyst",
-          "it-compliance-analyst",
-          "it-risk-analyst",
-          "change-management-analyst",
-          "confluence-administrator"
-        ]
-      },
-      {
-        id: "q7b",
-        label: "Through visuals, mockups, and presentations",
-        roleIds: [
-          "uiux-designer",
-          "graphic-designer",
-          "product-designer",
-          "brand-designer",
+          "data-scientist",
+          "ml-engineer",
+          "ai-research-scientist",
           "solutions-architect-associate",
-          "sap-fico-consultant",
+          "cloud-architect",
+          "product-manager",
           "business-analyst"
         ]
       },
       {
-        id: "q7c",
-        label: "Through data, dashboards, and metrics",
+        id: "q7b",
+        text: "Presenting to large unfamiliar audiences every single day",
+        riasecScores: { R: 2, I: 2, A: 0, S: 0, E: 0, C: 1 },
+        mbtiAxes: [{ dimension: "EI", pole: "right", weight: 2 }],
         roleIds: [
-          "data-analyst",
-          "marketing-analyst",
-          "bi-developer",
-          "reporting-analyst",
-          "data-scientist",
-          "performance-marketing-manager",
-          "seo-executive"
+          "backend-developer",
+          "data-engineer",
+          "security-engineer",
+          "database-administrator",
+          "devops-engineer",
+          "sre",
+          "cloud-engineer"
+        ]
+      },
+      {
+        id: "q7c",
+        text: "Working completely alone with zero team interaction for weeks",
+        riasecScores: { R: 0, I: 0, A: 1, S: 2, E: 2, C: 0 },
+        mbtiAxes: [{ dimension: "EI", pole: "left", weight: 2 }],
+        roleIds: [
+          "scrum-master",
+          "agile-coach",
+          "it-project-manager",
+          "technical-account-manager",
+          "product-manager",
+          "digital-marketing-executive",
+          "social-media-manager"
         ]
       },
       {
         id: "q7d",
-        label: "Through direct conversation and real-time collaboration",
+        text: "Constantly switching between unrelated tasks with no flow state",
+        riasecScores: { R: 1, I: 2, A: 0, S: 0, E: 0, C: 0 },
+        mbtiAxes: [{ dimension: "JP", pole: "left", weight: 2 }],
         roleIds: [
-          "scrum-master",
-          "agile-coach",
-          "helpdesk-analyst",
-          "service-desk-analyst",
-          "technical-account-manager",
-          "business-development-executive",
-          "community-manager"
+          "data-scientist",
+          "ml-engineer",
+          "deep-learning-engineer",
+          "ai-research-scientist",
+          "computer-vision-engineer",
+          "backend-developer"
         ]
       },
       {
         id: "q7e",
-        label: "Through social media, content, and campaigns",
+        text: "Fixing other people's undocumented, messy code all day",
+        riasecScores: { R: 0, I: 1, A: 2, S: 0, E: 0, C: 1 },
+        mbtiAxes: [{ dimension: "SN", pole: "right", weight: 1 }],
         roleIds: [
-          "social-media-manager",
-          "content-writer",
-          "digital-marketing-executive",
-          "community-manager",
-          "brand-manager",
-          "content-strategist",
-          "email-marketing-specialist"
+          "solutions-architect-associate",
+          "cloud-architect",
+          "fullstack-developer",
+          "java-developer",
+          "python-developer",
+          "dotnet-developer"
         ]
       }
     ]
   },
   {
     id: "q8",
-    question: "What kind of output do you take most pride in?",
+    section: "drains",
+    sectionLabel: "What Drains You",
+    question: "Which work scenario would make you least productive?",
     options: [
       {
         id: "q8a",
-        label: "A working app or feature shipped to users",
+        text: "Open-ended brief with no clear requirements or success criteria",
+        riasecScores: { R: 1, I: 0, A: 0, S: 1, E: 1, C: 2 },
+        mbtiAxes: [{ dimension: "JP", pole: "left", weight: 2 }],
         roleIds: [
-          "frontend-developer",
-          "backend-developer",
-          "fullstack-developer",
-          "flutter-developer",
-          "mobile-android-developer",
-          "salesforce-developer",
-          "servicenow-developer"
+          "sap-fico-consultant",
+          "sap-sd-consultant",
+          "sap-mm-consultant",
+          "oracle-erp-consultant",
+          "it-compliance-analyst",
+          "selenium-automation-engineer",
+          "data-quality-analyst"
         ]
       },
       {
         id: "q8b",
-        label: "A clean, insightful dashboard or report",
+        text: "Very strict rules with zero room for creative experimentation",
+        riasecScores: { R: 0, I: 1, A: 2, S: 0, E: 1, C: 0 },
+        mbtiAxes: [{ dimension: "JP", pole: "right", weight: 2 }],
         roleIds: [
-          "data-analyst",
-          "bi-developer",
-          "reporting-analyst",
-          "tableau-developer",
-          "power-bi-developer",
-          "marketing-analyst",
-          "sap-bw-bi-consultant"
+          "uiux-designer",
+          "motion-designer",
+          "graphic-designer",
+          "product-designer",
+          "brand-designer",
+          "content-writer",
+          "video-editor"
         ]
       },
       {
         id: "q8c",
-        label: "A beautiful design, video, or creative asset",
+        text: "Always working exclusively on other people's problems, never your own",
+        riasecScores: { R: 2, I: 2, A: 1, S: 0, E: 0, C: 0 },
+        mbtiAxes: [{ dimension: "EI", pole: "right", weight: 1 }],
         roleIds: [
-          "uiux-designer",
-          "graphic-designer",
-          "motion-designer",
-          "video-editor",
-          "brand-designer",
-          "illustrator",
-          "animation-designer",
-          "3d-designer"
+          "data-engineer",
+          "backend-developer",
+          "ml-engineer",
+          "data-scientist",
+          "cloud-engineer",
+          "security-engineer"
         ]
       },
       {
         id: "q8d",
-        label: "A resolved customer issue with positive feedback",
+        text: "Sitting through long meetings all day with no deep work time",
+        riasecScores: { R: 1, I: 2, A: 1, S: 0, E: 0, C: 0 },
+        mbtiAxes: [{ dimension: "EI", pole: "right", weight: 2 }],
         roleIds: [
-          "it-support-engineer",
-          "helpdesk-analyst",
-          "application-support-engineer",
-          "technical-account-manager",
-          "service-desk-analyst",
-          "l2-support-engineer"
+          "data-scientist",
+          "ai-research-scientist",
+          "deep-learning-engineer",
+          "backend-developer",
+          "sre",
+          "security-engineer",
+          "database-administrator"
         ]
       },
       {
         id: "q8e",
-        label: "A successful campaign with measurable growth",
+        text: "Never seeing the direct impact of your work on real end users",
+        riasecScores: { R: 0, I: 0, A: 1, S: 2, E: 1, C: 0 },
+        mbtiAxes: [{ dimension: "TF", pole: "right", weight: 2 }],
         roleIds: [
+          "uiux-designer",
+          "product-manager",
+          "frontend-developer",
+          "technical-account-manager",
           "digital-marketing-executive",
-          "performance-marketing-manager",
-          "seo-executive",
-          "social-media-manager",
-          "growth-hacker",
-          "email-marketing-specialist",
-          "paid-ads-manager"
+          "content-writer"
         ]
       }
     ]
   },
   {
     id: "q9",
-    question: "In a team project, you naturally take the role of:",
+    section: "drains",
+    sectionLabel: "What Drains You",
+    question: "Which of these would frustrate you most over an extended period?",
     options: [
       {
         id: "q9a",
-        label: "The builder -- writing code, creating things",
+        text: "Building something that has zero aesthetic quality or care",
+        riasecScores: { R: 0, I: 0, A: 2, S: 1, E: 0, C: 0 },
+        mbtiAxes: [{ dimension: "SN", pole: "right", weight: 2 }],
         roleIds: [
+          "uiux-designer",
+          "graphic-designer",
+          "product-designer",
           "frontend-developer",
-          "backend-developer",
-          "java-developer",
-          "python-developer",
-          "flutter-developer",
-          "sap-abap-developer",
-          "rpa-developer-uipath",
-          "deep-learning-engineer"
+          "web-designer",
+          "brand-designer",
+          "interaction-designer"
         ]
       },
       {
         id: "q9b",
-        label: "The analyst -- researching data and finding patterns",
+        text: "Having my focused work constantly interrupted by urgent requests",
+        riasecScores: { R: 1, I: 2, A: 0, S: 0, E: 0, C: 1 },
+        mbtiAxes: [{ dimension: "JP", pole: "left", weight: 2 }],
         roleIds: [
-          "data-analyst",
           "data-scientist",
           "ml-engineer",
-          "bi-developer",
-          "data-engineer",
-          "data-quality-analyst",
-          "marketing-analyst"
+          "backend-developer",
+          "ai-research-scientist",
+          "devops-engineer",
+          "security-engineer"
         ]
       },
       {
         id: "q9c",
-        label: "The designer -- making it look great and feel right",
+        text: "No growth path, no learning, doing the same routine forever",
+        riasecScores: { R: 0, I: 2, A: 1, S: 0, E: 0, C: 0 },
+        mbtiAxes: [{ dimension: "SN", pole: "right", weight: 2 }],
         roleIds: [
-          "uiux-designer",
-          "product-designer",
-          "graphic-designer",
-          "web-designer",
-          "interaction-designer",
-          "brand-designer",
-          "design-systems-manager"
+          "ml-engineer",
+          "ai-research-scientist",
+          "cloud-architect",
+          "solutions-architect-associate",
+          "data-scientist",
+          "deep-learning-engineer",
+          "computer-vision-engineer"
         ]
       },
       {
         id: "q9d",
-        label: "The communicator or PM -- organizing and aligning the team",
+        text: "Working on something that doesn't help or impact real people",
+        riasecScores: { R: 0, I: 0, A: 0, S: 2, E: 1, C: 0 },
+        mbtiAxes: [{ dimension: "TF", pole: "right", weight: 2 }],
         roleIds: [
-          "it-project-manager",
-          "product-manager",
-          "scrum-master",
-          "business-analyst",
+          "it-support-engineer",
+          "helpdesk-analyst",
+          "change-management-analyst",
           "technical-account-manager",
-          "brand-manager",
-          "product-marketing-manager"
+          "agile-coach",
+          "scrum-master"
         ]
       },
       {
         id: "q9e",
-        label: "The quality checker -- ensuring everything works correctly",
+        text: "Being micromanaged on every minor decision I make",
+        riasecScores: { R: 0, I: 1, A: 1, S: 0, E: 1, C: 0 },
+        mbtiAxes: [{ dimension: "JP", pole: "right", weight: 2 }],
         roleIds: [
-          "selenium-automation-engineer",
-          "data-quality-analyst",
-          "it-compliance-analyst",
-          "it-risk-analyst",
-          "l2-support-engineer",
-          "production-support-engineer",
-          "sap-basis-admin"
+          "fullstack-developer",
+          "product-manager",
+          "uiux-designer",
+          "data-scientist",
+          "ml-engineer",
+          "ai-research-scientist"
         ]
       }
     ]
   },
   {
     id: "q10",
-    question: "Which domain interests you most for your career?",
+    section: "drains",
+    sectionLabel: "What Drains You",
+    question: "In a long project, which phase would you least enjoy?",
     options: [
       {
         id: "q10a",
-        label: "Web and mobile app development",
+        text: "Gathering and documenting requirements from stakeholders",
+        riasecScores: { R: 2, I: 1, A: 1, S: 0, E: 0, C: 0 },
+        mbtiAxes: [{ dimension: "EI", pole: "right", weight: 1 }],
         roleIds: [
-          "frontend-developer",
           "backend-developer",
-          "fullstack-developer",
-          "mobile-android-developer",
-          "mobile-ios-developer",
-          "flutter-developer",
-          "react-native-developer",
-          "wordpress-developer"
+          "frontend-developer",
+          "devops-engineer",
+          "cloud-engineer",
+          "sre",
+          "data-engineer",
+          "java-developer"
         ]
       },
       {
         id: "q10b",
-        label: "Data, analytics, and AI/ML",
+        text: "Writing exhaustive test cases and testing every edge case",
+        riasecScores: { R: 1, I: 1, A: 2, S: 1, E: 1, C: 0 },
+        mbtiAxes: [{ dimension: "SN", pole: "right", weight: 1 }],
         roleIds: [
-          "data-analyst",
-          "data-engineer",
+          "uiux-designer",
+          "product-manager",
+          "digital-marketing-executive",
           "data-scientist",
           "ml-engineer",
-          "nlp-engineer",
-          "deep-learning-engineer",
-          "bi-developer",
-          "data-warehouse-engineer"
+          "graphic-designer"
         ]
       },
       {
         id: "q10c",
-        label: "Creative design, media, and branding",
+        text: "Documenting everything thoroughly after the work is done",
+        riasecScores: { R: 2, I: 1, A: 1, S: 0, E: 1, C: 0 },
+        mbtiAxes: [{ dimension: "JP", pole: "right", weight: 1 }],
         roleIds: [
-          "uiux-designer",
-          "graphic-designer",
-          "product-designer",
-          "motion-designer",
-          "brand-designer",
-          "video-editor",
-          "illustrator",
-          "animation-designer"
+          "devops-engineer",
+          "backend-developer",
+          "cloud-engineer",
+          "security-engineer",
+          "network-engineer",
+          "fullstack-developer"
         ]
       },
       {
         id: "q10d",
-        label: "Enterprise software and ERP systems",
+        text: "Coordinating between multiple teams and chasing dependencies",
+        riasecScores: { R: 2, I: 2, A: 1, S: 0, E: 0, C: 0 },
+        mbtiAxes: [{ dimension: "EI", pole: "right", weight: 2 }],
         roleIds: [
-          "sap-abap-developer",
-          "sap-fico-consultant",
-          "sap-sd-consultant",
-          "sap-mm-consultant",
-          "servicenow-developer",
-          "salesforce-developer",
-          "oracle-erp-consultant",
-          "sap-bw-bi-consultant"
+          "backend-developer",
+          "data-scientist",
+          "ml-engineer",
+          "devops-engineer",
+          "sre",
+          "security-engineer"
         ]
       },
       {
         id: "q10e",
-        label: "Cloud, infrastructure, and DevOps",
+        text: "Post-launch monitoring, bug fixes, and maintenance work",
+        riasecScores: { R: 0, I: 0, A: 2, S: 1, E: 2, C: 0 },
+        mbtiAxes: [{ dimension: "SN", pole: "right", weight: 2 }],
+        roleIds: [
+          "uiux-designer",
+          "product-manager",
+          "content-strategist",
+          "graphic-designer",
+          "brand-designer",
+          "digital-marketing-executive"
+        ]
+      }
+    ]
+  },
+  {
+    id: "q11",
+    section: "drains",
+    sectionLabel: "What Drains You",
+    question: "Which work environment would wear you down over time?",
+    options: [
+      {
+        id: "q11a",
+        text: "Loud open office with constant chatter and interruptions",
+        riasecScores: { R: 1, I: 2, A: 1, S: 0, E: 0, C: 0 },
+        mbtiAxes: [{ dimension: "EI", pole: "right", weight: 2 }],
+        roleIds: [
+          "data-scientist",
+          "backend-developer",
+          "ml-engineer",
+          "ai-research-scientist",
+          "security-engineer",
+          "database-administrator"
+        ]
+      },
+      {
+        id: "q11b",
+        text: "Isolated cubicle with no collaboration or human connection",
+        riasecScores: { R: 0, I: 0, A: 1, S: 2, E: 2, C: 0 },
+        mbtiAxes: [{ dimension: "EI", pole: "left", weight: 2 }],
+        roleIds: [
+          "scrum-master",
+          "product-manager",
+          "digital-marketing-executive",
+          "agile-coach",
+          "technical-account-manager",
+          "it-project-manager"
+        ]
+      },
+      {
+        id: "q11c",
+        text: "Fast-moving startup where everything changes every week",
+        riasecScores: { R: 1, I: 0, A: 0, S: 1, E: 0, C: 2 },
+        mbtiAxes: [{ dimension: "JP", pole: "left", weight: 2 }],
+        roleIds: [
+          "sap-fico-consultant",
+          "sap-sd-consultant",
+          "database-administrator",
+          "itil-process-manager",
+          "it-compliance-analyst",
+          "it-risk-analyst"
+        ]
+      },
+      {
+        id: "q11d",
+        text: "Slow-moving corporate with heavy approval processes",
+        riasecScores: { R: 0, I: 1, A: 2, S: 0, E: 1, C: 0 },
+        mbtiAxes: [{ dimension: "JP", pole: "right", weight: 2 }],
+        roleIds: [
+          "product-manager",
+          "fullstack-developer",
+          "uiux-designer",
+          "growth-hacker",
+          "digital-marketing-executive",
+          "agile-coach"
+        ]
+      },
+      {
+        id: "q11e",
+        text: "Purely execution-focused role with no strategy or creative input",
+        riasecScores: { R: 0, I: 2, A: 1, S: 0, E: 2, C: 0 },
+        mbtiAxes: [{ dimension: "SN", pole: "right", weight: 2 }],
+        roleIds: [
+          "solutions-architect-associate",
+          "cloud-architect",
+          "product-manager",
+          "it-consultant",
+          "business-analyst",
+          "data-scientist"
+        ]
+      }
+    ]
+  },
+  {
+    id: "q12",
+    section: "drains",
+    sectionLabel: "What Drains You",
+    question: "Which type of critical feedback would be most disheartening for you?",
+    options: [
+      {
+        id: "q12a",
+        text: '"Your code quality is poor, hard to read and maintain"',
+        riasecScores: { R: 2, I: 2, A: 0, S: 0, E: 0, C: 1 },
+        mbtiAxes: [{ dimension: "TF", pole: "left", weight: 1 }],
+        roleIds: [
+          "backend-developer",
+          "frontend-developer",
+          "fullstack-developer",
+          "java-developer",
+          "python-developer",
+          "dotnet-developer"
+        ]
+      },
+      {
+        id: "q12b",
+        text: '"Users find your design confusing and visually unappealing"',
+        riasecScores: { R: 0, I: 0, A: 2, S: 1, E: 0, C: 0 },
+        mbtiAxes: [{ dimension: "SN", pole: "right", weight: 2 }],
+        roleIds: [
+          "uiux-designer",
+          "product-designer",
+          "graphic-designer",
+          "web-designer",
+          "interaction-designer",
+          "brand-designer"
+        ]
+      },
+      {
+        id: "q12c",
+        text: '"Your data analysis had errors that drove the wrong business decision"',
+        riasecScores: { R: 0, I: 2, A: 0, S: 0, E: 0, C: 2 },
+        mbtiAxes: [{ dimension: "TF", pole: "left", weight: 2 }],
+        roleIds: [
+          "data-analyst",
+          "data-scientist",
+          "bi-developer",
+          "reporting-analyst",
+          "data-quality-analyst",
+          "marketing-analyst"
+        ]
+      },
+      {
+        id: "q12d",
+        text: '"Your client communication and presentation skills need major work"',
+        riasecScores: { R: 0, I: 0, A: 0, S: 2, E: 2, C: 0 },
+        mbtiAxes: [{ dimension: "EI", pole: "left", weight: 2 }],
+        roleIds: [
+          "sap-fico-consultant",
+          "oracle-erp-consultant",
+          "solutions-architect-associate",
+          "technical-account-manager",
+          "it-consultant",
+          "pre-sales-consultant"
+        ]
+      },
+      {
+        id: "q12e",
+        text: '"Your project timelines keep slipping, deliverables are late"',
+        riasecScores: { R: 0, I: 0, A: 0, S: 0, E: 2, C: 2 },
+        mbtiAxes: [{ dimension: "JP", pole: "left", weight: 2 }],
+        roleIds: [
+          "it-project-manager",
+          "scrum-master",
+          "program-manager",
+          "pmo-analyst",
+          "it-vendor-manager",
+          "agile-coach"
+        ]
+      }
+    ]
+  },
+  // ════════════════════════════════════════════════════════════════
+  // SECTION 3 — HOW YOU THINK (Q13–Q18)
+  // ════════════════════════════════════════════════════════════════
+  {
+    id: "q13",
+    section: "thinking",
+    sectionLabel: "How You Think",
+    question: "At work, you typically get your best ideas…",
+    description: "This helps us understand your natural thinking and social energy style.",
+    options: [
+      {
+        id: "q13a",
+        text: "Brainstorming with the team, talking through problems out loud",
+        riasecScores: { R: 0, I: 0, A: 1, S: 2, E: 2, C: 0 },
+        mbtiAxes: [{ dimension: "EI", pole: "left", weight: 2 }],
+        roleIds: [
+          "scrum-master",
+          "agile-coach",
+          "it-project-manager",
+          "product-manager",
+          "digital-marketing-executive",
+          "change-management-analyst"
+        ]
+      },
+      {
+        id: "q13b",
+        text: "Quietly thinking things through on your own before sharing",
+        riasecScores: { R: 1, I: 2, A: 0, S: 0, E: 0, C: 1 },
+        mbtiAxes: [{ dimension: "EI", pole: "right", weight: 2 }],
+        roleIds: [
+          "data-scientist",
+          "backend-developer",
+          "technical-writer",
+          "devops-engineer",
+          "ml-engineer",
+          "security-engineer"
+        ]
+      },
+      {
+        id: "q13c",
+        text: "Reflecting deeply and preparing thoroughly before any meeting",
+        riasecScores: { R: 0, I: 2, A: 0, S: 0, E: 1, C: 1 },
+        mbtiAxes: [
+          { dimension: "EI", pole: "right", weight: 1 },
+          { dimension: "JP", pole: "left", weight: 1 }
+        ],
+        roleIds: [
+          "solutions-architect-associate",
+          "cloud-architect",
+          "it-consultant",
+          "business-analyst",
+          "it-risk-analyst"
+        ]
+      },
+      {
+        id: "q13d",
+        text: "Bouncing ideas off people in real time as they form in my head",
+        riasecScores: { R: 0, I: 0, A: 1, S: 1, E: 2, C: 0 },
+        mbtiAxes: [
+          { dimension: "EI", pole: "left", weight: 2 },
+          { dimension: "JP", pole: "right", weight: 1 }
+        ],
+        roleIds: [
+          "product-manager",
+          "pre-sales-consultant",
+          "digital-marketing-executive",
+          "growth-hacker",
+          "it-consultant"
+        ]
+      },
+      {
+        id: "q13e",
+        text: "A mix — depends on context, I adapt to what the situation needs",
+        riasecScores: { R: 1, I: 1, A: 1, S: 1, E: 1, C: 1 },
+        mbtiAxes: [],
+        roleIds: [
+          "fullstack-developer",
+          "business-analyst",
+          "product-designer",
+          "technical-account-manager",
+          "data-analyst"
+        ]
+      }
+    ]
+  },
+  {
+    id: "q14",
+    section: "thinking",
+    sectionLabel: "How You Think",
+    question: "When starting a new task, you prefer to…",
+    options: [
+      {
+        id: "q14a",
+        text: "Follow established best practices and proven patterns",
+        riasecScores: { R: 1, I: 0, A: 0, S: 0, E: 0, C: 2 },
+        mbtiAxes: [{ dimension: "SN", pole: "left", weight: 2 }],
+        roleIds: [
+          "sap-fico-consultant",
+          "oracle-erp-consultant",
+          "sap-mm-consultant",
+          "qa-engineer",
+          "system-administrator",
+          "sap-basis-admin",
+          "itil-process-manager"
+        ]
+      },
+      {
+        id: "q14b",
+        text: "Question existing approaches and explore entirely new ways",
+        riasecScores: { R: 0, I: 2, A: 1, S: 0, E: 1, C: 0 },
+        mbtiAxes: [{ dimension: "SN", pole: "right", weight: 2 }],
+        roleIds: [
+          "ai-research-scientist",
+          "product-manager",
+          "uiux-designer",
+          "ai-ethics-researcher",
+          "data-scientist"
+        ]
+      },
+      {
+        id: "q14c",
+        text: "Read the documentation, specs, and requirements thoroughly first",
+        riasecScores: { R: 0, I: 1, A: 0, S: 0, E: 0, C: 2 },
+        mbtiAxes: [
+          { dimension: "SN", pole: "left", weight: 1 },
+          { dimension: "JP", pole: "left", weight: 1 }
+        ],
+        roleIds: [
+          "technical-writer",
+          "business-analyst",
+          "it-compliance-analyst",
+          "data-governance-analyst",
+          "it-risk-analyst"
+        ]
+      },
+      {
+        id: "q14d",
+        text: "Dive in and experiment first, then refine based on what I learn",
+        riasecScores: { R: 1, I: 1, A: 1, S: 0, E: 1, C: 0 },
+        mbtiAxes: [
+          { dimension: "SN", pole: "right", weight: 1 },
+          { dimension: "JP", pole: "right", weight: 2 }
+        ],
+        roleIds: [
+          "ml-engineer",
+          "fullstack-developer",
+          "growth-hacker",
+          "frontend-developer",
+          "react-native-developer"
+        ]
+      },
+      {
+        id: "q14e",
+        text: "Look for analogies from other domains that might apply here",
+        riasecScores: { R: 0, I: 2, A: 1, S: 0, E: 0, C: 0 },
+        mbtiAxes: [{ dimension: "SN", pole: "right", weight: 2 }],
+        roleIds: [
+          "solutions-architect-associate",
+          "data-scientist",
+          "it-consultant",
+          "cloud-architect",
+          "ai-ethics-researcher"
+        ]
+      }
+    ]
+  },
+  {
+    id: "q15",
+    section: "thinking",
+    sectionLabel: "How You Think",
+    question: "When making a tough decision, you lean towards…",
+    options: [
+      {
+        id: "q15a",
+        text: "The option that's most logical, data-backed, and rational",
+        riasecScores: { R: 1, I: 2, A: 0, S: 0, E: 0, C: 1 },
+        mbtiAxes: [{ dimension: "TF", pole: "left", weight: 2 }],
+        roleIds: [
+          "data-analyst",
+          "sre",
+          "qa-engineer",
+          "it-risk-analyst",
+          "business-analyst",
+          "reporting-analyst"
+        ]
+      },
+      {
+        id: "q15b",
+        text: "The one that feels right for the people involved",
+        riasecScores: { R: 0, I: 0, A: 1, S: 2, E: 1, C: 0 },
+        mbtiAxes: [{ dimension: "TF", pole: "right", weight: 2 }],
+        roleIds: [
+          "agile-coach",
+          "scrum-master",
+          "change-management-analyst",
+          "it-support-engineer",
+          "technical-account-manager"
+        ]
+      },
+      {
+        id: "q15c",
+        text: "The most efficient solution regardless of people's preferences",
+        riasecScores: { R: 2, I: 1, A: 0, S: 0, E: 0, C: 1 },
+        mbtiAxes: [{ dimension: "TF", pole: "left", weight: 1 }],
+        roleIds: [
+          "devops-engineer",
+          "cloud-engineer",
+          "platform-engineer",
+          "kubernetes-admin",
+          "sre",
+          "aws-solutions-architect"
+        ]
+      },
+      {
+        id: "q15d",
+        text: "What aligns best with the team's values and long-term culture",
+        riasecScores: { R: 0, I: 0, A: 1, S: 2, E: 1, C: 0 },
+        mbtiAxes: [
+          { dimension: "TF", pole: "right", weight: 1 },
+          { dimension: "SN", pole: "right", weight: 1 }
+        ],
+        roleIds: [
+          "scrum-master",
+          "product-manager",
+          "agile-coach",
+          "it-project-manager",
+          "change-management-analyst"
+        ]
+      },
+      {
+        id: "q15e",
+        text: "Whatever minimises risk and protects the most stakeholders",
+        riasecScores: { R: 0, I: 1, A: 0, S: 0, E: 1, C: 2 },
+        mbtiAxes: [
+          { dimension: "TF", pole: "left", weight: 1 },
+          { dimension: "JP", pole: "left", weight: 1 }
+        ],
+        roleIds: [
+          "it-risk-analyst",
+          "it-compliance-analyst",
+          "it-audit-specialist",
+          "risk-analytics-specialist",
+          "fraud-analyst"
+        ]
+      }
+    ]
+  },
+  {
+    id: "q16",
+    section: "thinking",
+    sectionLabel: "How You Think",
+    question: "Your ideal personal work style is…",
+    options: [
+      {
+        id: "q16a",
+        text: "Detailed upfront plan, clear milestones, minimal surprises",
+        riasecScores: { R: 1, I: 0, A: 0, S: 0, E: 1, C: 2 },
+        mbtiAxes: [{ dimension: "JP", pole: "left", weight: 2 }],
+        roleIds: [
+          "it-project-manager",
+          "sap-fico-consultant",
+          "oracle-erp-consultant",
+          "sap-mm-consultant",
+          "it-procurement-specialist"
+        ]
+      },
+      {
+        id: "q16b",
+        text: "Start broad, iterate, and adjust the direction as I learn more",
+        riasecScores: { R: 0, I: 1, A: 1, S: 0, E: 1, C: 0 },
+        mbtiAxes: [{ dimension: "JP", pole: "right", weight: 2 }],
+        roleIds: [
+          "product-manager",
+          "agile-coach",
+          "growth-hacker",
+          "digital-marketing-executive",
+          "uiux-designer"
+        ]
+      },
+      {
+        id: "q16c",
+        text: "Structured framework upfront, flexible on the tactical details",
+        riasecScores: { R: 1, I: 1, A: 0, S: 1, E: 1, C: 1 },
+        mbtiAxes: [{ dimension: "JP", pole: "left", weight: 1 }],
+        roleIds: [
+          "scrum-master",
+          "solutions-architect-associate",
+          "it-project-manager",
+          "business-analyst"
+        ]
+      },
+      {
+        id: "q16d",
+        text: "Full autonomy to define my own process however works for me",
+        riasecScores: { R: 0, I: 2, A: 1, S: 0, E: 0, C: 0 },
+        mbtiAxes: [
+          { dimension: "JP", pole: "right", weight: 2 },
+          { dimension: "EI", pole: "right", weight: 1 }
+        ],
+        roleIds: [
+          "ai-research-scientist",
+          "ml-engineer",
+          "data-scientist",
+          "technical-writer",
+          "security-engineer"
+        ]
+      },
+      {
+        id: "q16e",
+        text: "Collaborative planning with the team, then independent execution",
+        riasecScores: { R: 1, I: 1, A: 0, S: 1, E: 1, C: 0 },
+        mbtiAxes: [
+          { dimension: "EI", pole: "right", weight: 1 },
+          { dimension: "JP", pole: "left", weight: 1 }
+        ],
+        roleIds: [
+          "backend-developer",
+          "data-engineer",
+          "fullstack-developer",
+          "ml-engineer",
+          "devops-engineer"
+        ]
+      }
+    ]
+  },
+  {
+    id: "q17",
+    section: "thinking",
+    sectionLabel: "How You Think",
+    question: "Which energises you more over a typical month?",
+    options: [
+      {
+        id: "q17a",
+        text: "Leading a workshop, hackathon, or training session with 20+ people",
+        riasecScores: { R: 0, I: 0, A: 1, S: 2, E: 2, C: 0 },
+        mbtiAxes: [{ dimension: "EI", pole: "left", weight: 2 }],
+        roleIds: [
+          "agile-coach",
+          "scrum-master",
+          "pre-sales-consultant",
+          "change-management-analyst",
+          "digital-marketing-executive"
+        ]
+      },
+      {
+        id: "q17b",
+        text: "Owning a complex feature or problem end-to-end, fully independently",
+        riasecScores: { R: 1, I: 2, A: 0, S: 0, E: 0, C: 0 },
+        mbtiAxes: [{ dimension: "EI", pole: "right", weight: 2 }],
+        roleIds: [
+          "backend-developer",
+          "data-engineer",
+          "security-engineer",
+          "ml-engineer",
+          "devops-engineer"
+        ]
+      },
+      {
+        id: "q17c",
+        text: "Managing multiple work streams and keeping everything on track",
+        riasecScores: { R: 0, I: 0, A: 0, S: 1, E: 2, C: 2 },
+        mbtiAxes: [
+          { dimension: "EI", pole: "left", weight: 1 },
+          { dimension: "JP", pole: "left", weight: 2 }
+        ],
+        roleIds: [
+          "program-manager",
+          "it-portfolio-manager",
+          "pmo-analyst",
+          "it-project-manager",
+          "it-vendor-manager"
+        ]
+      },
+      {
+        id: "q17d",
+        text: "Going extremely deep into one hard problem for weeks until solved",
+        riasecScores: { R: 0, I: 2, A: 0, S: 0, E: 0, C: 0 },
+        mbtiAxes: [
+          { dimension: "EI", pole: "right", weight: 1 },
+          { dimension: "SN", pole: "right", weight: 2 }
+        ],
+        roleIds: [
+          "ai-research-scientist",
+          "ml-engineer",
+          "data-scientist",
+          "deep-learning-engineer",
+          "computer-vision-engineer",
+          "security-engineer"
+        ]
+      },
+      {
+        id: "q17e",
+        text: "Being the connector that bridges different teams and functions",
+        riasecScores: { R: 0, I: 1, A: 0, S: 2, E: 2, C: 1 },
+        mbtiAxes: [{ dimension: "EI", pole: "left", weight: 1 }],
+        roleIds: [
+          "product-manager",
+          "integration-consultant",
+          "sap-fico-consultant",
+          "business-analyst",
+          "it-consultant"
+        ]
+      }
+    ]
+  },
+  {
+    id: "q18",
+    section: "thinking",
+    sectionLabel: "How You Think",
+    question: "When you think about career growth, you tend to imagine…",
+    options: [
+      {
+        id: "q18a",
+        text: "Becoming the deepest technical expert in one specific domain",
+        riasecScores: { R: 1, I: 2, A: 0, S: 0, E: 0, C: 0 },
+        mbtiAxes: [{ dimension: "SN", pole: "left", weight: 1 }],
+        roleIds: [
+          "solutions-architect-associate",
+          "cloud-architect",
+          "data-scientist",
+          "ai-research-scientist",
+          "security-engineer",
+          "database-administrator"
+        ]
+      },
+      {
+        id: "q18b",
+        text: "Building a product or company from the ground up as a founder",
+        riasecScores: { R: 0, I: 1, A: 1, S: 0, E: 2, C: 0 },
+        mbtiAxes: [
+          { dimension: "SN", pole: "right", weight: 2 },
+          { dimension: "EI", pole: "left", weight: 1 }
+        ],
+        roleIds: [
+          "product-manager",
+          "ai-product-manager",
+          "growth-hacker",
+          "digital-marketing-executive",
+          "it-consultant"
+        ]
+      },
+      {
+        id: "q18c",
+        text: "Improving processes and making organisations run more efficiently",
+        riasecScores: { R: 0, I: 1, A: 0, S: 0, E: 1, C: 2 },
+        mbtiAxes: [{ dimension: "SN", pole: "left", weight: 1 }],
+        roleIds: [
+          "business-process-analyst",
+          "oracle-erp-consultant",
+          "pmo-analyst",
+          "itil-process-manager",
+          "it-compliance-analyst",
+          "sap-fico-consultant"
+        ]
+      },
+      {
+        id: "q18d",
+        text: "Creating work that shapes how people think, feel, or interact",
+        riasecScores: { R: 0, I: 0, A: 2, S: 1, E: 0, C: 0 },
+        mbtiAxes: [{ dimension: "SN", pole: "right", weight: 2 }],
+        roleIds: [
+          "uiux-designer",
+          "content-strategist",
+          "technical-writer",
+          "product-designer",
+          "brand-designer"
+        ]
+      },
+      {
+        id: "q18e",
+        text: "Solving society-level or industry-level problems using technology",
+        riasecScores: { R: 0, I: 2, A: 0, S: 1, E: 0, C: 0 },
+        mbtiAxes: [{ dimension: "SN", pole: "right", weight: 2 }],
+        roleIds: [
+          "ai-research-scientist",
+          "data-scientist",
+          "ai-ethics-researcher",
+          "ml-engineer",
+          "computer-vision-engineer"
+        ]
+      }
+    ]
+  },
+  // ════════════════════════════════════════════════════════════════
+  // SECTION 4 — REAL-WORLD SCENARIOS (Q19–Q25)
+  // ════════════════════════════════════════════════════════════════
+  {
+    id: "q19",
+    section: "scenarios",
+    sectionLabel: "Real-World Scenarios",
+    question: 'The PM says: "The system needs to handle 10x more users by next quarter." Your first instinct is to…',
+    description: "Choose the response closest to how you'd naturally react.",
+    options: [
+      {
+        id: "q19a",
+        text: "Immediately start analysing the architecture for bottlenecks",
+        riasecScores: { R: 2, I: 2, A: 0, S: 0, E: 0, C: 0 },
+        mbtiAxes: [{ dimension: "TF", pole: "left", weight: 2 }],
+        roleIds: [
+          "solutions-architect-associate",
+          "backend-developer",
+          "sre",
+          "cloud-architect",
+          "devops-engineer",
+          "cloud-engineer"
+        ]
+      },
+      {
+        id: "q19b",
+        text: "Ask to speak to users first and understand their actual pain points",
+        riasecScores: { R: 0, I: 1, A: 0, S: 2, E: 1, C: 0 },
+        mbtiAxes: [
+          { dimension: "TF", pole: "right", weight: 1 },
+          { dimension: "SN", pole: "right", weight: 1 }
+        ],
+        roleIds: [
+          "product-manager",
+          "uiux-designer",
+          "technical-account-manager",
+          "business-analyst",
+          "interaction-designer"
+        ]
+      },
+      {
+        id: "q19c",
+        text: "Start mapping out the implementation plan with clear milestones",
+        riasecScores: { R: 0, I: 0, A: 0, S: 0, E: 2, C: 2 },
+        mbtiAxes: [{ dimension: "JP", pole: "left", weight: 2 }],
+        roleIds: [
+          "it-project-manager",
+          "program-manager",
+          "scrum-master",
+          "pmo-analyst",
+          "agile-coach"
+        ]
+      },
+      {
+        id: "q19d",
+        text: "Start prototyping new design flows to handle the increased scale",
+        riasecScores: { R: 0, I: 1, A: 2, S: 1, E: 0, C: 0 },
+        mbtiAxes: [{ dimension: "SN", pole: "right", weight: 2 }],
+        roleIds: [
+          "uiux-designer",
+          "frontend-developer",
+          "product-designer",
+          "interaction-designer",
+          "web-designer"
+        ]
+      },
+      {
+        id: "q19e",
+        text: 'Question whether "10x users" is really the right metric to optimise',
+        riasecScores: { R: 0, I: 2, A: 0, S: 0, E: 1, C: 0 },
+        mbtiAxes: [
+          { dimension: "TF", pole: "left", weight: 1 },
+          { dimension: "SN", pole: "right", weight: 2 }
+        ],
+        roleIds: [
+          "data-analyst",
+          "business-analyst",
+          "product-manager",
+          "ai-product-manager",
+          "it-consultant"
+        ]
+      }
+    ]
+  },
+  {
+    id: "q20",
+    section: "scenarios",
+    sectionLabel: "Real-World Scenarios",
+    question: "A critical production system is down and users are affected. You…",
+    options: [
+      {
+        id: "q20a",
+        text: "Dive straight into logs and metrics to find the root cause",
+        riasecScores: { R: 2, I: 2, A: 0, S: 0, E: 0, C: 0 },
+        mbtiAxes: [{ dimension: "TF", pole: "left", weight: 2 }],
+        roleIds: [
+          "sre",
+          "devops-engineer",
+          "backend-developer",
+          "network-engineer",
+          "production-support-engineer",
+          "l2-support-engineer"
+        ]
+      },
+      {
+        id: "q20b",
+        text: "Coordinate communication across teams and manage the incident response",
+        riasecScores: { R: 0, I: 0, A: 0, S: 1, E: 2, C: 2 },
+        mbtiAxes: [
+          { dimension: "EI", pole: "left", weight: 2 },
+          { dimension: "JP", pole: "left", weight: 1 }
+        ],
+        roleIds: [
+          "it-service-manager",
+          "it-project-manager",
+          "program-manager",
+          "scrum-master",
+          "itil-process-manager"
+        ]
+      },
+      {
+        id: "q20c",
+        text: "Document the incident in real time and ensure everything is tracked",
+        riasecScores: { R: 0, I: 1, A: 0, S: 1, E: 0, C: 2 },
+        mbtiAxes: [{ dimension: "JP", pole: "left", weight: 1 }],
+        roleIds: [
+          "technical-writer",
+          "it-audit-specialist",
+          "it-compliance-analyst",
+          "it-risk-analyst",
+          "confluence-administrator"
+        ]
+      },
+      {
+        id: "q20d",
+        text: "Ping support teams and prioritise which affected users need help first",
+        riasecScores: { R: 0, I: 0, A: 0, S: 2, E: 2, C: 0 },
+        mbtiAxes: [
+          { dimension: "EI", pole: "left", weight: 1 },
+          { dimension: "TF", pole: "right", weight: 1 }
+        ],
+        roleIds: [
+          "it-support-engineer",
+          "helpdesk-analyst",
+          "service-desk-analyst",
+          "technical-account-manager",
+          "application-support-engineer"
+        ]
+      },
+      {
+        id: "q20e",
+        text: "Draft a post-mortem framework to prevent this from ever happening again",
+        riasecScores: { R: 0, I: 2, A: 0, S: 0, E: 0, C: 2 },
+        mbtiAxes: [{ dimension: "TF", pole: "left", weight: 1 }],
+        roleIds: [
+          "sre",
+          "it-compliance-analyst",
+          "qa-engineer",
+          "it-risk-analyst",
+          "itil-process-manager"
+        ]
+      }
+    ]
+  },
+  {
+    id: "q21",
+    section: "scenarios",
+    sectionLabel: "Real-World Scenarios",
+    question: "A client is unhappy with the delivered software. Your role in resolving it would be…",
+    options: [
+      {
+        id: "q21a",
+        text: "Dig into technical logs to prove or disprove the reported issue",
+        riasecScores: { R: 2, I: 2, A: 0, S: 0, E: 0, C: 0 },
+        mbtiAxes: [{ dimension: "TF", pole: "left", weight: 2 }],
+        roleIds: [
+          "backend-developer",
+          "qa-engineer",
+          "sre",
+          "production-support-engineer",
+          "l2-support-engineer"
+        ]
+      },
+      {
+        id: "q21b",
+        text: "Empathise with the client, gather detailed feedback, translate to requirements",
+        riasecScores: { R: 0, I: 1, A: 0, S: 2, E: 2, C: 0 },
+        mbtiAxes: [
+          { dimension: "TF", pole: "right", weight: 2 },
+          { dimension: "EI", pole: "left", weight: 1 }
+        ],
+        roleIds: [
+          "technical-account-manager",
+          "business-analyst",
+          "product-manager",
+          "sap-fico-consultant",
+          "it-consultant"
+        ]
+      },
+      {
+        id: "q21c",
+        text: "Redesign the affected UI/UX to be clearer and more intuitive",
+        riasecScores: { R: 0, I: 0, A: 2, S: 1, E: 0, C: 0 },
+        mbtiAxes: [{ dimension: "SN", pole: "right", weight: 2 }],
+        roleIds: [
+          "uiux-designer",
+          "product-designer",
+          "frontend-developer",
+          "interaction-designer",
+          "web-designer"
+        ]
+      },
+      {
+        id: "q21d",
+        text: "Audit the process to find exactly where expectations misaligned",
+        riasecScores: { R: 0, I: 1, A: 0, S: 0, E: 1, C: 2 },
+        mbtiAxes: [{ dimension: "TF", pole: "left", weight: 1 }],
+        roleIds: [
+          "business-process-analyst",
+          "scrum-master",
+          "it-project-manager",
+          "agile-coach",
+          "it-audit-specialist"
+        ]
+      },
+      {
+        id: "q21e",
+        text: "Find the fastest patch possible and deploy the fix immediately",
+        riasecScores: { R: 2, I: 1, A: 0, S: 0, E: 0, C: 1 },
+        mbtiAxes: [{ dimension: "JP", pole: "right", weight: 1 }],
+        roleIds: [
+          "backend-developer",
+          "devops-engineer",
+          "fullstack-developer",
+          "production-support-engineer",
+          "sre"
+        ]
+      }
+    ]
+  },
+  {
+    id: "q22",
+    section: "scenarios",
+    sectionLabel: "Real-World Scenarios",
+    question: "Your company wants to build an AI-powered recommendation feature. You volunteer to…",
+    options: [
+      {
+        id: "q22a",
+        text: "Train the ML model, tune hyperparameters, and evaluate its performance",
+        riasecScores: { R: 1, I: 2, A: 0, S: 0, E: 0, C: 1 },
+        mbtiAxes: [{ dimension: "TF", pole: "left", weight: 2 }],
+        roleIds: [
+          "ml-engineer",
+          "data-scientist",
+          "ai-research-scientist",
+          "recommendation-engineer",
+          "deep-learning-engineer"
+        ]
+      },
+      {
+        id: "q22b",
+        text: "Define the product vision and how the recommendations should work",
+        riasecScores: { R: 0, I: 1, A: 1, S: 1, E: 2, C: 0 },
+        mbtiAxes: [
+          { dimension: "SN", pole: "right", weight: 1 },
+          { dimension: "EI", pole: "left", weight: 1 }
+        ],
+        roleIds: [
+          "product-manager",
+          "ai-product-manager",
+          "solutions-architect-associate",
+          "business-analyst",
+          "it-consultant"
+        ]
+      },
+      {
+        id: "q22c",
+        text: "Design the UX flow for how recommendations surface to users",
+        riasecScores: { R: 0, I: 0, A: 2, S: 1, E: 0, C: 0 },
+        mbtiAxes: [{ dimension: "SN", pole: "right", weight: 2 }],
+        roleIds: [
+          "uiux-designer",
+          "product-designer",
+          "interaction-designer",
+          "frontend-developer"
+        ]
+      },
+      {
+        id: "q22d",
+        text: "Build the data pipelines that feed training data to the model",
+        riasecScores: { R: 2, I: 2, A: 0, S: 0, E: 0, C: 1 },
+        mbtiAxes: [{ dimension: "EI", pole: "right", weight: 1 }],
+        roleIds: [
+          "data-engineer",
+          "mlops-engineer",
+          "backend-developer",
+          "etl-developer",
+          "data-warehouse-engineer"
+        ]
+      },
+      {
+        id: "q22e",
+        text: "Communicate the feature to customers and gather early user feedback",
+        riasecScores: { R: 0, I: 0, A: 1, S: 2, E: 2, C: 0 },
+        mbtiAxes: [{ dimension: "EI", pole: "left", weight: 2 }],
+        roleIds: [
+          "digital-marketing-executive",
+          "technical-account-manager",
+          "technical-writer",
+          "product-manager"
+        ]
+      }
+    ]
+  },
+  {
+    id: "q23",
+    section: "scenarios",
+    sectionLabel: "Real-World Scenarios",
+    question: "Your company is rolling out a new ERP system. Your most natural contribution would be…",
+    options: [
+      {
+        id: "q23a",
+        text: "Configure and customise the modules to fit actual business workflows",
+        riasecScores: { R: 1, I: 1, A: 0, S: 0, E: 0, C: 2 },
+        mbtiAxes: [{ dimension: "SN", pole: "left", weight: 2 }],
+        roleIds: [
+          "sap-fico-consultant",
+          "sap-sd-consultant",
+          "sap-mm-consultant",
+          "oracle-erp-consultant",
+          "salesforce-developer",
+          "servicenow-developer"
+        ]
+      },
+      {
+        id: "q23b",
+        text: "Train employees at all levels to use the new system effectively",
+        riasecScores: { R: 0, I: 0, A: 1, S: 2, E: 1, C: 1 },
+        mbtiAxes: [{ dimension: "EI", pole: "left", weight: 2 }],
+        roleIds: [
+          "agile-coach",
+          "change-management-analyst",
+          "it-project-manager",
+          "technical-writer",
+          "servicenow-administrator"
+        ]
+      },
+      {
+        id: "q23c",
+        text: "Map current business processes and identify gaps vs. the new system",
+        riasecScores: { R: 0, I: 1, A: 0, S: 0, E: 1, C: 2 },
+        mbtiAxes: [{ dimension: "TF", pole: "left", weight: 1 }],
+        roleIds: [
+          "business-process-analyst",
+          "business-analyst",
+          "sap-fico-consultant",
+          "it-compliance-analyst"
+        ]
+      },
+      {
+        id: "q23d",
+        text: "Test the system thoroughly before go-live to find every edge case",
+        riasecScores: { R: 1, I: 1, A: 0, S: 0, E: 0, C: 2 },
+        mbtiAxes: [{ dimension: "JP", pole: "left", weight: 2 }],
+        roleIds: [
+          "qa-engineer",
+          "sap-basis-admin",
+          "it-audit-specialist",
+          "oracle-erp-consultant",
+          "selenium-automation-engineer"
+        ]
+      },
+      {
+        id: "q23e",
+        text: "Manage the overall project timeline and stakeholder communications",
+        riasecScores: { R: 0, I: 0, A: 0, S: 1, E: 2, C: 2 },
+        mbtiAxes: [
+          { dimension: "EI", pole: "left", weight: 1 },
+          { dimension: "JP", pole: "left", weight: 2 }
+        ],
+        roleIds: [
+          "it-project-manager",
+          "program-manager",
+          "pmo-analyst",
+          "it-vendor-manager"
+        ]
+      }
+    ]
+  },
+  {
+    id: "q24",
+    section: "scenarios",
+    sectionLabel: "Real-World Scenarios",
+    question: "You have 6 months to go deep and become an expert in something. You pick…",
+    options: [
+      {
+        id: "q24a",
+        text: "A specific programming language or modern framework (React, Go, Rust)",
+        riasecScores: { R: 1, I: 2, A: 0, S: 0, E: 0, C: 0 },
+        mbtiAxes: [{ dimension: "SN", pole: "left", weight: 1 }],
+        roleIds: [
+          "frontend-developer",
+          "backend-developer",
+          "fullstack-developer",
+          "react-native-developer",
+          "flutter-developer",
+          "java-developer",
+          "python-developer"
+        ]
+      },
+      {
+        id: "q24b",
+        text: "Machine learning, LLMs, or AI systems building from scratch",
+        riasecScores: { R: 0, I: 2, A: 0, S: 0, E: 0, C: 1 },
+        mbtiAxes: [{ dimension: "SN", pole: "right", weight: 2 }],
+        roleIds: [
+          "ml-engineer",
+          "ai-research-scientist",
+          "data-scientist",
+          "nlp-engineer",
+          "deep-learning-engineer",
+          "computer-vision-engineer"
+        ]
+      },
+      {
+        id: "q24c",
+        text: "Cloud infrastructure, Kubernetes, DevOps, or platform engineering",
+        riasecScores: { R: 2, I: 1, A: 0, S: 0, E: 0, C: 1 },
+        mbtiAxes: [{ dimension: "JP", pole: "left", weight: 1 }],
         roleIds: [
           "cloud-engineer",
           "devops-engineer",
           "sre",
-          "aws-solutions-architect",
-          "azure-cloud-engineer",
           "kubernetes-admin",
-          "gcp-engineer",
-          "cloud-architect"
+          "aws-solutions-architect",
+          "gcp-engineer"
         ]
       },
       {
-        id: "q10f",
-        label: "Marketing, growth, and digital campaigns",
+        id: "q24d",
+        text: "UX research, product design, or human-centred design principles",
+        riasecScores: { R: 0, I: 1, A: 2, S: 1, E: 0, C: 0 },
+        mbtiAxes: [
+          { dimension: "SN", pole: "right", weight: 1 },
+          { dimension: "TF", pole: "right", weight: 1 }
+        ],
         roleIds: [
-          "digital-marketing-executive",
-          "seo-executive",
-          "performance-marketing-manager",
-          "social-media-manager",
-          "content-writer",
-          "growth-hacker",
-          "product-marketing-manager",
-          "paid-ads-manager"
+          "uiux-designer",
+          "product-designer",
+          "interaction-designer",
+          "design-systems-manager"
+        ]
+      },
+      {
+        id: "q24e",
+        text: "Data analysis, SQL, Power BI, and business intelligence tools",
+        riasecScores: { R: 0, I: 2, A: 0, S: 0, E: 0, C: 2 },
+        mbtiAxes: [{ dimension: "TF", pole: "left", weight: 2 }],
+        roleIds: [
+          "data-analyst",
+          "bi-developer",
+          "reporting-analyst",
+          "power-bi-developer",
+          "tableau-developer",
+          "data-quality-analyst"
+        ]
+      }
+    ]
+  },
+  {
+    id: "q25",
+    section: "scenarios",
+    sectionLabel: "Real-World Scenarios",
+    question: "Five years from now, your ideal day at work looks like…",
+    options: [
+      {
+        id: "q25a",
+        text: "Leading architecture decisions on a large, complex technical system",
+        riasecScores: { R: 2, I: 2, A: 0, S: 0, E: 1, C: 0 },
+        mbtiAxes: [{ dimension: "EI", pole: "right", weight: 1 }],
+        roleIds: [
+          "solutions-architect-associate",
+          "cloud-architect",
+          "backend-developer",
+          "devops-engineer",
+          "sre"
+        ]
+      },
+      {
+        id: "q25b",
+        text: "Deep in data — building models that shape company strategy",
+        riasecScores: { R: 0, I: 2, A: 0, S: 0, E: 0, C: 2 },
+        mbtiAxes: [{ dimension: "TF", pole: "left", weight: 2 }],
+        roleIds: [
+          "data-scientist",
+          "ml-engineer",
+          "bi-developer",
+          "data-analyst",
+          "ai-research-scientist"
+        ]
+      },
+      {
+        id: "q25c",
+        text: "Leading a team, mentoring engineers, and shipping great products",
+        riasecScores: { R: 0, I: 0, A: 0, S: 2, E: 2, C: 0 },
+        mbtiAxes: [{ dimension: "EI", pole: "left", weight: 2 }],
+        roleIds: [
+          "it-project-manager",
+          "scrum-master",
+          "product-manager",
+          "agile-coach",
+          "program-manager"
+        ]
+      },
+      {
+        id: "q25d",
+        text: "Creating experiences that users love — design, content, or interaction",
+        riasecScores: { R: 0, I: 0, A: 2, S: 2, E: 0, C: 0 },
+        mbtiAxes: [
+          { dimension: "SN", pole: "right", weight: 2 },
+          { dimension: "TF", pole: "right", weight: 1 }
+        ],
+        roleIds: [
+          "uiux-designer",
+          "product-designer",
+          "content-strategist",
+          "brand-designer",
+          "interaction-designer"
+        ]
+      },
+      {
+        id: "q25e",
+        text: "Consulting across clients and industries, solving fresh problems monthly",
+        riasecScores: { R: 0, I: 1, A: 0, S: 1, E: 2, C: 1 },
+        mbtiAxes: [
+          { dimension: "EI", pole: "left", weight: 1 },
+          { dimension: "SN", pole: "right", weight: 1 }
+        ],
+        roleIds: [
+          "it-consultant",
+          "sap-fico-consultant",
+          "pre-sales-consultant",
+          "oracle-erp-consultant",
+          "it-risk-analyst"
         ]
       }
     ]
   }
 ];
-function computeResults(answers) {
-  const counts = {};
-  for (const optionId of Object.values(answers)) {
-    const question = quizQuestions.find(
-      (q) => q.options.some((o) => o.id === optionId)
-    );
-    if (!question) continue;
-    const option = question.options.find((o) => o.id === optionId);
-    if (!option) continue;
-    for (const rId of option.roleIds) {
-      counts[rId] = (counts[rId] ?? 0) + 1;
-    }
+const SECTION_META = {
+  interests: {
+    icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Sparkles, { className: "w-5 h-5" }),
+    label: "What You Enjoy",
+    description: "Understanding what energises you helps us find roles where you'll thrive."
+  },
+  drains: {
+    icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Zap, { className: "w-5 h-5" }),
+    label: "What Drains You",
+    description: "Knowing what drains you helps us avoid poor-fit roles and dead ends."
+  },
+  thinking: {
+    icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Brain, { className: "w-5 h-5" }),
+    label: "How You Think",
+    description: "Your thinking style shapes which roles suit your natural decision-making."
+  },
+  scenarios: {
+    icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Trophy, { className: "w-5 h-5" }),
+    label: "Real-World Scenarios",
+    description: "How you respond to real situations reveals your true instincts."
   }
-  const maxScore = Math.max(...Object.values(counts), 1);
-  return roles.filter((r2) => counts[r2.id]).map((r2) => ({
-    role: r2,
-    score: counts[r2.id] ?? 0,
-    percentage: Math.round((counts[r2.id] ?? 0) / maxScore * 100)
-  })).sort((a, b) => b.score - a.score).slice(0, 8);
+};
+const CATEGORY_RIASEC = {
+  development: { R: 2, I: 2 },
+  data: { I: 2, C: 2 },
+  "ai-ml": { I: 2, R: 1 },
+  infrastructure: { R: 2, C: 1 },
+  "it-support": { S: 2, C: 1 },
+  "sap-erp": { C: 2, E: 1 },
+  "tools-platforms": { R: 1, C: 2 },
+  "non-coding-it": { E: 2, S: 1 },
+  "design-creative": { A: 2, I: 1 },
+  "marketing-growth": { E: 2, A: 1 }
+};
+const MBTI_ROLE_MAP = {
+  INTJ: [
+    "solutions-architect-associate",
+    "cloud-architect",
+    "data-scientist",
+    "security-engineer",
+    "ml-engineer"
+  ],
+  INTP: [
+    "ai-research-scientist",
+    "backend-developer",
+    "data-engineer",
+    "nlp-engineer"
+  ],
+  ENTJ: [
+    "it-project-manager",
+    "program-manager",
+    "product-manager",
+    "cloud-architect"
+  ],
+  ENTP: [
+    "product-manager",
+    "ai-product-manager",
+    "it-consultant",
+    "business-analyst"
+  ],
+  INFJ: ["technical-writer", "uiux-designer", "change-management-analyst"],
+  INFP: [
+    "content-writer",
+    "uiux-designer",
+    "graphic-designer",
+    "product-designer"
+  ],
+  ENFJ: [
+    "agile-coach",
+    "scrum-master",
+    "it-project-manager",
+    "change-management-analyst"
+  ],
+  ENFP: [
+    "product-manager",
+    "digital-marketing-executive",
+    "growth-hacker",
+    "content-strategist"
+  ],
+  ISTJ: [
+    "sap-fico-consultant",
+    "it-compliance-analyst",
+    "database-administrator",
+    "itil-process-manager"
+  ],
+  ISFJ: [
+    "it-support-engineer",
+    "helpdesk-analyst",
+    "service-desk-analyst",
+    "technical-account-manager"
+  ],
+  ESTJ: [
+    "it-project-manager",
+    "sap-sd-consultant",
+    "it-vendor-manager",
+    "itil-process-manager"
+  ],
+  ESFJ: ["technical-account-manager", "scrum-master", "it-support-engineer"],
+  ISTP: ["devops-engineer", "network-engineer", "sre", "system-administrator"],
+  ISFP: [
+    "uiux-designer",
+    "web-designer",
+    "graphic-designer",
+    "motion-designer"
+  ],
+  ESTP: [
+    "pre-sales-consultant",
+    "growth-hacker",
+    "performance-marketing-manager"
+  ],
+  ESFP: [
+    "social-media-manager",
+    "digital-marketing-executive",
+    "community-manager"
+  ]
+};
+const RIASEC_LABELS = {
+  R: {
+    name: "Realistic",
+    color: "bg-emerald-500",
+    description: "Hands-on, technical, likes building things"
+  },
+  I: {
+    name: "Investigative",
+    color: "bg-violet-500",
+    description: "Analytical, research-oriented, problem-solver"
+  },
+  A: {
+    name: "Artistic",
+    color: "bg-amber-500",
+    description: "Creative, expressive, values aesthetics"
+  },
+  S: {
+    name: "Social",
+    color: "bg-blue-500",
+    description: "People-oriented, collaborative, empathetic"
+  },
+  E: {
+    name: "Enterprising",
+    color: "bg-orange-500",
+    description: "Leadership-driven, persuasive, goal-focused"
+  },
+  C: {
+    name: "Conventional",
+    color: "bg-slate-500",
+    description: "Organised, structured, detail-oriented"
+  }
+};
+const MBTI_DESCRIPTIONS = {
+  E: {
+    label: "Extrovert (E)",
+    desc: "You gain energy from collaboration and social interaction"
+  },
+  I: {
+    label: "Introvert (I)",
+    desc: "You do your best thinking independently and in focused work"
+  },
+  S: {
+    label: "Sensing (S)",
+    desc: "You prefer concrete facts, proven methods, and practical approaches"
+  },
+  N: {
+    label: "Intuitive (N)",
+    desc: "You're drawn to patterns, possibilities, and innovative thinking"
+  },
+  T: {
+    label: "Thinking (T)",
+    desc: "You make decisions based on logic, data, and objective analysis"
+  },
+  F: {
+    label: "Feeling (F)",
+    desc: "You factor in people, values, and human impact in decisions"
+  },
+  J: {
+    label: "Judging (J)",
+    desc: "You prefer structured plans, clear timelines, and decisive closure"
+  },
+  P: {
+    label: "Perceiving (P)",
+    desc: "You thrive with flexibility, adaptability, and open-ended exploration"
+  }
+};
+const FIT_REASONS = {
+  development: "Matches your hands-on building instincts and technical problem-solving",
+  data: "Aligns with your analytical thinking and love of data patterns",
+  "ai-ml": "Suits your investigative mindset and passion for intelligent systems",
+  infrastructure: "Fits your systematic reliability-focused and technical nature",
+  "it-support": "Matches your people-first approach and problem resolution instincts",
+  "sap-erp": "Aligns with your structured, process-driven, and enterprise-oriented style",
+  "tools-platforms": "Fits your technical precision and tooling-focused mindset",
+  "non-coding-it": "Suits your leadership, analytical, and cross-functional instincts",
+  "design-creative": "Matches your creative vision and user-experience sensibilities",
+  "marketing-growth": "Aligns with your enterprising energy and creative communication style"
+};
+function computeResults(roleCounts, riasecScores, mbtiType) {
+  const maxRoleCount = Math.max(...roleCounts.values(), 1);
+  const riasecMax = Math.max(...Object.values(riasecScores), 1);
+  const mbtiBonus = new Set(MBTI_ROLE_MAP[mbtiType] ?? []);
+  return roles.filter((r2) => roleCounts.has(r2.id) || mbtiBonus.has(r2.id)).map((r2) => {
+    const roleCount = roleCounts.get(r2.id) ?? 0;
+    const baseScore = roleCount / maxRoleCount;
+    const catKey = r2.category.replace("design-creative", "design-creative").replace("marketing-growth", "marketing-growth");
+    const catRiasec = CATEGORY_RIASEC[catKey] ?? {};
+    let riasecBonus = 0;
+    for (const [dim, val] of Object.entries(catRiasec)) {
+      riasecBonus += riasecScores[dim] / riasecMax * val * 0.15;
+    }
+    const mbtiScore = mbtiBonus.has(r2.id) ? 0.1 : 0;
+    const total = baseScore + riasecBonus + mbtiScore;
+    const catId = r2.category;
+    const fitReason = FIT_REASONS[catId] ?? "Matches your overall work-style profile";
+    return { role: r2, score: total, percentage: 0, fitReason };
+  }).sort((a, b) => b.score - a.score).slice(0, 5).map((r2, _i2, arr) => {
+    var _a2;
+    return {
+      ...r2,
+      percentage: Math.round(r2.score / (((_a2 = arr[0]) == null ? void 0 : _a2.score) ?? 1) * 100)
+    };
+  });
 }
+function deriveMbti(counts) {
+  const e = counts.EI.E >= counts.EI.I ? "E" : "I";
+  const s = counts.SN.S >= counts.SN.N ? "S" : "N";
+  const t = counts.TF.T >= counts.TF.F ? "T" : "F";
+  const j = counts.JP.J >= counts.JP.P ? "J" : "P";
+  return `${e}${s}${t}${j}`;
+}
+const SECTION_RANGES = {
+  interests: [0, 5],
+  drains: [6, 11],
+  thinking: [12, 17],
+  scenarios: [18, 24]
+};
 function Quiz() {
-  const [state, setState] = reactExports.useState("intro");
+  const [phase, setPhase] = reactExports.useState("intro");
   const [currentQ, setCurrentQ] = reactExports.useState(0);
-  const [answers, setAnswers] = reactExports.useState({});
+  const [answers, setAnswers] = reactExports.useState(/* @__PURE__ */ new Map());
+  const [riasecScores, setRiasecScores] = reactExports.useState({
+    R: 0,
+    I: 0,
+    A: 0,
+    S: 0,
+    E: 0,
+    C: 0
+  });
+  const [mbtiCounts, setMbtiCounts] = reactExports.useState({
+    EI: { E: 0, I: 0 },
+    SN: { S: 0, N: 0 },
+    TF: { T: 0, F: 0 },
+    JP: { J: 0, P: 0 }
+  });
+  const [roleCounts, setRoleCounts] = reactExports.useState(/* @__PURE__ */ new Map());
   const [results, setResults] = reactExports.useState([]);
+  const [mbtiType, setMbtiType] = reactExports.useState("");
+  const [animKey, setAnimKey] = reactExports.useState(0);
+  const [transitionSection, setTransitionSection] = reactExports.useState("");
+  const transitionTimer = reactExports.useRef(null);
   const question = quizQuestions[currentQ];
   const totalQ = quizQuestions.length;
   const progress = currentQ / totalQ * 100;
+  const currentSection = (question == null ? void 0 : question.section) ?? "interests";
+  const sectionColors = SECTION_COLORS[currentSection];
+  reactExports.useEffect(() => {
+    return () => {
+      if (transitionTimer.current) clearTimeout(transitionTimer.current);
+    };
+  }, []);
   const handleAnswer = (optionId) => {
-    const newAnswers = { ...answers, [question.id]: optionId };
+    const opt = question.options.find((o) => o.id === optionId);
+    if (!opt) return;
+    const newAnswers = new Map(answers);
+    newAnswers.set(question.id, optionId);
     setAnswers(newAnswers);
-    if (currentQ < totalQ - 1) {
-      setCurrentQ(currentQ + 1);
+    const newRiasec = { ...riasecScores };
+    for (const [k, v] of Object.entries(opt.riasecScores)) {
+      newRiasec[k] += v;
+    }
+    setRiasecScores(newRiasec);
+    const newMbti = {
+      ...mbtiCounts,
+      ...{
+        EI: { ...mbtiCounts.EI },
+        SN: { ...mbtiCounts.SN },
+        TF: { ...mbtiCounts.TF },
+        JP: { ...mbtiCounts.JP }
+      }
+    };
+    for (const ax of opt.mbtiAxes) {
+      if (ax.dimension === "EI") {
+        if (ax.pole === "left") newMbti.EI.E += ax.weight;
+        else newMbti.EI.I += ax.weight;
+      } else if (ax.dimension === "SN") {
+        if (ax.pole === "left") newMbti.SN.S += ax.weight;
+        else newMbti.SN.N += ax.weight;
+      } else if (ax.dimension === "TF") {
+        if (ax.pole === "left") newMbti.TF.T += ax.weight;
+        else newMbti.TF.F += ax.weight;
+      } else if (ax.dimension === "JP") {
+        if (ax.pole === "left") newMbti.JP.J += ax.weight;
+        else newMbti.JP.P += ax.weight;
+      }
+    }
+    setMbtiCounts(newMbti);
+    const newRoleCounts = new Map(roleCounts);
+    for (const rId of opt.roleIds) {
+      newRoleCounts.set(rId, (newRoleCounts.get(rId) ?? 0) + 1);
+    }
+    setRoleCounts(newRoleCounts);
+    const nextIdx = currentQ + 1;
+    if (nextIdx >= totalQ) {
+      const type = deriveMbti(newMbti);
+      setMbtiType(type);
+      setResults(computeResults(newRoleCounts, newRiasec, type));
+      setPhase("results");
+      return;
+    }
+    const nextSection = quizQuestions[nextIdx].section;
+    const currentIsLastInSection = currentQ + 1 <= totalQ - 1 && nextSection !== currentSection;
+    if (currentIsLastInSection) {
+      setTransitionSection(nextSection);
+      setPhase("transition");
+      transitionTimer.current = setTimeout(() => {
+        setCurrentQ(nextIdx);
+        setAnimKey((k) => k + 1);
+        setPhase("quiz");
+      }, 1800);
     } else {
-      setResults(computeResults(newAnswers));
-      setState("results");
+      setCurrentQ(nextIdx);
+      setAnimKey((k) => k + 1);
     }
   };
   const handleReset = () => {
-    setState("intro");
+    if (transitionTimer.current) clearTimeout(transitionTimer.current);
+    setPhase("intro");
     setCurrentQ(0);
-    setAnswers({});
+    setAnswers(/* @__PURE__ */ new Map());
+    setRiasecScores({ R: 0, I: 0, A: 0, S: 0, E: 0, C: 0 });
+    setMbtiCounts({
+      EI: { E: 0, I: 0 },
+      SN: { S: 0, N: 0 },
+      TF: { T: 0, F: 0 },
+      JP: { J: 0, P: 0 }
+    });
+    setRoleCounts(/* @__PURE__ */ new Map());
     setResults([]);
+    setMbtiType("");
+    setAnimKey(0);
   };
-  return /* @__PURE__ */ jsxRuntimeExports.jsxs(Layout, { children: [
-    state === "intro" && /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "bg-background py-16 md:py-24", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container max-w-2xl mx-auto px-4 text-center", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-5xl mb-4", children: "🧭" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "font-display font-bold text-3xl md:text-4xl text-foreground mb-4", children: "Discover Your Career Path" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-muted-foreground text-lg leading-relaxed mb-4", children: "Answer 10 quick questions about how you work and what excites you. No technical knowledge required!" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { className: "text-sm text-muted-foreground space-y-1.5 mb-8 inline-block text-left", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "✓ Questions about work style, not technical skills" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "✓ Takes under 2 minutes" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "✓ Get matched to 5-8 ideal career paths" })
+  const getRiasecPercent = (val) => {
+    const maxVal = Math.max(...Object.values(riasecScores), 1);
+    return Math.round(val / maxVal * 100);
+  };
+  const getSectionProgress = () => {
+    const range = SECTION_RANGES[currentSection];
+    if (!range) return 0;
+    const [start, end] = range;
+    const count = end - start + 1;
+    const done = currentQ - start;
+    return Math.round(done / count * 100);
+  };
+  if (phase === "intro") {
+    return /* @__PURE__ */ jsxRuntimeExports.jsx(Layout, { children: /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "bg-background py-16 md:py-28", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container max-w-2xl mx-auto px-4 text-center", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-primary/10 mb-6", children: /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-4xl", children: "🧭" }) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "font-display font-bold text-3xl md:text-4xl text-foreground mb-4 leading-tight", children: "Discover Your Ideal IT Career Path" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-muted-foreground text-lg leading-relaxed mb-6", children: "Answer 25 questions across 4 sections to uncover IT roles that genuinely match your personality, interests, and work style." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-2 md:grid-cols-4 gap-3 mb-8", children: Object.entries(SECTION_META).map(([key, meta]) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
+        "div",
+        {
+          className: `rounded-xl border p-3 text-center ${SECTION_COLORS[key].badge} border-${SECTION_COLORS[key].border}`,
+          children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex justify-center mb-1.5", children: meta.icon }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs font-medium leading-snug", children: meta.label })
+          ]
+        },
+        key
+      )) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { className: "text-sm text-muted-foreground space-y-2 mb-8 inline-block text-left", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-primary font-bold", children: "✓" }),
+          "25 questions based on O*NET Interest Profiler & MBTI frameworks"
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-primary font-bold", children: "✓" }),
+          "Takes 5–7 minutes — no technical knowledge required"
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-primary font-bold", children: "✓" }),
+          "Matched to your RIASEC profile + MBTI personality type"
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-primary font-bold", children: "✓" }),
+          "Get your top 5 ideal IT career paths with fit explanations"
+        ] })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex justify-center", children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
         Button,
         {
           size: "lg",
           className: "gap-2 h-12 px-8",
-          onClick: () => setState("questions"),
-          "data-ocid": "quiz.start.button",
+          onClick: () => setPhase("quiz"),
+          "data-ocid": "quiz.start_button",
           children: [
-            "Start the Quiz",
+            "Start Career Assessment",
             /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "w-4 h-4" })
           ]
         }
       ) })
-    ] }) }),
-    state === "questions" && question && /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "bg-background py-10 md:py-16", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container max-w-2xl mx-auto px-4", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mb-8", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-between items-center mb-2", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "text-sm font-medium text-muted-foreground", children: [
-            "Question ",
-            currentQ + 1,
-            " of ",
-            totalQ
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "text-sm font-medium text-primary", children: [
-            Math.round(progress),
-            "% complete"
-          ] })
-        ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-full h-2 bg-muted rounded-full overflow-hidden", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+    ] }) }) });
+  }
+  if (phase === "transition") {
+    const meta = SECTION_META[transitionSection];
+    const colors = SECTION_COLORS[transitionSection];
+    return /* @__PURE__ */ jsxRuntimeExports.jsx(Layout, { children: /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "bg-background py-16 md:py-24 min-h-[60vh] flex items-center", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container max-w-lg mx-auto px-4 text-center animate-fade-in", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx(
+        "div",
+        {
+          className: `inline-flex items-center justify-center w-16 h-16 rounded-2xl mb-4 ${colors.bg}`,
+          children: /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: `${colors.text}`, children: meta == null ? void 0 : meta.icon })
+        }
+      ),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm font-medium text-muted-foreground mb-1 uppercase tracking-wide", children: "Up Next" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(
+        "h2",
+        {
+          className: `font-display font-bold text-2xl md:text-3xl mb-3 ${colors.text}`,
+          children: meta == null ? void 0 : meta.label
+        }
+      ),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-muted-foreground leading-relaxed", children: meta == null ? void 0 : meta.description })
+    ] }) }) });
+  }
+  if (phase === "quiz" && question) {
+    const isSelected = (optId) => answers.get(question.id) === optId;
+    const sectionMeta = SECTION_META[currentSection];
+    const sectionPct = getSectionProgress();
+    return /* @__PURE__ */ jsxRuntimeExports.jsx(Layout, { children: /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "bg-background py-8 md:py-14", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container max-w-2xl mx-auto px-4", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between mb-3", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          "span",
+          {
+            className: `inline-flex items-center gap-1.5 text-xs font-semibold px-2.5 py-1 rounded-full border ${sectionColors.badge}`,
+            children: [
+              sectionMeta == null ? void 0 : sectionMeta.icon,
+              question.sectionLabel
+            ]
+          }
+        ),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "text-sm font-medium text-muted-foreground", children: [
+          "Question",
+          " ",
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-foreground font-bold", children: currentQ + 1 }),
+          " ",
+          "of ",
+          totalQ
+        ] })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mb-1.5", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-full h-2.5 bg-muted rounded-full overflow-hidden", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+        "div",
+        {
+          "data-ocid": "quiz.progress_bar",
+          className: "h-full bg-primary rounded-full transition-all duration-500",
+          style: { width: `${progress}%` }
+        }
+      ) }) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2 mb-7", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex-1 h-1 bg-muted rounded-full overflow-hidden", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
           "div",
           {
-            "data-ocid": "quiz.progress_bar",
-            className: "h-full bg-primary rounded-full transition-all duration-500",
-            style: { width: `${progress}%` }
+            className: `h-full rounded-full transition-all duration-500 ${currentSection === "interests" ? "bg-primary" : currentSection === "drains" ? "bg-destructive" : currentSection === "thinking" ? "bg-accent" : "bg-secondary-foreground"}`,
+            style: { width: `${sectionPct}%` }
           }
-        ) })
+        ) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "text-xs text-muted-foreground tabular-nums", children: [
+          Math.round(progress),
+          "% complete"
+        ] })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs(
         "div",
         {
-          className: "bg-card rounded-2xl border border-border shadow-card p-8 animate-fade-up",
+          className: "bg-card rounded-2xl border border-border shadow-card p-6 md:p-8 animate-fade-up",
           "data-ocid": "quiz.question_card",
           children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display font-bold text-xl md:text-2xl text-foreground mb-6 leading-snug", children: question.question }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "space-y-3", children: question.options.map((option) => {
-              const isSelected = answers[question.id] === option.id;
-              return /* @__PURE__ */ jsxRuntimeExports.jsx(
+            question.description && /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-muted-foreground italic mb-3 leading-relaxed", children: question.description }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display font-bold text-lg md:text-xl text-foreground mb-5 leading-snug", children: question.question }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "space-y-2.5", children: question.options.map((option, idx) => {
+              const selected = isSelected(option.id);
+              return /* @__PURE__ */ jsxRuntimeExports.jsxs(
                 "button",
                 {
                   type: "button",
                   onClick: () => handleAnswer(option.id),
-                  "data-ocid": `quiz.option.${option.id}.button`,
-                  className: `w-full text-left px-5 py-4 rounded-xl border transition-smooth font-body text-sm md:text-base ${isSelected ? "border-primary bg-primary/10 text-primary font-medium" : "border-border bg-muted/30 hover:border-primary/50 hover:bg-primary/5 text-foreground"}`,
-                  children: /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "flex items-center gap-3", children: [
-                    /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "w-6 h-6 rounded-full border-2 flex-shrink-0 flex items-center justify-center transition-fast border-current text-xs", children: isSelected ? "✓" : "" }),
-                    option.label
-                  ] })
+                  "data-ocid": `quiz.option.${idx + 1}.button`,
+                  className: `w-full text-left px-4 py-3.5 rounded-xl border-2 transition-smooth font-body text-sm md:text-base flex items-start gap-3 ${selected ? "border-primary bg-primary/10 text-primary font-medium" : "border-border bg-muted/20 hover:border-primary/50 hover:bg-primary/5 text-foreground"}`,
+                  children: [
+                    /* @__PURE__ */ jsxRuntimeExports.jsx(
+                      "span",
+                      {
+                        className: `mt-0.5 min-w-[22px] h-[22px] rounded-full border-2 flex items-center justify-center text-xs font-bold flex-shrink-0 transition-fast ${selected ? "bg-primary border-primary text-primary-foreground" : "border-muted-foreground/40"}`,
+                        children: selected ? "✓" : String.fromCharCode(65 + idx)
+                      }
+                    ),
+                    /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "flex-1 leading-snug", children: option.text })
+                  ]
                 },
                 option.id
               );
             }) })
           ]
-        }
+        },
+        animKey
       ),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-between mt-6", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-between mt-5", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx(
           Button,
           {
             variant: "ghost",
             size: "sm",
             onClick: () => {
-              if (currentQ > 0) setCurrentQ(currentQ - 1);
-              else setState("intro");
+              if (currentQ > 0) {
+                setCurrentQ(currentQ - 1);
+                setAnimKey((k) => k + 1);
+              } else {
+                setPhase("intro");
+              }
             },
-            "data-ocid": "quiz.back.button",
+            "data-ocid": "quiz.back_button",
             children: "← Back"
           }
         ),
@@ -48076,7 +49787,7 @@ function Quiz() {
             variant: "ghost",
             size: "sm",
             onClick: handleReset,
-            "data-ocid": "quiz.reset.button",
+            "data-ocid": "quiz.reset_button",
             children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx(RotateCcw, { className: "w-3.5 h-3.5 mr-1.5" }),
               "Restart"
@@ -48084,37 +49795,124 @@ function Quiz() {
           }
         )
       ] })
-    ] }) }),
-    state === "results" && /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "bg-background py-10 md:py-16", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container max-w-3xl mx-auto px-4", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center mb-10", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "inline-flex items-center justify-center w-14 h-14 rounded-full bg-primary/10 mb-4", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Trophy, { className: "w-7 h-7 text-primary" }) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "font-display font-bold text-3xl text-foreground mb-2", children: "Your Career Matches!" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-muted-foreground", children: "Based on your answers, here are the IT roles that best match your work style and interests." })
-      ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "space-y-4 mb-10", "data-ocid": "quiz.results.list", children: results.map((result, i) => {
+    ] }) }) });
+  }
+  const riasecEntries = Object.entries(RIASEC_LABELS);
+  const mbtiLetters = mbtiType.split("");
+  return /* @__PURE__ */ jsxRuntimeExports.jsx(Layout, { children: /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "bg-background py-10 md:py-16", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container max-w-3xl mx-auto px-4", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center mb-10", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-4", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Trophy, { className: "w-8 h-8 text-primary" }) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "font-display font-bold text-2xl md:text-3xl text-foreground mb-2", children: "Your Career Match Profile" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-muted-foreground max-w-md mx-auto", children: "Based on your responses across all 4 sections, here is your personalised IT career analysis." })
+    ] }),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs(
+      "div",
+      {
+        className: "bg-card rounded-2xl border border-border shadow-card p-6 mb-6",
+        "data-ocid": "quiz.riasec_section",
+        children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display font-semibold text-base text-foreground mb-1", children: "Your RIASEC Interest Profile" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-muted-foreground mb-4", children: "Based on Holland's O*NET model — shows your dominant work interests" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "space-y-3", children: riasecEntries.map(([key, meta]) => {
+            const val = riasecScores[key];
+            const pct = getRiasecPercent(val);
+            return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-3", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "w-24 md:w-28 flex-shrink-0", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs font-semibold text-foreground", children: meta.name }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-muted-foreground leading-snug hidden md:block", children: meta.description })
+              ] }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex-1 h-3 bg-muted rounded-full overflow-hidden", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+                "div",
+                {
+                  className: `h-full rounded-full transition-all duration-700 ${meta.color}`,
+                  style: { width: `${pct}%` },
+                  "data-ocid": `quiz.riasec_bar.${key.toLowerCase()}`
+                }
+              ) }),
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "text-xs font-bold text-foreground w-8 text-right tabular-nums", children: [
+                pct,
+                "%"
+              ] })
+            ] }, key);
+          }) })
+        ]
+      }
+    ),
+    mbtiType.length === 4 && /* @__PURE__ */ jsxRuntimeExports.jsxs(
+      "div",
+      {
+        className: "bg-card rounded-2xl border border-border shadow-card p-6 mb-6",
+        "data-ocid": "quiz.mbti_section",
+        children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display font-semibold text-base text-foreground mb-1", children: "Your Personality Type" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-muted-foreground mb-4", children: "Derived from MBTI 16 Personalities framework" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2 mb-4 flex-wrap", children: [
+            mbtiLetters.map((letter) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "div",
+              {
+                className: "w-12 h-12 rounded-xl bg-primary/10 border border-primary/30 flex items-center justify-center",
+                children: /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-display font-bold text-xl text-primary", children: letter })
+              },
+              `mbti-letter-${letter}`
+            )),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "ml-2 font-display font-bold text-xl text-foreground", children: mbtiType })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 sm:grid-cols-2 gap-2", children: mbtiLetters.map((letter, i) => {
+            const desc = MBTI_DESCRIPTIONS[letter];
+            return desc ? /* @__PURE__ */ jsxRuntimeExports.jsxs(
+              "div",
+              {
+                className: "flex items-start gap-2 text-sm",
+                "data-ocid": `quiz.mbti_trait.${i + 1}`,
+                children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-bold text-primary flex-shrink-0", children: letter }),
+                  /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+                    /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-semibold text-foreground text-xs", children: desc.label }),
+                    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-muted-foreground text-xs leading-snug", children: desc.desc })
+                  ] })
+                ]
+              },
+              `trait-${letter}`
+            ) : null;
+          }) })
+        ]
+      }
+    ),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mb-8", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display font-bold text-xl text-foreground mb-1", children: "Your Top 5 IT Role Matches" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-muted-foreground mb-4", children: "Ranked by how well your profile maps to each role's demands" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "space-y-3", "data-ocid": "quiz.results_list", children: results.map((result, i) => {
         const cat = categoryMap[result.role.category];
+        const rankColors = [
+          "bg-amber-100 text-amber-700 border-amber-200",
+          "bg-slate-100 text-slate-600 border-slate-200",
+          "bg-orange-100 text-orange-600 border-orange-200",
+          "bg-muted text-muted-foreground border-border",
+          "bg-muted text-muted-foreground border-border"
+        ];
         return /* @__PURE__ */ jsxRuntimeExports.jsx(
           Link,
           {
             to: "/roles/$roleId",
             params: { roleId: result.role.id },
-            "data-ocid": `quiz.results.item.${i + 1}`,
-            className: "group",
-            children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "bg-card rounded-xl border border-border shadow-card hover:shadow-card-hover transition-smooth p-5", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-start gap-4", children: [
+            "data-ocid": `quiz.result.item.${i + 1}`,
+            className: "group block",
+            children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "bg-card rounded-xl border border-border shadow-card hover:shadow-card-hover transition-smooth p-4 md:p-5", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-start gap-3", children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx(
                 "div",
                 {
-                  className: `w-8 h-8 flex-shrink-0 rounded-full flex items-center justify-center text-sm font-bold ${i === 0 ? "bg-amber-100 text-amber-700" : i === 1 ? "bg-slate-100 text-slate-600" : i === 2 ? "bg-orange-100 text-orange-600" : "bg-muted text-muted-foreground"}`,
+                  className: `w-9 h-9 flex-shrink-0 rounded-full border-2 flex items-center justify-center text-sm font-bold ${rankColors[i]}`,
                   children: i + 1
                 }
               ),
               /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex-1 min-w-0", children: [
                 /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2 flex-wrap mb-1", children: [
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display font-semibold text-foreground group-hover:text-primary transition-fast", children: result.role.name }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                    "span",
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display font-semibold text-foreground group-hover:text-primary transition-fast text-sm md:text-base", children: result.role.name }),
+                  cat && /* @__PURE__ */ jsxRuntimeExports.jsxs(
+                    Badge,
                     {
-                      className: `text-xs font-medium px-2 py-0.5 rounded-full ${cat.colorClass}`,
+                      variant: "outline",
+                      className: `text-xs ${cat.colorClass}`,
                       children: [
                         cat.icon,
                         " ",
@@ -48123,8 +49921,8 @@ function Quiz() {
                     }
                   )
                 ] }),
-                /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-muted-foreground line-clamp-2 mb-3", children: result.role.description }),
-                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-3", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-muted-foreground leading-snug mb-2 line-clamp-1", children: result.fitReason }),
+                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2", children: [
                   /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex-1 h-1.5 bg-muted rounded-full overflow-hidden", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
                     "div",
                     {
@@ -48132,7 +49930,7 @@ function Quiz() {
                       style: { width: `${result.percentage}%` }
                     }
                   ) }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "text-xs font-medium text-primary flex-shrink-0", children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "text-xs font-bold text-primary flex-shrink-0 tabular-nums", children: [
                     result.percentage,
                     "% match"
                   ] })
@@ -48143,31 +49941,35 @@ function Quiz() {
           },
           result.role.id
         );
-      }) }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col sm:flex-row gap-3 justify-center", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsxs(
-          Button,
-          {
-            variant: "outline",
-            onClick: handleReset,
-            className: "gap-2",
-            "data-ocid": "quiz.retake.button",
-            children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx(RotateCcw, { className: "w-4 h-4" }),
-              "Retake Quiz"
-            ]
-          }
-        ),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs(Link, { to: "/roles", search: { category: void 0 }, children: [
-          " ",
-          /* @__PURE__ */ jsxRuntimeExports.jsxs(Button, { className: "gap-2", "data-ocid": "quiz.browse_all.button", children: [
-            "Browse All Roles",
+      }) })
+    ] }),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col sm:flex-row gap-3 justify-center", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs(
+        Button,
+        {
+          variant: "outline",
+          onClick: handleReset,
+          className: "gap-2",
+          "data-ocid": "quiz.retake_button",
+          children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(RotateCcw, { className: "w-4 h-4" }),
+            "Retake Assessment"
+          ]
+        }
+      ),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/roles", search: { category: void 0 }, children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
+        Button,
+        {
+          className: "gap-2 w-full",
+          "data-ocid": "quiz.browse_all_button",
+          children: [
+            "Browse All 114+ Roles",
             /* @__PURE__ */ jsxRuntimeExports.jsx(ArrowRight, { className: "w-4 h-4" })
-          ] })
-        ] })
-      ] })
-    ] }) })
-  ] });
+          ]
+        }
+      ) })
+    ] })
+  ] }) }) });
 }
 function CategoryBadge({ categoryId, size = "md" }) {
   const category = categoryMap[categoryId];

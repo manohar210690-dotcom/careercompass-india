@@ -1,24 +1,27 @@
 {
-  "overview": "CareerCompass India is a career guidance app for Indian engineering graduates to explore 100+ IT and tech-adjacent job roles, take a gamified work-style quiz, and discover top hiring companies and job portals.",
+  "overview": "CareerCompass India is a comprehensive career guidance platform for Indian engineering graduates covering 114+ IT job roles across 10 categories. Features include free courses in English, Hindi, and Telugu, interactive mock tests with scoring, sample interview questions at 3 difficulty levels, a gamified 35-question career quiz, salary progression tables, and a 100+ company directory.",
   "features": [
-    "100+ curated IT and tech-adjacent roles across 10 categories",
-    "Gamified 10-question work-style quiz with role matching",
-    "Browse, filter, and search roles by category or keyword",
-    "20+ top companies directory with career page links",
-    "Pre-filled job portal links (LinkedIn, Naukri, Indeed, Internshala) per category",
-    "Design & Creative and Marketing & Growth role categories",
-    "Role detail view with skills, companies, and match reasons"
+    "114+ IT job roles across 10 categories",
+    "Free courses in English, Hindi, and Telugu from NPTEL, Coursera, Udemy, GUVI, and more",
+    "Interactive MCQ mock tests at Basic, Intermediate, and Advanced levels with instant scoring",
+    "Sample interview questions at 3 levels with expandable talking points",
+    "35-question gamified career quiz using O*NET RIASEC and MBTI frameworks",
+    "Salary progression tables from Fresher to Architect/Expert",
+    "100+ company directory with sector and type filtering",
+    "Role-specific job portal links for LinkedIn, Naukri, Indeed, and Internshala"
   ],
-  "category": "productivity",
+  "category": "career-education",
   "tags": [
     "career-guidance",
     "india",
-    "engineering-graduates",
-    "it-roles",
-    "job-search",
-    "skill-assessment",
-    "digital-marketing",
-    "ui-ux-design"
+    "engineering",
+    "it-jobs",
+    "mock-tests",
+    "interview-prep",
+    "free-courses",
+    "telugu",
+    "hindi",
+    "job-portal"
   ],
-  "last_updated": "2026-04-25T06:23:17.831Z"
+  "last_updated": "2026-05-01T14:51:45.563Z"
 }

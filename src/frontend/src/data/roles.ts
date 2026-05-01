@@ -1,4 +1,5 @@
 import type { CategoryId } from "./categories";
+import type { FreeCourse, InterviewPrep, MockTest } from "./roleExtras";
 
 export type WorkStyleTag =
   | "analytical"
@@ -57,6 +58,9 @@ export interface Role {
   companiesByType?: CompaniesByType;
   companiesHiring?: CompaniesHiring;
   careerLevels?: CareerLevel[];
+  freeCourses?: FreeCourse[];
+  mockTests?: MockTest[];
+  interviewPrep?: InterviewPrep[];
 }
 
 export const roles: Role[] = [

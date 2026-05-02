@@ -26427,22 +26427,11 @@ const createLucideIcon = (iconName, iconNode) => {
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$u = [
+const __iconNode$t = [
   ["path", { d: "m12 19-7-7 7-7", key: "1l729n" }],
   ["path", { d: "M19 12H5", key: "x3x0zl" }]
 ];
-const ArrowLeft = createLucideIcon("arrow-left", __iconNode$u);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$t = [
-  ["path", { d: "M5 12h14", key: "1ays0h" }],
-  ["path", { d: "m12 5 7 7-7 7", key: "xquz4c" }]
-];
-const ArrowRight = createLucideIcon("arrow-right", __iconNode$t);
+const ArrowLeft = createLucideIcon("arrow-left", __iconNode$t);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -26450,6 +26439,17 @@ const ArrowRight = createLucideIcon("arrow-right", __iconNode$t);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$s = [
+  ["path", { d: "M5 12h14", key: "1ays0h" }],
+  ["path", { d: "m12 5 7 7-7 7", key: "xquz4c" }]
+];
+const ArrowRight = createLucideIcon("arrow-right", __iconNode$s);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$r = [
   [
     "path",
     {
@@ -26459,14 +26459,14 @@ const __iconNode$s = [
   ],
   ["circle", { cx: "12", cy: "8", r: "6", key: "1vp47v" }]
 ];
-const Award = createLucideIcon("award", __iconNode$s);
+const Award = createLucideIcon("award", __iconNode$r);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$r = [
+const __iconNode$q = [
   ["path", { d: "M12 7v14", key: "1akyts" }],
   [
     "path",
@@ -26476,14 +26476,14 @@ const __iconNode$r = [
     }
   ]
 ];
-const BookOpen = createLucideIcon("book-open", __iconNode$r);
+const BookOpen = createLucideIcon("book-open", __iconNode$q);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$q = [
+const __iconNode$p = [
   [
     "path",
     {
@@ -26506,18 +26506,7 @@ const __iconNode$q = [
   ["path", { d: "M6 18a4 4 0 0 1-1.967-.516", key: "2e4loj" }],
   ["path", { d: "M19.967 17.484A4 4 0 0 1 18 18", key: "159ez6" }]
 ];
-const Brain = createLucideIcon("brain", __iconNode$q);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$p = [
-  ["path", { d: "M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16", key: "jecpp" }],
-  ["rect", { width: "20", height: "14", x: "2", y: "6", rx: "2", key: "i6l2r4" }]
-];
-const Briefcase = createLucideIcon("briefcase", __iconNode$p);
+const Brain = createLucideIcon("brain", __iconNode$p);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -26525,6 +26514,17 @@ const Briefcase = createLucideIcon("briefcase", __iconNode$p);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$o = [
+  ["path", { d: "M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16", key: "jecpp" }],
+  ["rect", { width: "20", height: "14", x: "2", y: "6", rx: "2", key: "i6l2r4" }]
+];
+const Briefcase = createLucideIcon("briefcase", __iconNode$o);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$n = [
   ["path", { d: "M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z", key: "1b4qmf" }],
   ["path", { d: "M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2", key: "i71pzd" }],
   ["path", { d: "M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2", key: "10jefs" }],
@@ -26533,42 +26533,31 @@ const __iconNode$o = [
   ["path", { d: "M10 14h4", key: "kelpxr" }],
   ["path", { d: "M10 18h4", key: "1ulq68" }]
 ];
-const Building2 = createLucideIcon("building-2", __iconNode$o);
+const Building2 = createLucideIcon("building-2", __iconNode$n);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$n = [["path", { d: "m6 9 6 6 6-6", key: "qrunsl" }]];
-const ChevronDown = createLucideIcon("chevron-down", __iconNode$n);
+const __iconNode$m = [["path", { d: "m6 9 6 6 6-6", key: "qrunsl" }]];
+const ChevronDown = createLucideIcon("chevron-down", __iconNode$m);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$m = [["path", { d: "m9 18 6-6-6-6", key: "mthhwq" }]];
-const ChevronRight = createLucideIcon("chevron-right", __iconNode$m);
+const __iconNode$l = [["path", { d: "m9 18 6-6-6-6", key: "mthhwq" }]];
+const ChevronRight = createLucideIcon("chevron-right", __iconNode$l);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$l = [["path", { d: "m18 15-6-6-6 6", key: "153udz" }]];
-const ChevronUp = createLucideIcon("chevron-up", __iconNode$l);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$k = [
-  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
-  ["path", { d: "m9 12 2 2 4-4", key: "dzmm74" }]
-];
-const CircleCheck = createLucideIcon("circle-check", __iconNode$k);
+const __iconNode$k = [["path", { d: "m18 15-6-6-6 6", key: "153udz" }]];
+const ChevronUp = createLucideIcon("chevron-up", __iconNode$k);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -26576,17 +26565,10 @@ const CircleCheck = createLucideIcon("circle-check", __iconNode$k);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$j = [
-  ["rect", { width: "8", height: "4", x: "8", y: "2", rx: "1", ry: "1", key: "tgr4d6" }],
-  [
-    "path",
-    {
-      d: "M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2",
-      key: "116196"
-    }
-  ],
-  ["path", { d: "m9 14 2 2 4-4", key: "df797q" }]
+  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
+  ["path", { d: "m9 12 2 2 4-4", key: "dzmm74" }]
 ];
-const ClipboardCheck = createLucideIcon("clipboard-check", __iconNode$j);
+const CircleCheck = createLucideIcon("circle-check", __iconNode$j);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -52482,7 +52464,7 @@ function FreeCourseSection({ courses }) {
     )) })
   ] });
 }
-const LEVEL_CONFIG$1 = {
+const LEVEL_CONFIG = {
   basic: {
     label: "Basic",
     activeBg: "bg-emerald-500 text-white border-emerald-500",
@@ -52502,7 +52484,7 @@ const LEVEL_CONFIG$1 = {
     badge: "bg-rose-500/10 text-rose-700"
   }
 };
-const LEVELS$1 = ["basic", "intermediate", "advanced"];
+const LEVELS = ["basic", "intermediate", "advanced"];
 function InterviewPrepSection({ prep }) {
   const [activeLevel, setActiveLevel] = reactExports.useState("basic");
   const [expanded, setExpanded] = reactExports.useState(/* @__PURE__ */ new Set());
@@ -52535,8 +52517,8 @@ function InterviewPrepSection({ prep }) {
       {
         className: "flex gap-2 mb-6 flex-wrap",
         "data-ocid": "interview_prep.level_tabs",
-        children: LEVELS$1.map((level) => {
-          const cfg = LEVEL_CONFIG$1[level];
+        children: LEVELS.map((level) => {
+          const cfg = LEVEL_CONFIG[level];
           const levelPrep = prep.find((p) => p.level === level);
           const count = (levelPrep == null ? void 0 : levelPrep.questions.length) ?? 0;
           return /* @__PURE__ */ jsxRuntimeExports.jsxs(
@@ -52594,7 +52576,7 @@ function InterviewPrepSection({ prep }) {
                     /* @__PURE__ */ jsxRuntimeExports.jsxs(
                       "span",
                       {
-                        className: `flex-shrink-0 w-7 h-7 rounded-full text-xs font-bold flex items-center justify-center mt-0.5 ${LEVEL_CONFIG$1[activeLevel].badge}`,
+                        className: `flex-shrink-0 w-7 h-7 rounded-full text-xs font-bold flex items-center justify-center mt-0.5 ${LEVEL_CONFIG[activeLevel].badge}`,
                         children: [
                           "Q",
                           i + 1
@@ -52644,421 +52626,6 @@ function InterviewPrepSection({ prep }) {
         q.id
       );
     }) })
-  ] });
-}
-const LEVEL_CONFIG = {
-  basic: {
-    label: "Basic",
-    color: "text-emerald-700 border-emerald-500/30",
-    activeBg: "bg-emerald-500 text-white border-emerald-500",
-    badge: "bg-emerald-500/10 text-emerald-700"
-  },
-  intermediate: {
-    label: "Intermediate",
-    color: "text-amber-700 border-amber-500/30",
-    activeBg: "bg-amber-500 text-white border-amber-500",
-    badge: "bg-amber-500/10 text-amber-700"
-  },
-  advanced: {
-    label: "Advanced",
-    color: "text-rose-700 border-rose-500/30",
-    activeBg: "bg-rose-500 text-white border-rose-500",
-    badge: "bg-rose-500/10 text-rose-700"
-  }
-};
-const LEVELS = ["basic", "intermediate", "advanced"];
-function CircleProgress({ percentage }) {
-  const r2 = 42;
-  const circ = 2 * Math.PI * r2;
-  const dash = percentage / 100 * circ;
-  const color = percentage >= 70 ? "#22c55e" : percentage >= 50 ? "#f59e0b" : "#ef4444";
-  return /* @__PURE__ */ jsxRuntimeExports.jsxs(
-    "svg",
-    {
-      width: "108",
-      height: "108",
-      viewBox: "0 0 108 108",
-      className: "-rotate-90",
-      role: "img",
-      "aria-label": `Score: ${Math.round(percentage)} percent`,
-      children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "circle",
-          {
-            cx: "54",
-            cy: "54",
-            r: r2,
-            fill: "none",
-            stroke: "currentColor",
-            strokeWidth: "8",
-            className: "text-muted/30"
-          }
-        ),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "circle",
-          {
-            cx: "54",
-            cy: "54",
-            r: r2,
-            fill: "none",
-            stroke: color,
-            strokeWidth: "8",
-            strokeLinecap: "round",
-            strokeDasharray: `${dash} ${circ}`,
-            className: "transition-all duration-700"
-          }
-        ),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs(
-          "text",
-          {
-            x: "54",
-            y: "54",
-            textAnchor: "middle",
-            dominantBaseline: "middle",
-            className: "rotate-90 text-foreground font-bold",
-            fill: "currentColor",
-            fontSize: "18",
-            transform: "rotate(90 54 54)",
-            fontWeight: "700",
-            "aria-label": `${Math.round(percentage)} percent`,
-            children: [
-              Math.round(percentage),
-              "%"
-            ]
-          }
-        )
-      ]
-    }
-  );
-}
-function MockTestSection({ tests, roleId: _roleId }) {
-  const [activeLevel, setActiveLevel] = reactExports.useState("basic");
-  const [testState, setTestState] = reactExports.useState("idle");
-  const [currentQuestion, setCurrentQuestion] = reactExports.useState(0);
-  const [selectedOption, setSelectedOption] = reactExports.useState(null);
-  const [answers, setAnswers] = reactExports.useState([]);
-  const [showExplanation, setShowExplanation] = reactExports.useState(false);
-  const availableTests = tests ?? [];
-  const test = availableTests.find((t) => t.level === activeLevel);
-  function startTest() {
-    if (!test) return;
-    setTestState("taking");
-    setCurrentQuestion(0);
-    setSelectedOption(null);
-    setAnswers(new Array(test.questions.length).fill(null));
-    setShowExplanation(false);
-  }
-  function handleOptionSelect(idx) {
-    if (showExplanation) return;
-    setSelectedOption(idx);
-  }
-  function handleNext() {
-    if (!test || selectedOption === null) return;
-    const updatedAnswers = [...answers];
-    updatedAnswers[currentQuestion] = selectedOption;
-    setAnswers(updatedAnswers);
-    if (!showExplanation) {
-      setShowExplanation(true);
-      return;
-    }
-    if (currentQuestion + 1 >= test.questions.length) {
-      setTestState("done");
-    } else {
-      setCurrentQuestion(currentQuestion + 1);
-      setSelectedOption(null);
-      setShowExplanation(false);
-    }
-  }
-  function handleRetake() {
-    setTestState("idle");
-    setCurrentQuestion(0);
-    setSelectedOption(null);
-    setAnswers([]);
-    setShowExplanation(false);
-  }
-  function handleTryNextLevel() {
-    const idx = LEVELS.indexOf(activeLevel);
-    if (idx < LEVELS.length - 1) {
-      setActiveLevel(LEVELS[idx + 1]);
-      handleRetake();
-    }
-  }
-  if (!tests || tests.length === 0) {
-    return /* @__PURE__ */ jsxRuntimeExports.jsxs(
-      "div",
-      {
-        className: "text-center py-16 px-6 rounded-xl border border-border bg-card",
-        "data-ocid": "mock_test.empty_state",
-        children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-5xl mb-4", children: "🧪" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display font-semibold text-foreground text-lg mb-2", children: "Mock tests coming soon" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-muted-foreground text-sm max-w-md mx-auto", children: "We're building role-specific mock tests for all three levels. Check back shortly!" })
-        ]
-      }
-    );
-  }
-  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { "data-ocid": "mock_test.section", children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsx(
-      "div",
-      {
-        className: "flex gap-2 mb-6 flex-wrap",
-        "data-ocid": "mock_test.level_tabs",
-        children: LEVELS.map((level) => {
-          const cfg = LEVEL_CONFIG[level];
-          const hasTest = availableTests.some((t) => t.level === level);
-          return /* @__PURE__ */ jsxRuntimeExports.jsxs(
-            "button",
-            {
-              type: "button",
-              onClick: () => {
-                setActiveLevel(level);
-                handleRetake();
-              },
-              "data-ocid": `mock_test.tab.${level}`,
-              disabled: !hasTest,
-              className: `px-5 py-2 rounded-full text-sm font-semibold border transition-colors ${activeLevel === level ? cfg.activeBg : hasTest ? `bg-card ${cfg.color} hover:bg-muted/60` : "bg-muted/30 text-muted-foreground/40 border-border cursor-not-allowed"}`,
-              children: [
-                cfg.label,
-                !hasTest && /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "ml-1 text-xs opacity-60", children: "(soon)" })
-              ]
-            },
-            level
-          );
-        })
-      }
-    ),
-    !test ? /* @__PURE__ */ jsxRuntimeExports.jsx(
-      "div",
-      {
-        className: "text-center py-10 rounded-xl border border-border bg-card",
-        "data-ocid": "mock_test.empty_state",
-        children: /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-muted-foreground text-sm", children: [
-          "No ",
-          activeLevel,
-          " test available yet."
-        ] })
-      }
-    ) : testState === "idle" ? (
-      /* ── Start card ── */
-      /* @__PURE__ */ jsxRuntimeExports.jsxs(
-        "div",
-        {
-          className: "bg-card rounded-xl border border-border p-8 text-center max-w-lg mx-auto",
-          "data-ocid": "mock_test.start_card",
-          children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsxs(
-              "div",
-              {
-                className: `inline-flex items-center text-sm font-semibold px-3 py-1 rounded-full mb-5 ${LEVEL_CONFIG[activeLevel].badge}`,
-                children: [
-                  LEVEL_CONFIG[activeLevel].label,
-                  " Level"
-                ]
-              }
-            ),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("h3", { className: "font-display font-bold text-foreground text-xl mb-2", children: [
-              test.questions.length,
-              " Questions"
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-muted-foreground text-sm mb-1", children: [
-              "Passing score: ",
-              test.passingScore,
-              "%"
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-muted-foreground text-sm mb-8", children: "Multiple choice — one correct answer per question." }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx(
-              "button",
-              {
-                type: "button",
-                onClick: startTest,
-                "data-ocid": "mock_test.start_button",
-                className: "bg-primary text-primary-foreground px-8 py-3 rounded-full font-semibold text-sm hover:bg-primary/90 transition-colors",
-                children: "Start Test"
-              }
-            )
-          ]
-        }
-      )
-    ) : testState === "done" ? (
-      /* ── Score screen ── */
-      (() => {
-        const correctCount = answers.filter((ans, i) => {
-          if (ans === null) return false;
-          return test.questions[i].options[ans].isCorrect;
-        }).length;
-        const pct = Math.round(correctCount / test.questions.length * 100);
-        const passed = pct >= test.passingScore;
-        return /* @__PURE__ */ jsxRuntimeExports.jsxs(
-          "div",
-          {
-            className: "bg-card rounded-xl border border-border p-6",
-            "data-ocid": "mock_test.score_screen",
-            children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col sm:flex-row items-center gap-6 mb-8", children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex-shrink-0", children: /* @__PURE__ */ jsxRuntimeExports.jsx(CircleProgress, { percentage: pct }) }),
-                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center sm:text-left", children: [
-                  /* @__PURE__ */ jsxRuntimeExports.jsx(
-                    "div",
-                    {
-                      className: `inline-flex items-center text-sm font-bold px-3 py-1 rounded-full mb-3 ${passed ? "bg-emerald-500/10 text-emerald-700" : "bg-rose-500/10 text-rose-700"}`,
-                      children: passed ? "🎉 Passed!" : "😓 Not quite — try again"
-                    }
-                  ),
-                  /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-foreground font-bold text-2xl", children: [
-                    correctCount,
-                    " / ",
-                    test.questions.length
-                  ] }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-muted-foreground text-sm mt-1", children: [
-                    "Passing score: ",
-                    test.passingScore,
-                    "%"
-                  ] })
-                ] })
-              ] }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "space-y-3 mb-6", children: test.questions.map((q, i) => {
-                var _a2;
-                const ans = answers[i];
-                const isCorrect = ans !== null && q.options[ans].isCorrect;
-                return /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                  "div",
-                  {
-                    className: `flex items-start gap-3 p-3 rounded-lg border text-sm ${isCorrect ? "border-emerald-500/20 bg-emerald-500/5" : "border-rose-500/20 bg-rose-500/5"}`,
-                    children: [
-                      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "flex-shrink-0 font-bold text-base", children: isCorrect ? "✓" : "✗" }),
-                      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "min-w-0", children: [
-                        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-foreground font-medium leading-snug", children: q.question }),
-                        ans !== null && !isCorrect && /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-muted-foreground text-xs mt-1", children: [
-                          "Correct:",
-                          " ",
-                          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-semibold text-foreground", children: (_a2 = q.options.find((o) => o.isCorrect)) == null ? void 0 : _a2.text })
-                        ] })
-                      ] })
-                    ]
-                  },
-                  q.id
-                );
-              }) }),
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-wrap gap-3 justify-center", children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsx(
-                  "button",
-                  {
-                    type: "button",
-                    onClick: handleRetake,
-                    "data-ocid": "mock_test.retake_button",
-                    className: "px-6 py-2.5 rounded-full text-sm font-semibold border border-border bg-card hover:bg-muted/60 text-foreground transition-colors",
-                    children: "Retake Test"
-                  }
-                ),
-                LEVELS.indexOf(activeLevel) < LEVELS.length - 1 && /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                  "button",
-                  {
-                    type: "button",
-                    onClick: handleTryNextLevel,
-                    "data-ocid": "mock_test.next_level_button",
-                    className: "px-6 py-2.5 rounded-full text-sm font-semibold bg-primary text-primary-foreground hover:bg-primary/90 transition-colors",
-                    children: [
-                      "Try",
-                      " ",
-                      LEVEL_CONFIG[LEVELS[LEVELS.indexOf(activeLevel) + 1]].label,
-                      " ",
-                      "Level →"
-                    ]
-                  }
-                )
-              ] })
-            ]
-          }
-        );
-      })()
-    ) : (
-      /* ── Taking test ── */
-      (() => {
-        const q = test.questions[currentQuestion];
-        const progress = currentQuestion / test.questions.length * 100;
-        const correctIdx = q.options.findIndex((o) => o.isCorrect);
-        return /* @__PURE__ */ jsxRuntimeExports.jsxs(
-          "div",
-          {
-            className: "bg-card rounded-xl border border-border p-6",
-            "data-ocid": "mock_test.question_screen",
-            children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between mb-3 text-sm text-muted-foreground", children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "font-medium", children: [
-                  "Question ",
-                  currentQuestion + 1,
-                  " of ",
-                  test.questions.length
-                ] }),
-                q.topic && /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "bg-muted/60 px-2.5 py-0.5 rounded-full text-xs", children: q.topic })
-              ] }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "h-1.5 rounded-full bg-muted mb-6 overflow-hidden", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-                "div",
-                {
-                  className: "h-full rounded-full bg-primary transition-all duration-500",
-                  style: { width: `${progress}%` }
-                }
-              ) }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-foreground font-semibold text-base leading-snug mb-5", children: q.question }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "space-y-2.5 mb-5", "data-ocid": "mock_test.options", children: q.options.map((opt, i) => {
-                let optClass = "border-border bg-background text-foreground hover:border-primary/40 hover:bg-primary/5";
-                if (selectedOption === i && !showExplanation) {
-                  optClass = "border-primary bg-primary/10 text-foreground";
-                } else if (showExplanation) {
-                  if (i === correctIdx) {
-                    optClass = "border-emerald-500 bg-emerald-500/10 text-emerald-700";
-                  } else if (selectedOption === i && i !== correctIdx) {
-                    optClass = "border-rose-500 bg-rose-500/10 text-rose-700";
-                  } else {
-                    optClass = "border-border bg-background text-muted-foreground";
-                  }
-                }
-                return /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                  "button",
-                  {
-                    type: "button",
-                    onClick: () => handleOptionSelect(i),
-                    disabled: showExplanation,
-                    "data-ocid": `mock_test.option.${i + 1}`,
-                    className: `w-full text-left px-4 py-3 rounded-lg border text-sm font-medium transition-all ${optClass} ${showExplanation ? "cursor-default" : "cursor-pointer"}`,
-                    children: [
-                      /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "mr-2 opacity-50", children: [
-                        String.fromCharCode(65 + i),
-                        "."
-                      ] }),
-                      opt.text
-                    ]
-                  },
-                  opt.text
-                );
-              }) }),
-              showExplanation && /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                "div",
-                {
-                  className: "bg-muted/40 border border-border rounded-lg p-4 mb-5 text-sm",
-                  "data-ocid": "mock_test.explanation",
-                  children: [
-                    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-semibold text-foreground mb-1", children: selectedOption !== null && q.options[selectedOption].isCorrect ? "✅ Correct!" : "❌ Incorrect" }),
-                    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-muted-foreground leading-relaxed", children: q.explanation })
-                  ]
-                }
-              ),
-              /* @__PURE__ */ jsxRuntimeExports.jsx(
-                "button",
-                {
-                  type: "button",
-                  onClick: handleNext,
-                  disabled: selectedOption === null,
-                  "data-ocid": "mock_test.next_button",
-                  className: "w-full py-3 rounded-lg bg-primary text-primary-foreground text-sm font-semibold hover:bg-primary/90 disabled:opacity-40 disabled:cursor-not-allowed transition-colors",
-                  children: !showExplanation ? "Submit Answer" : currentQuestion + 1 >= test.questions.length ? "See Results" : "Next Question →"
-                }
-              )
-            ]
-          }
-        );
-      })()
-    )
   ] });
 }
 const jobPortals = {
@@ -66925,11 +66492,6 @@ const TABS = [
     icon: /* @__PURE__ */ jsxRuntimeExports.jsx(BookOpen, { className: "w-4 h-4" })
   },
   {
-    id: "tests",
-    label: "Mock Tests",
-    icon: /* @__PURE__ */ jsxRuntimeExports.jsx(ClipboardCheck, { className: "w-4 h-4" })
-  },
-  {
     id: "interview",
     label: "Interview Prep",
     icon: /* @__PURE__ */ jsxRuntimeExports.jsx(MessageSquare, { className: "w-4 h-4" })
@@ -67040,7 +66602,6 @@ function RoleDetail() {
     ) }) }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "bg-background py-10", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container max-w-4xl mx-auto px-4", children: [
       activeTab === "courses" && /* @__PURE__ */ jsxRuntimeExports.jsx(FreeCourseSection, { courses: extras == null ? void 0 : extras.freeCourses }),
-      activeTab === "tests" && /* @__PURE__ */ jsxRuntimeExports.jsx(MockTestSection, { tests: extras == null ? void 0 : extras.mockTests, roleId: role.id }),
       activeTab === "interview" && /* @__PURE__ */ jsxRuntimeExports.jsx(InterviewPrepSection, { prep: extras == null ? void 0 : extras.interviewPrep }),
       activeTab === "overview" && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid lg:grid-cols-3 gap-8", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "lg:col-span-2 space-y-8", children: [
@@ -67482,19 +67043,6 @@ function RoleDetail() {
                   children: [
                     /* @__PURE__ */ jsxRuntimeExports.jsx(BookOpen, { className: "w-3.5 h-3.5 flex-shrink-0" }),
                     "Free Courses (incl. Hindi & Telugu)"
-                  ]
-                }
-              ),
-              /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                "button",
-                {
-                  type: "button",
-                  onClick: () => setActiveTab("tests"),
-                  "data-ocid": "role_detail.shortcut.tests",
-                  className: "w-full text-left flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground py-1.5 transition-colors",
-                  children: [
-                    /* @__PURE__ */ jsxRuntimeExports.jsx(ClipboardCheck, { className: "w-3.5 h-3.5 flex-shrink-0" }),
-                    "Mock Tests (Basic / Intermediate / Advanced)"
                   ]
                 }
               ),

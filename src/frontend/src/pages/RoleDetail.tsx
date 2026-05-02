@@ -2,7 +2,6 @@ import { CategoryBadge } from "@/components/CategoryBadge";
 import { FreeCourseSection } from "@/components/FreeCourseSection";
 import { InterviewPrepSection } from "@/components/InterviewPrepSection";
 import { Layout } from "@/components/Layout";
-import { MockTestSection } from "@/components/MockTestSection";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { jobPortals, portalInfo, roleJobPortals } from "@/data/jobPortals";
@@ -16,7 +15,6 @@ import {
   Briefcase,
   Building2,
   CheckCircle2,
-  ClipboardCheck,
   ExternalLink,
   IndianRupee,
   MessageSquare,
@@ -27,7 +25,7 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 
-type TabId = "overview" | "courses" | "tests" | "interview";
+type TabId = "overview" | "courses" | "interview";
 
 const TABS: { id: TabId; label: string; icon: React.ReactNode }[] = [
   {
@@ -39,11 +37,6 @@ const TABS: { id: TabId; label: string; icon: React.ReactNode }[] = [
     id: "courses",
     label: "Free Courses",
     icon: <BookOpen className="w-4 h-4" />,
-  },
-  {
-    id: "tests",
-    label: "Mock Tests",
-    icon: <ClipboardCheck className="w-4 h-4" />,
   },
   {
     id: "interview",
@@ -183,11 +176,6 @@ export default function RoleDetail() {
           {/* ── FREE COURSES TAB ── */}
           {activeTab === "courses" && (
             <FreeCourseSection courses={extras?.freeCourses} />
-          )}
-
-          {/* ── MOCK TESTS TAB ── */}
-          {activeTab === "tests" && (
-            <MockTestSection tests={extras?.mockTests} roleId={role.id} />
           )}
 
           {/* ── INTERVIEW PREP TAB ── */}
@@ -727,15 +715,6 @@ export default function RoleDetail() {
                     >
                       <BookOpen className="w-3.5 h-3.5 flex-shrink-0" />
                       Free Courses (incl. Hindi & Telugu)
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() => setActiveTab("tests")}
-                      data-ocid="role_detail.shortcut.tests"
-                      className="w-full text-left flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground py-1.5 transition-colors"
-                    >
-                      <ClipboardCheck className="w-3.5 h-3.5 flex-shrink-0" />
-                      Mock Tests (Basic / Intermediate / Advanced)
                     </button>
                     <button
                       type="button"

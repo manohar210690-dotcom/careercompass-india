@@ -1980,6 +1980,10 @@ body{
   border-color: oklch(var(--sidebar-border));
 }
 
+.border-sky-500\/20{
+  border-color: rgb(14 165 233 / 0.2);
+}
+
 .border-slate-200{
   --tw-border-opacity: 1;
   border-color: rgb(226 232 240 / var(--tw-border-opacity, 1));
@@ -2478,6 +2482,10 @@ body{
 .bg-sky-500{
   --tw-bg-opacity: 1;
   background-color: rgb(14 165 233 / var(--tw-bg-opacity, 1));
+}
+
+.bg-sky-500\/10{
+  background-color: rgb(14 165 233 / 0.1);
 }
 
 .bg-sky-600{
@@ -3177,6 +3185,11 @@ body{
   color: oklch(var(--sidebar-foreground));
 }
 
+.text-sky-700{
+  --tw-text-opacity: 1;
+  color: rgb(3 105 161 / var(--tw-text-opacity, 1));
+}
+
 .text-slate-600{
   --tw-text-opacity: 1;
   color: rgb(71 85 105 / var(--tw-text-opacity, 1));
@@ -3815,10 +3828,6 @@ body{
 .hover\:text-muted-foreground:hover{
   --tw-text-opacity: 1;
   color: oklch(var(--muted-foreground) / var(--tw-text-opacity, 1));
-}
-
-.hover\:text-primary\/80:hover{
-  color: oklch(var(--primary) / 0.8);
 }
 
 .hover\:text-sidebar-accent-foreground:hover{

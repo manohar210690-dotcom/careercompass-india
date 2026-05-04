@@ -52319,6 +52319,100 @@ function CategoryBadge({ categoryId, size = "md" }) {
     }
   );
 }
+const PROVIDER_COLORS = {
+  Coursera: "bg-blue-500/10 text-blue-700 border-blue-500/20",
+  "Google Cloud": "bg-sky-500/10 text-sky-700 border-sky-500/20",
+  Google: "bg-sky-500/10 text-sky-700 border-sky-500/20",
+  Microsoft: "bg-blue-500/10 text-blue-700 border-blue-500/20",
+  AWS: "bg-orange-500/10 text-orange-700 border-orange-500/20",
+  Amazon: "bg-orange-500/10 text-orange-700 border-orange-500/20",
+  NPTEL: "bg-purple-500/10 text-purple-700 border-purple-500/20",
+  Swayam: "bg-indigo-500/10 text-indigo-700 border-indigo-500/20",
+  GUVI: "bg-green-500/10 text-green-700 border-green-500/20",
+  IBM: "bg-blue-500/10 text-blue-700 border-blue-500/20",
+  Meta: "bg-violet-500/10 text-violet-700 border-violet-500/20",
+  Oracle: "bg-rose-500/10 text-rose-700 border-rose-500/20",
+  Salesforce: "bg-sky-500/10 text-sky-700 border-sky-500/20",
+  SAP: "bg-amber-500/10 text-amber-700 border-amber-500/20",
+  edX: "bg-muted text-muted-foreground border-border",
+  freeCodeCamp: "bg-emerald-500/10 text-emerald-700 border-emerald-500/20"
+};
+function getProviderColor(provider) {
+  for (const key of Object.keys(PROVIDER_COLORS)) {
+    if (provider.toLowerCase().includes(key.toLowerCase())) {
+      return PROVIDER_COLORS[key];
+    }
+  }
+  return "bg-primary/10 text-primary border-primary/20";
+}
+function FreeCertificationSection({ certifications }) {
+  if (!certifications || certifications.length === 0) {
+    return /* @__PURE__ */ jsxRuntimeExports.jsxs(
+      "div",
+      {
+        className: "text-center py-16 px-6 rounded-xl border border-border bg-card",
+        "data-ocid": "free_certifications.empty_state",
+        children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-5xl mb-4", children: "🏅" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display font-semibold text-foreground text-lg mb-2", children: "Certifications coming soon" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-muted-foreground text-sm max-w-md mx-auto", children: "We're curating free certifications from top platforms for this role. Check back soon!" })
+        ]
+      }
+    );
+  }
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { "data-ocid": "free_certifications.section", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between gap-3 mb-5", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Award, { className: "w-4 h-4 text-primary" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-sm text-muted-foreground", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-semibold text-foreground", children: certifications.length }),
+          " ",
+          "free certification",
+          certifications.length !== 1 ? "s" : "",
+          " available"
+        ] })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "inline-flex items-center gap-1 text-xs font-medium bg-emerald-500/10 text-emerald-700 border border-emerald-500/20 px-2.5 py-1 rounded-full", children: "✓ 100% Free" })
+    ] }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid sm:grid-cols-2 gap-3", children: certifications.map((cert, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
+      "div",
+      {
+        className: "bg-card border border-border rounded-xl p-4 hover:border-primary/30 hover:shadow-sm transition-all flex flex-col gap-3",
+        "data-ocid": `free_certifications.item.${i + 1}`,
+        children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-start gap-3", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex-shrink-0 w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Award, { className: "w-4 h-4 text-primary" }) }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex-1 min-w-0", children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm font-semibold text-foreground leading-snug", children: cert.name }) })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex items-center gap-2", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "span",
+            {
+              className: `inline-flex items-center text-xs font-medium px-2.5 py-1 rounded-full border ${getProviderColor(
+                cert.provider
+              )}`,
+              children: cert.provider
+            }
+          ) }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs(
+            "a",
+            {
+              href: cert.url,
+              target: "_blank",
+              rel: "noopener noreferrer",
+              "data-ocid": `free_certifications.link.${i + 1}`,
+              className: "mt-auto flex items-center justify-center gap-2 bg-primary text-primary-foreground text-xs font-semibold px-4 py-2 rounded-lg hover:bg-primary/90 transition-colors",
+              children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx(ExternalLink, { className: "w-3.5 h-3.5" }),
+                "Get Certified →"
+              ]
+            }
+          )
+        ]
+      },
+      `${cert.name}-${i}`
+    )) })
+  ] });
+}
 const LANGUAGE_FILTERS = [
   "All",
   "English",
@@ -66492,6 +66586,11 @@ const TABS = [
     icon: /* @__PURE__ */ jsxRuntimeExports.jsx(BookOpen, { className: "w-4 h-4" })
   },
   {
+    id: "certifications",
+    label: "Free Certifications",
+    icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Award, { className: "w-4 h-4" })
+  },
+  {
     id: "interview",
     label: "Interview Prep",
     icon: /* @__PURE__ */ jsxRuntimeExports.jsx(MessageSquare, { className: "w-4 h-4" })
@@ -66602,6 +66701,12 @@ function RoleDetail() {
     ) }) }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "bg-background py-10", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container max-w-4xl mx-auto px-4", children: [
       activeTab === "courses" && /* @__PURE__ */ jsxRuntimeExports.jsx(FreeCourseSection, { courses: extras == null ? void 0 : extras.freeCourses }),
+      activeTab === "certifications" && /* @__PURE__ */ jsxRuntimeExports.jsx(
+        FreeCertificationSection,
+        {
+          certifications: role.freeCertifications
+        }
+      ),
       activeTab === "interview" && /* @__PURE__ */ jsxRuntimeExports.jsx(InterviewPrepSection, { prep: extras == null ? void 0 : extras.interviewPrep }),
       activeTab === "overview" && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid lg:grid-cols-3 gap-8", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "lg:col-span-2 space-y-8", children: [
@@ -66907,45 +67012,6 @@ function RoleDetail() {
               ]
             }
           ),
-          role.freeCertifications && role.freeCertifications.length > 0 && /* @__PURE__ */ jsxRuntimeExports.jsxs(
-            "div",
-            {
-              className: "bg-card rounded-xl border border-border p-6 shadow-card",
-              "data-ocid": "role_detail.certifications.section",
-              children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { className: "font-display font-semibold text-foreground text-lg mb-4 flex items-center gap-2", children: [
-                  /* @__PURE__ */ jsxRuntimeExports.jsx(Award, { className: "w-4 h-4 text-primary" }),
-                  "Free Certifications"
-                ] }),
-                /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-muted-foreground mb-4", children: "Earn these free certifications to build credibility for this role:" }),
-                /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "space-y-3", children: role.freeCertifications.map((cert, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                  "div",
-                  {
-                    className: "flex items-center justify-between gap-4 bg-muted/40 rounded-lg px-4 py-3 group",
-                    "data-ocid": `role_detail.certification.item.${i + 1}`,
-                    children: [
-                      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex-1 min-w-0", children: [
-                        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm font-medium text-foreground truncate", children: cert.name }),
-                        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-muted-foreground mt-0.5", children: cert.provider })
-                      ] }),
-                      /* @__PURE__ */ jsxRuntimeExports.jsx(
-                        "a",
-                        {
-                          href: cert.url,
-                          target: "_blank",
-                          rel: "noopener noreferrer",
-                          "data-ocid": `role_detail.certification.link.${i + 1}`,
-                          className: "flex items-center gap-1.5 text-xs font-semibold text-primary hover:text-primary/80 transition-fast whitespace-nowrap flex-shrink-0",
-                          children: "Get Certified →"
-                        }
-                      )
-                    ]
-                  },
-                  cert.name
-                )) })
-              ]
-            }
-          ),
           role.youtubeChannels && role.youtubeChannels.length > 0 && /* @__PURE__ */ jsxRuntimeExports.jsxs(
             "div",
             {
@@ -67043,6 +67109,19 @@ function RoleDetail() {
                   children: [
                     /* @__PURE__ */ jsxRuntimeExports.jsx(BookOpen, { className: "w-3.5 h-3.5 flex-shrink-0" }),
                     "Free Courses (incl. Hindi & Telugu)"
+                  ]
+                }
+              ),
+              /* @__PURE__ */ jsxRuntimeExports.jsxs(
+                "button",
+                {
+                  type: "button",
+                  onClick: () => setActiveTab("certifications"),
+                  "data-ocid": "role_detail.shortcut.certifications",
+                  className: "w-full text-left flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground py-1.5 transition-colors",
+                  children: [
+                    /* @__PURE__ */ jsxRuntimeExports.jsx(Award, { className: "w-3.5 h-3.5 flex-shrink-0" }),
+                    "Free Certifications"
                   ]
                 }
               ),

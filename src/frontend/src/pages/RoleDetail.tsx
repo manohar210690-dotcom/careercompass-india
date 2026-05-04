@@ -1,4 +1,5 @@
 import { CategoryBadge } from "@/components/CategoryBadge";
+import { FreeCertificationSection } from "@/components/FreeCertificationSection";
 import { FreeCourseSection } from "@/components/FreeCourseSection";
 import { InterviewPrepSection } from "@/components/InterviewPrepSection";
 import { Layout } from "@/components/Layout";
@@ -25,7 +26,7 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 
-type TabId = "overview" | "courses" | "interview";
+type TabId = "overview" | "courses" | "certifications" | "interview";
 
 const TABS: { id: TabId; label: string; icon: React.ReactNode }[] = [
   {
@@ -37,6 +38,11 @@ const TABS: { id: TabId; label: string; icon: React.ReactNode }[] = [
     id: "courses",
     label: "Free Courses",
     icon: <BookOpen className="w-4 h-4" />,
+  },
+  {
+    id: "certifications",
+    label: "Free Certifications",
+    icon: <Award className="w-4 h-4" />,
   },
   {
     id: "interview",
@@ -176,6 +182,13 @@ export default function RoleDetail() {
           {/* ── FREE COURSES TAB ── */}
           {activeTab === "courses" && (
             <FreeCourseSection courses={extras?.freeCourses} />
+          )}
+
+          {/* ── FREE CERTIFICATIONS TAB ── */}
+          {activeTab === "certifications" && (
+            <FreeCertificationSection
+              certifications={role.freeCertifications}
+            />
           )}
 
           {/* ── INTERVIEW PREP TAB ── */}
@@ -550,51 +563,6 @@ export default function RoleDetail() {
                   </div>
                 )}
 
-                {/* Free Certifications */}
-                {role.freeCertifications &&
-                  role.freeCertifications.length > 0 && (
-                    <div
-                      className="bg-card rounded-xl border border-border p-6 shadow-card"
-                      data-ocid="role_detail.certifications.section"
-                    >
-                      <h2 className="font-display font-semibold text-foreground text-lg mb-4 flex items-center gap-2">
-                        <Award className="w-4 h-4 text-primary" />
-                        Free Certifications
-                      </h2>
-                      <p className="text-sm text-muted-foreground mb-4">
-                        Earn these free certifications to build credibility for
-                        this role:
-                      </p>
-                      <div className="space-y-3">
-                        {role.freeCertifications.map((cert, i) => (
-                          <div
-                            key={cert.name}
-                            className="flex items-center justify-between gap-4 bg-muted/40 rounded-lg px-4 py-3 group"
-                            data-ocid={`role_detail.certification.item.${i + 1}`}
-                          >
-                            <div className="flex-1 min-w-0">
-                              <p className="text-sm font-medium text-foreground truncate">
-                                {cert.name}
-                              </p>
-                              <p className="text-xs text-muted-foreground mt-0.5">
-                                {cert.provider}
-                              </p>
-                            </div>
-                            <a
-                              href={cert.url}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              data-ocid={`role_detail.certification.link.${i + 1}`}
-                              className="flex items-center gap-1.5 text-xs font-semibold text-primary hover:text-primary/80 transition-fast whitespace-nowrap flex-shrink-0"
-                            >
-                              Get Certified →
-                            </a>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  )}
-
                 {/* YouTube Learning Resources */}
                 {role.youtubeChannels && role.youtubeChannels.length > 0 && (
                   <div
@@ -715,6 +683,15 @@ export default function RoleDetail() {
                     >
                       <BookOpen className="w-3.5 h-3.5 flex-shrink-0" />
                       Free Courses (incl. Hindi & Telugu)
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setActiveTab("certifications")}
+                      data-ocid="role_detail.shortcut.certifications"
+                      className="w-full text-left flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground py-1.5 transition-colors"
+                    >
+                      <Award className="w-3.5 h-3.5 flex-shrink-0" />
+                      Free Certifications
                     </button>
                     <button
                       type="button"

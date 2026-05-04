@@ -1,7 +1,7 @@
 import { CategoryBadge } from "@/components/CategoryBadge";
 import { FreeCertificationSection } from "@/components/FreeCertificationSection";
 import { FreeCourseSection } from "@/components/FreeCourseSection";
-import { InterviewPrepSection } from "@/components/InterviewPrepSection";
+import { InterviewGuideSection } from "@/components/InterviewGuideSection";
 import { Layout } from "@/components/Layout";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -12,13 +12,13 @@ import { Link, useParams } from "@tanstack/react-router";
 import {
   ArrowLeft,
   Award,
+  BookMarked,
   BookOpen,
   Briefcase,
   Building2,
   CheckCircle2,
   ExternalLink,
   IndianRupee,
-  MessageSquare,
   Tag,
   TrendingUp,
   Wrench,
@@ -26,7 +26,7 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 
-type TabId = "overview" | "courses" | "certifications" | "interview";
+type TabId = "overview" | "courses" | "certifications" | "guide";
 
 const TABS: { id: TabId; label: string; icon: React.ReactNode }[] = [
   {
@@ -45,9 +45,9 @@ const TABS: { id: TabId; label: string; icon: React.ReactNode }[] = [
     icon: <Award className="w-4 h-4" />,
   },
   {
-    id: "interview",
-    label: "Interview Prep",
-    icon: <MessageSquare className="w-4 h-4" />,
+    id: "guide",
+    label: "Interview Guide",
+    icon: <BookMarked className="w-4 h-4" />,
   },
 ];
 
@@ -191,9 +191,9 @@ export default function RoleDetail() {
             />
           )}
 
-          {/* ── INTERVIEW PREP TAB ── */}
-          {activeTab === "interview" && (
-            <InterviewPrepSection prep={extras?.interviewPrep} />
+          {/* ── INTERVIEW GUIDE TAB ── */}
+          {activeTab === "guide" && (
+            <InterviewGuideSection guide={extras?.interviewGuide} />
           )}
 
           {/* ── OVERVIEW TAB ── */}
@@ -695,12 +695,12 @@ export default function RoleDetail() {
                     </button>
                     <button
                       type="button"
-                      onClick={() => setActiveTab("interview")}
-                      data-ocid="role_detail.shortcut.interview"
+                      onClick={() => setActiveTab("guide")}
+                      data-ocid="role_detail.shortcut.guide"
                       className="w-full text-left flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground py-1.5 transition-colors"
                     >
-                      <MessageSquare className="w-3.5 h-3.5 flex-shrink-0" />
-                      Interview Questions & Talking Points
+                      <BookMarked className="w-3.5 h-3.5 flex-shrink-0" />
+                      Interview Guide & Tips
                     </button>
                   </div>
                 </div>

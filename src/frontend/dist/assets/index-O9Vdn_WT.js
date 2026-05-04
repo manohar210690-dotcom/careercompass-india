@@ -26467,6 +26467,23 @@ const Award = createLucideIcon("award", __iconNode$r);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$q = [
+  ["path", { d: "M10 2v8l3-3 3 3V2", key: "sqw3rj" }],
+  [
+    "path",
+    {
+      d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20",
+      key: "k3hazp"
+    }
+  ]
+];
+const BookMarked = createLucideIcon("book-marked", __iconNode$q);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$p = [
   ["path", { d: "M12 7v14", key: "1akyts" }],
   [
     "path",
@@ -26476,14 +26493,14 @@ const __iconNode$q = [
     }
   ]
 ];
-const BookOpen = createLucideIcon("book-open", __iconNode$q);
+const BookOpen = createLucideIcon("book-open", __iconNode$p);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$p = [
+const __iconNode$o = [
   [
     "path",
     {
@@ -26506,18 +26523,7 @@ const __iconNode$p = [
   ["path", { d: "M6 18a4 4 0 0 1-1.967-.516", key: "2e4loj" }],
   ["path", { d: "M19.967 17.484A4 4 0 0 1 18 18", key: "159ez6" }]
 ];
-const Brain = createLucideIcon("brain", __iconNode$p);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$o = [
-  ["path", { d: "M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16", key: "jecpp" }],
-  ["rect", { width: "20", height: "14", x: "2", y: "6", rx: "2", key: "i6l2r4" }]
-];
-const Briefcase = createLucideIcon("briefcase", __iconNode$o);
+const Brain = createLucideIcon("brain", __iconNode$o);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -26525,6 +26531,17 @@ const Briefcase = createLucideIcon("briefcase", __iconNode$o);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$n = [
+  ["path", { d: "M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16", key: "jecpp" }],
+  ["rect", { width: "20", height: "14", x: "2", y: "6", rx: "2", key: "i6l2r4" }]
+];
+const Briefcase = createLucideIcon("briefcase", __iconNode$n);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$m = [
   ["path", { d: "M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z", key: "1b4qmf" }],
   ["path", { d: "M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2", key: "i71pzd" }],
   ["path", { d: "M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2", key: "10jefs" }],
@@ -26533,15 +26550,7 @@ const __iconNode$n = [
   ["path", { d: "M10 14h4", key: "kelpxr" }],
   ["path", { d: "M10 18h4", key: "1ulq68" }]
 ];
-const Building2 = createLucideIcon("building-2", __iconNode$n);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$m = [["path", { d: "m6 9 6 6 6-6", key: "qrunsl" }]];
-const ChevronDown = createLucideIcon("chevron-down", __iconNode$m);
+const Building2 = createLucideIcon("building-2", __iconNode$m);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -26556,8 +26565,11 @@ const ChevronRight = createLucideIcon("chevron-right", __iconNode$l);
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$k = [["path", { d: "m18 15-6-6-6 6", key: "153udz" }]];
-const ChevronUp = createLucideIcon("chevron-up", __iconNode$k);
+const __iconNode$k = [
+  ["path", { d: "M21.801 10A10 10 0 1 1 17 3.335", key: "yps3ct" }],
+  ["path", { d: "m9 11 3 3L22 4", key: "1pflzl" }]
+];
+const CircleCheckBig = createLucideIcon("circle-check-big", __iconNode$k);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -26635,11 +26647,17 @@ const IndianRupee = createLucideIcon("indian-rupee", __iconNode$f);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$e = [
-  ["path", { d: "M4 12h16", key: "1lakjw" }],
-  ["path", { d: "M4 18h16", key: "19g7jn" }],
-  ["path", { d: "M4 6h16", key: "1o0s65" }]
+  [
+    "path",
+    {
+      d: "M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5",
+      key: "1gvzjb"
+    }
+  ],
+  ["path", { d: "M9 18h6", key: "x1upvd" }],
+  ["path", { d: "M10 22h4", key: "ceow96" }]
 ];
-const Menu = createLucideIcon("menu", __iconNode$e);
+const Lightbulb = createLucideIcon("lightbulb", __iconNode$e);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -26647,9 +26665,11 @@ const Menu = createLucideIcon("menu", __iconNode$e);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$d = [
-  ["path", { d: "M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z", key: "1lielz" }]
+  ["path", { d: "M4 12h16", key: "1lakjw" }],
+  ["path", { d: "M4 18h16", key: "19g7jn" }],
+  ["path", { d: "M4 6h16", key: "1o0s65" }]
 ];
-const MessageSquare = createLucideIcon("message-square", __iconNode$d);
+const Menu = createLucideIcon("menu", __iconNode$d);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -52558,168 +52578,91 @@ function FreeCourseSection({ courses }) {
     )) })
   ] });
 }
-const LEVEL_CONFIG = {
-  basic: {
-    label: "Basic",
-    activeBg: "bg-emerald-500 text-white border-emerald-500",
-    color: "text-emerald-700 border-emerald-500/30",
-    badge: "bg-emerald-500/10 text-emerald-700"
-  },
-  intermediate: {
-    label: "Intermediate",
-    activeBg: "bg-amber-500 text-white border-amber-500",
-    color: "text-amber-700 border-amber-500/30",
-    badge: "bg-amber-500/10 text-amber-700"
-  },
-  advanced: {
-    label: "Advanced",
-    activeBg: "bg-rose-500 text-white border-rose-500",
-    color: "text-rose-700 border-rose-500/30",
-    badge: "bg-rose-500/10 text-rose-700"
-  }
-};
-const LEVELS = ["basic", "intermediate", "advanced"];
-function InterviewPrepSection({ prep }) {
-  const [activeLevel, setActiveLevel] = reactExports.useState("basic");
-  const [expanded, setExpanded] = reactExports.useState(/* @__PURE__ */ new Set());
-  if (!prep || prep.length === 0) {
+function InterviewGuideSection({ guide }) {
+  if (!guide) {
     return /* @__PURE__ */ jsxRuntimeExports.jsxs(
       "div",
       {
         className: "text-center py-16 px-6 rounded-xl border border-border bg-card",
-        "data-ocid": "interview_prep.empty_state",
+        "data-ocid": "interview_guide.empty_state",
         children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-5xl mb-4", children: "🎤" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display font-semibold text-foreground text-lg mb-2", children: "Interview prep coming soon" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-muted-foreground text-sm max-w-md mx-auto", children: "We're curating common interview questions and model answers for this role. Check back soon!" })
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-5xl mb-4", children: "📚" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display font-semibold text-foreground text-lg mb-2", children: "Interview Guide coming soon" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-muted-foreground text-sm max-w-md mx-auto", children: "We're preparing a tailored interview guide for this role. Check back soon!" })
         ]
       }
     );
   }
-  const currentPrep = prep.find((p) => p.level === activeLevel);
-  function toggleExpanded(id) {
-    setExpanded((prev) => {
-      const next = new Set(prev);
-      if (next.has(id)) next.delete(id);
-      else next.add(id);
-      return next;
-    });
-  }
-  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { "data-ocid": "interview_prep.section", children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsx(
-      "div",
-      {
-        className: "flex gap-2 mb-6 flex-wrap",
-        "data-ocid": "interview_prep.level_tabs",
-        children: LEVELS.map((level) => {
-          const cfg = LEVEL_CONFIG[level];
-          const levelPrep = prep.find((p) => p.level === level);
-          const count = (levelPrep == null ? void 0 : levelPrep.questions.length) ?? 0;
-          return /* @__PURE__ */ jsxRuntimeExports.jsxs(
-            "button",
-            {
-              type: "button",
-              onClick: () => setActiveLevel(level),
-              "data-ocid": `interview_prep.tab.${level}`,
-              className: `px-5 py-2 rounded-full text-sm font-semibold border transition-colors flex items-center gap-1.5 ${activeLevel === level ? cfg.activeBg : `bg-card ${cfg.color} hover:bg-muted/60`}`,
-              children: [
-                cfg.label,
-                count > 0 && /* @__PURE__ */ jsxRuntimeExports.jsx(
-                  "span",
-                  {
-                    className: `text-xs px-1.5 py-0.5 rounded-full ${activeLevel === level ? "bg-white/20" : cfg.badge}`,
-                    children: count
-                  }
-                )
-              ]
-            },
-            level
-          );
-        })
-      }
-    ),
-    !currentPrep || currentPrep.questions.length === 0 ? /* @__PURE__ */ jsxRuntimeExports.jsx(
-      "div",
-      {
-        className: "text-center py-10 rounded-xl border border-border bg-card",
-        "data-ocid": "interview_prep.empty_state",
-        children: /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-muted-foreground text-sm", children: [
-          "No ",
-          activeLevel,
-          " questions available yet."
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-8", "data-ocid": "interview_guide.section", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2.5 mb-5", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-9 h-9 rounded-xl bg-indigo-500/10 flex items-center justify-center flex-shrink-0", children: /* @__PURE__ */ jsxRuntimeExports.jsx(BookOpen, { className: "w-5 h-5 text-indigo-600" }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display font-bold text-foreground text-xl", children: "Key Topics to Revise" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-muted-foreground", children: "Study these areas before your interview to be thoroughly prepared" })
         ] })
-      }
-    ) : /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "space-y-3", children: currentPrep.questions.map((q, i) => {
-      const isOpen = expanded.has(q.id);
-      return /* @__PURE__ */ jsxRuntimeExports.jsxs(
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(
         "div",
         {
-          className: "bg-card border border-border rounded-xl overflow-hidden hover:border-primary/25 transition-colors",
-          "data-ocid": `interview_prep.item.${i + 1}`,
-          children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsxs(
-              "button",
-              {
-                type: "button",
-                onClick: () => toggleExpanded(q.id),
-                "data-ocid": `interview_prep.toggle.${i + 1}`,
-                className: "w-full text-left px-5 py-4 flex items-start justify-between gap-3 hover:bg-muted/30 transition-colors",
-                "aria-expanded": isOpen,
-                children: [
-                  /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-start gap-3 min-w-0", children: [
-                    /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                      "span",
-                      {
-                        className: `flex-shrink-0 w-7 h-7 rounded-full text-xs font-bold flex items-center justify-center mt-0.5 ${LEVEL_CONFIG[activeLevel].badge}`,
-                        children: [
-                          "Q",
-                          i + 1
-                        ]
-                      }
-                    ),
-                    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-foreground font-semibold text-sm leading-snug", children: q.question })
-                  ] }),
-                  isOpen ? /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronUp, { className: "w-4 h-4 text-muted-foreground flex-shrink-0 mt-0.5" }) : /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronDown, { className: "w-4 h-4 text-muted-foreground flex-shrink-0 mt-0.5" })
-                ]
-              }
-            ),
-            isOpen && /* @__PURE__ */ jsxRuntimeExports.jsxs(
-              "div",
-              {
-                className: "px-5 pb-5 border-t border-border",
-                "data-ocid": `interview_prep.answer.${i + 1}`,
-                children: [
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs font-semibold text-muted-foreground uppercase tracking-wide mt-4 mb-3", children: "Key Talking Points" }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "space-y-2 mb-4", children: q.talkingPoints.map((point) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                    "li",
-                    {
-                      className: "flex items-start gap-2 text-sm text-foreground leading-relaxed",
-                      children: [
-                        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0 mt-2" }),
-                        point
-                      ]
-                    },
-                    point
-                  )) }),
-                  q.keywords.length > 0 && /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
-                    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-2", children: "Keywords to Use" }),
-                    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-wrap gap-1.5", children: q.keywords.map((kw) => /* @__PURE__ */ jsxRuntimeExports.jsx(
-                      "span",
-                      {
-                        className: "inline-flex items-center bg-primary/8 text-primary border border-primary/20 text-xs font-medium px-2.5 py-1 rounded-full",
-                        children: kw
-                      },
-                      kw
-                    )) })
-                  ] })
-                ]
-              }
-            )
-          ]
-        },
-        q.id
-      );
-    }) })
+          className: "grid md:grid-cols-2 gap-4",
+          "data-ocid": "interview_guide.topics.section",
+          children: guide.revisionTopics.map((section, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
+            "div",
+            {
+              className: "bg-card rounded-xl border border-indigo-200/60 p-5 hover:border-indigo-300/80 transition-colors",
+              "data-ocid": `interview_guide.topic_category.${i + 1}`,
+              children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsxs("h3", { className: "font-semibold text-indigo-700 text-sm mb-3 flex items-center gap-1.5", children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "w-5 h-5 rounded-md bg-indigo-500/15 flex items-center justify-center text-indigo-600 font-bold text-xs", children: i + 1 }),
+                  section.category
+                ] }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "space-y-2", children: section.topics.map((topic) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
+                  "li",
+                  {
+                    className: "flex items-start gap-2 text-sm text-foreground",
+                    children: [
+                      /* @__PURE__ */ jsxRuntimeExports.jsx(CircleCheckBig, { className: "w-3.5 h-3.5 text-indigo-500 flex-shrink-0 mt-0.5" }),
+                      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "leading-snug", children: topic })
+                    ]
+                  },
+                  topic
+                )) })
+              ]
+            },
+            section.category
+          ))
+        }
+      )
+    ] }),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2.5 mb-5", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-9 h-9 rounded-xl bg-amber-500/10 flex items-center justify-center flex-shrink-0", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Lightbulb, { className: "w-5 h-5 text-amber-600" }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display font-bold text-foreground text-xl", children: "Tips to Crack It" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-muted-foreground", children: "Real-world advice from people who've been through this interview" })
+        ] })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(
+        "div",
+        {
+          className: "bg-amber-50 rounded-xl border border-amber-200/70 p-6",
+          "data-ocid": "interview_guide.tips.section",
+          children: /* @__PURE__ */ jsxRuntimeExports.jsx("ol", { className: "space-y-3", children: guide.tipsToCrack.map((tip, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
+            "li",
+            {
+              className: "flex items-start gap-3",
+              "data-ocid": `interview_guide.tip.${i + 1}`,
+              children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "flex-shrink-0 w-6 h-6 rounded-full bg-amber-500 text-white text-xs font-bold flex items-center justify-center mt-0.5", children: i + 1 }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-amber-900 leading-relaxed", children: tip })
+              ]
+            },
+            tip
+          )) })
+        }
+      )
+    ] })
   ] });
 }
 const jobPortals = {
@@ -54034,7 +53977,71 @@ const roleExtrasData1 = {
           }
         ]
       }
-    ]
+    ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Core Web Fundamentals",
+          topics: [
+            "HTML5 semantic elements and accessibility attributes",
+            "CSS Box Model, Flexbox layout, and CSS Grid",
+            "JavaScript ES6+ features: arrow functions, promises, async/await",
+            "DOM manipulation and event delegation"
+          ]
+        },
+        {
+          category: "React & Frameworks",
+          topics: [
+            "React hooks in depth (useState, useEffect, useContext, useMemo, useCallback)",
+            "React Router and client-side navigation patterns",
+            "State management: Redux Toolkit, Zustand, or Context API",
+            "Component testing with Jest and React Testing Library"
+          ]
+        },
+        {
+          category: "Build Tools & Ecosystem",
+          topics: [
+            "Webpack/Vite configuration and bundling concepts",
+            "TypeScript basics: types, interfaces, generics",
+            "npm/yarn package management and dependency resolution",
+            "ESLint and Prettier for code quality"
+          ]
+        },
+        {
+          category: "Browser & Performance",
+          topics: [
+            "Browser rendering pipeline and critical rendering path",
+            "Web Vitals (LCP, FID, CLS) and how to measure them",
+            "Cross-browser compatibility and progressive enhancement",
+            "Debugging with Chrome DevTools (Network, Performance tabs)"
+          ]
+        },
+        {
+          category: "Frontend System Design",
+          topics: [
+            "Component architecture and reusability patterns",
+            "Micro-frontends and module federation concepts",
+            "Responsive design and mobile-first development",
+            "Accessibility (WCAG 2.1 guidelines, ARIA roles)"
+          ]
+        }
+      ],
+      tipsToCrack: [
+        "Build 2-3 portfolio projects with clean code on GitHub — recruiters always check",
+        "Practice explaining your component architecture decisions out loud",
+        "Know the difference between controlled and uncontrolled components cold",
+        "Prepare STAR-format answers for 'tell me about a challenging bug you fixed'",
+        "Review the company's product before the interview and note UI improvements you'd suggest",
+        "Be ready to code a small React component from scratch in 20 minutes",
+        "Mention performance improvements you've made in past projects with metrics",
+        "Show curiosity — ask about their frontend stack and deployment pipeline",
+        "Accessibility knowledge (ARIA labels, keyboard navigation) sets you apart from peers",
+        "Have your portfolio deployed and live — not just running on localhost",
+        "Walk through your thought process while coding even if you're unsure of the answer",
+        "Know when NOT to use a framework — demonstrate you understand vanilla JS deeply",
+        "Prepare one story about a time you improved page performance and the measurable result"
+      ]
+    }
   },
   "backend-developer": {
     freeCourses: [
@@ -54447,7 +54454,71 @@ const roleExtrasData1 = {
           }
         ]
       }
-    ]
+    ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Core Backend Concepts",
+          topics: [
+            "RESTful API design: HTTP methods, status codes, resource naming",
+            "Authentication and authorization: JWT, OAuth 2.0, sessions",
+            "Database design: normalization, indexing, transactions, ACID",
+            "Caching strategies: Redis, cache-aside, TTL, cache invalidation"
+          ]
+        },
+        {
+          category: "Languages & Frameworks",
+          topics: [
+            "Node.js event loop and non-blocking I/O model",
+            "Express/Fastify middleware chain and error handling",
+            "Spring Boot dependency injection and Spring Security basics",
+            "Django ORM, views, serializers, and DRF (if Python stack)"
+          ]
+        },
+        {
+          category: "Databases & SQL",
+          topics: [
+            "Complex SQL: JOINs, subqueries, CTEs, window functions",
+            "Index types and query optimization using EXPLAIN",
+            "NoSQL databases: MongoDB, Redis use cases vs SQL",
+            "Connection pooling and database performance tuning"
+          ]
+        },
+        {
+          category: "System Design Fundamentals",
+          topics: [
+            "Microservices vs monolith architecture tradeoffs",
+            "Message queues: RabbitMQ, Kafka for async processing",
+            "Load balancing and horizontal scaling patterns",
+            "API rate limiting, circuit breaker, retry patterns"
+          ]
+        },
+        {
+          category: "Security & Best Practices",
+          topics: [
+            "OWASP Top 10 vulnerabilities (SQL injection, XSS, CSRF)",
+            "Input validation and data sanitization",
+            "Environment variables, secrets management",
+            "Logging, error handling, and observability"
+          ]
+        }
+      ],
+      tipsToCrack: [
+        "Be very comfortable explaining the request-response lifecycle of an API you've built",
+        "Know your SQL cold — window functions and query optimization come up in most interviews",
+        "Prepare to design a simple API (e.g., URL shortener) end-to-end in 30 minutes",
+        "Practice explaining tradeoffs: when to use SQL vs NoSQL, REST vs GraphQL",
+        "Demonstrate understanding of error handling and what happens when things go wrong",
+        "Have a project that uses authentication — JWT flows are commonly asked about",
+        "Know at least one caching scenario you implemented and why it helped",
+        "Be ready to discuss how you'd scale your current project for 10x traffic",
+        "Security awareness impresses interviewers — mention OWASP and input validation",
+        "Show you've worked with logs and monitoring — not just 'it works on my machine'",
+        "Code review experience shows maturity — mention code quality practices you follow",
+        "Prepare a STAR answer for a time you debugged a production issue",
+        "Ask about their deployment pipeline and tech stack during the interview"
+      ]
+    }
   },
   "data-analyst": {
     freeCourses: [
@@ -54842,7 +54913,71 @@ const roleExtrasData1 = {
           }
         ]
       }
-    ]
+    ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "SQL & Databases",
+          topics: [
+            "Complex SQL queries with JOINs, subqueries, and CTEs",
+            "Window functions: ROW_NUMBER, RANK, LAG, LEAD, SUM OVER",
+            "Query optimization: EXPLAIN, indexes, avoiding full table scans",
+            "Database design fundamentals: normalization, keys, relationships"
+          ]
+        },
+        {
+          category: "Excel & Spreadsheets",
+          topics: [
+            "VLOOKUP, INDEX-MATCH, XLOOKUP lookup functions",
+            "Pivot tables and dynamic charts for data summarization",
+            "Power Query for data transformation and ETL",
+            "Conditional formatting and data validation rules"
+          ]
+        },
+        {
+          category: "Data Visualization",
+          topics: [
+            "Tableau or Power BI dashboard design principles",
+            "Choosing the right chart type for the data story",
+            "Storytelling with data — structuring insights for non-technical audiences",
+            "Color theory and accessibility in chart design"
+          ]
+        },
+        {
+          category: "Statistics & Analytics",
+          topics: [
+            "Descriptive statistics: mean, median, mode, standard deviation",
+            "Probability basics and distributions",
+            "Hypothesis testing and A/B testing concepts (t-test, chi-square)",
+            "Correlation vs causation — common pitfall in analysis"
+          ]
+        },
+        {
+          category: "Python for Analysis",
+          topics: [
+            "Pandas for data wrangling, cleaning, and aggregation",
+            "Matplotlib and Seaborn for exploratory visualization",
+            "NumPy for numerical operations and array manipulation",
+            "Jupyter notebooks workflow and best practices"
+          ]
+        }
+      ],
+      tipsToCrack: [
+        "Bring a sample dashboard or analysis project to show during the interview",
+        "Practice explaining your analysis process: from raw data to insight",
+        "Know SQL window functions cold — they're asked in almost every data analyst interview",
+        "Prepare a case study answer: 'Walk me through an analysis you're proud of'",
+        "Be ready to critique a bad chart and suggest improvements — a common interview exercise",
+        "Show business acumen — connect your findings to real business impact and decisions",
+        "Practice mental math and quick estimation for case study rounds",
+        "Mention tools you've used but also show adaptability to new tools",
+        "Understand the difference between KPIs, metrics, and dimensions",
+        "Prepare questions about the data infrastructure and reporting stack they use",
+        "Be honest about data limitations — interviewers respect analysts who flag quality issues",
+        "Demonstrate clarity in communication — analysts who explain insights simply are rare",
+        "Know the difference between correlation and causation and give an example"
+      ]
+    }
   },
   "fullstack-developer": {
     freeCourses: [
@@ -55201,7 +55336,70 @@ const roleExtrasData1 = {
           }
         ]
       }
-    ]
+    ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Frontend Fundamentals",
+          topics: [
+            "React hooks, state management (Redux/Zustand), component architecture",
+            "TypeScript types, interfaces, and generics",
+            "Responsive design with CSS Grid and Flexbox",
+            "Frontend performance: lazy loading, code splitting, bundle analysis"
+          ]
+        },
+        {
+          category: "Backend & APIs",
+          topics: [
+            "RESTful API design and HTTP status codes",
+            "Node.js/Express or Django/FastAPI frameworks",
+            "Database design: SQL joins, indexing, ORM usage",
+            "Authentication: JWT, OAuth 2.0, session management"
+          ]
+        },
+        {
+          category: "DevOps & Deployment",
+          topics: [
+            "Docker containerization basics",
+            "CI/CD pipelines and deployment workflows",
+            "Cloud hosting on AWS/GCP/Azure (basic services)",
+            "Environment variables and secrets management"
+          ]
+        },
+        {
+          category: "System Design",
+          topics: [
+            "Separating frontend/backend concerns and scalability patterns",
+            "Caching strategies and when to apply them",
+            "Message queues for async job processing",
+            "Monitoring, logging, and observability basics"
+          ]
+        },
+        {
+          category: "Project Experience",
+          topics: [
+            "Be able to explain architecture of your major projects end-to-end",
+            "Data flow: how data moves from database to user's screen",
+            "Debugging experience: production issues and how you resolved them",
+            "Trade-off decisions: what you chose and why"
+          ]
+        }
+      ],
+      tipsToCrack: [
+        "Have at least one full-stack project deployed and live that you can demo in the interview",
+        "Be ready to explain your project architecture diagram-style, from DB to UI",
+        "Full-stack roles test both sides — brush up on SQL and React equally",
+        "Prepare to build a simple feature (e.g., user registration flow) end-to-end in 45 minutes",
+        "Show you understand when to split tasks: what's a frontend concern vs backend concern",
+        "Mention experience with version control, code reviews, and team workflows",
+        "Know how you'd add authentication to a new project — a very common question",
+        "Discuss API design decisions in your projects — RESTful choices, error handling",
+        "Demonstrate adaptability — full stack engineers often learn new tools on the job",
+        "Brush up on basic DevOps: how do you deploy your project and what happens at deploy time",
+        "Show ownership — not just code, but product thinking and user empathy",
+        "Prepare examples of when you had to debug across both frontend and backend simultaneously"
+      ]
+    }
   },
   "mobile-android-developer": {
     freeCourses: [
@@ -55570,7 +55768,70 @@ const roleExtrasData1 = {
           }
         ]
       }
-    ]
+    ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Kotlin & Android Fundamentals",
+          topics: [
+            "Kotlin coroutines, flows, and suspend functions",
+            "Activity and Fragment lifecycle in depth",
+            "Android Jetpack components: ViewModel, LiveData, Room, Navigation",
+            "Jetpack Compose: composables, state hoisting, recomposition"
+          ]
+        },
+        {
+          category: "Architecture Patterns",
+          topics: [
+            "MVVM and Clean Architecture layer separation",
+            "Repository pattern and data source abstraction",
+            "Dependency injection with Hilt or Koin",
+            "Use cases / interactors for business logic encapsulation"
+          ]
+        },
+        {
+          category: "Networking & Data",
+          topics: [
+            "Retrofit + OkHttp for API calls and interceptors",
+            "Room database for local persistence and migrations",
+            "DataStore for key-value and typed preferences",
+            "Handling offline-first scenarios with sync strategies"
+          ]
+        },
+        {
+          category: "Performance & Quality",
+          topics: [
+            "Android Profiler for memory, CPU, and network analysis",
+            "Memory leak detection with LeakCanary",
+            "ProGuard/R8 code shrinking and obfuscation",
+            "Unit testing with JUnit and Mockito; UI testing with Espresso"
+          ]
+        },
+        {
+          category: "Release & Distribution",
+          topics: [
+            "Google Play Store submission and review guidelines",
+            "App signing, keystore management",
+            "Firebase for crash reporting, analytics, remote config",
+            "Flavors and build variants for dev/staging/prod environments"
+          ]
+        }
+      ],
+      tipsToCrack: [
+        "Publish at least one app on Play Store — interviewers love practical proof of your skills",
+        "Know the Activity and Fragment lifecycle by heart — it's the most common interview topic",
+        "Be ready to explain how you'd handle a configuration change (rotation) in your app",
+        "Demonstrate Kotlin coroutines knowledge — callbacks are outdated, coroutines are standard",
+        "Prepare a STAR story about a performance bug you found and fixed",
+        "Show familiarity with Jetpack Compose — it's the direction Android is heading",
+        "Discuss your architecture decisions: why MVVM, why Hilt, why Room",
+        "Review the company's app before the interview and note any UX or performance observations",
+        "Know how to handle API failures gracefully — retry logic, error states, offline fallback",
+        "Be comfortable with Git and pull request workflows in team settings",
+        "Testing knowledge impresses senior engineers — know the difference between unit and UI tests",
+        "Ask about their CI/CD pipeline and testing practices — shows engineering maturity"
+      ]
+    }
   },
   "mobile-ios-developer": {
     freeCourses: [
@@ -55924,7 +56185,60 @@ const roleExtrasData1 = {
           }
         ]
       }
-    ]
+    ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Swift & SwiftUI Fundamentals",
+          topics: [
+            "Swift optionals, value types vs reference types, protocols",
+            "SwiftUI declarative UI, state management (@State, @Binding, @ObservableObject)",
+            "UIKit basics: UIViewController lifecycle, Auto Layout",
+            "Combine framework for reactive programming"
+          ]
+        },
+        {
+          category: "Architecture & Design Patterns",
+          topics: [
+            "MVVM and Clean Architecture layer separation",
+            "VIPER pattern for large teams and scalable codebases",
+            "Coordinator pattern for decoupled navigation",
+            "Swift Package Manager and modular architecture"
+          ]
+        },
+        {
+          category: "Data & Networking",
+          topics: [
+            "URLSession for networking, Codable for JSON parsing",
+            "Core Data and SwiftData for local persistence",
+            "Async/await and structured concurrency in Swift",
+            "Keychain for secure credential storage"
+          ]
+        },
+        {
+          category: "Platform-Specific",
+          topics: [
+            "App Store submission and review guidelines",
+            "Push notifications with APNs",
+            "Accessibility: VoiceOver, Dynamic Type support",
+            "TestFlight for beta distribution"
+          ]
+        }
+      ],
+      tipsToCrack: [
+        "Have an app on the App Store — it demonstrates real shipping experience",
+        "Know Swift optionals inside out — they come up constantly in interviews",
+        "Be comfortable with SwiftUI's state management model and when to use each wrapper",
+        "Practice explaining the iOS app lifecycle and what happens at each stage",
+        "Know memory management (ARC, strong/weak/unowned references) to prevent retain cycles",
+        "Review the company's iOS app before the interview and share observations",
+        "Prepare a debugging story: a hard bug you tracked down and how you found it",
+        "Show Combine or async/await knowledge — modern Swift is concurrent",
+        "Discuss testing approach: XCTest for unit tests, XCUITest for UI tests",
+        "Show attention to App Store guidelines — rejection stories and how you handled them",
+        "Ask about their tech stack (SwiftUI vs UIKit) and architecture choices"
+      ]
+    }
   },
   "react-native-developer": {
     freeCourses: [
@@ -56269,7 +56583,60 @@ const roleExtrasData1 = {
           }
         ]
       }
-    ]
+    ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "React Native Core",
+          topics: [
+            "React hooks and component lifecycle in a mobile context",
+            "React Navigation: stack, tab, drawer navigators and deep linking",
+            "Flexbox layout in React Native (differences from web)",
+            "FlatList and SectionList optimizations for large datasets"
+          ]
+        },
+        {
+          category: "State Management",
+          topics: [
+            "Redux Toolkit for global state management",
+            "Zustand as a lightweight alternative to Redux",
+            "React Query / TanStack Query for server state",
+            "Context API for simple shared state"
+          ]
+        },
+        {
+          category: "Native Integration",
+          topics: [
+            "Bridging native modules for iOS and Android",
+            "Platform-specific code with Platform.OS and .ios.js/.android.js extensions",
+            "Permissions handling: camera, location, notifications",
+            "Push notifications with Firebase or APNs"
+          ]
+        },
+        {
+          category: "Performance",
+          topics: [
+            "JS thread vs UI thread: understanding the bridge/JSI",
+            "Avoiding unnecessary re-renders: React.memo, useMemo, useCallback",
+            "Image optimization: caching with react-native-fast-image",
+            "Hermes JS engine and its performance benefits"
+          ]
+        }
+      ],
+      tipsToCrack: [
+        "Have a published React Native app on both iOS and Android — or a detailed portfolio project",
+        "Be ready to explain the JS bridge/JSI and why it matters for performance",
+        "Know React Navigation deeply — navigation patterns are asked in almost every interview",
+        "Prepare to debug a slow scroll list — FlatList optimization is a common exercise",
+        "Demonstrate you've handled platform differences gracefully in your projects",
+        "Redux vs Zustand vs Context — be ready to defend your state management choice",
+        "Show awareness of app deployment to both stores and the certificate/signing process",
+        "Discuss offline support and data sync strategies if they apply to your experience",
+        "Accessibility in mobile apps (screen reader support) sets you apart",
+        "Be honest about React Native's limitations — shows maturity",
+        "Ask about their architecture and whether they use Expo or bare workflow"
+      ]
+    }
   },
   "flutter-developer": {
     freeCourses: [
@@ -56648,7 +57015,60 @@ const roleExtrasData1 = {
           }
         ]
       }
-    ]
+    ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Dart & Flutter Fundamentals",
+          topics: [
+            "Dart language: async/await, streams, null safety",
+            "Flutter widget tree, BuildContext, and widget lifecycle",
+            "StatefulWidget vs StatelessWidget and when to use each",
+            "Keys in Flutter and when they matter"
+          ]
+        },
+        {
+          category: "State Management",
+          topics: [
+            "Riverpod: providers, state notifiers, and dependency injection",
+            "Bloc/Cubit pattern for predictable state management",
+            "Provider package basics",
+            "GetX for state, navigation, and DI combined"
+          ]
+        },
+        {
+          category: "UI & Animations",
+          topics: [
+            "Custom widgets and painting with CustomPainter",
+            "Implicit animations (AnimatedContainer, TweenAnimationBuilder)",
+            "Explicit animations with AnimationController and Tween",
+            "Responsive UI with LayoutBuilder and MediaQuery"
+          ]
+        },
+        {
+          category: "Data & Platform",
+          topics: [
+            "HTTP requests with Dio and JSON serialization (Freezed)",
+            "Local storage: Hive, SharedPreferences, SQLite with sqflite",
+            "Platform channels for native iOS/Android integration",
+            "Flutter Flavor for multi-environment builds"
+          ]
+        }
+      ],
+      tipsToCrack: [
+        "Build a polished Flutter app and deploy it to both stores — demonstrates cross-platform delivery",
+        "Know Riverpod or Bloc thoroughly — state management depth is a common differentiator",
+        "Be ready to explain Dart's async model: Future vs Stream",
+        "Demonstrate widget testing knowledge — Flutter's testing story is excellent and interviewers notice",
+        "Discuss your approach to theming and design system in Flutter apps",
+        "Show Null Safety familiarity — modern Dart is null-safe and interviewers expect it",
+        "Prepare to draw the widget tree of a screen you've built and explain the hierarchy",
+        "Know how Flutter hot reload works and why it's different from hot restart",
+        "Discuss app performance: avoiding widget rebuilds, using const constructors",
+        "Ask about their existing codebase: Dart version, state management library, test coverage",
+        "Show initiative: have you contributed to pub.dev packages or Flutter community?"
+      ]
+    }
   },
   "java-developer": {
     freeCourses: [
@@ -57040,7 +57460,69 @@ const roleExtrasData1 = {
           }
         ]
       }
-    ]
+    ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Java Core",
+          topics: [
+            "OOP pillars: encapsulation, inheritance, polymorphism, abstraction",
+            "Collections framework: List, Set, Map implementations and use cases",
+            "Java 8+ features: streams, lambdas, Optional, CompletableFuture",
+            "Memory management: heap, stack, GC algorithms, memory leaks"
+          ]
+        },
+        {
+          category: "Spring Framework",
+          topics: [
+            "Spring Boot: auto-configuration, starters, application.yml",
+            "Spring MVC: controllers, request mapping, validation",
+            "Spring Data JPA: repositories, JPQL, entity relationships",
+            "Spring Security: authentication, authorization, JWT integration"
+          ]
+        },
+        {
+          category: "Concurrency & Performance",
+          topics: [
+            "Thread synchronization: synchronized, volatile, locks",
+            "ExecutorService, ThreadPool, CompletableFuture",
+            "JVM performance tuning: GC selection, heap sizing",
+            "Connection pooling with HikariCP"
+          ]
+        },
+        {
+          category: "Design Patterns & Architecture",
+          topics: [
+            "SOLID principles and how Spring enforces them",
+            "Common GoF patterns: Singleton, Factory, Builder, Observer",
+            "Microservices with Spring Cloud: Eureka, Gateway, Config",
+            "Hexagonal/Clean Architecture for maintainable backends"
+          ]
+        },
+        {
+          category: "Testing & Quality",
+          topics: [
+            "Unit testing with JUnit 5 and Mockito",
+            "Integration testing with Spring Boot Test",
+            "Test slices: @WebMvcTest, @DataJpaTest",
+            "Code coverage with JaCoCo and SonarQube"
+          ]
+        }
+      ],
+      tipsToCrack: [
+        "Know your Java Collections deeply — HashMap internals (hashing, rehashing) is a classic question",
+        "Spring Boot is the default — be very comfortable with its auto-configuration model",
+        "Practice explaining the Spring Bean lifecycle and how dependency injection works",
+        "Know at least two GC algorithms and when you'd tune JVM parameters",
+        "Prepare a system design: design a URL shortener or rate limiter in Java/Spring",
+        "Threading questions are common in experienced roles — volatile vs synchronized vs atomic",
+        "Show clean code practices: use of interfaces, SOLID, meaningful naming",
+        "Be ready to read and explain someone else's code in the interview",
+        "Demonstrate awareness of security: SQL injection prevention, Spring Security basics",
+        "Microservices experience (even a demo project) opens doors to better roles",
+        "Ask about their deployment: are they on Spring Boot 3? Kubernetes? AWS?"
+      ]
+    }
   },
   "dotnet-developer": {
     freeCourses: [
@@ -57415,7 +57897,60 @@ const roleExtrasData1 = {
           }
         ]
       }
-    ]
+    ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "C# Language Fundamentals",
+          topics: [
+            "async/await, Task, ValueTask, and CancellationToken",
+            "LINQ: deferred execution, method vs query syntax",
+            "Generics, nullable reference types, pattern matching",
+            "Memory management: IDisposable, using, Span<T>"
+          ]
+        },
+        {
+          category: "ASP.NET Core",
+          topics: [
+            "Middleware pipeline and request processing",
+            "Minimal APIs vs Controller-based APIs",
+            "Dependency injection and service lifetimes (Singleton/Scoped/Transient)",
+            "SignalR for real-time communication"
+          ]
+        },
+        {
+          category: "Data Access",
+          topics: [
+            "Entity Framework Core: code-first migrations, LINQ queries",
+            "Dapper for high-performance raw SQL",
+            "Repository and Unit of Work patterns",
+            "Database connection pooling and health checks"
+          ]
+        },
+        {
+          category: "Architecture & Testing",
+          topics: [
+            "Clean Architecture and CQRS with MediatR",
+            "Unit testing with xUnit and Moq",
+            "Integration testing with WebApplicationFactory",
+            "API versioning and OpenAPI/Swagger documentation"
+          ]
+        }
+      ],
+      tipsToCrack: [
+        "Know async/await inside out — ConfigureAwait, deadlocks, and best practices are common interview topics",
+        "LINQ is fundamental to .NET — practice complex queries with GroupBy, SelectMany, joins",
+        "Be ready to explain the DI container and service lifetimes with a real example",
+        "EF Core is heavily used — know how migrations work and N+1 query problem",
+        "Prepare a Clean Architecture project to demonstrate your architectural thinking",
+        "Know the difference between .NET Framework and .NET 6/7/8+ and why migration matters",
+        "Show awareness of performance: Dapper for hot paths, EF Core for complex queries",
+        "Have a working Swagger/OpenAPI example ready to discuss API design",
+        "Security: know how ASP.NET Identity or JWT auth works in .NET",
+        "Discuss Azure integration if applying to Microsoft-ecosystem companies",
+        "Ask about their .NET version and whether they use Minimal APIs or controllers"
+      ]
+    }
   },
   "php-developer": {
     freeCourses: [
@@ -57778,7 +58313,60 @@ const roleExtrasData1 = {
           }
         ]
       }
-    ]
+    ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "PHP Core",
+          topics: [
+            "PHP 8.x features: named arguments, match expression, fibers, enums",
+            "OOP in PHP: interfaces, traits, abstract classes",
+            "Composer package management and PSR standards",
+            "Type hints, return types, and strict_types declaration"
+          ]
+        },
+        {
+          category: "Laravel Framework",
+          topics: [
+            "Laravel routing, middleware, and request lifecycle",
+            "Eloquent ORM: relationships, eager loading, query scopes",
+            "Laravel queues, jobs, and Horizon for async processing",
+            "Laravel Sanctum/Passport for API authentication"
+          ]
+        },
+        {
+          category: "Database & Caching",
+          topics: [
+            "MySQL query optimization and explain plans",
+            "Database migrations and seeders in Laravel",
+            "Redis for caching, sessions, and queue backend",
+            "Database transactions and ACID properties"
+          ]
+        },
+        {
+          category: "Security & Best Practices",
+          topics: [
+            "SQL injection prevention (prepared statements, PDO)",
+            "XSS prevention (output escaping, Content Security Policy)",
+            "CSRF protection in Laravel forms",
+            "Environment configuration and secrets management"
+          ]
+        }
+      ],
+      tipsToCrack: [
+        "Laravel is the default PHP framework — know it well, especially Eloquent relationships",
+        "Eager loading vs lazy loading is a classic interview question — know the N+1 problem",
+        "Be ready to write a Laravel controller with validation, CRUD, and proper error responses",
+        "Show awareness of PHP security: SQL injection, XSS, and how Laravel prevents them",
+        "Prepare a project using Laravel queues and jobs for async processing",
+        "Know Composer and how to manage packages and versioning",
+        "PHP 8 features (match, named args, enums) demonstrate you're keeping up with the language",
+        "RESTful API design: have a Laravel API project you can discuss in detail",
+        "Discuss caching strategies: when to use file cache vs Redis cache",
+        "Show testing familiarity: PHPUnit or Pest tests in your Laravel projects",
+        "Ask about their Laravel version, test coverage, and deployment process"
+      ]
+    }
   },
   "wordpress-developer": {
     freeCourses: [
@@ -58131,7 +58719,60 @@ const roleExtrasData1 = {
           }
         ]
       }
-    ]
+    ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "WordPress Core",
+          topics: [
+            "WordPress loop, template hierarchy, and template tags",
+            "Custom Post Types (CPT), taxonomies, and meta fields",
+            "Hooks system: actions and filters, and how to use them",
+            "WordPress Coding Standards (WPCS) and best practices"
+          ]
+        },
+        {
+          category: "Theme & Plugin Development",
+          topics: [
+            "Child theme creation and parent theme override",
+            "plugin_dir_path, add_shortcode, register_activation_hook",
+            "Advanced Custom Fields (ACF) integration",
+            "Gutenberg block development with React and @wordpress/blocks"
+          ]
+        },
+        {
+          category: "Performance & SEO",
+          topics: [
+            "Caching: page cache (WP Super Cache, W3 Total Cache), object cache",
+            "Image optimization and lazy loading",
+            "Yoast SEO and structured data (JSON-LD) implementation",
+            "WordPress database optimization: transients, autoloaded options"
+          ]
+        },
+        {
+          category: "Security & Deployment",
+          topics: [
+            "WordPress hardening: file permissions, wp-config.php security",
+            "WP REST API and building decoupled/headless WordPress",
+            "WooCommerce development: product, cart, and order hooks",
+            "Staging environments and version control for WordPress"
+          ]
+        }
+      ],
+      tipsToCrack: [
+        "Have a custom WordPress theme and plugin in your portfolio — theory without practice won't impress",
+        "Know the template hierarchy by heart — interviewers test this constantly",
+        "The hooks system (add_action, add_filter) is WordPress's core mechanism — know it deeply",
+        "Show awareness of performance: caching, lazy loading, minimal plugin usage",
+        "WooCommerce experience is highly valued — even a basic custom shop project helps",
+        "Gutenberg block development demonstrates modern WordPress skills",
+        "Know security basics: why not to use admin as username, securing wp-admin",
+        "Discuss a real problem you solved with a custom plugin or hook",
+        "REST API knowledge is increasingly important for headless WordPress setups",
+        "Show version control habits: using Git with WordPress (theme/plugin code only)",
+        "Ask about their hosting stack (WP Engine, Kinsta, etc.) and deployment workflow"
+      ]
+    }
   },
   "python-developer": {
     freeCourses: [
@@ -58484,7 +59125,60 @@ const roleExtrasData1 = {
           }
         ]
       }
-    ]
+    ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Python Fundamentals",
+          topics: [
+            "Data structures: list, tuple, dict, set and their performance characteristics",
+            "Comprehensions: list, dict, set comprehensions and generator expressions",
+            "Decorators, context managers (with/as), and closures",
+            "Python memory management: reference counting, GC, __del__"
+          ]
+        },
+        {
+          category: "Web Frameworks",
+          topics: [
+            "Django: ORM, views, serializers, middleware, signals",
+            "FastAPI: async routes, Pydantic validation, dependency injection",
+            "Flask: blueprints, application factory, request context",
+            "REST API design and OpenAPI documentation"
+          ]
+        },
+        {
+          category: "Async & Performance",
+          topics: [
+            "asyncio: event loop, coroutines, tasks, and gather",
+            "Threading vs multiprocessing vs asyncio — when to use each",
+            "Profiling: cProfile, line_profiler, memory_profiler",
+            "NumPy vectorization for numerical performance"
+          ]
+        },
+        {
+          category: "Testing & Quality",
+          topics: [
+            "pytest: fixtures, parametrize, conftest.py",
+            "Mocking with unittest.mock and MagicMock",
+            "Type hints and mypy for static type checking",
+            "Code quality: flake8, black, isort, pylint"
+          ]
+        }
+      ],
+      tipsToCrack: [
+        "Python is versatile — clarify early whether the role is web (Django/FastAPI), data, or scripting",
+        "Know the GIL: what it is, why it exists, and how to work around it for CPU-bound tasks",
+        "Be ready to write a decorator from scratch — a favorite interview question",
+        "Show modern Python habits: type hints, dataclasses, pathlib instead of os.path",
+        "Prepare Django ORM examples: select_related vs prefetch_related for N+1 prevention",
+        "FastAPI is growing fast — show async/await familiarity if applying to modern startups",
+        "Discuss a time you found and fixed a performance bottleneck in Python code",
+        "Testing knowledge (pytest) shows professional-grade engineering discipline",
+        "Virtual environments and requirements.txt/pyproject.toml management is a basic check",
+        "Know common Python gotchas: mutable default arguments, late binding closures",
+        "Ask about their Python version, framework, and whether they use async"
+      ]
+    }
   },
   "data-engineer": {
     freeCourses: [
@@ -58931,7 +59625,60 @@ const roleExtrasData1 = {
           }
         ]
       }
-    ]
+    ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Data Pipeline Fundamentals",
+          topics: [
+            "ETL vs ELT and when to use each approach",
+            "Batch vs streaming processing tradeoffs",
+            "Apache Spark: RDDs, DataFrames, partitioning, and optimizations",
+            "Apache Kafka: topics, partitions, consumer groups, offsets"
+          ]
+        },
+        {
+          category: "Data Warehouse & Storage",
+          topics: [
+            "Star schema vs snowflake schema design",
+            "Columnar storage (Parquet, ORC) and why it matters for analytics",
+            "Delta Lake: ACID transactions, time travel, and upserts",
+            "Snowflake, BigQuery, or Redshift architecture and query optimization"
+          ]
+        },
+        {
+          category: "Orchestration & Monitoring",
+          topics: [
+            "Apache Airflow: DAGs, operators, sensors, and XCom",
+            "Data pipeline monitoring: SLAs, alerting, retry strategies",
+            "Data quality checks in pipeline: Great Expectations, dbt tests",
+            "Idempotency and exactly-once processing guarantees"
+          ]
+        },
+        {
+          category: "Cloud Data Engineering",
+          topics: [
+            "AWS Glue, GCP Dataflow, or Azure Data Factory basics",
+            "Data lake architecture on S3/GCS/ADLS",
+            "Serverless vs dedicated compute tradeoffs",
+            "Cost optimization: partition pruning, query caching, auto-scaling"
+          ]
+        }
+      ],
+      tipsToCrack: [
+        "Have a complete end-to-end pipeline project (Kafka → Spark → warehouse) you can walk through",
+        "Be ready to design a data pipeline for a given scenario in the interview",
+        "SQL is non-negotiable — complex window functions and CTEs come up constantly",
+        "Know Spark partitioning and how to avoid data skew",
+        "Airflow DAG design is commonly tested: explain how you'd structure a complex DAG",
+        "Show knowledge of data quality: how do you validate data in your pipelines?",
+        "Schema evolution is a common advanced topic — know Avro and schema registry",
+        "Streaming vs batch: be ready to justify your choice for a given use case",
+        "Demonstrate cloud data engineering skills — most teams use AWS/GCP/Azure",
+        "Ask about their current stack: what warehouse, orchestrator, and ingestion tools they use",
+        "Show cost awareness: large-scale pipelines involve real money and engineers are expected to care"
+      ]
+    }
   },
   "data-scientist": {
     freeCourses: [
@@ -59396,7 +60143,70 @@ const roleExtrasData1 = {
           }
         ]
       }
-    ]
+    ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Statistics & Probability",
+          topics: [
+            "Probability distributions: normal, binomial, Poisson, and when to use them",
+            "Hypothesis testing: t-tests, chi-square, p-values, statistical power",
+            "Bayesian statistics basics: prior, likelihood, posterior",
+            "Common statistical pitfalls: Simpson's paradox, p-hacking"
+          ]
+        },
+        {
+          category: "Machine Learning Core",
+          topics: [
+            "Supervised vs unsupervised vs reinforcement learning taxonomy",
+            "Bias-variance tradeoff and regularization (L1/L2)",
+            "Model evaluation: cross-validation, ROC-AUC, precision-recall tradeoffs",
+            "Ensemble methods: Random Forest, Gradient Boosting (XGBoost, LightGBM)"
+          ]
+        },
+        {
+          category: "Deep Learning & NLP",
+          topics: [
+            "Neural network architecture: layers, activation functions, backpropagation",
+            "Transformers and attention mechanism: BERT, GPT architecture basics",
+            "Fine-tuning pre-trained models for domain-specific tasks",
+            "Embeddings: word2vec, sentence transformers, and similarity search"
+          ]
+        },
+        {
+          category: "Python & Tools",
+          topics: [
+            "Pandas and NumPy for data wrangling and numerical computation",
+            "Scikit-learn pipeline, GridSearchCV, and cross_val_score",
+            "PyTorch or TensorFlow basics for deep learning experiments",
+            "MLflow for experiment tracking and model versioning"
+          ]
+        },
+        {
+          category: "MLOps & Deployment",
+          topics: [
+            "Model serving: REST API (FastAPI), batch inference pipelines",
+            "Feature stores: Feast, Tecton for feature reuse",
+            "Model monitoring: data drift, prediction drift, alerting",
+            "End-to-end ML pipelines: Kubeflow, Vertex AI, or SageMaker"
+          ]
+        }
+      ],
+      tipsToCrack: [
+        "Have a complete ML project on GitHub: data → EDA → model → evaluation → API or notebook",
+        "Be ready to explain any algorithm mathematically and intuitively, not just name it",
+        "Statistics is the foundation — brush up on hypothesis testing and probability distributions",
+        "Feature engineering is often what separates average from strong models — show examples",
+        "Prepare to analyze a dataset in a Jupyter notebook during a take-home assignment",
+        "Know how to explain model predictions to non-technical stakeholders",
+        "Business framing matters: 'how would you frame fraud detection as an ML problem?'",
+        "Discuss model fairness and ethics if applying to companies dealing with sensitive data",
+        "Show MLOps awareness: deployment, monitoring, retraining are part of the job",
+        "Kaggle experience or competition placements are great portfolio additions",
+        "Prepare a 5-minute walkthrough of your most impactful DS project",
+        "Ask about their ML infrastructure: do they have a feature store, experiment tracking?"
+      ]
+    }
   },
   "bi-developer": {
     freeCourses: [
@@ -59876,7 +60686,60 @@ const roleExtrasData1 = {
           }
         ]
       }
-    ]
+    ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Power BI & DAX",
+          topics: [
+            "Power BI report vs dataset vs dataflow architecture",
+            "DAX calculated columns vs measures: when to use each",
+            "Common DAX patterns: CALCULATE, FILTER, ALL, time intelligence functions",
+            "Row Context vs Filter Context in DAX"
+          ]
+        },
+        {
+          category: "Data Modeling",
+          topics: [
+            "Star schema design for optimal BI performance",
+            "Snowflake schema and its tradeoffs in BI tools",
+            "Dimension types: SCD Type 1, 2, 3",
+            "Relationships: many-to-many, bidirectional, and inactive relationships"
+          ]
+        },
+        {
+          category: "SQL & Data Warehousing",
+          topics: [
+            "Advanced SQL: window functions, CTEs, and performance optimization",
+            "Aggregation patterns for large fact tables",
+            "Incremental refresh configuration for large datasets",
+            "Direct Query vs Import Mode tradeoffs"
+          ]
+        },
+        {
+          category: "Dashboard Design",
+          topics: [
+            "Design principles: visual hierarchy, color contrast, whitespace",
+            "Choosing the right visual for the data story",
+            "Report page layout for executive vs operational audiences",
+            "Bookmarks, drillthrough, and tooltip page features"
+          ]
+        }
+      ],
+      tipsToCrack: [
+        "Have a polished Power BI or Tableau portfolio published on the web or available as a PBIX file",
+        "Be ready to write a complex DAX measure in the interview: CALCULATE with multiple filters",
+        "Know the star schema cold — bad data models cause 90% of Power BI performance issues",
+        "Explain a dashboard you built from scratch: requirements gathering to final delivery",
+        "Show user-centric thinking: how did you design the navigation and layout for the end user?",
+        "Row-level security (RLS) is often asked in enterprise BI roles",
+        "Be ready to discuss a time your dashboard drove a business decision",
+        "Direct Query vs Import Mode is a classic tradeoff question with no single right answer",
+        "Show awareness of data refresh, gateway, and scheduling in Power BI Service",
+        "Ask about their BI stack: Power BI Premium or Pro? What's their data warehouse?",
+        "Demonstrate DAX problem-solving: ask for a whiteboard DAX challenge"
+      ]
+    }
   },
   "bi-analyst": {
     freeCourses: [
@@ -60339,7 +61202,59 @@ const roleExtrasData1 = {
           }
         ]
       }
-    ]
+    ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "SQL & Data Analysis",
+          topics: [
+            "Advanced SQL: window functions, CTEs, PIVOT/UNPIVOT",
+            "Query performance analysis and optimization",
+            "Data aggregation patterns for reporting",
+            "Self-joins and recursive CTEs for hierarchical data"
+          ]
+        },
+        {
+          category: "BI Tools",
+          topics: [
+            "Tableau: calculated fields, LOD expressions, set actions",
+            "Power BI: DAX basics, report interactions, slicers",
+            "Excel: Power Query, pivot tables, advanced formulas",
+            "Google Data Studio / Looker basics"
+          ]
+        },
+        {
+          category: "Data Storytelling",
+          topics: [
+            "Structuring insights: situation, complication, resolution framework",
+            "Choosing visualization type: bar, line, scatter, heatmap, and when",
+            "Designing for the audience: executive summary vs analyst deep-dive",
+            "Color accessibility: contrast ratios, colorblind-safe palettes"
+          ]
+        },
+        {
+          category: "Business Context",
+          topics: [
+            "KPI definition and linking metrics to business objectives",
+            "Revenue analysis, funnel analysis, cohort retention",
+            "Marketing analytics: CAC, LTV, ROAS, attribution",
+            "Product analytics: DAU/MAU, engagement, activation"
+          ]
+        }
+      ],
+      tipsToCrack: [
+        "Have 3-4 dashboards in your portfolio with context: what question were you answering?",
+        "SQL window functions are the #1 tested skill for BI Analyst roles — practice daily",
+        "Show you understand the business, not just the data — connect every analysis to a decision",
+        "Practice narrating a dashboard: 'Here's what this chart shows and why it matters'",
+        "Be ready for a case study: 'Customer churn is up 15% — how would you investigate?'",
+        "Know the difference between a metric and a KPI and when each is appropriate",
+        "Data cleaning and quality issues are very common in real BI work — show you've dealt with them",
+        "Demonstrate intellectual curiosity: have you ever found an unexpected insight in data?",
+        "Show communication skills: can you explain a complex finding to a non-technical manager?",
+        "Ask about their data sources, reporting cadence, and what BI tool they use day-to-day"
+      ]
+    }
   },
   "database-administrator": {
     freeCourses: [
@@ -60828,7 +61743,59 @@ const roleExtrasData1 = {
           }
         ]
       }
-    ]
+    ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Database Fundamentals",
+          topics: [
+            "ACID properties and transaction isolation levels",
+            "Index types: B-tree, hash, composite, covering indexes",
+            "Query optimization: EXPLAIN plans, statistics, hints",
+            "Normalization (1NF-3NF/BCNF) and denormalization tradeoffs"
+          ]
+        },
+        {
+          category: "Performance Tuning",
+          topics: [
+            "Slow query identification and resolution",
+            "Connection pooling with PgBouncer or HikariCP",
+            "Table partitioning for large datasets",
+            "Buffer pool tuning and memory allocation"
+          ]
+        },
+        {
+          category: "High Availability",
+          topics: [
+            "Replication: primary-replica, synchronous vs asynchronous",
+            "Backup strategies: full, incremental, point-in-time recovery",
+            "Failover and HA clusters (PostgreSQL Patroni, MySQL Group Replication)",
+            "RTO and RPO objectives and how to meet them"
+          ]
+        },
+        {
+          category: "Security & Administration",
+          topics: [
+            "RBAC: roles, privileges, row-level security",
+            "Encryption at rest and in transit (TLS)",
+            "Database auditing and access logging",
+            "Maintenance tasks: VACUUM, ANALYZE, index rebuilds"
+          ]
+        }
+      ],
+      tipsToCrack: [
+        "Know your indexing cold — when to use composite index, covering index, and when NOT to index",
+        "Be ready to read and interpret an EXPLAIN/EXPLAIN ANALYZE output",
+        "Prepare an example of a production performance issue you diagnosed and fixed",
+        "Replication and failover architecture is commonly tested for senior DBA roles",
+        "Show proactive monitoring habits: what do you watch daily to catch issues early?",
+        "Security is critical: RBAC, least privilege, and audit trails demonstrate maturity",
+        "ACID vs BASE is a foundational question — know when to sacrifice consistency for scale",
+        "Backup/restore is a must — have you ever had to do an actual point-in-time recovery?",
+        "Cloud databases (RDS, Cloud SQL, Azure Database) are increasingly common — show familiarity",
+        "Ask about their database engine, HA setup, and backup retention policies"
+      ]
+    }
   },
   "data-architect": {
     freeCourses: [
@@ -61341,7 +62308,60 @@ const roleExtrasData1 = {
           }
         ]
       }
-    ]
+    ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Data Architecture Patterns",
+          topics: [
+            "Data warehouse vs data lake vs data lakehouse architecture",
+            "Lambda vs Kappa architecture for batch and streaming",
+            "Data mesh: domain-oriented ownership and data products",
+            "Modern data stack: ingestion, transformation, serving layers"
+          ]
+        },
+        {
+          category: "Data Modeling",
+          topics: [
+            "Kimball dimensional modeling: star schema, SCD types",
+            "Inmon CIF (Corporate Information Factory) methodology",
+            "Data vault modeling for audit trail and scalability",
+            "Conceptual, logical, and physical data models"
+          ]
+        },
+        {
+          category: "Governance & Quality",
+          topics: [
+            "Data catalog tools: Alation, Collibra, Apache Atlas",
+            "Master data management (MDM) and entity resolution",
+            "Data lineage tracking for impact analysis",
+            "Data quality frameworks and SLA definition"
+          ]
+        },
+        {
+          category: "Technology Selection",
+          topics: [
+            "Cloud data warehouse comparison: Snowflake vs BigQuery vs Redshift",
+            "Streaming platforms: Kafka vs Pulsar, Kinesis vs Pub/Sub",
+            "Orchestration: Airflow vs Prefect vs Dagster",
+            "Real-time vs near-real-time vs batch latency requirements"
+          ]
+        }
+      ],
+      tipsToCrack: [
+        "Be ready to design a complete data architecture for a given business scenario in 30 minutes",
+        "Show strategic thinking: not just HOW to build, but WHY you'd choose this architecture",
+        "Data mesh is a hot topic — have an opinion on its benefits and challenges",
+        "Technology selection questions test your breadth: Snowflake vs BigQuery tradeoffs matter",
+        "Governance and data quality are increasingly important — show you've worked on MDM or lineage",
+        "Prepare cost-benefit analysis of an architecture decision you made",
+        "Know data modeling deeply — Kimball vs Inmon vs data vault with practical examples",
+        "Demonstrate stakeholder management: architects must align engineering, analytics, and business",
+        "Show awareness of GDPR/data privacy implications in architecture choices",
+        "Ask about their current data architecture and the challenges they're trying to solve",
+        "Prepare to draw an architecture diagram and walk through data flow end-to-end"
+      ]
+    }
   },
   "etl-developer": {
     freeCourses: [
@@ -61851,7 +62871,59 @@ const roleExtrasData1 = {
           }
         ]
       }
-    ]
+    ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "ETL Fundamentals",
+          topics: [
+            "Extract strategies: full load, incremental (timestamp, CDC, watermark)",
+            "Transformation patterns: lookup, aggregate, join, pivot, deduplication",
+            "Load strategies: truncate-and-load, upsert (SCD), append",
+            "Error handling: reject records, dead letter queues, retry logic"
+          ]
+        },
+        {
+          category: "ETL Tools",
+          topics: [
+            "Informatica PowerCenter or IICS: mappings, sessions, workflows",
+            "Microsoft SSIS: control flow, data flow, connection managers",
+            "Apache Spark for large-scale data transformation",
+            "Apache Airflow for ETL orchestration and scheduling"
+          ]
+        },
+        {
+          category: "Performance & Optimization",
+          topics: [
+            "Partitioning source data for parallel ETL processing",
+            "Pushdown optimization: leveraging database engine for transformations",
+            "Bulk loading techniques (COPY command, BCP, parallel load)",
+            "Identifying and resolving ETL bottlenecks"
+          ]
+        },
+        {
+          category: "Data Quality & Testing",
+          topics: [
+            "Data profiling: null checks, uniqueness, referential integrity",
+            "Reconciliation counts: source vs target row and sum validation",
+            "Unit testing transformations with known input/output datasets",
+            "Regression testing after pipeline changes"
+          ]
+        }
+      ],
+      tipsToCrack: [
+        "Be ready to design an incremental ETL pipeline from scratch: CDC, watermark, and merge strategy",
+        "Know the SCD Type 2 implementation cold — it's the most common ETL interview question",
+        "Show troubleshooting methodology: how do you debug a failed ETL job in production?",
+        "Performance tuning experience impresses: mention a specific optimization you made and the impact",
+        "Show data quality rigor: reconciliation checks, null handling, and rejection logic",
+        "Know multiple ETL tools even superficially — adaptability to their tech stack matters",
+        "Demonstrate documentation habits: ETL mapping docs and data flow diagrams",
+        "Prepare a STAR answer for 'Tell me about a complex ETL project you led'",
+        "Cloud ETL tools (Glue, ADF, Dataflow) are increasingly common — show awareness",
+        "Ask about their ETL stack, scheduling tool, and how they handle pipeline failures"
+      ]
+    }
   },
   "analytics-engineer": {
     freeCourses: [
@@ -62350,7 +63422,59 @@ const roleExtrasData1 = {
           }
         ]
       }
-    ]
+    ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "dbt Core",
+          topics: [
+            "dbt models, sources, seeds, and snapshots",
+            "Materializations: table, view, incremental, ephemeral — tradeoffs",
+            "dbt tests: schema tests (not_null, unique, accepted_values, relationships)",
+            "Jinja templating, macros, and dbt packages (dbt_utils)"
+          ]
+        },
+        {
+          category: "Data Modeling",
+          topics: [
+            "Staging, intermediate, and mart layer conventions",
+            "Naming conventions for clean, discoverable models",
+            "Slowly Changing Dimensions (SCD) implementation in dbt",
+            "Grain definition and fan-out/fan-in trap avoidance"
+          ]
+        },
+        {
+          category: "SQL & Analytics",
+          topics: [
+            "Advanced SQL for business metrics: retention, funnel, cohorts",
+            "Window functions for running totals, rank, lag/lead analysis",
+            "Handling duplicates, nulls, and data type casting in SQL",
+            "SQL unit testing patterns"
+          ]
+        },
+        {
+          category: "Data Platform",
+          topics: [
+            "Snowflake, BigQuery, or Redshift-specific SQL dialects and features",
+            "CI/CD for dbt projects: slim CI, state comparison",
+            "Data catalog integration: dbt docs and column-level lineage",
+            "Cost optimization: query efficiency and materialization choices"
+          ]
+        }
+      ],
+      tipsToCrack: [
+        "Have a dbt project on GitHub with multiple layers (staging, marts) and tests — a must-have portfolio piece",
+        "Know the incremental materialization strategy for large fact tables cold",
+        "Be ready to design a metrics layer for a given business domain in the interview",
+        "Show understanding of the analytics engineer role: bridge between DE and analyst",
+        "dbt tests are a key differentiator — show you test data quality rigorously in your models",
+        "Explain how you version control and deploy dbt projects in a team setting",
+        "Discuss a data modeling decision you made and the impact on downstream reporting",
+        "Show awareness of the modern data stack: dbt + Snowflake + Airflow + Fivetran",
+        "Prepare for SQL case studies: build a funnel analysis or cohort retention in live SQL",
+        "Ask about their dbt setup: version, packages used, test coverage targets"
+      ]
+    }
   },
   "data-quality-analyst": {
     freeCourses: [
@@ -62873,7 +63997,59 @@ const roleExtrasData1 = {
           }
         ]
       }
-    ]
+    ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Data Quality Concepts",
+          topics: [
+            "Six dimensions of data quality: accuracy, completeness, consistency, timeliness, validity, uniqueness",
+            "Data profiling: statistical analysis to discover quality issues",
+            "Data validation rules: business rules, referential integrity, format checks",
+            "Root cause analysis: 5-whys, fishbone diagram for DQ issues"
+          ]
+        },
+        {
+          category: "DQ Tools & Frameworks",
+          topics: [
+            "Great Expectations: expectations, validation runs, and data docs",
+            "dbt tests for in-warehouse data quality checks",
+            "Informatica Data Quality (IDQ) for enterprise DQ",
+            "Reconciliation frameworks for source-target validation"
+          ]
+        },
+        {
+          category: "Governance & Stewardship",
+          topics: [
+            "Data stewardship responsibilities and escalation process",
+            "Master data management: golden record creation and entity resolution",
+            "Data lineage for impact analysis of quality issues",
+            "Data governance frameworks: DAMA DMBOK, DCAM"
+          ]
+        },
+        {
+          category: "SQL & Analysis",
+          topics: [
+            "SQL queries for data profiling: null counts, distinct counts, min/max",
+            "Identifying duplicates with GROUP BY, HAVING, ROW_NUMBER",
+            "Cross-system reconciliation queries",
+            "Trend analysis for data quality metrics over time"
+          ]
+        }
+      ],
+      tipsToCrack: [
+        "Be ready to write SQL to profile a dataset: null rates, duplicate keys, value distributions",
+        "Show a systematic approach: how do you investigate and document a data quality issue?",
+        "Demonstrate business impact awareness: a DQ issue in customer data vs operational data is very different",
+        "Know Great Expectations or dbt tests — automated DQ is the modern standard",
+        "MDM concepts (golden record, entity resolution) come up in enterprise DQ interviews",
+        "Prepare a STAR story: 'Tell me about a data quality issue that had significant business impact'",
+        "Show root cause thinking: don't just find the issue, explain WHY it happened and how to prevent it",
+        "Data governance frameworks (DAMA DMBOK) demonstrate seniority and domain depth",
+        "Stakeholder communication is key: DQA work involves convincing data owners to fix upstream issues",
+        "Ask about their current DQ tooling, how issues are triaged, and what their DQ score baseline is"
+      ]
+    }
   }
 };
 const roleExtrasData2 = {
@@ -63263,7 +64439,70 @@ const roleExtrasData2 = {
           }
         ]
       }
-    ]
+    ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Machine Learning Core",
+          topics: [
+            "Supervised learning algorithms: linear/logistic regression, SVM, decision trees, ensembles",
+            "Bias-variance tradeoff, regularization (L1, L2, elastic net)",
+            "Model evaluation metrics: AUC-ROC, precision-recall, F1, RMSE",
+            "Feature engineering: encoding, scaling, feature selection"
+          ]
+        },
+        {
+          category: "Deep Learning",
+          topics: [
+            "Neural network architecture: layers, activation functions, backpropagation",
+            "Optimization: SGD, Adam, learning rate scheduling",
+            "Regularization: dropout, batch normalization, weight decay",
+            "Transformer architecture and self-attention mechanism"
+          ]
+        },
+        {
+          category: "MLOps & Production",
+          topics: [
+            "ML pipelines: feature engineering → training → evaluation → deployment",
+            "Model serving: REST APIs with FastAPI, batch inference vs real-time",
+            "Model monitoring: data drift, prediction drift, performance decay",
+            "Feature stores (Feast/Tecton) for feature reuse across models"
+          ]
+        },
+        {
+          category: "Python & Tools",
+          topics: [
+            "PyTorch or TensorFlow: model definition, training loop, custom layers",
+            "Scikit-learn pipeline and cross-validation",
+            "MLflow for experiment tracking, model registry",
+            "Docker + Kubernetes for ML model deployment"
+          ]
+        },
+        {
+          category: "System Design for ML",
+          topics: [
+            "Designing a recommendation system: retrieval, ranking, post-processing",
+            "Real-time vs batch inference architecture tradeoffs",
+            "Handling class imbalance: SMOTE, class weights, threshold tuning",
+            "A/B testing for model evaluation in production"
+          ]
+        }
+      ],
+      tipsToCrack: [
+        "Have an end-to-end ML project on GitHub: data → features → model → evaluation → API",
+        "Be ready to explain any algorithm from first principles, not just 'I used XGBoost'",
+        "Coding rounds often include implementing gradient descent or a simple neural net from scratch",
+        "System design rounds are increasingly common for senior ML: design a fraud detection system",
+        "MLOps awareness is a strong differentiator — show you understand deployment and monitoring",
+        "Know your evaluation metrics and WHEN to use F1 vs AUC-ROC vs precision-recall",
+        "Discuss imbalanced datasets: SMOTE, cost-sensitive learning, threshold adjustment",
+        "Be ready to critique a given model and suggest improvements systematically",
+        "Show business context: 'a false positive means X, a false negative means Y for this problem'",
+        "Deep learning is table stakes for senior roles: know transformers and fine-tuning",
+        "Ask about their model deployment infrastructure and retraining frequency",
+        "Kaggle competition experience or leaderboard rankings are valuable talking points"
+      ]
+    }
   },
   "devops-engineer": {
     freeCourses: [
@@ -63637,7 +64876,69 @@ const roleExtrasData2 = {
           }
         ]
       }
-    ]
+    ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Containers & Kubernetes",
+          topics: [
+            "Docker: Dockerfile best practices, multi-stage builds, image layering",
+            "Kubernetes resources: Pod, Deployment, Service, Ingress, ConfigMap, Secret",
+            "Kubernetes scheduling: resource requests/limits, node affinity, taints/tolerations",
+            "K8s networking: Services (ClusterIP/NodePort/LoadBalancer), Ingress controllers"
+          ]
+        },
+        {
+          category: "CI/CD Pipelines",
+          topics: [
+            "GitHub Actions: workflow YAML, jobs, steps, secrets",
+            "Jenkins: pipeline as code (Jenkinsfile), shared libraries",
+            "Deployment strategies: rolling, blue-green, canary",
+            "Artifact management: Docker Registry, Helm charts, versioning"
+          ]
+        },
+        {
+          category: "Infrastructure as Code",
+          topics: [
+            "Terraform: providers, resources, state, modules, workspace",
+            "Ansible: playbooks, roles, inventory, and idempotency",
+            "GitOps with ArgoCD or Flux: declarative cluster state",
+            "Helm: chart structure, values files, templating"
+          ]
+        },
+        {
+          category: "Observability & Security",
+          topics: [
+            "Prometheus + Grafana for metrics collection and dashboards",
+            "ELK Stack or Loki for log aggregation and querying",
+            "Distributed tracing with Jaeger or Zipkin",
+            "Secrets management: HashiCorp Vault, AWS Secrets Manager"
+          ]
+        },
+        {
+          category: "Cloud Platforms",
+          topics: [
+            "AWS core services: EC2, EKS, RDS, S3, IAM, VPC, Lambda",
+            "Networking: VPC, subnets, security groups, NAT gateway",
+            "Cost optimization: right-sizing, reserved instances, Spot",
+            "Multi-cloud and hybrid cloud considerations"
+          ]
+        }
+      ],
+      tipsToCrack: [
+        "Set up a complete CI/CD pipeline project on GitHub and be ready to walk through every step",
+        "Kubernetes is now a baseline — practice kubectl commands and know the control plane architecture",
+        "Prepare to troubleshoot a broken pipeline in an interview scenario",
+        "DORA metrics (deployment frequency, lead time, MTTR, change failure rate) show engineering maturity",
+        "Terraform modules and remote state are commonly tested — have a project to show",
+        "Security is non-negotiable: secrets in Git is an immediate red flag to avoid",
+        "Show cost awareness: mention a time you optimized cloud spending",
+        "GitOps is the modern standard — know ArgoCD or Flux at least conceptually",
+        "On-call experience (or readiness) shows operational maturity — mention your incident response experience",
+        "Know the DevOps culture: it's not just tools, it's about breaking silos",
+        "Ask about their current CI/CD stack, cloud provider, and on-call practices"
+      ]
+    }
   },
   "qa-automation-engineer": {
     freeCourses: [
@@ -64034,7 +65335,69 @@ const roleExtrasData2 = {
           }
         ]
       }
-    ]
+    ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Testing Fundamentals",
+          topics: [
+            "Testing pyramid: unit, integration, E2E ratios and why it matters",
+            "Black-box vs white-box vs grey-box testing",
+            "Equivalence partitioning and boundary value analysis",
+            "Test case design: positive, negative, edge cases, and exploratory"
+          ]
+        },
+        {
+          category: "Automation Tools",
+          topics: [
+            "Selenium WebDriver: locators, waits (implicit/explicit/fluent), POM design pattern",
+            "Playwright or Cypress for modern web testing with auto-waiting",
+            "REST API testing with Postman, RestAssured, or Karate",
+            "Mobile testing: Appium for iOS/Android automation"
+          ]
+        },
+        {
+          category: "Framework Design",
+          topics: [
+            "Page Object Model (POM) and its benefits for maintainability",
+            "Data-driven and keyword-driven testing approaches",
+            "Parallel test execution with TestNG or JUnit 5",
+            "Allure or ExtentReports for test reporting"
+          ]
+        },
+        {
+          category: "Performance & Security Testing",
+          topics: [
+            "Load testing with JMeter or k6: virtual users, ramp-up, assertions",
+            "Performance metrics: response time, throughput, error rate, percentiles",
+            "OWASP ZAP for basic security testing (DAST)",
+            "SQL injection and XSS vulnerability testing"
+          ]
+        },
+        {
+          category: "CI/CD Integration",
+          topics: [
+            "Integrating test suites into GitHub Actions or Jenkins pipelines",
+            "Shift-left testing: involving QA from requirements stage",
+            "Test environment management and Docker-based test infrastructure",
+            "Flaky test management strategies"
+          ]
+        }
+      ],
+      tipsToCrack: [
+        "Have a test automation framework project on GitHub — theory without code won't impress",
+        "Be ready to code a Selenium or Playwright test live in the interview",
+        "Know the POM design pattern and be able to explain why it improves maintainability",
+        "Show debugging skills: how do you investigate a flaky test that fails 20% of the time?",
+        "Prepare a STAR answer for 'Tell me about a bug you found that everyone else missed'",
+        "API testing is increasingly important: know REST fundamentals and Postman/RestAssured",
+        "Shift-left mindset demonstrates maturity: you review requirements, not just test after code",
+        "Performance testing awareness opens doors to senior QA roles",
+        "Show CI/CD integration knowledge: testing in pipelines is expected at most companies",
+        "Agile QA skills matter: writing acceptance criteria, participating in sprint ceremonies",
+        "Ask about their test coverage percentage, CI pipeline, and how they manage test environments"
+      ]
+    }
   },
   "cloud-engineer": {
     freeCourses: [
@@ -64637,7 +66000,69 @@ const roleExtrasData2 = {
           }
         ]
       }
-    ]
+    ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Cloud Fundamentals",
+          topics: [
+            "IaaS, PaaS, SaaS service models and cloud deployment models",
+            "AWS core services: EC2, S3, RDS, Lambda, IAM, VPC, CloudFront",
+            "GCP equivalents: GCE, GCS, Cloud SQL, Cloud Functions, IAM, VPC",
+            "Azure equivalents: VMs, Blob Storage, Azure SQL, Functions, RBAC"
+          ]
+        },
+        {
+          category: "Networking & Security",
+          topics: [
+            "VPC design: subnets, route tables, security groups, NACLs",
+            "IAM: roles, policies, least privilege, cross-account access",
+            "VPN, Direct Connect/Dedicated Interconnect for hybrid connectivity",
+            "Encryption: KMS, customer-managed keys, data at rest and in transit"
+          ]
+        },
+        {
+          category: "Architecture & Resilience",
+          topics: [
+            "Multi-AZ vs multi-region architecture tradeoffs",
+            "Auto-scaling: dynamic scaling policies, target tracking",
+            "Disaster recovery: RTO/RPO, backup strategies, failover",
+            "Serverless architecture: Lambda, API Gateway, event-driven patterns"
+          ]
+        },
+        {
+          category: "Infrastructure as Code",
+          topics: [
+            "Terraform for multi-cloud infrastructure provisioning",
+            "AWS CloudFormation or CDK for AWS-native IaC",
+            "Module design for reusable infrastructure components",
+            "State management: remote state, locking, import existing resources"
+          ]
+        },
+        {
+          category: "Cost Optimization",
+          topics: [
+            "Reserved instances vs Spot instances vs On-demand tradeoffs",
+            "Cost allocation with tags and cost explorer analysis",
+            "Right-sizing: CPU/memory utilization analysis",
+            "S3 lifecycle policies and storage class transitions"
+          ]
+        }
+      ],
+      tipsToCrack: [
+        "An AWS Solutions Architect or Google Cloud ACE certification is a strong signal — if you have one, lead with it",
+        "Be ready to design a cloud architecture from scratch: 3-tier web app, serverless pipeline, etc.",
+        "VPC design is heavily tested: subnets, security groups, public vs private placement",
+        "IAM least privilege is foundational security — be able to explain roles vs policies vs groups",
+        "Terraform is the standard IaC tool — have a working project to show",
+        "Cost optimization stories are valuable: mention a time you reduced cloud spend significantly",
+        "Know auto-scaling: how it works, what triggers it, and how to configure it",
+        "Disaster recovery planning shows operational maturity beyond just provisioning",
+        "Show multi-cloud or hybrid awareness even if you specialize in one cloud",
+        "Security is non-negotiable: no open S3 buckets, no public security groups in your demo projects",
+        "Ask about their primary cloud provider, multi-account strategy, and FinOps practices"
+      ]
+    }
   }
 };
 const roleExtrasData3 = {
@@ -65006,7 +66431,60 @@ const roleExtrasData3 = {
           }
         ]
       }
-    ]
+    ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Requirements Elicitation & Analysis",
+          topics: [
+            "Elicitation techniques: interviews, workshops, observation, document analysis",
+            "Functional vs non-functional requirements and how to document them",
+            "Use cases, user stories (As a/I want/So that), and acceptance criteria",
+            "Requirements traceability matrix (RTM) and change control"
+          ]
+        },
+        {
+          category: "Business Process Modeling",
+          topics: [
+            "BPMN 2.0 notation for process flow diagrams",
+            "AS-IS vs TO-BE process analysis and gap identification",
+            "Swimlane diagrams for cross-functional process flows",
+            "Value stream mapping to identify waste and inefficiencies"
+          ]
+        },
+        {
+          category: "Agile & Project Context",
+          topics: [
+            "Agile BA role: backlog refinement, sprint participation, story writing",
+            "MoSCoW prioritization and backlog management",
+            "Stakeholder identification, analysis, and engagement planning",
+            "Scope management and change control process"
+          ]
+        },
+        {
+          category: "Data & Tools",
+          topics: [
+            "SQL for data analysis and querying stakeholder reports",
+            "Excel/Google Sheets for business case analysis and modeling",
+            "JIRA, Confluence, or Azure DevOps for requirement management",
+            "Prototyping tools (Figma, Balsamiq) for UI mockups"
+          ]
+        }
+      ],
+      tipsToCrack: [
+        "Prepare examples of requirements you've elicited and how you resolved ambiguity",
+        "Be ready for a scenario: 'A stakeholder says they need X. How do you ensure it solves the real problem?'",
+        "Show structured thinking: SWOT, MoSCoW, RACI, BRD/FRD demonstrate BA discipline",
+        "Gap analysis (AS-IS/TO-BE) is a core BA exercise — have a real example ready",
+        "Know Agile BA: show how your role changes in Scrum vs waterfall environments",
+        "SQL skills differentiate BAs who can self-serve data from those who can't",
+        "Stakeholder management stories are valuable: handling conflicting requirements diplomatically",
+        "Show you understand the business domain, not just the process — read about the industry",
+        "Domain certifications (CBAP, PMI-PBA, Agile BA) signal commitment to the profession",
+        "Prepare to create a user story or BRD excerpt in a whiteboard session",
+        "Ask about their requirements process: do they use JIRA, wiki, or formal BRDs?"
+      ]
+    }
   },
   "scrum-master": {
     freeCourses: [
@@ -65322,7 +66800,60 @@ const roleExtrasData3 = {
           }
         ]
       }
-    ]
+    ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Scrum Framework",
+          topics: [
+            "All 5 Scrum events: Sprint, Sprint Planning, Daily Scrum, Review, Retrospective",
+            "3 accountabilities: Product Owner, Scrum Master, Developers",
+            "3 artifacts: Product Backlog, Sprint Backlog, Increment + Definition of Done",
+            "Scrum Values: commitment, focus, openness, respect, courage"
+          ]
+        },
+        {
+          category: "Agile Frameworks",
+          topics: [
+            "Kanban: WIP limits, flow, cumulative flow diagrams, lead time vs cycle time",
+            "SAFe basics: Program Increment (PI) planning, Agile Release Train",
+            "LeSS and Nexus for scaling Scrum to multiple teams",
+            "XP practices: pair programming, TDD, continuous integration"
+          ]
+        },
+        {
+          category: "Coaching & Facilitation",
+          topics: [
+            "Facilitation techniques: liberating structures, retrospective activities",
+            "Conflict resolution models: Thomas-Kilmann, NVC (Nonviolent Communication)",
+            "Team development stages: Tuckman's model (Forming/Storming/Norming/Performing)",
+            "Coaching stance vs mentoring stance: when to use each"
+          ]
+        },
+        {
+          category: "Metrics & Impediments",
+          topics: [
+            "Sprint metrics: velocity, sprint burndown, release burnup",
+            "Flow metrics: throughput, cycle time, WIP",
+            "Impediment tracking and escalation process",
+            "Technical debt as an impediment and how to address it with teams"
+          ]
+        }
+      ],
+      tipsToCrack: [
+        "Know the 2020 Scrum Guide version — interviewers test this, especially the terminology changes",
+        "Prepare for scenario questions: 'A developer is dominating the Daily Scrum — what do you do?'",
+        "Be ready to distinguish the Scrum Master role from Project Manager clearly and confidently",
+        "Show facilitation skills: describe how you run a Sprint Retrospective that actually generates change",
+        "PSM I certification strengthens your profile significantly for this role",
+        "Coaching stories are powerful: describe a team dysfunction you helped resolve",
+        "Know common Scrum anti-patterns: Scrumfall, SM as task-master, PO writing stories for the team",
+        "Show metrics fluency: velocity trends, sprint goal achievement rate",
+        "Demonstrate servant leadership: 'I once stepped back to let the team solve this themselves...'",
+        "Agile transformation experience (introducing Scrum to a resistant team) is a strong differentiator",
+        "Ask about the team's maturity level and current impediments you'd help with"
+      ]
+    }
   },
   "uiux-designer": {
     freeCourses: [
@@ -65651,7 +67182,60 @@ const roleExtrasData3 = {
           }
         ]
       }
-    ]
+    ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "UX Research",
+          topics: [
+            "User research methods: interviews, usability testing, surveys, card sorting",
+            "Jobs-to-be-Done and user persona creation",
+            "Affinity mapping and synthesizing research findings",
+            "Usability heuristics: Nielsen's 10 heuristics by heart"
+          ]
+        },
+        {
+          category: "Design Process",
+          topics: [
+            "Design thinking phases: Empathize, Define, Ideate, Prototype, Test",
+            "Information architecture: card sorting, tree testing, sitemaps",
+            "Wireframing from low-fidelity (sketches) to high-fidelity (Figma)",
+            "Prototyping: interactive prototypes in Figma with components and variants"
+          ]
+        },
+        {
+          category: "Visual Design",
+          topics: [
+            "Typography scale, contrast ratios, and readability principles",
+            "Color theory: primary, secondary, semantic color systems",
+            "Grid systems, spacing scales, and layout consistency",
+            "Design tokens and design systems structure"
+          ]
+        },
+        {
+          category: "Tools & Collaboration",
+          topics: [
+            "Figma: auto layout, components, variants, and Dev Mode handoff",
+            "Collaborating with developers: annotating prototypes, design specs",
+            "Accessibility standards: WCAG 2.1 (AA), color contrast, ARIA patterns",
+            "Measuring UX quality: SUS scores, task completion rate, error rate"
+          ]
+        }
+      ],
+      tipsToCrack: [
+        "Your portfolio IS your interview — each case study should show your process, not just the final design",
+        "Be ready to present a case study: walk through research, decisions, and how you iterated",
+        "Prepare to critique a live product's UX — interviewers often ask 'how would you improve our app?'",
+        "Show research before design: never present wireframes without explaining the 'why'",
+        "Know Nielsen's 10 usability heuristics — they come up in UX interviews regularly",
+        "Demonstrate accessibility awareness: WCAG 2.1 compliance is expected in most companies",
+        "Show developer collaboration skills: how do you ensure designs are implemented faithfully?",
+        "Business impact matters: 'my redesign reduced drop-off by X%' is far stronger than just visuals",
+        "Figma proficiency is mandatory — be ready for a Figma challenge in the interview",
+        "Show system thinking: have you contributed to or built a design system?",
+        "Ask about their research process and how design decisions are validated with users"
+      ]
+    }
   },
   "product-manager": {
     freeCourses: [
@@ -65964,7 +67548,70 @@ const roleExtrasData3 = {
           }
         ]
       }
-    ]
+    ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Product Strategy & Discovery",
+          topics: [
+            "Jobs-to-be-Done (JTBD) framework and opportunity sizing",
+            "Product-market fit signals and measurement",
+            "Competitive analysis and positioning",
+            "OKR framework: setting product objectives and key results"
+          ]
+        },
+        {
+          category: "Prioritization Frameworks",
+          topics: [
+            "RICE scoring: Reach, Impact, Confidence, Effort",
+            "ICE score and MoSCoW for stakeholder alignment",
+            "Kano model: basic, performance, and delight features",
+            "Opportunity scoring and impact mapping"
+          ]
+        },
+        {
+          category: "Metrics & Analytics",
+          topics: [
+            "North Star Metric, input metrics, and guardrail metrics",
+            "Funnel analysis: acquisition, activation, retention, revenue, referral (AARRR)",
+            "A/B testing: hypothesis, sample size, statistical significance",
+            "Cohort analysis for retention and LTV measurement"
+          ]
+        },
+        {
+          category: "Execution & Agile",
+          topics: [
+            "User story writing and acceptance criteria best practices",
+            "Sprint planning, backlog refinement, and release planning",
+            "Working with engineering: technical debt prioritization, API-first thinking",
+            "Roadmap formats: now/next/later, quarterly, outcome-based"
+          ]
+        },
+        {
+          category: "User Research & Communication",
+          topics: [
+            "Customer discovery interview techniques: open-ended, non-leading questions",
+            "Synthesizing qualitative and quantitative research",
+            "Presenting product strategy to executive stakeholders",
+            "PRD (Product Requirements Document) writing best practices"
+          ]
+        }
+      ],
+      tipsToCrack: [
+        "Product sense questions are tested most: 'Improve LinkedIn's onboarding' — practice daily",
+        "Execution questions: 'A key metric dropped 20% — walk me through your investigation' — structure your answer",
+        "Show metric fluency: define the right North Star, input metrics, and guardrails for a given product",
+        "Stakeholder management stories are key: demonstrate you've pushed back on a VP with data",
+        "Have a product you've worked on and know its metrics, decisions, and outcomes cold",
+        "Know the RICE framework and be ready to apply it in real-time to a hypothetical backlog",
+        "Show technical aptitude — PMs who understand APIs, databases, and system constraints earn trust",
+        "Demonstrate user empathy: always frame decisions from the user's perspective first",
+        "Prepare your 'Why PM?' story — it's always asked and needs to be authentic and specific",
+        "Research the company's product deeply: use it, note pain points, and come with improvement ideas",
+        "Ask about the PM's relationship with engineering and how the roadmap is decided",
+        "Data-driven decisions with intuition-backed hypotheses — show you combine both"
+      ]
+    }
   },
   "digital-marketing-executive": {
     freeCourses: [
@@ -66278,7 +67925,60 @@ const roleExtrasData3 = {
           }
         ]
       }
-    ]
+    ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "SEO & Content",
+          topics: [
+            "On-page SEO: title tags, meta descriptions, headers, schema markup",
+            "Off-page SEO: link building, domain authority, guest posting",
+            "Technical SEO: Core Web Vitals, crawlability, indexing",
+            "Content strategy: keyword research, search intent, content calendar"
+          ]
+        },
+        {
+          category: "Paid Media",
+          topics: [
+            "Google Ads: campaign structure, match types, Quality Score, bidding strategies",
+            "Meta Ads: audience targeting, lookalike audiences, pixel setup",
+            "Retargeting campaigns and custom audience creation",
+            "Performance Max and Smart campaigns"
+          ]
+        },
+        {
+          category: "Analytics & Measurement",
+          topics: [
+            "Google Analytics 4: events, conversions, audiences, and reporting",
+            "UTM parameter setup for campaign tracking",
+            "Attribution models: last-click, first-click, linear, data-driven",
+            "Marketing KPIs: CTR, CPC, ROAS, CAC, LTV, conversion rate"
+          ]
+        },
+        {
+          category: "Social & Email",
+          topics: [
+            "Social media content strategy for LinkedIn, Instagram, YouTube",
+            "Email marketing: segmentation, automation workflows, A/B testing",
+            "Influencer marketing: identification, brief, and performance tracking",
+            "HubSpot or Mailchimp for marketing automation"
+          ]
+        }
+      ],
+      tipsToCrack: [
+        "Bring measurable results: 'I increased organic traffic by 40% in 3 months' beats vague claims",
+        "Show platform certifications: Google Ads, Meta Blueprint, HubSpot are standard signals",
+        "Be ready for a case study: 'Launch a digital campaign for this product in India with ₹2L budget'",
+        "Demonstrate GA4 proficiency — it's the current standard and many candidates still use UA",
+        "Know the India-specific landscape: OTT platforms, WhatsApp marketing, vernacular content",
+        "Show ROI thinking: every campaign decision should tie back to CAC, ROAS, or LTV",
+        "Content strategy is underrated — show you understand SEO, storytelling, and audience segmentation",
+        "Social proof matters: share examples of viral content or campaigns with engagement numbers",
+        "Growth hacking mindset: have you found a creative low-cost acquisition channel?",
+        "Discuss your analytics stack: GA4, Search Console, SEMrush, Ahrefs — show tool breadth",
+        "Ask about their current top-performing channel and what they're trying to improve"
+      ]
+    }
   },
   "sap-consultant": {
     freeCourses: [
@@ -66566,7 +68266,60 @@ const roleExtrasData3 = {
           }
         ]
       }
-    ]
+    ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "SAP Fundamentals",
+          topics: [
+            "SAP module landscape: FI, CO, MM, SD, HR, PP, WM — and how they integrate",
+            "SAP S/4 HANA vs ECC: key architectural and functional differences",
+            "SAP Fiori: role-based apps, launchpad configuration",
+            "SAP organizational structure: company code, plant, sales org, purchase org"
+          ]
+        },
+        {
+          category: "Implementation & Configuration",
+          topics: [
+            "SAP ACTIVATE methodology: Discover, Prepare, Explore, Realize, Deploy, Run",
+            "Fit-gap analysis: standard fit vs gap vs out-of-scope classification",
+            "Configuration in SPRO (IMG): enterprise structure, process settings",
+            "User acceptance testing (UAT) planning and execution"
+          ]
+        },
+        {
+          category: "Integration & Technical",
+          topics: [
+            "ABAP basics: reports, function modules, BAPIs, user exits, BAdIs",
+            "IDocs for system-to-system data exchange",
+            "SAP Integration Suite for API-based integrations",
+            "Data migration: LSMW, BDC, BAPI-based migration strategies"
+          ]
+        },
+        {
+          category: "Module-Specific Knowledge",
+          topics: [
+            "FI/CO: order-to-cash and procure-to-pay integration flows",
+            "MM: procurement cycle from PR to PO to GR to IR to payment",
+            "SD: quote-to-cash: inquiry → quotation → order → delivery → billing",
+            "HR/HCM: personnel administration, payroll basics, ESS/MSS"
+          ]
+        }
+      ],
+      tipsToCrack: [
+        "Know your core SAP module end-to-end — interviewers test the full business process, not just transactions",
+        "Walk through the Order-to-Cash or Procure-to-Pay cycle without prompts — it's a must-know",
+        "SAP ACTIVATE methodology knowledge signals you're ready for real project work",
+        "Fit-gap analysis is the core consulting skill — prepare examples of gaps you've configured or developed",
+        "Show integration knowledge: SD/FI, MM/FI integration demonstrates senior-level understanding",
+        "ABAP basics are expected even for functional consultants — know how to read a simple report",
+        "Prepare a project walkthrough: go-live story with challenges and how you resolved them",
+        "S/4 HANA migration is currently the biggest demand area — understand brownfield vs greenfield",
+        "SAP certifications (C_TS4FI, C_TS450, etc.) signal commitment and pass technical screening",
+        "Show change management skills: implementations fail on people, not technology",
+        "Ask about their SAP module, version (ECC vs S/4), and current implementation phase"
+      ]
+    }
   }
 };
 const allRoleExtras = {
@@ -66591,9 +68344,9 @@ const TABS = [
     icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Award, { className: "w-4 h-4" })
   },
   {
-    id: "interview",
-    label: "Interview Prep",
-    icon: /* @__PURE__ */ jsxRuntimeExports.jsx(MessageSquare, { className: "w-4 h-4" })
+    id: "guide",
+    label: "Interview Guide",
+    icon: /* @__PURE__ */ jsxRuntimeExports.jsx(BookMarked, { className: "w-4 h-4" })
   }
 ];
 const levelColors = {
@@ -66707,7 +68460,7 @@ function RoleDetail() {
           certifications: role.freeCertifications
         }
       ),
-      activeTab === "interview" && /* @__PURE__ */ jsxRuntimeExports.jsx(InterviewPrepSection, { prep: extras == null ? void 0 : extras.interviewPrep }),
+      activeTab === "guide" && /* @__PURE__ */ jsxRuntimeExports.jsx(InterviewGuideSection, { guide: extras == null ? void 0 : extras.interviewGuide }),
       activeTab === "overview" && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid lg:grid-cols-3 gap-8", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "lg:col-span-2 space-y-8", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-card rounded-xl border border-border p-6 shadow-card", children: [
@@ -67129,12 +68882,12 @@ function RoleDetail() {
                 "button",
                 {
                   type: "button",
-                  onClick: () => setActiveTab("interview"),
-                  "data-ocid": "role_detail.shortcut.interview",
+                  onClick: () => setActiveTab("guide"),
+                  "data-ocid": "role_detail.shortcut.guide",
                   className: "w-full text-left flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground py-1.5 transition-colors",
                   children: [
-                    /* @__PURE__ */ jsxRuntimeExports.jsx(MessageSquare, { className: "w-3.5 h-3.5 flex-shrink-0" }),
-                    "Interview Questions & Talking Points"
+                    /* @__PURE__ */ jsxRuntimeExports.jsx(BookMarked, { className: "w-3.5 h-3.5 flex-shrink-0" }),
+                    "Interview Guide & Tips"
                   ]
                 }
               )

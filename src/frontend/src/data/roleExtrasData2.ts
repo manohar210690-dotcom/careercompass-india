@@ -1,10 +1,16 @@
 // roleExtrasData2.ts — Free Courses, Mock Tests, Interview Prep for ML/AI, DevOps, QA roles
-import type { FreeCourse, InterviewPrep, MockTest } from "./roleExtras";
+import type {
+  FreeCourse,
+  InterviewGuide,
+  InterviewPrep,
+  MockTest,
+} from "./roleExtras";
 
 interface RoleExtras {
   freeCourses?: FreeCourse[];
   mockTests?: MockTest[];
   interviewPrep?: InterviewPrep[];
+  interviewGuide?: InterviewGuide;
 }
 
 export const roleExtrasData2: Record<string, RoleExtras> = {
@@ -410,6 +416,69 @@ export const roleExtrasData2: Record<string, RoleExtras> = {
         ],
       },
     ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Machine Learning Core",
+          topics: [
+            "Supervised learning algorithms: linear/logistic regression, SVM, decision trees, ensembles",
+            "Bias-variance tradeoff, regularization (L1, L2, elastic net)",
+            "Model evaluation metrics: AUC-ROC, precision-recall, F1, RMSE",
+            "Feature engineering: encoding, scaling, feature selection",
+          ],
+        },
+        {
+          category: "Deep Learning",
+          topics: [
+            "Neural network architecture: layers, activation functions, backpropagation",
+            "Optimization: SGD, Adam, learning rate scheduling",
+            "Regularization: dropout, batch normalization, weight decay",
+            "Transformer architecture and self-attention mechanism",
+          ],
+        },
+        {
+          category: "MLOps & Production",
+          topics: [
+            "ML pipelines: feature engineering → training → evaluation → deployment",
+            "Model serving: REST APIs with FastAPI, batch inference vs real-time",
+            "Model monitoring: data drift, prediction drift, performance decay",
+            "Feature stores (Feast/Tecton) for feature reuse across models",
+          ],
+        },
+        {
+          category: "Python & Tools",
+          topics: [
+            "PyTorch or TensorFlow: model definition, training loop, custom layers",
+            "Scikit-learn pipeline and cross-validation",
+            "MLflow for experiment tracking, model registry",
+            "Docker + Kubernetes for ML model deployment",
+          ],
+        },
+        {
+          category: "System Design for ML",
+          topics: [
+            "Designing a recommendation system: retrieval, ranking, post-processing",
+            "Real-time vs batch inference architecture tradeoffs",
+            "Handling class imbalance: SMOTE, class weights, threshold tuning",
+            "A/B testing for model evaluation in production",
+          ],
+        },
+      ],
+      tipsToCrack: [
+        "Have an end-to-end ML project on GitHub: data → features → model → evaluation → API",
+        "Be ready to explain any algorithm from first principles, not just 'I used XGBoost'",
+        "Coding rounds often include implementing gradient descent or a simple neural net from scratch",
+        "System design rounds are increasingly common for senior ML: design a fraud detection system",
+        "MLOps awareness is a strong differentiator — show you understand deployment and monitoring",
+        "Know your evaluation metrics and WHEN to use F1 vs AUC-ROC vs precision-recall",
+        "Discuss imbalanced datasets: SMOTE, cost-sensitive learning, threshold adjustment",
+        "Be ready to critique a given model and suggest improvements systematically",
+        "Show business context: 'a false positive means X, a false negative means Y for this problem'",
+        "Deep learning is table stakes for senior roles: know transformers and fine-tuning",
+        "Ask about their model deployment infrastructure and retraining frequency",
+        "Kaggle competition experience or leaderboard rankings are valuable talking points",
+      ],
+    },
   },
 
   "devops-engineer": {
@@ -799,6 +868,68 @@ export const roleExtrasData2: Record<string, RoleExtras> = {
         ],
       },
     ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Containers & Kubernetes",
+          topics: [
+            "Docker: Dockerfile best practices, multi-stage builds, image layering",
+            "Kubernetes resources: Pod, Deployment, Service, Ingress, ConfigMap, Secret",
+            "Kubernetes scheduling: resource requests/limits, node affinity, taints/tolerations",
+            "K8s networking: Services (ClusterIP/NodePort/LoadBalancer), Ingress controllers",
+          ],
+        },
+        {
+          category: "CI/CD Pipelines",
+          topics: [
+            "GitHub Actions: workflow YAML, jobs, steps, secrets",
+            "Jenkins: pipeline as code (Jenkinsfile), shared libraries",
+            "Deployment strategies: rolling, blue-green, canary",
+            "Artifact management: Docker Registry, Helm charts, versioning",
+          ],
+        },
+        {
+          category: "Infrastructure as Code",
+          topics: [
+            "Terraform: providers, resources, state, modules, workspace",
+            "Ansible: playbooks, roles, inventory, and idempotency",
+            "GitOps with ArgoCD or Flux: declarative cluster state",
+            "Helm: chart structure, values files, templating",
+          ],
+        },
+        {
+          category: "Observability & Security",
+          topics: [
+            "Prometheus + Grafana for metrics collection and dashboards",
+            "ELK Stack or Loki for log aggregation and querying",
+            "Distributed tracing with Jaeger or Zipkin",
+            "Secrets management: HashiCorp Vault, AWS Secrets Manager",
+          ],
+        },
+        {
+          category: "Cloud Platforms",
+          topics: [
+            "AWS core services: EC2, EKS, RDS, S3, IAM, VPC, Lambda",
+            "Networking: VPC, subnets, security groups, NAT gateway",
+            "Cost optimization: right-sizing, reserved instances, Spot",
+            "Multi-cloud and hybrid cloud considerations",
+          ],
+        },
+      ],
+      tipsToCrack: [
+        "Set up a complete CI/CD pipeline project on GitHub and be ready to walk through every step",
+        "Kubernetes is now a baseline — practice kubectl commands and know the control plane architecture",
+        "Prepare to troubleshoot a broken pipeline in an interview scenario",
+        "DORA metrics (deployment frequency, lead time, MTTR, change failure rate) show engineering maturity",
+        "Terraform modules and remote state are commonly tested — have a project to show",
+        "Security is non-negotiable: secrets in Git is an immediate red flag to avoid",
+        "Show cost awareness: mention a time you optimized cloud spending",
+        "GitOps is the modern standard — know ArgoCD or Flux at least conceptually",
+        "On-call experience (or readiness) shows operational maturity — mention your incident response experience",
+        "Know the DevOps culture: it's not just tools, it's about breaking silos",
+        "Ask about their current CI/CD stack, cloud provider, and on-call practices",
+      ],
+    },
   },
 
   "qa-automation-engineer": {
@@ -1215,6 +1346,68 @@ export const roleExtrasData2: Record<string, RoleExtras> = {
         ],
       },
     ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Testing Fundamentals",
+          topics: [
+            "Testing pyramid: unit, integration, E2E ratios and why it matters",
+            "Black-box vs white-box vs grey-box testing",
+            "Equivalence partitioning and boundary value analysis",
+            "Test case design: positive, negative, edge cases, and exploratory",
+          ],
+        },
+        {
+          category: "Automation Tools",
+          topics: [
+            "Selenium WebDriver: locators, waits (implicit/explicit/fluent), POM design pattern",
+            "Playwright or Cypress for modern web testing with auto-waiting",
+            "REST API testing with Postman, RestAssured, or Karate",
+            "Mobile testing: Appium for iOS/Android automation",
+          ],
+        },
+        {
+          category: "Framework Design",
+          topics: [
+            "Page Object Model (POM) and its benefits for maintainability",
+            "Data-driven and keyword-driven testing approaches",
+            "Parallel test execution with TestNG or JUnit 5",
+            "Allure or ExtentReports for test reporting",
+          ],
+        },
+        {
+          category: "Performance & Security Testing",
+          topics: [
+            "Load testing with JMeter or k6: virtual users, ramp-up, assertions",
+            "Performance metrics: response time, throughput, error rate, percentiles",
+            "OWASP ZAP for basic security testing (DAST)",
+            "SQL injection and XSS vulnerability testing",
+          ],
+        },
+        {
+          category: "CI/CD Integration",
+          topics: [
+            "Integrating test suites into GitHub Actions or Jenkins pipelines",
+            "Shift-left testing: involving QA from requirements stage",
+            "Test environment management and Docker-based test infrastructure",
+            "Flaky test management strategies",
+          ],
+        },
+      ],
+      tipsToCrack: [
+        "Have a test automation framework project on GitHub — theory without code won't impress",
+        "Be ready to code a Selenium or Playwright test live in the interview",
+        "Know the POM design pattern and be able to explain why it improves maintainability",
+        "Show debugging skills: how do you investigate a flaky test that fails 20% of the time?",
+        "Prepare a STAR answer for 'Tell me about a bug you found that everyone else missed'",
+        "API testing is increasingly important: know REST fundamentals and Postman/RestAssured",
+        "Shift-left mindset demonstrates maturity: you review requirements, not just test after code",
+        "Performance testing awareness opens doors to senior QA roles",
+        "Show CI/CD integration knowledge: testing in pipelines is expected at most companies",
+        "Agile QA skills matter: writing acceptance criteria, participating in sprint ceremonies",
+        "Ask about their test coverage percentage, CI pipeline, and how they manage test environments",
+      ],
+    },
   },
 
   "cloud-engineer": {
@@ -1846,5 +2039,67 @@ export const roleExtrasData2: Record<string, RoleExtras> = {
         ],
       },
     ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Cloud Fundamentals",
+          topics: [
+            "IaaS, PaaS, SaaS service models and cloud deployment models",
+            "AWS core services: EC2, S3, RDS, Lambda, IAM, VPC, CloudFront",
+            "GCP equivalents: GCE, GCS, Cloud SQL, Cloud Functions, IAM, VPC",
+            "Azure equivalents: VMs, Blob Storage, Azure SQL, Functions, RBAC",
+          ],
+        },
+        {
+          category: "Networking & Security",
+          topics: [
+            "VPC design: subnets, route tables, security groups, NACLs",
+            "IAM: roles, policies, least privilege, cross-account access",
+            "VPN, Direct Connect/Dedicated Interconnect for hybrid connectivity",
+            "Encryption: KMS, customer-managed keys, data at rest and in transit",
+          ],
+        },
+        {
+          category: "Architecture & Resilience",
+          topics: [
+            "Multi-AZ vs multi-region architecture tradeoffs",
+            "Auto-scaling: dynamic scaling policies, target tracking",
+            "Disaster recovery: RTO/RPO, backup strategies, failover",
+            "Serverless architecture: Lambda, API Gateway, event-driven patterns",
+          ],
+        },
+        {
+          category: "Infrastructure as Code",
+          topics: [
+            "Terraform for multi-cloud infrastructure provisioning",
+            "AWS CloudFormation or CDK for AWS-native IaC",
+            "Module design for reusable infrastructure components",
+            "State management: remote state, locking, import existing resources",
+          ],
+        },
+        {
+          category: "Cost Optimization",
+          topics: [
+            "Reserved instances vs Spot instances vs On-demand tradeoffs",
+            "Cost allocation with tags and cost explorer analysis",
+            "Right-sizing: CPU/memory utilization analysis",
+            "S3 lifecycle policies and storage class transitions",
+          ],
+        },
+      ],
+      tipsToCrack: [
+        "An AWS Solutions Architect or Google Cloud ACE certification is a strong signal — if you have one, lead with it",
+        "Be ready to design a cloud architecture from scratch: 3-tier web app, serverless pipeline, etc.",
+        "VPC design is heavily tested: subnets, security groups, public vs private placement",
+        "IAM least privilege is foundational security — be able to explain roles vs policies vs groups",
+        "Terraform is the standard IaC tool — have a working project to show",
+        "Cost optimization stories are valuable: mention a time you reduced cloud spend significantly",
+        "Know auto-scaling: how it works, what triggers it, and how to configure it",
+        "Disaster recovery planning shows operational maturity beyond just provisioning",
+        "Show multi-cloud or hybrid awareness even if you specialize in one cloud",
+        "Security is non-negotiable: no open S3 buckets, no public security groups in your demo projects",
+        "Ask about their primary cloud provider, multi-account strategy, and FinOps practices",
+      ],
+    },
   },
 };

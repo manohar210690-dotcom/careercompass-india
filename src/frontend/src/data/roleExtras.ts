@@ -54,3 +54,24 @@ export interface InterviewPrep {
   level: TestLevel;
   questions: InterviewQuestion[]; // 3-5 questions per level
 }
+
+// ── Interview Guide ───────────────────────────────────────────────────────────
+
+export interface RevisionTopic {
+  category: string; // e.g., "Core Concepts", "Tools & Technologies"
+  topics: string[]; // e.g., ["SQL Joins and Query Optimization", "Indexing strategies"]
+}
+
+export interface InterviewGuide {
+  revisionTopics: RevisionTopic[];
+  tipsToCrack: string[];
+}
+
+// ── Role Extras (shared interface used in data files) ─────────────────────────
+
+export interface RoleExtrasShape {
+  freeCourses?: FreeCourse[];
+  mockTests?: MockTest[];
+  interviewPrep?: InterviewPrep[];
+  interviewGuide?: InterviewGuide;
+}

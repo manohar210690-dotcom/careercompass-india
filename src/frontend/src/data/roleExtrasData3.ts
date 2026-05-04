@@ -1,10 +1,16 @@
 // roleExtrasData3.ts — Free Courses, Mock Tests, Interview Prep for Product, UX, Scrum, SAP, and Business roles
-import type { FreeCourse, InterviewPrep, MockTest } from "./roleExtras";
+import type {
+  FreeCourse,
+  InterviewGuide,
+  InterviewPrep,
+  MockTest,
+} from "./roleExtras";
 
 interface RoleExtras {
   freeCourses?: FreeCourse[];
   mockTests?: MockTest[];
   interviewPrep?: InterviewPrep[];
+  interviewGuide?: InterviewGuide;
 }
 
 export const roleExtrasData3: Record<string, RoleExtras> = {
@@ -389,6 +395,59 @@ export const roleExtrasData3: Record<string, RoleExtras> = {
         ],
       },
     ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Requirements Elicitation & Analysis",
+          topics: [
+            "Elicitation techniques: interviews, workshops, observation, document analysis",
+            "Functional vs non-functional requirements and how to document them",
+            "Use cases, user stories (As a/I want/So that), and acceptance criteria",
+            "Requirements traceability matrix (RTM) and change control",
+          ],
+        },
+        {
+          category: "Business Process Modeling",
+          topics: [
+            "BPMN 2.0 notation for process flow diagrams",
+            "AS-IS vs TO-BE process analysis and gap identification",
+            "Swimlane diagrams for cross-functional process flows",
+            "Value stream mapping to identify waste and inefficiencies",
+          ],
+        },
+        {
+          category: "Agile & Project Context",
+          topics: [
+            "Agile BA role: backlog refinement, sprint participation, story writing",
+            "MoSCoW prioritization and backlog management",
+            "Stakeholder identification, analysis, and engagement planning",
+            "Scope management and change control process",
+          ],
+        },
+        {
+          category: "Data & Tools",
+          topics: [
+            "SQL for data analysis and querying stakeholder reports",
+            "Excel/Google Sheets for business case analysis and modeling",
+            "JIRA, Confluence, or Azure DevOps for requirement management",
+            "Prototyping tools (Figma, Balsamiq) for UI mockups",
+          ],
+        },
+      ],
+      tipsToCrack: [
+        "Prepare examples of requirements you've elicited and how you resolved ambiguity",
+        "Be ready for a scenario: 'A stakeholder says they need X. How do you ensure it solves the real problem?'",
+        "Show structured thinking: SWOT, MoSCoW, RACI, BRD/FRD demonstrate BA discipline",
+        "Gap analysis (AS-IS/TO-BE) is a core BA exercise — have a real example ready",
+        "Know Agile BA: show how your role changes in Scrum vs waterfall environments",
+        "SQL skills differentiate BAs who can self-serve data from those who can't",
+        "Stakeholder management stories are valuable: handling conflicting requirements diplomatically",
+        "Show you understand the business domain, not just the process — read about the industry",
+        "Domain certifications (CBAP, PMI-PBA, Agile BA) signal commitment to the profession",
+        "Prepare to create a user story or BRD excerpt in a whiteboard session",
+        "Ask about their requirements process: do they use JIRA, wiki, or formal BRDs?",
+      ],
+    },
   },
 
   "scrum-master": {
@@ -719,6 +778,59 @@ export const roleExtrasData3: Record<string, RoleExtras> = {
         ],
       },
     ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Scrum Framework",
+          topics: [
+            "All 5 Scrum events: Sprint, Sprint Planning, Daily Scrum, Review, Retrospective",
+            "3 accountabilities: Product Owner, Scrum Master, Developers",
+            "3 artifacts: Product Backlog, Sprint Backlog, Increment + Definition of Done",
+            "Scrum Values: commitment, focus, openness, respect, courage",
+          ],
+        },
+        {
+          category: "Agile Frameworks",
+          topics: [
+            "Kanban: WIP limits, flow, cumulative flow diagrams, lead time vs cycle time",
+            "SAFe basics: Program Increment (PI) planning, Agile Release Train",
+            "LeSS and Nexus for scaling Scrum to multiple teams",
+            "XP practices: pair programming, TDD, continuous integration",
+          ],
+        },
+        {
+          category: "Coaching & Facilitation",
+          topics: [
+            "Facilitation techniques: liberating structures, retrospective activities",
+            "Conflict resolution models: Thomas-Kilmann, NVC (Nonviolent Communication)",
+            "Team development stages: Tuckman's model (Forming/Storming/Norming/Performing)",
+            "Coaching stance vs mentoring stance: when to use each",
+          ],
+        },
+        {
+          category: "Metrics & Impediments",
+          topics: [
+            "Sprint metrics: velocity, sprint burndown, release burnup",
+            "Flow metrics: throughput, cycle time, WIP",
+            "Impediment tracking and escalation process",
+            "Technical debt as an impediment and how to address it with teams",
+          ],
+        },
+      ],
+      tipsToCrack: [
+        "Know the 2020 Scrum Guide version — interviewers test this, especially the terminology changes",
+        "Prepare for scenario questions: 'A developer is dominating the Daily Scrum — what do you do?'",
+        "Be ready to distinguish the Scrum Master role from Project Manager clearly and confidently",
+        "Show facilitation skills: describe how you run a Sprint Retrospective that actually generates change",
+        "PSM I certification strengthens your profile significantly for this role",
+        "Coaching stories are powerful: describe a team dysfunction you helped resolve",
+        "Know common Scrum anti-patterns: Scrumfall, SM as task-master, PO writing stories for the team",
+        "Show metrics fluency: velocity trends, sprint goal achievement rate",
+        "Demonstrate servant leadership: 'I once stepped back to let the team solve this themselves...'",
+        "Agile transformation experience (introducing Scrum to a resistant team) is a strong differentiator",
+        "Ask about the team's maturity level and current impediments you'd help with",
+      ],
+    },
   },
 
   "uiux-designer": {
@@ -1062,6 +1174,59 @@ export const roleExtrasData3: Record<string, RoleExtras> = {
         ],
       },
     ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "UX Research",
+          topics: [
+            "User research methods: interviews, usability testing, surveys, card sorting",
+            "Jobs-to-be-Done and user persona creation",
+            "Affinity mapping and synthesizing research findings",
+            "Usability heuristics: Nielsen's 10 heuristics by heart",
+          ],
+        },
+        {
+          category: "Design Process",
+          topics: [
+            "Design thinking phases: Empathize, Define, Ideate, Prototype, Test",
+            "Information architecture: card sorting, tree testing, sitemaps",
+            "Wireframing from low-fidelity (sketches) to high-fidelity (Figma)",
+            "Prototyping: interactive prototypes in Figma with components and variants",
+          ],
+        },
+        {
+          category: "Visual Design",
+          topics: [
+            "Typography scale, contrast ratios, and readability principles",
+            "Color theory: primary, secondary, semantic color systems",
+            "Grid systems, spacing scales, and layout consistency",
+            "Design tokens and design systems structure",
+          ],
+        },
+        {
+          category: "Tools & Collaboration",
+          topics: [
+            "Figma: auto layout, components, variants, and Dev Mode handoff",
+            "Collaborating with developers: annotating prototypes, design specs",
+            "Accessibility standards: WCAG 2.1 (AA), color contrast, ARIA patterns",
+            "Measuring UX quality: SUS scores, task completion rate, error rate",
+          ],
+        },
+      ],
+      tipsToCrack: [
+        "Your portfolio IS your interview — each case study should show your process, not just the final design",
+        "Be ready to present a case study: walk through research, decisions, and how you iterated",
+        "Prepare to critique a live product's UX — interviewers often ask 'how would you improve our app?'",
+        "Show research before design: never present wireframes without explaining the 'why'",
+        "Know Nielsen's 10 usability heuristics — they come up in UX interviews regularly",
+        "Demonstrate accessibility awareness: WCAG 2.1 compliance is expected in most companies",
+        "Show developer collaboration skills: how do you ensure designs are implemented faithfully?",
+        "Business impact matters: 'my redesign reduced drop-off by X%' is far stronger than just visuals",
+        "Figma proficiency is mandatory — be ready for a Figma challenge in the interview",
+        "Show system thinking: have you contributed to or built a design system?",
+        "Ask about their research process and how design decisions are validated with users",
+      ],
+    },
   },
 
   "product-manager": {
@@ -1388,6 +1553,69 @@ export const roleExtrasData3: Record<string, RoleExtras> = {
         ],
       },
     ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Product Strategy & Discovery",
+          topics: [
+            "Jobs-to-be-Done (JTBD) framework and opportunity sizing",
+            "Product-market fit signals and measurement",
+            "Competitive analysis and positioning",
+            "OKR framework: setting product objectives and key results",
+          ],
+        },
+        {
+          category: "Prioritization Frameworks",
+          topics: [
+            "RICE scoring: Reach, Impact, Confidence, Effort",
+            "ICE score and MoSCoW for stakeholder alignment",
+            "Kano model: basic, performance, and delight features",
+            "Opportunity scoring and impact mapping",
+          ],
+        },
+        {
+          category: "Metrics & Analytics",
+          topics: [
+            "North Star Metric, input metrics, and guardrail metrics",
+            "Funnel analysis: acquisition, activation, retention, revenue, referral (AARRR)",
+            "A/B testing: hypothesis, sample size, statistical significance",
+            "Cohort analysis for retention and LTV measurement",
+          ],
+        },
+        {
+          category: "Execution & Agile",
+          topics: [
+            "User story writing and acceptance criteria best practices",
+            "Sprint planning, backlog refinement, and release planning",
+            "Working with engineering: technical debt prioritization, API-first thinking",
+            "Roadmap formats: now/next/later, quarterly, outcome-based",
+          ],
+        },
+        {
+          category: "User Research & Communication",
+          topics: [
+            "Customer discovery interview techniques: open-ended, non-leading questions",
+            "Synthesizing qualitative and quantitative research",
+            "Presenting product strategy to executive stakeholders",
+            "PRD (Product Requirements Document) writing best practices",
+          ],
+        },
+      ],
+      tipsToCrack: [
+        "Product sense questions are tested most: 'Improve LinkedIn's onboarding' — practice daily",
+        "Execution questions: 'A key metric dropped 20% — walk me through your investigation' — structure your answer",
+        "Show metric fluency: define the right North Star, input metrics, and guardrails for a given product",
+        "Stakeholder management stories are key: demonstrate you've pushed back on a VP with data",
+        "Have a product you've worked on and know its metrics, decisions, and outcomes cold",
+        "Know the RICE framework and be ready to apply it in real-time to a hypothetical backlog",
+        "Show technical aptitude — PMs who understand APIs, databases, and system constraints earn trust",
+        "Demonstrate user empathy: always frame decisions from the user's perspective first",
+        "Prepare your 'Why PM?' story — it's always asked and needs to be authentic and specific",
+        "Research the company's product deeply: use it, note pain points, and come with improvement ideas",
+        "Ask about the PM's relationship with engineering and how the roadmap is decided",
+        "Data-driven decisions with intuition-backed hypotheses — show you combine both",
+      ],
+    },
   },
 
   "digital-marketing-executive": {
@@ -1717,6 +1945,59 @@ export const roleExtrasData3: Record<string, RoleExtras> = {
         ],
       },
     ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "SEO & Content",
+          topics: [
+            "On-page SEO: title tags, meta descriptions, headers, schema markup",
+            "Off-page SEO: link building, domain authority, guest posting",
+            "Technical SEO: Core Web Vitals, crawlability, indexing",
+            "Content strategy: keyword research, search intent, content calendar",
+          ],
+        },
+        {
+          category: "Paid Media",
+          topics: [
+            "Google Ads: campaign structure, match types, Quality Score, bidding strategies",
+            "Meta Ads: audience targeting, lookalike audiences, pixel setup",
+            "Retargeting campaigns and custom audience creation",
+            "Performance Max and Smart campaigns",
+          ],
+        },
+        {
+          category: "Analytics & Measurement",
+          topics: [
+            "Google Analytics 4: events, conversions, audiences, and reporting",
+            "UTM parameter setup for campaign tracking",
+            "Attribution models: last-click, first-click, linear, data-driven",
+            "Marketing KPIs: CTR, CPC, ROAS, CAC, LTV, conversion rate",
+          ],
+        },
+        {
+          category: "Social & Email",
+          topics: [
+            "Social media content strategy for LinkedIn, Instagram, YouTube",
+            "Email marketing: segmentation, automation workflows, A/B testing",
+            "Influencer marketing: identification, brief, and performance tracking",
+            "HubSpot or Mailchimp for marketing automation",
+          ],
+        },
+      ],
+      tipsToCrack: [
+        "Bring measurable results: 'I increased organic traffic by 40% in 3 months' beats vague claims",
+        "Show platform certifications: Google Ads, Meta Blueprint, HubSpot are standard signals",
+        "Be ready for a case study: 'Launch a digital campaign for this product in India with ₹2L budget'",
+        "Demonstrate GA4 proficiency — it's the current standard and many candidates still use UA",
+        "Know the India-specific landscape: OTT platforms, WhatsApp marketing, vernacular content",
+        "Show ROI thinking: every campaign decision should tie back to CAC, ROAS, or LTV",
+        "Content strategy is underrated — show you understand SEO, storytelling, and audience segmentation",
+        "Social proof matters: share examples of viral content or campaigns with engagement numbers",
+        "Growth hacking mindset: have you found a creative low-cost acquisition channel?",
+        "Discuss your analytics stack: GA4, Search Console, SEMrush, Ahrefs — show tool breadth",
+        "Ask about their current top-performing channel and what they're trying to improve",
+      ],
+    },
   },
 
   "sap-consultant": {
@@ -2018,5 +2299,58 @@ export const roleExtrasData3: Record<string, RoleExtras> = {
         ],
       },
     ],
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "SAP Fundamentals",
+          topics: [
+            "SAP module landscape: FI, CO, MM, SD, HR, PP, WM — and how they integrate",
+            "SAP S/4 HANA vs ECC: key architectural and functional differences",
+            "SAP Fiori: role-based apps, launchpad configuration",
+            "SAP organizational structure: company code, plant, sales org, purchase org",
+          ],
+        },
+        {
+          category: "Implementation & Configuration",
+          topics: [
+            "SAP ACTIVATE methodology: Discover, Prepare, Explore, Realize, Deploy, Run",
+            "Fit-gap analysis: standard fit vs gap vs out-of-scope classification",
+            "Configuration in SPRO (IMG): enterprise structure, process settings",
+            "User acceptance testing (UAT) planning and execution",
+          ],
+        },
+        {
+          category: "Integration & Technical",
+          topics: [
+            "ABAP basics: reports, function modules, BAPIs, user exits, BAdIs",
+            "IDocs for system-to-system data exchange",
+            "SAP Integration Suite for API-based integrations",
+            "Data migration: LSMW, BDC, BAPI-based migration strategies",
+          ],
+        },
+        {
+          category: "Module-Specific Knowledge",
+          topics: [
+            "FI/CO: order-to-cash and procure-to-pay integration flows",
+            "MM: procurement cycle from PR to PO to GR to IR to payment",
+            "SD: quote-to-cash: inquiry → quotation → order → delivery → billing",
+            "HR/HCM: personnel administration, payroll basics, ESS/MSS",
+          ],
+        },
+      ],
+      tipsToCrack: [
+        "Know your core SAP module end-to-end — interviewers test the full business process, not just transactions",
+        "Walk through the Order-to-Cash or Procure-to-Pay cycle without prompts — it's a must-know",
+        "SAP ACTIVATE methodology knowledge signals you're ready for real project work",
+        "Fit-gap analysis is the core consulting skill — prepare examples of gaps you've configured or developed",
+        "Show integration knowledge: SD/FI, MM/FI integration demonstrates senior-level understanding",
+        "ABAP basics are expected even for functional consultants — know how to read a simple report",
+        "Prepare a project walkthrough: go-live story with challenges and how you resolved them",
+        "S/4 HANA migration is currently the biggest demand area — understand brownfield vs greenfield",
+        "SAP certifications (C_TS4FI, C_TS450, etc.) signal commitment and pass technical screening",
+        "Show change management skills: implementations fail on people, not technology",
+        "Ask about their SAP module, version (ECC vs S/4), and current implementation phase",
+      ],
+    },
   },
 };

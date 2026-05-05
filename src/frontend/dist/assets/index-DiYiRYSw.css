@@ -655,6 +655,10 @@ body{
   visibility: hidden;
 }
 
+.collapse{
+  visibility: collapse;
+}
+
 .static{
   position: static;
 }
@@ -3360,6 +3364,11 @@ body{
 
 .ring-offset-background{
   --tw-ring-offset-color: oklch(var(--background));
+}
+
+.blur{
+  --tw-blur: blur(8px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .filter{

@@ -481,6 +481,270 @@ export const roleExtrasData2: Record<string, RoleExtras> = {
     },
   },
 
+  "ai-research-scientist": {
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Research Foundations",
+          topics: [
+            "Machine learning theory: PAC learning, VC dimension, generalization bounds",
+            "Probability and statistics: Bayesian inference, hypothesis testing, distributions",
+            "Optimization: convex vs non-convex, SGD variants, second-order methods",
+            "Information theory: entropy, KL divergence, mutual information, cross-entropy",
+          ],
+        },
+        {
+          category: "Deep Learning & Architecture",
+          topics: [
+            "Transformer architecture: multi-head attention, positional encoding, layer norm",
+            "Generative models: VAE, GAN (training instability, mode collapse), diffusion models",
+            "Self-supervised and contrastive learning: SimCLR, MoCo, BYOL, DINO",
+            "RLHF and alignment techniques: reward modeling, PPO for language models",
+          ],
+        },
+        {
+          category: "Research Methodology",
+          topics: [
+            "Experimental design: ablation studies, controlled variables, baselines",
+            "Reproducibility: seeds, hardware variance, reporting standards (papers with code)",
+            "Research paper anatomy: motivation, contributions, experiments, limitations",
+            "Scientific writing: clarity, related work positioning, honest failure analysis",
+          ],
+        },
+        {
+          category: "Programming & Frameworks",
+          topics: [
+            "PyTorch advanced: custom autograd functions, CUDA extensions, profiling",
+            "JAX: functional transforms, vmap/pmap, JIT compilation",
+            "HuggingFace ecosystem: Transformers, Datasets, Accelerate, PEFT",
+            "Experiment tracking: Weights & Biases, MLflow — reproducible research setups",
+          ],
+        },
+        {
+          category: "Evaluation & Benchmarks",
+          topics: [
+            "Benchmark suites: GLUE, SuperGLUE, ImageNet, MMLU, BIG-Bench",
+            "Statistical significance: t-tests, bootstrap confidence intervals, effect size",
+            "Human evaluation design: inter-annotator agreement, Likert scales, pairwise comparisons",
+            "Failure analysis: error categorization, distribution shift detection",
+          ],
+        },
+      ],
+      tipsToCrack: [
+        "Know 3-4 landmark papers deeply (Attention is All You Need, BERT, GPT series, ResNet) — be ready to explain architecture choices and the problems they solved",
+        "Read papers critically: identify what problem they solve, their key insight, and what open questions they leave",
+        "Have a GitHub with reproduced paper results or novel experiments — research chops matter more than product work",
+        "Prepare to discuss your own research contributions end-to-end: motivation, hypothesis, experiments, findings",
+        "System design questions shift to: design a large-scale training infrastructure, or design an evaluation pipeline for LLMs",
+        "Know the difference between empirical and theoretical contributions — be clear which kind you make in your projects",
+        "Show breadth: know recent trends (LLMs, diffusion models, RLHF) even if your specialty is narrower",
+        "Internship/thesis work is your strongest signal — prepare a concise story of your best project with clear impact",
+        "Be ready for whiteboard math: gradient derivation, probability calculations, information theory basics",
+        "Demonstrate research taste: what papers do you find exciting right now and why? Shows you stay current",
+        "Know publication venues: NeurIPS, ICML, ICLR, ACL, CVPR — and what each community values and looks for",
+        "Show you can communicate complex ideas simply — good researchers are good communicators who can explain their work clearly",
+      ],
+    },
+  },
+
+  "nlp-engineer": {
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "NLP Fundamentals",
+          topics: [
+            "Tokenization strategies: whitespace, BPE, WordPiece, SentencePiece — trade-offs",
+            "Word embeddings: Word2Vec (skip-gram/CBOW), GloVe, FastText — how they differ",
+            "Language modeling: n-gram models, perplexity, neural LMs",
+            "Core NLP tasks: text classification, NER, POS tagging, dependency parsing",
+          ],
+        },
+        {
+          category: "Transformer Models",
+          topics: [
+            "BERT: masked LM, next sentence prediction, fine-tuning for classification/NER/QA",
+            "GPT family: causal LM, in-context learning, instruction tuning, chain-of-thought",
+            "Parameter-efficient fine-tuning: LoRA, QLoRA, prefix tuning, prompt tuning",
+            "Model compression: quantization (INT8/INT4), distillation, pruning",
+          ],
+        },
+        {
+          category: "NLP Tasks & Pipelines",
+          topics: [
+            "Question answering: extractive (SQuAD) vs generative, retrieval-augmented generation (RAG)",
+            "Summarization: extractive vs abstractive, ROUGE evaluation, hallucination mitigation",
+            "Information extraction: relation extraction, coreference resolution, event detection",
+            "Dialogue systems: intent detection, slot filling, multi-turn context management",
+          ],
+        },
+        {
+          category: "Production NLP",
+          topics: [
+            "RAG architecture: vector databases (FAISS, Pinecone, Weaviate), chunking strategies",
+            "LLM orchestration: LangChain, LlamaIndex — chains, agents, tool use",
+            "Inference optimization: vLLM for batching, ONNX export, TensorRT, KV cache",
+            "Hallucination control: grounding, citation, constrained decoding, confidence scoring",
+          ],
+        },
+        {
+          category: "Evaluation",
+          topics: [
+            "Text generation metrics: BLEU (translation), ROUGE (summarization), BERTScore",
+            "LLM evaluation: MMLU, HellaSwag, TruthfulQA — benchmark selection rationale",
+            "Human evaluation design: pairwise preference, Likert scale, inter-annotator agreement",
+            "Multilingual evaluation: handling Hindi/regional languages, multilingual benchmarks",
+          ],
+        },
+      ],
+      tipsToCrack: [
+        "Know the transformer architecture inside out — multi-head attention, positional encoding, layer norm, feed-forward blocks",
+        "Be ready to explain BERT vs GPT training objectives (masked LM vs causal LM) and when to use each for which task",
+        "RAG is now standard in industry — know vector DBs (FAISS, Pinecone, Weaviate), chunking strategies, and re-ranking",
+        "Fine-tuning experience is a strong signal: know LoRA, QLoRA, PEFT — explain why full fine-tuning is often impractical",
+        "Tokenization edge cases (subword handling, OOV, multilingual) come up surprisingly often in NLP interviews",
+        "Evaluation metric choice depends on task — explain when ROUGE is insufficient and why you'd supplement with human eval",
+        "Latency optimization is critical for production: know quantization (INT8/INT4), distillation, ONNX export, vLLM",
+        "Have at least one end-to-end NLP project: raw data → preprocessing → model → evaluation → deployed API",
+        "Prompt engineering and LLM orchestration (LangChain, LlamaIndex) are now expected knowledge at most NLP roles",
+        "Know hallucination mitigation strategies: grounding, citation, constrained decoding, confidence calibration",
+        "Show awareness of multilingual NLP for Indian companies — Hindi/regional language models (IndicBERT, MuRIL) are relevant",
+        "Discuss dataset quality issues: handling noisy labels, class imbalance, domain mismatch, data collection ethics",
+      ],
+    },
+  },
+
+  "computer-vision-engineer": {
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Image Processing Fundamentals",
+          topics: [
+            "Convolutions: kernel operations, padding, stride, receptive field calculations",
+            "Filters: Sobel/Canny for edge detection, Gaussian blur, morphological ops (erosion, dilation)",
+            "Color spaces: RGB, HSV, LAB — when each is useful for CV tasks",
+            "Histograms and SIFT/ORB for classical feature extraction and matching",
+          ],
+        },
+        {
+          category: "CNN Architectures",
+          topics: [
+            "Classic architectures: VGG (depth), ResNet (skip connections), EfficientNet (compound scaling)",
+            "Lightweight models: MobileNetV2/V3, ShuffleNet — depthwise separable convolutions",
+            "Vision Transformers: ViT patch embeddings, DeiT distillation, Swin Transformer hierarchy",
+            "Feature pyramid networks (FPN): multi-scale feature fusion for detection",
+          ],
+        },
+        {
+          category: "CV Tasks",
+          topics: [
+            "Object detection: YOLO (v5/v8 anchor-free), Faster R-CNN (two-stage), SSD",
+            "Segmentation: U-Net (medical), Mask R-CNN (instance), SAM (Segment Anything Model)",
+            "Classification evaluation: top-1/top-5 accuracy, confusion matrix, per-class metrics",
+            "Pose estimation, optical flow, OCR — knowing when to use each approach",
+          ],
+        },
+        {
+          category: "Training & Data",
+          topics: [
+            "Data augmentation: albumentations library — geometric, color, noise transforms",
+            "Transfer learning strategy: when to freeze/unfreeze layers, learning rate warm-up",
+            "Synthetic data generation and domain adaptation for scarce labeled data",
+            "Annotation pipelines: CVAT, LabelImg — annotation quality and inter-annotator agreement",
+          ],
+        },
+        {
+          category: "Production CV",
+          topics: [
+            "Edge deployment: TensorRT for NVIDIA, OpenVINO for Intel, CoreML for iOS",
+            "Model optimization: INT8 quantization, layer fusion, batch inference on GPU",
+            "Camera pipeline: preprocessing, frame rate vs accuracy tradeoff, hardware-aware design",
+            "Evaluation metrics: mAP (mean Average Precision), IoU thresholds, precision-recall curves",
+          ],
+        },
+      ],
+      tipsToCrack: [
+        "Know YOLO (v5/v8) vs Faster R-CNN trade-offs in depth — speed vs accuracy, anchor-free vs anchor-based — this comes up constantly",
+        "OpenCV basics are still tested: image transformations, contour detection, homography, camera calibration",
+        "Transfer learning from ImageNet pretrained models is almost always the right starting point — be able to explain the inductive bias",
+        "Data augmentation strategy matters: explain how you chose augmentations for a specific domain (medical, satellite, retail)",
+        "Know the difference between instance segmentation, semantic segmentation, and panoptic segmentation — and when to use each",
+        "Vision Transformers are now mainstream — understand ViT vs CNN inductive biases (translation equivariance vs global attention)",
+        "Edge deployment is a key differentiator: mention TensorRT, ONNX, quantization for embedded/mobile devices",
+        "Always discuss dataset collection and annotation strategy — it demonstrates production maturity and real-world experience",
+        "Object detection metrics: know mAP at multiple IoU thresholds (COCO-style), precision-recall curves — be precise with these",
+        "For Indian companies: document processing, vehicle detection, surveillance, retail shelf analysis are common domains to mention",
+        "Demo projects should show real-world constraints: handling varying lighting, occlusion, scale variation, motion blur",
+        "Know SAM (Segment Anything Model) and CLIP — they are reshaping the field and come up in senior/research-focused interviews",
+      ],
+    },
+  },
+
+  "deep-learning-engineer": {
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Neural Network Fundamentals",
+          topics: [
+            "Backpropagation: chain rule derivation, computational graphs, gradient flow",
+            "Activation functions: ReLU, GELU, Swish — vanishing/exploding gradients and solutions",
+            "Weight initialization: Xavier/Glorot, He initialization — why initialization matters",
+            "Loss functions: cross-entropy, MSE, focal loss, contrastive loss — selection criteria",
+          ],
+        },
+        {
+          category: "Architectures",
+          topics: [
+            "CNNs: convolution, pooling, receptive field, skip connections (ResNet)",
+            "RNNs/LSTMs: vanishing gradient problem, gating mechanisms, sequence modeling limitations",
+            "Transformers: scaled dot-product attention, multi-head, positional encoding",
+            "Graph Neural Networks and diffusion models — fundamentals and key use cases",
+          ],
+        },
+        {
+          category: "Training Techniques",
+          topics: [
+            "Normalization: batch norm, layer norm, group norm — when each is appropriate",
+            "Regularization: dropout, DropPath, weight decay, data augmentation",
+            "Learning rate schedules: warmup, cosine annealing, cyclic LR, one-cycle policy",
+            "Mixed precision training: FP16/BF16, gradient scaling, loss scaling",
+          ],
+        },
+        {
+          category: "Optimization & Scaling",
+          topics: [
+            "Distributed training: DDP (data parallel), model parallelism, pipeline parallelism",
+            "ZeRO optimization stages (1/2/3): offloading optimizer states, gradients, parameters",
+            "Gradient checkpointing for memory reduction vs compute tradeoff",
+            "GPU memory profiling: CUDA memory, activation memory, optimizer states breakdown",
+          ],
+        },
+        {
+          category: "Frameworks & Production",
+          topics: [
+            "PyTorch advanced: custom autograd, CUDA kernels, torch.compile, TorchDynamo",
+            "Model export: ONNX, TorchScript, TensorRT — conversion gotchas and dynamic shapes",
+            "Experiment tracking: W&B/MLflow — logging metrics, artifacts, hyperparameter sweeps",
+            "Inference serving: TorchServe, Triton Inference Server — batching and concurrency",
+          ],
+        },
+      ],
+      tipsToCrack: [
+        "Implement backpropagation from scratch for a linear layer and a sigmoid — interviewers at research-focused companies test this",
+        "Know PyTorch's autograd system deeply: when to use .detach(), requires_grad, and writing custom backward functions",
+        "Distributed training is expected at senior levels: know DDP vs model parallelism vs pipeline parallelism and their communication patterns",
+        "Debugging training is a core skill: loss NaN root causes, gradient flow visualization with hooks, learning curve analysis",
+        "Mixed precision (FP16/BF16) training is now standard — know when it helps and when it causes numerical instability",
+        "Transformer implementation from scratch is a common coding challenge at research-oriented companies — practice this",
+        "Benchmark your models rigorously: measure FLOPs, parameter count, throughput — this shows engineering rigor and maturity",
+        "Know the difference between training-time and inference-time optimizations — they use different tools and have different goals",
+        "Stay current: diffusion models, Mamba/SSM architectures, LLM fine-tuning techniques are recent hot topics in interviews",
+        "For system design: design a large-scale training pipeline with checkpointing, monitoring, experiment tracking, and fault tolerance",
+        "GitHub with training code showing proper experiment tracking (MLflow/W&B), reproducibility, and clean abstractions is a must",
+        "Know hardware basics: GPU memory hierarchy, tensor cores, CUDA streams — understanding these helps in optimization discussions",
+      ],
+    },
+  },
+
   "devops-engineer": {
     freeCourses: [
       {
@@ -2099,6 +2363,361 @@ export const roleExtrasData2: Record<string, RoleExtras> = {
         "Show multi-cloud or hybrid awareness even if you specialize in one cloud",
         "Security is non-negotiable: no open S3 buckets, no public security groups in your demo projects",
         "Ask about their primary cloud provider, multi-account strategy, and FinOps practices",
+      ],
+    },
+  },
+
+  "mlops-engineer": {
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "MLOps Fundamentals",
+          topics: [
+            "ML pipeline lifecycle: data ingestion → feature engineering → training → evaluation → deployment → monitoring",
+            "MLOps maturity levels: manual → automated → CI/CD — what each level looks like in practice",
+            "Difference between DevOps and MLOps: code versioning vs model + data + code versioning",
+            "Feature stores and their role: online vs offline stores, consistency between training and serving",
+            "Data versioning with DVC or LakeFS: tracking datasets, pipelines, and experiment reproducibility",
+          ],
+        },
+        {
+          category: "Model Deployment & Serving",
+          topics: [
+            "REST API serving with FastAPI/Flask/TorchServe: request batching, concurrency, async handlers",
+            "Batch vs real-time vs streaming inference: latency, throughput, and cost tradeoffs for each",
+            "Blue-green and canary deployments for ML: traffic splitting, model comparison, rollback gates",
+            "Model registry concepts: MLflow Model Registry — versioning, stage transitions, lineage tracking",
+            "Containerizing ML models with Docker: base image selection, dependency pinning, CUDA compatibility",
+          ],
+        },
+        {
+          category: "CI/CD for Machine Learning",
+          topics: [
+            "ML pipelines with Kubeflow/Airflow/ZenML: DAG design, step dependencies, artifact passing",
+            "Automated model retraining triggers: data drift threshold, scheduled retraining, performance degradation",
+            "Testing strategies for ML: unit tests for feature transforms, integration tests for full pipeline runs",
+            "Shadow mode deployment: running new model in parallel without serving its predictions to users",
+            "Experiment tracking with MLflow/Weights & Biases: runs, metrics, artifacts, model comparison",
+          ],
+        },
+        {
+          category: "Model Monitoring & Observability",
+          topics: [
+            "Data drift detection: statistical tests — KS test, PSI (Population Stability Index), Jensen-Shannon divergence",
+            "Concept drift vs data drift vs model drift: definitions, detection approaches, response strategies",
+            "Prediction monitoring dashboards: distribution of predictions, feature distributions, latency metrics",
+            "Logging predictions and ground-truth labels for delayed feedback and performance retrospectives",
+            "Alerting strategies and SLAs for ML systems: alert thresholds, on-call runbooks, escalation paths",
+          ],
+        },
+        {
+          category: "Infrastructure & Cloud",
+          topics: [
+            "Kubernetes for ML workloads: pods, deployments, resource requests/limits, GPU node selectors",
+            "GPU provisioning and cost optimization: spot GPU instances, preemption handling, autoscaling",
+            "AWS SageMaker / GCP Vertex AI / Azure ML: managed training, endpoint deployment, pipeline features",
+            "Infrastructure-as-code with Terraform for ML infra: compute clusters, storage, IAM, networking",
+            "Distributed training setup: DDP with PyTorch, multi-node Kubernetes jobs, storage I/O bottlenecks",
+          ],
+        },
+      ],
+      tipsToCrack: [
+        "Build and demo a complete MLOps pipeline on GitHub: training → versioning → CI → deployment → monitoring",
+        "Know the difference between data drift and concept drift — interviewers love this nuance",
+        "Be ready to walk through how you'd set up automated retraining: triggers, validation gates, rollback",
+        "Kubernetes is table stakes — know how to deploy a model as a K8s service with resource limits",
+        "Show familiarity with at least one cloud ML platform (SageMaker, Vertex AI, or Azure ML)",
+        "MLflow experiment tracking + model registry + deployment workflow is the most common scenario question",
+        "Explain how you'd detect and respond to model degradation in production without waiting for user complaints",
+        "Discuss cost optimization: spot instances for training, right-sizing inference pods, caching strategies",
+        "Feature stores are a hot topic — explain why they matter for consistency between training and serving",
+        "Show you understand the 'last mile' problem — getting models from notebooks into production reliably",
+        "Bring up CI/CD patterns: what tests run before promoting a model to staging vs production",
+        "Ask about their model monitoring stack — it shows seniority and genuine interest",
+      ],
+    },
+  },
+
+  "ai-product-manager": {
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "AI/ML Fundamentals for PMs",
+          topics: [
+            "Supervised vs unsupervised vs reinforcement learning: business use cases and tradeoffs for each",
+            "Model evaluation metrics and product outcomes: precision vs recall tradeoffs in real decisions",
+            "AI limitations: hallucinations, bias, uncertainty, data requirements, and explainability constraints",
+            "Difference between an ML model, an ML pipeline, and a complete AI product",
+            "Data flywheel concept: how more users generate better data which improves the model",
+          ],
+        },
+        {
+          category: "Product Strategy & Roadmap",
+          topics: [
+            "Identifying AI opportunities vs non-AI solutions: when NOT to use ML and why",
+            "Building AI product roadmaps: short-term (data/infra), medium-term (model), long-term (product)",
+            "Framing success metrics for AI features: OKRs, KPIs, and guardrail metrics to protect against harm",
+            "Responsible AI product development: fairness, accountability, transparency at each roadmap stage",
+            "Cold start problem and strategies to handle it: rule-based fallback, content seeding, onboarding flows",
+          ],
+        },
+        {
+          category: "Data & Experimentation",
+          topics: [
+            "A/B testing design for AI features: split testing, interleaving experiments, holdout groups",
+            "Understanding data pipelines and labeling requirements for supervised learning products",
+            "Working with data teams: data requirements documents, annotation guidelines, quality criteria",
+            "Model evaluation: offline metrics vs online evaluation — why offline results don't always predict online impact",
+            "Experimentation pitfalls: novelty effect, network effects, long-term value vs short-term metric gains",
+          ],
+        },
+        {
+          category: "Cross-functional Collaboration",
+          topics: [
+            "Communicating AI constraints to stakeholders: timelines, uncertainty, model limitations in plain language",
+            "Writing effective PRDs for AI features: data requirements, model behavior specs, evaluation criteria",
+            "Working with ML engineers: sprint planning, dependency management, milestone definitions",
+            "Translating business requirements into ML problem framing: regression vs classification vs ranking",
+            "Managing expectations for AI projects: why 'it's 90% accurate' needs context and careful framing",
+          ],
+        },
+        {
+          category: "AI Ethics & Governance",
+          topics: [
+            "Bias in AI systems: types of bias, detection approaches, and mitigation strategies for PMs",
+            "GDPR and data privacy implications for AI products: consent, minimization, right to explanation",
+            "Explainability requirements: translating LIME/SHAP outputs into user-facing explanations",
+            "Content moderation and trust & safety frameworks for AI-generated content features",
+            "Responsible AI frameworks and industry standards: Microsoft RAI, Google PAIR, NIST AI RMF",
+          ],
+        },
+      ],
+      tipsToCrack: [
+        "Study 3-4 real AI product case studies (Gmail Smart Reply, YouTube recommendations, Spotify Discover Weekly)",
+        "Be ready to answer: 'How would you define success for an AI feature?' — metrics, not just user stories",
+        "Know the difference between precision and recall and when each matters for product decisions",
+        "Practice explaining ML concepts in non-technical terms — that's the core PM skill being evaluated",
+        "Prepare a story about working through an AI project that didn't go as planned and what you learned",
+        "Understand A/B testing deeply: what makes a good AI experiment, how long to run it, guardrail metrics",
+        "Show you can push back on 'just add AI' — explain when a rule-based system is better than ML",
+        "Discuss responsible AI: bias, fairness, privacy — interviewers increasingly test for ethics awareness",
+        "Have a point of view on a specific AI product trend (LLMs in products, AI agents, personalization)",
+        "Show cross-functional leadership: how you aligned engineers, designers, and business stakeholders",
+        "Cold start and data flywheel are favourite scenario questions — prepare structured answers",
+        "Ask about their AI governance process — it signals maturity and strategic thinking",
+      ],
+    },
+  },
+
+  "conversational-ai-developer": {
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Conversational AI Foundations",
+          topics: [
+            "Intent recognition, entity extraction, and dialogue state management fundamentals",
+            "NLU vs NLG vs NLP distinctions: what each layer does and where models fit",
+            "Slot filling and form-based dialogue patterns: required vs optional slots, validation logic",
+            "Conversational flow design: linear vs branching vs mixed-initiative dialogue strategies",
+            "Dialogue acts and speech acts: inform, request, confirm, deny, greet, farewell taxonomies",
+          ],
+        },
+        {
+          category: "NLP & Language Models",
+          topics: [
+            "Transformer architecture and BERT/GPT family for dialogue: contextual embeddings for intent classification",
+            "Intent classification with fine-tuned transformers: dataset preparation, few-shot learning",
+            "Named entity recognition (NER) for slot extraction: IOB tagging, CRF layers, transformer NER",
+            "Retrieval-augmented generation (RAG) for FAQ bots: document chunking, embedding, retrieval, generation",
+            "Semantic similarity and sentence embeddings for intent matching: cosine similarity, bi-encoder models",
+          ],
+        },
+        {
+          category: "Bot Development Platforms",
+          topics: [
+            "Rasa framework: NLU pipeline configuration, custom actions, forms, domain YAML structure",
+            "Dialogflow ES vs CX: entity types, fulfillment webhooks, intent transition models, mega agents",
+            "Microsoft Bot Framework and Azure Bot Service: activity schema, middleware, proactive messaging",
+            "LangChain for LLM-based conversational agents: chains, tools, memory, agent executor patterns",
+            "Voice-to-text integration: Google Speech API, AWS Transcribe — latency, streaming, speaker diarization",
+          ],
+        },
+        {
+          category: "Context & Memory Management",
+          topics: [
+            "Multi-turn context tracking across conversation sessions: session state storage and expiry",
+            "Entity carryover and context window management in multi-turn dialogue",
+            "Conversation history storage and retrieval patterns for personalized responses",
+            "Personalization using user profile data in dialogue: preferences, history, CRM integration",
+            "Handling ambiguity, clarification prompts, and graceful fallbacks to human agents",
+          ],
+        },
+        {
+          category: "Deployment & Quality",
+          topics: [
+            "Conversation testing: unit tests for intents, end-to-end dialogue simulation tests",
+            "NLU evaluation metrics: intent accuracy, entity F1, confusion matrix analysis, coverage",
+            "A/B testing conversational flows for engagement rate, containment rate, and task completion",
+            "Monitoring: conversation logs, drop-off analysis, human handoff rate, resolution rate",
+            "Voice bot deployment: latency constraints (<500ms target), TTS quality evaluation, ASR error handling",
+          ],
+        },
+      ],
+      tipsToCrack: [
+        "Build a working chatbot on Rasa or Dialogflow and be ready to walk through every design decision",
+        "Know the difference between task-oriented bots and open-domain chatbots — most enterprise work is task-oriented",
+        "Intent accuracy vs entity accuracy vs conversation success rate — know which metrics matter when",
+        "RAG-based bots are increasingly common — be ready to explain how you'd build a FAQ bot with RAG",
+        "Demonstrate context handling: how does your bot remember what the user said two turns ago?",
+        "Fallback strategy is critical — explain your approach to graceful degradation and human handoff",
+        "Voice bot challenges (latency, TTS tone, ASR errors) come up frequently in senior interviews",
+        "Show you've thought about personas and tone of voice — bot personality design is a differentiator",
+        "Prepare for a live design exercise: 'Design a bot to handle banking account queries' — practice this format",
+        "Know LangChain basics — LLM-based agents are now part of most Conversational AI discussions",
+        "Show conversation testing discipline — interviewers respect candidates who think about edge cases and failure modes",
+        "Ask about their bot's containment rate and what they're doing to improve it — real-world signal",
+      ],
+    },
+  },
+
+  "recommendation-engineer": {
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Recommendation Algorithms",
+          topics: [
+            "Collaborative filtering: user-based and item-based CF with cosine similarity and Pearson correlation",
+            "Matrix factorization: SVD, ALS (Alternating Least Squares), NMF — which works best when",
+            "Content-based filtering: TF-IDF features, embedding similarity, item metadata utilization",
+            "Knowledge-based recommenders for cold start: constraint-based and case-based approaches",
+            "Hybrid approaches: combining CF + content + contextual signals with weighted ensembles",
+          ],
+        },
+        {
+          category: "Deep Learning for Recommendations",
+          topics: [
+            "Two-tower models for retrieval: user tower + item tower, training with in-batch negatives",
+            "Wide & Deep architecture: memorization (wide) vs generalization (deep) for ranking",
+            "Neural collaborative filtering and attention mechanisms for interaction modeling",
+            "Sequence-based models: GRU4Rec, SASRec for session-based and sequential recommendations",
+            "Embedding-based approaches: Item2Vec/Word2Vec for item embeddings from interaction sequences",
+          ],
+        },
+        {
+          category: "System Architecture",
+          topics: [
+            "Two-stage architecture: candidate retrieval → ranking → re-ranking with business rules",
+            "Approximate nearest neighbor search: FAISS, ScaNN, Annoy — indexing strategies and tradeoffs",
+            "Feature stores for real-time user/item features: online serving latency requirements",
+            "A/B testing infrastructure for recommendation experiments: experiment logging, metric computation",
+            "Scalability: handling millions of users and items with distributed computing and caching",
+          ],
+        },
+        {
+          category: "Evaluation & Business Metrics",
+          topics: [
+            "Offline metrics: NDCG, MAP, Precision@K, Recall@K, Hit Rate — when to use each",
+            "Online metrics: CTR, conversion rate, dwell time, revenue per recommendation, session depth",
+            "Cold start problem: new user (no interaction history) and new item (no interactions) separately",
+            "Diversity vs relevance tradeoff: serendipity, coverage, novelty in recommendation quality",
+            "Feedback loops and popularity bias: filter bubbles, rich-get-richer dynamics, mitigation",
+          ],
+        },
+        {
+          category: "Data & Production",
+          topics: [
+            "Implicit vs explicit feedback: clicks, views, dwell time, purchases vs ratings — signal quality",
+            "Feature engineering: user history aggregation, session context, temporal decay features",
+            "Handling sparse interaction matrices and long-tail item distributions in training",
+            "Real-time vs batch recommendation serving: latency budgets, pre-computation, cache invalidation",
+            "Data pipelines for collecting and processing user interaction logs at scale",
+          ],
+        },
+      ],
+      tipsToCrack: [
+        "Implement collaborative filtering and matrix factorization from scratch — it's a common coding round question",
+        "The two-stage architecture (retrieval + ranking) is industry standard — know it inside out",
+        "Be ready to discuss cold start: new users AND new items are separate problems with different solutions",
+        "Know NDCG and how it differs from MAP — and be ready to explain which to use for which problem",
+        "Bring up the popularity bias problem — it shows you understand real-world recommendation system failures",
+        "FAISS for approximate nearest neighbor search is commonly asked — explain why ANN instead of exact search",
+        "Prepare a system design answer: 'Design Netflix/Spotify recommendations' — cover retrieval, ranking, serving",
+        "Discuss A/B testing challenges for recommendations: metric sensitivity, novelty effects, long-term value",
+        "Deep learning models (two-tower, Wide & Deep) are expected for senior roles — study one in depth",
+        "Show awareness of ethical issues: filter bubbles, diversity, and fairness in recommendations",
+        "Implicit feedback handling (clicks ≠ satisfaction) is a favourite nuance question",
+        "Ask about their item catalog size and how they handle the long-tail — shows practical understanding",
+      ],
+    },
+  },
+
+  "ai-ethics-researcher": {
+    interviewGuide: {
+      revisionTopics: [
+        {
+          category: "Fairness & Bias in AI",
+          topics: [
+            "Types of bias: historical, representation, measurement, aggregation, and algorithmic bias",
+            "Fairness metrics: demographic parity, equal opportunity, equalized odds, individual fairness",
+            "Disparate impact analysis and protected attributes under anti-discrimination law",
+            "Bias mitigation strategies: pre-processing (reweighting), in-processing (adversarial), post-processing (threshold adjustment)",
+            "Intersectionality in algorithmic fairness: handling multiple overlapping protected attributes",
+          ],
+        },
+        {
+          category: "AI Safety & Robustness",
+          topics: [
+            "Adversarial attacks: white-box vs black-box, FGSM, PGD — model evasion and poisoning",
+            "Robustness testing: out-of-distribution detection, stress testing, red teaming AI systems",
+            "Alignment problem: value alignment, reward hacking, specification gaming in RL systems",
+            "AI safety frameworks: Constitutional AI, RLHF limitations, scalable oversight approaches",
+            "Uncertainty quantification and its role in safe deployment of high-stakes AI systems",
+          ],
+        },
+        {
+          category: "Explainability & Transparency",
+          topics: [
+            "Post-hoc explanation methods: LIME, SHAP, GRAD-CAM for vision — how each works and limitations",
+            "Intrinsically interpretable models vs post-hoc explanations: accuracy-interpretability tradeoffs",
+            "Counterfactual explanations and their role in algorithmic recourse for affected individuals",
+            "Transparency requirements under GDPR Article 22: automated decision-making and right to explanation",
+            "Model cards, datasheets for datasets, and AI documentation standards — format and content",
+          ],
+        },
+        {
+          category: "AI Governance & Policy",
+          topics: [
+            "EU AI Act: risk categories (unacceptable, high, limited, minimal), requirements per category",
+            "GDPR implications for AI: data minimization, purpose limitation, right to explanation, consent",
+            "Responsible AI frameworks: Microsoft RAI, Google PAIR, NIST AI RMF — structure and principles",
+            "AI auditing and third-party assessments: scope, methodology, reporting, remediation",
+            "Sectoral regulations: AI in healthcare (FDA), finance (SR 11-7), hiring (EEOC guidelines)",
+          ],
+        },
+        {
+          category: "Research Methods & Ethics Advocacy",
+          topics: [
+            "Quantitative fairness evaluations: dataset audits, disparity analysis, statistical significance testing",
+            "Qualitative methods: participatory design, community consultation, ethnographic research",
+            "Publishing ethics: responsible disclosure of AI system vulnerabilities and dual-use risks",
+            "Communicating AI risks to non-technical stakeholders and policymakers: translation strategies",
+            "Interdisciplinary collaboration: working with lawyers, social scientists, philosophers, domain experts",
+          ],
+        },
+      ],
+      tipsToCrack: [
+        "Read at least 5 landmark papers: Buolamwini & Gebru (2018 Gender Shades), Dwork et al. (2012 fairness), Ribeiro LIME, Lundberg SHAP, Gebru Datasheets for Datasets",
+        "Know the EU AI Act categories — it's now the most tested policy framework in interviews",
+        "Be ready to analyze a real case study of AI bias (Amazon hiring tool, COMPAS recidivism, facial recognition) in depth",
+        "Fairness metrics are not interchangeable — practice explaining why demographic parity and equalized odds can conflict",
+        "Show you can operationalize ethics: not just 'we should be fair' but 'here is how we measure and mitigate'",
+        "Interdisciplinary communication is core to this role — show you can explain technical concepts to lawyers and policymakers",
+        "Prepare a position on a current AI ethics debate (LLM hallucinations, generative AI copyright, AI in hiring)",
+        "SHAP and LIME are expected knowledge — be ready to explain them to a non-technical audience",
+        "Show awareness of tensions: explainability vs accuracy, fairness vs utility, safety vs capability",
+        "Research methodology matters — show you can design a bias audit study with controls and statistical rigor",
+        "Model cards and datasheets for datasets are increasingly required — know the format and purpose",
+        "Ask about how their organization handles ethical concerns when they conflict with business objectives — shows maturity",
       ],
     },
   },
